@@ -1,0 +1,171 @@
+{
+  "intro": {
+    "label": "Imkoniyatlar",
+    "title": "Tanlangan imkoniyatlar.",
+    "lead": "Imkoniyatlar bizga asoschilar, operatorlar, investorlar va mahalliy hamkorlar orqali keladi. Biz ularni tanlab, malakali investorlar va strategik hamkorlar bilan NDA asosida ulashamiz.",
+    "notice": "Namunaviy misollar. Koʻrsatilgan imkoniyatlar biz ishlaydigan topshiriqlar turlarini tavsiflaydi. Ular taklif hisoblanmaydi va mijozlar haqida hech qanday maʼlumotni oʻz ichiga olmaydi. Dolzarb imkoniyatlar malakali tomonlar bilan maxfiy tarzda ulashiladi."
+  },
+  "fields": [
+    {
+      "key": "country",
+      "label": "Mamlakat"
+    },
+    {
+      "key": "stage",
+      "label": "Bosqich"
+    },
+    {
+      "key": "type",
+      "label": "Investitsiya turi"
+    },
+    {
+      "key": "size",
+      "label": "Imkoniyat hajmi"
+    },
+    {
+      "key": "status",
+      "label": "Holat"
+    }
+  ],
+  "items": [
+    {
+      "slug": "digital-infrastructure-saudi-arabia",
+      "sector": "Raqamli infratuzilma",
+      "country": "Saudiya Arabistoni",
+      "stage": "Oʻsish",
+      "type": "Strategik investitsiya",
+      "size": "NDA asosida oshkor etiladi",
+      "status": "Baholash bosqichida",
+      "summary": "Saudiya Arabistoni boʻylab kengayishni moliyalashtirish uchun strategik investor izlayotgan mintaqaviy raqamli infratuzilma platformasi.",
+      "sections": {
+        "overview": "Korporativ va davlat sektori mijozlariga raqamli infratuzilma xizmatlarini koʻrsatuvchi, oʻz kengayish dasturini jadallashtirish uchun strategik investor izlayotgan tajribali operator.",
+        "market": "Saudiya Arabistonida korporativ va davlat sektorining raqamlashtirilishi mahalliy quvvatlar, aloqa va boshqariladigan xizmatlarga barqaror talabni yuzaga keltirmoqda, bunda mamlakat ichidagi provayderlarga ustunlik beriladi.",
+        "business": "Korporativ mijozlardan shartnomalar asosidagi muntazam daromad, tajribali mahalliy boshqaruv jamoasi va oʻsish kapitalini talab qiladigan kengayish loyihalari portfeli.",
+        "thesis": "Talabning tarkibiy oʻsishi, mijozlarning boshqa provayderga oʻtishdagi yuqori xarajatlari va mahalliy ishtirokning qiymati uzoq muddatli, shartnomaviy pul oqimlarini qoʻllab-quvvatlaydi.",
+        "opportunity": "Asoschilar bilan birga boshqaruv huquqlari va kengayish rejasida ishtirok etish imkoniyati bilan minoritar yoki salmoqli minoritar ulush.",
+        "rationale": "Saudiya Arabistoni raqamli iqtisodiyotiga infratuzilmaga oʻxshash sarmoya kiritishni istagan investorlar yoki mintaqaviy salohiyatini oshirmoqchi boʻlgan strategik investorlar uchun jozibador.",
+        "structure": "Operatsion kompaniyaga yoki maxsus kengayish tuzilmasiga birlamchi investitsiya; tuzilma malakali yuridik va soliq maslahatchilari bilan ishlab chiqiladi.",
+        "next": "Malakali investorlar NDA asosida qisqacha taqdimot oladi, soʻngra boshqaruv jamoasi bilan muloqot va maʼlumotlar xonasiga kirish imkoniyati beriladi."
+      },
+      "image": "datacenter"
+    },
+    {
+      "slug": "hospitality-technology-uae",
+      "sector": "Mehmondoʻstlik texnologiyalari",
+      "country": "BAA",
+      "stage": "Erta oʻsish",
+      "type": "Qoʻshma korxona",
+      "size": "NDA asosida oshkor etiladi",
+      "status": "Hamkor izlanmoqda",
+      "summary": "Mintaqaviy qoʻshma korxona ochish uchun Fors koʻrfazi davlatlaridan hamkor izlayotgan, oʻzini oqlagan mehmondoʻstlik dasturiy mahsuloti.",
+      "sections": {
+        "overview": "Oʻzini oqlagan mahsulotga ega, Fors koʻrfazi davlatlari uchun qoʻshma korxona tashkil etish maqsadida mintaqaviy hamkor izlayotgan xalqaro mehmondoʻstlik texnologiyalari kompaniyasi.",
+        "market": "Fors koʻrfazi mintaqasida yangi mehmonxonalar va turistik yoʻnalishlarning paydo boʻlishi mehmonlarga xizmat koʻrsatish, operatsiyalar va daromadlarni boshqarish boʻyicha zamonaviy texnologiyalarga talabni yuzaga keltirmoqda.",
+        "business": "Xalqaro mijozlar bazasiga ega, arab tili va mintaqaviy operatsion talablarga moslashtirilishi mumkin boʻlgan dasturiy platforma.",
+        "thesis": "Oʻzini oqlagan mahsulotni mahalliy aloqalar bilan uygʻunlashtirish savdo sikllarini qisqartiradi va mustahkam mintaqaviy mavqeni shakllantiradi.",
+        "opportunity": "Texnologiya litsenziyasini kapital, mehmondoʻstlik sohasidagi aloqalar va mahalliy operatsiyalarni olib keladigan hamkor bilan birlashtiruvchi qoʻshma korxona.",
+        "rationale": "Mehmondoʻstlik guruhlari, koʻchmas mulk developerlari va mintaqaviy turizm loyihalariga sarmoya kiritgan investorlar uchun mos keladi.",
+        "structure": "Texnologiya litsenziyasi, birgalikdagi boshqaruv hamda kapital va distributsiya boʻyicha kelishilgan hissalarga ega Fors koʻrfazi davlatlaridagi qoʻshma korxona.",
+        "next": "Tanishuv muhokamasi, hamkorning muvofiqligini baholash va birgalikda ishlab chiqilgan biznes-reja."
+      },
+      "image": "hotel"
+    },
+    {
+      "slug": "ai-platform-uzbekistan",
+      "sector": "SI platformasi",
+      "country": "Oʻzbekiston",
+      "stage": "Oʻsish",
+      "type": "Oʻsish investitsiyasi",
+      "size": "NDA asosida oshkor etiladi",
+      "status": "Tuzilmalash bosqichida",
+      "summary": "Markaziy Osiyodagi korxonalarga xizmat koʻrsatuvchi, mintaqaviy kengayish uchun oʻsish kapitalini jalb qilayotgan amaliy sunʼiy intellekt kompaniyasi.",
+      "sections": {
+        "overview": "Oʻzbekistondagi korxonalar uchun amaliy sunʼiy intellekt mahsulotlarini taqdim etuvchi, Markaziy Osiyo boʻylab va Fors koʻrfazi davlatlariga kengayishni rejalashtirayotgan texnologiya kompaniyasi.",
+        "market": "Oʻzbekiston iqtisodiyotining jadal raqamlashtirilishi va mahalliy sunʼiy intellekt salohiyatining cheklanganligi ixtisoslashgan mintaqaviy ishtirokchi uchun imkoniyat yaratadi.",
+        "business": "Korporativ va institutsional mijozlarga sotiladigan hujjatlarni qayta ishlash, mijozlarga xizmat koʻrsatish va tahlil uchun mahsulotlar.",
+        "thesis": "Korporativ tavsiyanomalarga ega mahalliy jamoa, xarajatlar jihatidan samarali yetkazib berish va mintaqaviy kengayishning ishonchli yoʻli.",
+        "opportunity": "Mahsulot ishlab chiqish, savdo salohiyati va qoʻshni bozorlarga kirishni moliyalashtirish uchun oʻsish raundi.",
+        "rationale": "Fors koʻrfazi davlatlaridagi mijozlarga ham xizmat koʻrsata oladigan biznes orqali Markaziy Osiyo texnologiyalari oʻsishida ishtirok etish.",
+        "structure": "Ulushli investitsiya, ehtimol xolding tuzilmasi orqali; malakali huquqshunoslar bilan muvofiqlashtiriladi.",
+        "next": "NDA asosida qisqacha taqdimot va boshqaruv jamoasining taqdimoti, soʻngra tijorat va texnik jihatdan har tomonlama tekshiruv (due diligence)."
+      },
+      "image": "servers"
+    },
+    {
+      "slug": "sports-technology-saudi-arabia",
+      "sector": "Sport texnologiyalari",
+      "country": "Saudiya Arabistoni",
+      "stage": "Ishga tushirish",
+      "type": "Strategik hamkorlik",
+      "size": "NDA asosida oshkor etiladi",
+      "status": "Hamkor izlanmoqda",
+      "summary": "Saudiya Arabistonida ishga tushirish uchun strategik hamkor izlayotgan sport texnologiyalari konsepsiyasi.",
+      "sections": {
+        "overview": "Muxlislar, klublar va sport inshootlariga xizmat koʻrsatuvchi, Saudiya Arabistonida strategik hamkor bilan ishga tushirishga tayyorlangan sport texnologiyalari konsepsiyasi.",
+        "market": "Qirollik boʻylab sport, tadbirlar va sport inshootlariga kiritilayotgan investitsiyalar muxlislarni jalb qilish, chiptalar savdosi va natijalarni oshirish texnologiyalariga talabni yuzaga keltirmoqda.",
+        "business": "Huquq egalari va sport inshootlari uchun muxlislarni jalb qilish va tijorat vositalarini birlashtirgan raqamli platforma.",
+        "thesis": "Sport sohasida aloqalarga ega strategik hamkor distributsiya kanallarini va ilk asosiy mijozlarni ochib berishi mumkin.",
+        "opportunity": "Platformani ishga tushirish, mahalliylashtirish va tijoratlashtirish uchun strategik hamkorlik yoki qoʻshma korxona.",
+        "rationale": "Sport tashkilotlari, media guruhlari va sport iqtisodiyotida ishtirokini oshirayotgan investorlar uchun dolzarb.",
+        "structure": "Aniq belgilangan hissalar, boshqaruv va iqtisodiy shartlarga ega hamkorlik shartnomasi yoki qoʻshma korxona.",
+        "next": "Hamkor bilan muhokama, konsepsiyani koʻrib chiqish va birgalikdagi ishga tushirish rejasi."
+      },
+      "image": "stadium"
+    },
+    {
+      "slug": "industrial-digitalisation-uzbekistan",
+      "sector": "Sanoatni raqamlashtirish",
+      "country": "Oʻzbekiston",
+      "stage": "Barqaror faoliyat",
+      "type": "Qoʻshma korxona imkoniyati",
+      "size": "NDA asosida oshkor etiladi",
+      "status": "Baholash bosqichida",
+      "summary": "Texnologik hamkor bilan qoʻshma korxona orqali Oʻzbekistondagi faoliyat yuritib kelayotgan sanoat biznesini modernizatsiya qilish.",
+      "sections": {
+        "overview": "Operatsiyalarni raqamlashtirish va birgalikda egalik qilinadigan yechimlar biznesini yaratish uchun texnologik hamkor izlayotgan Oʻzbekistondagi bozorda mustahkam oʻrin egallagan sanoat guruhi.",
+        "market": "Sanoatni modernizatsiya qilish milliy ustuvor vazifa boʻlib, koʻplab ishlab chiqaruvchilar hanuz qoʻlda bajariladigan yoki eskirgan jarayonlar asosida ishlamoqda.",
+        "business": "Barqaror daromadga, modernizatsiya byudjetiga va sohadagi boshqa korxonalar bilan aloqalarga ega faoliyat yuritayotgan sanoat biznesi.",
+        "thesis": "Namunaviy korxonani raqamlashtirish qoʻshma korxona keyinchalik butun soha boʻylab taklif qila oladigan amaliy keysni yaratadi.",
+        "opportunity": "Sanoat guruhi va Yevropa yoki Fors koʻrfazi davlatlaridagi texnologik hamkor oʻrtasidagi qoʻshma korxona.",
+        "rationale": "Asosiy mijoz bilan Markaziy Osiyoga kirish nuqtasini izlayotgan sanoat texnologiyalari kompaniyalari uchun mos keladi.",
+        "structure": "Texnologiya litsenziyalash, joriy etish xizmatlari va umumiy iqtisodiy shartlarga ega qoʻshma korxona.",
+        "next": "Obyektni baholash, hamkorni tanlash va birgalikdagi biznes-reja."
+      },
+      "image": "industrial"
+    }
+  ],
+  "sectionTitles": [
+    {
+      "key": "overview",
+      "title": "Umumiy maʼlumot"
+    },
+    {
+      "key": "market",
+      "title": "Bozor"
+    },
+    {
+      "key": "business",
+      "title": "Biznes"
+    },
+    {
+      "key": "thesis",
+      "title": "Investitsion tezis"
+    },
+    {
+      "key": "opportunity",
+      "title": "Imkoniyat"
+    },
+    {
+      "key": "rationale",
+      "title": "Strategik asoslash"
+    },
+    {
+      "key": "structure",
+      "title": "Ehtimoliy tuzilma"
+    },
+    {
+      "key": "next",
+      "title": "Keyingi qadamlar"
+    }
+  ]
+}

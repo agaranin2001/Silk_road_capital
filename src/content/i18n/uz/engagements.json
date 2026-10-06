@@ -1,0 +1,1036 @@
+{
+  "intro": {
+    "label": "Hamkorlik formatlari",
+    "title": "Birgalikda ishlash usullari.",
+    "lead": "Hamkorlik formatlarimiz qatʼiy narxli paketlar emas, balki tuzilmaviy modellardir. Ularning har biri biznes konsepsiyasi, maqsadli bozor, investitsiya hajmi, soha, murakkablik darajasi, texnologik ehtiyojlar, hamkorlik tuzilmasi va geografik qamrovga qarab shakllantiriladi."
+  },
+  "philosophy": {
+    "label": "Hamkorlik darajalari",
+    "title": "Biz alohida xizmatlarni sotmaymiz.\nImkoniyatni u talab qiladigan darajagacha olib boramiz.",
+    "levels": [
+      {
+        "name": "Maslahat",
+        "quote": "Nima qilish kerakligini tushunishingizga yordam beramiz."
+      },
+      {
+        "name": "Yaratish",
+        "quote": "Yechimni siz bilan birga yaratamiz."
+      },
+      {
+        "name": "Ishga tushirish",
+        "quote": "Uni bozorga olib chiqishga yordam beramiz."
+      },
+      {
+        "name": "Transformatsiya",
+        "quote": "Mavjud biznesni modernizatsiya qilamiz."
+      },
+      {
+        "name": "Hamkorlik",
+        "quote": "Imkoniyatlarni birgalikda yaratamiz va boshqaramiz."
+      }
+    ],
+    "progression": [
+      "Gʻoya",
+      "Strategiya",
+      "Mahsulot",
+      "Bozor",
+      "Daromad",
+      "Kengayish"
+    ]
+  },
+  "packages": [
+    {
+      "slug": "investment-advisory",
+      "name": "Investitsiya maslahati",
+      "mode": "Maslahat",
+      "short": "Investitsiya imkoniyatlarini aniqlash va baholash.",
+      "headline": "Imkoniyatni toping.\nUni puxta sinovdan oʻtkazing.",
+      "lead": "Saudiya Arabistoni, Fors koʻrfazi arab davlatlari va Markaziy Osiyodagi imkoniyatlardan foydalanishni hamda kapital kiritishdan oldin mustaqil, investor darajasidagi baholashni istagan investorlar uchun.",
+      "idealClient": "Oilaviy ofislar, xususiy investorlar va investitsiya kompaniyalari.",
+      "groups": [
+        {
+          "title": "Izlab topish",
+          "items": [
+            "Mandatingizga mos imkoniyatlarni izlab topish",
+            "Asoschilar, operatorlar va mahalliy hamkorlar orqali kirish imkoniyati",
+            "Birgalikda investitsiya qilish imkoniyatlari"
+          ]
+        },
+        {
+          "title": "Baholash",
+          "items": [
+            "Bozor tadqiqoti",
+            "Tijoriy har tomonlama tekshiruv (due diligence)",
+            "Moliyaviy va operatsion baholash",
+            "Risklar tahlili"
+          ]
+        },
+        {
+          "title": "Qaror",
+          "items": [
+            "Investitsiya tezisi",
+            "Qiymatni baholash boʻyicha nuqtai nazar va ssenariylar",
+            "Investitsiya qoʻmitasi uchun materiallar"
+          ]
+        },
+        {
+          "title": "Tuzilmalash",
+          "items": [
+            "Investitsiya tuzilmasi",
+            "Hamkorlar va birgalikdagi investorlar bilan muvofiqlashtirish",
+            "Huquqiy va soliq masalalarini malakali yuristlar bilan muvofiqlashtirish"
+          ]
+        }
+      ],
+      "deliverables": [
+        "Imkoniyatni dastlabki saralash boʻyicha memorandum",
+        "Bozor bahosi",
+        "Tijoriy har tomonlama tekshiruv hisoboti",
+        "Moliyaviy tahlil",
+        "Risklar reyestri",
+        "Investitsiya tezisi",
+        "Investitsiya tuzilmasi variantlari",
+        "Investitsiya qoʻmitasi uchun materiallar toʻplami",
+        "Investitsiyadan keyingi qiymat yaratish rejasi"
+      ],
+      "cta": {
+        "label": "Imkoniyatni muhokama qilish",
+        "interest": "investment"
+      },
+      "related": [
+        "business-structure",
+        "joint-venture",
+        "market-entry"
+      ]
+    },
+    {
+      "slug": "market-entry",
+      "name": "Bozorga kirish",
+      "mode": "Ishga tushirish",
+      "short": "Saudiya Arabistoni, Fors koʻrfazi davlatlari yoki Markaziy Osiyo bozoriga toʻgʻri strategiya va hamkorlar bilan kiring.",
+      "headline": "Yangi bozorga\ntoʻgʻri tuzilma bilan kiring.",
+      "lead": "Saudiya Arabistoni, BAA, Qatar, Quvayt, Bahrayn, Ummon, Oʻzbekiston, Markaziy Osiyo yoki Yevropa bozoriga kirayotgan kompaniyalar va investorlar uchun — bozor tahlilidan birinchi mijozlargacha.",
+      "idealClient": "Chegaralardan tashqariga kengayayotgan xalqaro kompaniyalar, investorlar va mintaqaviy guruhlar.",
+      "markets": [
+        "Saudiya Arabistoni",
+        "BAA",
+        "Qatar",
+        "Quvayt",
+        "Bahrayn",
+        "Ummon",
+        "Oʻzbekiston",
+        "Markaziy Osiyo",
+        "Yevropa"
+      ],
+      "groups": [
+        {
+          "title": "Bozor tahlili",
+          "items": [
+            "Bozor hajmini baholash",
+            "Raqobatchilar tahlili",
+            "Mijozlar tadqiqoti",
+            "Tartibga solish muhiti",
+            "Sohani xaritalash",
+            "Imkoniyatlar tahlili"
+          ]
+        },
+        {
+          "title": "Mahalliy tarmoq",
+          "items": [
+            "Potensial hamkorlar",
+            "Investorlar",
+            "Distributorlar",
+            "Operatorlar",
+            "Davlat va institutsional aloqalar",
+            "Strategik munosabatlar"
+          ]
+        },
+        {
+          "title": "Bozorga kirish strategiyasi",
+          "items": [
+            "Kirish modeli",
+            "Mahalliy yuridik shaxs tuzilmasi",
+            "Hamkorlik strategiyasi",
+            "Qoʻshma korxona imkoniyatlari",
+            "Mahsulotni moslashtirish",
+            "Tijoriy strategiya"
+          ]
+        },
+        {
+          "title": "Amalga oshirish",
+          "items": [
+            "Hamkorlarni aniqlash",
+            "Biznesni rivojlantirish",
+            "Mahsulotni mahalliylashtirish",
+            "Savdoni yoʻlga qoʻyish",
+            "Marketing",
+            "Ishga tushirish"
+          ]
+        }
+      ],
+      "deliverables": [
+        "Bozor bahosi",
+        "Raqobatchilar va mijozlar xaritasi",
+        "Tartibga solish boʻyicha sharh (yuristlar ishtirokida)",
+        "Kirish modeli boʻyicha tavsiya",
+        "Hamkorlarning kengaytirilgan roʻyxati va tanishtiruvlar",
+        "Tijoriy strategiya",
+        "Mahalliylashtirish rejasi",
+        "Ishga tushirish yoʻl xaritasi"
+      ],
+      "cta": {
+        "label": "Bozorga kirishni rejalashtirish",
+        "interest": "market-entry"
+      },
+      "related": [
+        "joint-venture",
+        "business-structure",
+        "growth-engine"
+      ]
+    },
+    {
+      "slug": "business-build",
+      "name": "Biznes yaratish",
+      "mode": "Yaratish",
+      "short": "Konsepsiyani tijoriy jihatdan hayotiy biznesga aylantirish.",
+      "headline": "Biznes konsepsiyasidan\nbozorgacha.",
+      "lead": "Gʻoyani tijoriy jihatdan hayotiy biznesga aylantirishga yordam beramiz — bozorni tekshirish va biznes modelini ishlab chiqishdan tortib mahsulot yaratish, bozorga kirish, monetizatsiya va ishga tushirishgacha.",
+      "idealClient": "Yangi biznes boshlayotgan tadbirkorlar, oilaviy ofislar va korporatsiyalar.",
+      "steps": [
+        {
+          "name": "Konsepsiya",
+          "text": "Biznes gʻoyasini tushunish."
+        },
+        {
+          "name": "Bozor",
+          "text": "Maqsadli bozorni aniqlash va tekshirish."
+        },
+        {
+          "name": "Biznes modeli",
+          "text": "Biznes qiymatni qanday yaratishi va qoʻlga kiritishini belgilash."
+        },
+        {
+          "name": "Mahsulot",
+          "text": "Zarur mahsulot yoki platformani loyihalash va yaratish."
+        },
+        {
+          "name": "Monetizatsiya",
+          "text": "Daromad manbalari va narxlash mantigʻini ishlab chiqish."
+        },
+        {
+          "name": "Bozorga chiqish",
+          "text": "Marketing va savdo strategiyasini shakllantirish."
+        },
+        {
+          "name": "Tuzilma",
+          "text": "Moliyaviy va huquqiy asosni yaratish."
+        },
+        {
+          "name": "Ishga tushirish",
+          "text": "Ishga tushirish va dastlabki faoliyatni qoʻllab-quvvatlash."
+        },
+        {
+          "name": "Kengaytirish",
+          "text": "Optimallashtirish va kengaytirish."
+        }
+      ],
+      "deliverables": [
+        "Bozor bahosi",
+        "Biznes modeli",
+        "Daromad modeli",
+        "Moliyaviy model",
+        "Mahsulot konsepsiyasi",
+        "UX/UI",
+        "MVP",
+        "Texnologik arxitektura",
+        "SI imkoniyatlari",
+        "Marketing strategiyasi",
+        "Savdo strategiyasi",
+        "CRM",
+        "Bozorga chiqish rejasi",
+        "Hamkorlik strategiyasi",
+        "Ishga tushirish yoʻl xaritasi"
+      ],
+      "cta": {
+        "label": "Konsepsiyangizni muhokama qilish",
+        "interest": "business-build"
+      },
+      "related": [
+        "digital-product",
+        "growth-engine",
+        "business-structure"
+      ]
+    },
+    {
+      "slug": "joint-venture",
+      "name": "Qoʻshma korxona",
+      "mode": "Hamkorlik",
+      "short": "Strategik hamkor bilan yangi biznes yaratish.",
+      "headline": "Munosib hamkor bilan\ntoʻgʻri loyihani yarating.",
+      "lead": "Investorlar, kompaniyalar va strategik hamkorlarga bir-birini toʻldiruvchi imkoniyatlarni yangi bizneslarga aylantirishda yordam beramiz.",
+      "idealClient": "Bir-birini toʻldiruvchi kuchli tomonlarga ega investorlar, xalqaro kompaniyalar va mahalliy guruhlar.",
+      "steps": [
+        {
+          "name": "Topish",
+          "text": "Potensial hamkorlarni aniqlash."
+        },
+        {
+          "name": "Tekshirish",
+          "text": "Strategik va tijoriy muvofiqlikni baholash."
+        },
+        {
+          "name": "Tuzilmalash",
+          "text": "Mulkchilik, boshqaruv va iqtisodiy shartlarni belgilash."
+        },
+        {
+          "name": "Loyihalash",
+          "text": "Biznes modeli va operatsion modelni yaratish."
+        },
+        {
+          "name": "Yaratish",
+          "text": "Zarur mahsulot va texnologiyani ishlab chiqish."
+        },
+        {
+          "name": "Ishga tushirish",
+          "text": "Loyihani bozorga olib chiqish."
+        },
+        {
+          "name": "Kengaytirish",
+          "text": "Oʻsish va kengayishni qoʻllab-quvvatlash."
+        }
+      ],
+      "models": [
+        "Texnologiya + Kapital",
+        "Xalqaro kompaniya + Mahalliy hamkor",
+        "Investor + Operator",
+        "Mahsulot + Distributsiya",
+        "Yevropa texnologiyasi + Fors koʻrfazi bozori",
+        "Fors koʻrfazi kapitali + Markaziy Osiyo imkoniyatlari",
+        "Mahalliy tarmoq + Xalqaro mahsulot"
+      ],
+      "deliverables": [
+        "Hamkorlarning kengaytirilgan roʻyxati va saralash",
+        "Strategik muvofiqlikni baholash",
+        "Qoʻshma korxona strategiyasi",
+        "Mulkchilik va boshqaruv variantlari",
+        "Qoʻshma korxona iqtisodiy modeli",
+        "Biznes va operatsion model",
+        "Mahsulot va texnologiya rejasi",
+        "Ishga tushirish rejasi"
+      ],
+      "cta": {
+        "label": "Hamkorlik imkoniyatini oʻrganish",
+        "interest": "joint-venture"
+      },
+      "related": [
+        "business-structure",
+        "market-entry",
+        "digital-product"
+      ]
+    },
+    {
+      "slug": "digital-product",
+      "name": "Raqamli mahsulot",
+      "mode": "Yaratish",
+      "short": "Biznes modelini amalga oshirish uchun zarur texnologiyani loyihalash va yaratish.",
+      "headline": "Biznes gʻoyasi sizda.\nMahsulotni biz yaratamiz.",
+      "lead": "Biznes konsepsiyasiga ega boʻlgan va uni amalga oshirish uchun texnologiyaga muhtoj mijozlar uchun — texnologiya biznes modeliga moslab loyihalanadi, aksincha emas.",
+      "idealClient": "Platforma yaratilishiga ehtiyoj sezayotgan asoschilar, korporatsiyalar va yangi loyihalar.",
+      "groups": [
+        {
+          "title": "Biznes konsepsiyasi",
+          "items": [
+            "Biznes modeli",
+            "Qiymat taklifi",
+            "Maqsadli auditoriya",
+            "Bozordagi pozitsiyalash"
+          ]
+        },
+        {
+          "title": "Mahsulot strategiyasi",
+          "items": [
+            "Mahsulot arxitekturasi",
+            "Funksiyalarni belgilash",
+            "Foydalanuvchi yoʻllari",
+            "MVP strategiyasi"
+          ]
+        },
+        {
+          "title": "Dizayn",
+          "items": [
+            "UX",
+            "UI",
+            "Dizayn tizimi",
+            "Prototip"
+          ]
+        },
+        {
+          "title": "Ishlab chiqish",
+          "items": [
+            "Veb-ilovalar",
+            "Mobil ilovalar",
+            "SaaS",
+            "Marketpleyslar",
+            "B2B platformalar",
+            "Ichki platformalar",
+            "SI asosidagi mahsulotlar"
+          ]
+        },
+        {
+          "title": "Ishga tushirish",
+          "items": [
+            "Testlash",
+            "Joylashtirish",
+            "Analitika",
+            "Operatsiyalar",
+            "Iteratsiya"
+          ]
+        }
+      ],
+      "deliverables": [
+        "Mahsulot strategiyasi",
+        "Foydalanuvchi yoʻllari",
+        "Interaktiv prototip",
+        "Dizayn tizimi",
+        "MVP",
+        "Texnologik arxitektura",
+        "Analitikani sozlash",
+        "Relizlar yoʻl xaritasi"
+      ],
+      "cta": {
+        "label": "Mahsulotni yaratish",
+        "interest": "product"
+      },
+      "related": [
+        "business-build",
+        "ai-transformation",
+        "growth-engine"
+      ]
+    },
+    {
+      "slug": "ai-transformation",
+      "name": "SI transformatsiyasi",
+      "mode": "Transformatsiya",
+      "short": "SI imkoniyatlarini aniqlash, joriy etish va kengaytirish.",
+      "headline": "SIni haqiqatan\nmuhim boʻlgan joyda qoʻllang.",
+      "lead": "Sunʼiy intellekt (SI) — alohida texnologik loyiha sifatida emas, balki operatsion xarajatlarni kamaytirish, unumdorlikni oshirish, qarorlarni tezlashtirish va xizmat sifatini yaxshilash mexanizmi sifatida.",
+      "idealClient": "Faoliyat yuritayotgan kompaniyalar, korporativ guruhlar va muassasalar.",
+      "groups": [
+        {
+          "title": "SI auditi",
+          "items": [
+            "Mavjud biznesni tahlil qilish",
+            "SI imkoniyatlarini aniqlash"
+          ]
+        },
+        {
+          "title": "SI strategiyasi",
+          "items": [
+            "SIni qayerda joriy etish kerak",
+            "Qayerda kerak emas"
+          ]
+        },
+        {
+          "title": "SI pilot loyihalari",
+          "items": [
+            "Yuqori qiymatli foydalanish holatlarini tezkor sinash"
+          ]
+        },
+        {
+          "title": "SIni joriy etish",
+          "items": [
+            "Mavjud tizimlar va ish jarayonlariga integratsiya"
+          ]
+        },
+        {
+          "title": "SI agentlari",
+          "items": [
+            "Savdo",
+            "Marketing",
+            "Tadqiqot",
+            "HR",
+            "Mijozlarni qoʻllab-quvvatlash",
+            "Operatsiyalar",
+            "Boshqaruv"
+          ]
+        },
+        {
+          "title": "SI yordamida avtomatlashtirish",
+          "items": [
+            "Takroriy ish jarayonlarini avtomatlashtirish"
+          ]
+        },
+        {
+          "title": "SI tahlili",
+          "items": [
+            "Biznes maʼlumotlarini amaliy axborotga aylantirish"
+          ]
+        },
+        {
+          "title": "SI boshqaruvi",
+          "items": [
+            "Xavfsizlik, kirish huquqlari, maʼlumotlar va masʼuliyatli foydalanish tamoyillari"
+          ]
+        }
+      ],
+      "deliverables": [
+        "SI imkoniyatlari xaritasi",
+        "Ustuvorligi boʻyicha saralangan foydalanish holatlari portfeli",
+        "Har bir foydalanish holati uchun biznes asoslash",
+        "Pilot loyihalar natijalari",
+        "Joriy etish yoʻl xaritasi",
+        "Amalda ishlayotgan SI agentlari",
+        "Tanlangan ish jarayonlarini avtomatlashtirish",
+        "Rahbariyat uchun dashbordlar",
+        "SI boshqaruvi tizimi"
+      ],
+      "cta": {
+        "label": "SI imkoniyatlarini aniqlash",
+        "interest": "ai"
+      },
+      "related": [
+        "digital-product",
+        "growth-engine",
+        "business-build"
+      ]
+    },
+    {
+      "slug": "growth-engine",
+      "name": "Oʻsish dvigateli",
+      "mode": "Ishga tushirish",
+      "short": "Marketing, savdo, CRM va tijoriy infratuzilmani yaratish.",
+      "headline": "Talabni shakllantiring.\nSavdoni yoʻlga qoʻying.\nDistributsiyani quring.",
+      "lead": "Strategiya, texnologiya va ijroni birlashtirgan kompleks tijoratlashtirish formati — oʻsish bir necha shaxsga bogʻliq boʻlib qolmasligi uchun.",
+      "idealClient": "Ishga tushayotgan, bozorga kirayotgan yoki daromadini oshirayotgan kompaniyalar.",
+      "groups": [
+        {
+          "title": "Pozitsiyalash",
+          "items": [
+            "Brend pozitsiyalash",
+            "Bozordagi pozitsiyalash",
+            "Qiymat taklifi",
+            "Mahsulot kommunikatsiyasi"
+          ]
+        },
+        {
+          "title": "Marketing",
+          "items": [
+            "Marketing strategiyasi",
+            "Kontent",
+            "Raqamli kampaniyalar",
+            "Performance-marketing",
+            "Ijtimoiy tarmoqlar",
+            "Email-marketing",
+            "Lidlarni jalb qilish"
+          ]
+        },
+        {
+          "title": "Savdo",
+          "items": [
+            "Savdo strategiyasi",
+            "CRM",
+            "Savdo voronkasi",
+            "Savdo jarayonlari",
+            "Lidlarni saralash",
+            "Biznesni rivojlantirish",
+            "Hamkorlar orqali savdo",
+            "Korporativ savdo"
+          ]
+        },
+        {
+          "title": "Analitika",
+          "items": [
+            "Marketing analitikasi",
+            "Savdo analitikasi",
+            "Konversiyani kuzatish",
+            "Mijozlarni jalb qilish",
+            "Daromad analitikasi"
+          ]
+        },
+        {
+          "title": "Avtomatlashtirish",
+          "items": [
+            "CRMni avtomatlashtirish",
+            "Marketingni avtomatlashtirish",
+            "SI yordamidagi savdo",
+            "Lidlarni baholash (skoring)",
+            "SI savdo agentlari",
+            "Hisobotlarni avtomatlashtirish"
+          ]
+        }
+      ],
+      "deliverables": [
+        "Pozitsiyalash va kommunikatsiya",
+        "Marketing rejasi",
+        "Kampaniyalarni sozlash",
+        "Savdo qoʻllanmasi (playbook)",
+        "CRM va savdo voronkasi",
+        "Lidlarni baholash (skoring)",
+        "Daromad dashbordlari",
+        "SI yordamidagi savdo jarayonlari"
+      ],
+      "cta": {
+        "label": "Oʻsish dvigatelini yaratish",
+        "interest": "growth"
+      },
+      "related": [
+        "market-entry",
+        "ai-transformation",
+        "digital-product"
+      ]
+    },
+    {
+      "slug": "business-structure",
+      "name": "Biznes tuzilmasi",
+      "mode": "Maslahat",
+      "short": "Moliyaviy, korporativ va huquqiy arxitekturani malakali hamkorlar bilan birga yaratish.",
+      "headline": "Imkoniyat ortidagi\ntuzilmani yarating.",
+      "lead": "Strategik moliyaviy tuzilmalash va korporativ arxitektura — biznes qanday faoliyat yuritishi kerakligiga moslab loyihalanadi va malakali yuridik, soliq va moliyaviy hamkorlar bilan birgalikda amalga oshiriladi.",
+      "idealClient": "Yangi loyihalar, qoʻshma korxonalar, investorlar va yangi bozorlarga kirayotgan kompaniyalar.",
+      "groups": [
+        {
+          "title": "Biznes modeli",
+          "items": [
+            "Daromad modeli",
+            "Birlik iqtisodiyoti",
+            "Xarajatlar tuzilmasi",
+            "Rentabellik modeli"
+          ]
+        },
+        {
+          "title": "Moliyaviy model",
+          "items": [
+            "Daromad prognozlari",
+            "Operatsion xarajatlar",
+            "Pul oqimi",
+            "Ssenariy modellashtirish",
+            "Zararsizlik nuqtasi tahlili"
+          ]
+        },
+        {
+          "title": "Investitsiya tuzilmasi",
+          "items": [
+            "Investitsiya ehtiyojlari",
+            "Kapital tuzilmasi",
+            "Investitsiya ssenariylari",
+            "Investorlar uchun materiallar",
+            "Moliyalashtirish strategiyasi"
+          ]
+        },
+        {
+          "title": "Qoʻshma korxona iqtisodiyoti",
+          "items": [
+            "Mulkchilik",
+            "Daromadni taqsimlash",
+            "Foydani taqsimlash",
+            "Kapitalga hissa",
+            "Hamkorlar iqtisodiyoti"
+          ]
+        },
+        {
+          "title": "Boshqaruv hisoboti",
+          "items": [
+            "KPI",
+            "Dashbordlar",
+            "Moliyaviy tahliliy maʼlumotlar",
+            "Boshqaruv hisoboti"
+          ]
+        },
+        {
+          "title": "Korporativ tuzilma",
+          "items": [
+            "Kompaniya tuzilmasi",
+            "Xolding tuzilmalari",
+            "Shoʻba korxonalar",
+            "SPV",
+            "Qoʻshma korxona tuzilmalari"
+          ]
+        },
+        {
+          "title": "Tijoriy tuzilma",
+          "items": [
+            "Hamkorlik shartnomalari",
+            "Tijoriy kelishuvlar",
+            "Distributsiya modellari",
+            "Litsenziyalash tuzilmalari"
+          ]
+        },
+        {
+          "title": "Bozorga kirish tuzilmasi",
+          "items": [
+            "Mahalliy yuridik shaxs boʻyicha masalalar",
+            "Hamkorlik tuzilmalari",
+            "Operatsion tuzilmalar",
+            "Tartibga solish talablarini xaritalash"
+          ]
+        },
+        {
+          "title": "Shartnomaviy asos",
+          "items": [
+            "Aksiyadorlar shartnomalari",
+            "Qoʻshma korxona shartnomalari",
+            "Tijoriy shartnomalar",
+            "Litsenziyalash va intellektual mulk (IP)",
+            "Mehnat munosabatlari",
+            "Texnologik shartnomalar"
+          ]
+        }
+      ],
+      "note": "Bu strategik tuzilmalash boʻlib, litsenziyalanadigan yuridik, soliq yoki buxgalteriya maslahati emas. Zarur yuridik va korporativ ishlarni malakali mahalliy va xalqaro yuristlar bilan, moliyaviy va soliq masalalarini esa malakali maslahatchilar bilan muvofiqlashtiramiz.",
+      "deliverables": [
+        "Biznes modeli va birlik iqtisodiyoti",
+        "Ssenariylarga ega moliyaviy model",
+        "Kapital tuzilmasi variantlari",
+        "Investorlar uchun materiallar",
+        "Qoʻshma korxona iqtisodiyoti",
+        "KPI tizimi va dashbordlar",
+        "Korporativ tuzilma variantlari (yuristlar ishtirokida)",
+        "Yuristlar bilan muvofiqlashtirilgan shartnomaviy asos"
+      ],
+      "cta": {
+        "label": "Moliyaviy tuzilmani yaratish",
+        "interest": "structure"
+      },
+      "related": [
+        "joint-venture",
+        "investment-advisory",
+        "market-entry"
+      ]
+    },
+    {
+      "slug": "full-launch",
+      "name": "Biznesni toʻliq ishga tushirish",
+      "mode": "Hamkorlik",
+      "flagship": true,
+      "short": "Eng keng qamrovli hamkorlik formatimiz — strategiyadan kengayishgacha, yagona hamkor tomonidan muvofiqlashtiriladi.",
+      "headline": "Biznesni yarating.\nBozorga kiring.\nNatijaga erishing.",
+      "lead": "Eng keng qamrovli hamkorlik modelimiz. Mijoz oʻnlab bir-biriga bogʻlanmagan maslahatchilarni boshqarishi oʻrniga, yagona strategik hamkor butun zanjirni — strategiya, tuzilma, mahsulot, bozorga chiqish, operatsiyalar va kengayishni — muvofiqlashtiradi.",
+      "idealClient": "Yirik yangi biznes yoki bozorda sezilarli ishtirok yaratayotgan investorlar, oilaviy ofislar va kompaniyalar.",
+      "chain": [
+        {
+          "name": "Strategiya",
+          "items": [
+            "Bozor",
+            "Biznes modeli",
+            "Pozitsiyalash"
+          ]
+        },
+        {
+          "name": "Tuzilma",
+          "items": [
+            "Huquqiy",
+            "Korporativ",
+            "Moliyaviy",
+            "Investitsiya"
+          ]
+        },
+        {
+          "name": "Mahsulot",
+          "items": [
+            "UX",
+            "Texnologiya",
+            "SI",
+            "Platforma"
+          ]
+        },
+        {
+          "name": "Bozorga chiqish",
+          "items": [
+            "Marketing",
+            "Savdo",
+            "Distributsiya",
+            "Hamkorliklar"
+          ]
+        },
+        {
+          "name": "Operatsiyalar",
+          "items": [
+            "CRM",
+            "Avtomatlashtirish",
+            "Analitika",
+            "Boshqaruv"
+          ]
+        },
+        {
+          "name": "Masshtablash",
+          "items": [
+            "Investitsiya",
+            "Kengayish",
+            "Yangi bozorlar",
+            "Yangi mahsulotlar"
+          ]
+        }
+      ],
+      "deliverables": [
+        "Bozor va biznes modeli",
+        "Korporativ, huquqiy va moliyaviy tuzilma (yuristlar ishtirokida)",
+        "Investitsiya rejasi",
+        "Mahsulot va platforma",
+        "SI va avtomatlashtirish",
+        "Marketing va savdo tizimi",
+        "Operatsion model va tizimlar",
+        "Boshqaruv hisoboti",
+        "Kengayish yoʻl xaritasi"
+      ],
+      "cta": {
+        "label": "Keng koʻlamli hamkorlikni muhokama qilish",
+        "interest": "business-build"
+      },
+      "related": [
+        "business-build",
+        "market-entry",
+        "joint-venture"
+      ]
+    }
+  ],
+  "selector": {
+    "label": "Hamkorlik formatini tanlash",
+    "title": "Siz nima yaratyapsiz?",
+    "questions": [
+      {
+        "key": "start",
+        "title": "Boshlangʻich nuqtangiz qanday?",
+        "options": [
+          {
+            "value": "idea",
+            "label": "Menda gʻoya bor",
+            "adds": "business-build"
+          },
+          {
+            "value": "business",
+            "label": "Menda faoliyat yuritayotgan biznes bor",
+            "adds": "ai-transformation"
+          },
+          {
+            "value": "capital",
+            "label": "Menda kapital bor",
+            "adds": "investment-advisory"
+          },
+          {
+            "value": "product",
+            "label": "Menda mahsulot bor",
+            "adds": "market-entry"
+          },
+          {
+            "value": "market",
+            "label": "Menda bozor bor",
+            "adds": "joint-venture"
+          },
+          {
+            "value": "partner",
+            "label": "Menda hamkor bor",
+            "adds": "joint-venture"
+          }
+        ]
+      },
+      {
+        "key": "need",
+        "title": "Sizga nima kerak?",
+        "options": [
+          {
+            "value": "validate",
+            "label": "Imkoniyatni tekshirish",
+            "adds": "investment-advisory"
+          },
+          {
+            "value": "enter",
+            "label": "Bozorga kirish",
+            "adds": "market-entry"
+          },
+          {
+            "value": "partner",
+            "label": "Hamkor topish",
+            "adds": "joint-venture"
+          },
+          {
+            "value": "build",
+            "label": "Mahsulot yaratish",
+            "adds": "digital-product"
+          },
+          {
+            "value": "digitalise",
+            "label": "Biznesni raqamlashtirish",
+            "adds": "digital-product",
+            "also": "ai-transformation"
+          },
+          {
+            "value": "ai",
+            "label": "SIni joriy etish",
+            "adds": "ai-transformation"
+          },
+          {
+            "value": "sales",
+            "label": "Savdoni yoʻlga qoʻyish",
+            "adds": "growth-engine"
+          },
+          {
+            "value": "raise",
+            "label": "Investitsiya jalb qilish",
+            "adds": "business-structure"
+          },
+          {
+            "value": "jv",
+            "label": "Qoʻshma korxona tashkil etish",
+            "adds": "joint-venture"
+          }
+        ]
+      },
+      {
+        "key": "where",
+        "title": "Qayerda?",
+        "options": [
+          {
+            "value": "saudi-arabia",
+            "label": "Saudiya Arabistoni"
+          },
+          {
+            "value": "uae",
+            "label": "BAA"
+          },
+          {
+            "value": "qatar",
+            "label": "Qatar"
+          },
+          {
+            "value": "kuwait",
+            "label": "Quvayt"
+          },
+          {
+            "value": "gcc",
+            "label": "Fors koʻrfazi davlatlari"
+          },
+          {
+            "value": "uzbekistan",
+            "label": "Oʻzbekiston"
+          },
+          {
+            "value": "central-asia",
+            "label": "Markaziy Osiyo"
+          },
+          {
+            "value": "europe",
+            "label": "Yevropa"
+          },
+          {
+            "value": "international",
+            "label": "Xalqaro"
+          }
+        ]
+      }
+    ],
+    "scopeNote": "Keling, ish doirasini belgilaymiz. Har bir hamkorlik formati imkoniyatga qarab shakllantiriladi, shu sababli narxlar roʻyxati yoʻq — ish doirasi, jamoa va tijoriy modelni birgalikda kelishib olamiz.",
+    "cta": "Ushbu formatni muhokama qilish"
+  },
+  "solutions": {
+    "label": "Imkoniyat → yechim",
+    "title": "Siz vaziyatni bayon qilasiz.\nBiz yechimni jamlaymiz.",
+    "items": [
+      {
+        "says": "Men Saudiya Arabistoni bozoriga kirmoqchiman.",
+        "chain": [
+          "Bozorga kirish",
+          "Hamkor izlash",
+          "Qoʻshma korxona strategiyasi",
+          "Huquqiy tuzilma",
+          "Moliyaviy model",
+          "Savdo",
+          "Raqamlashtirish",
+          "SI"
+        ],
+        "cta": {
+          "label": "Bozorga kirishni rejalashtirish",
+          "href": "/engagements/market-entry/"
+        }
+      },
+      {
+        "says": "Menda investitsiya imkoniyati bor.",
+        "chain": [
+          "Investitsiya maslahati",
+          "Har tomonlama tekshiruv (due diligence)",
+          "Bozor tahlili",
+          "Moliyaviy tahlil",
+          "Huquqiy muvofiqlashtirish",
+          "Texnologik baholash",
+          "Qoʻshma korxona / birgalikda investitsiya"
+        ],
+        "cta": {
+          "label": "Imkoniyatni muhokama qilish",
+          "href": "/engagements/investment-advisory/"
+        }
+      },
+      {
+        "says": "Menda biznes gʻoyasi bor.",
+        "chain": [
+          "Biznes yaratish",
+          "Bozorni tekshirish",
+          "Biznes modeli",
+          "Moliyaviy model",
+          "Mahsulotni ishlab chiqish",
+          "SI",
+          "Marketing",
+          "Savdo",
+          "Bozorga chiqarish"
+        ],
+        "cta": {
+          "label": "Konsepsiyangizni muhokama qilish",
+          "href": "/engagements/business-build/"
+        }
+      },
+      {
+        "says": "Kompaniyam samarasiz ishlayapti.",
+        "chain": [
+          "Raqamli transformatsiya",
+          "Jarayonlar tahlili",
+          "Avtomatlashtirish",
+          "SI",
+          "CRM",
+          "Maʼlumotlar",
+          "Boshqaruv tahlili"
+        ],
+        "cta": {
+          "label": "Transformatsiyangizni muhokama qilish",
+          "href": "/digital/"
+        }
+      }
+    ]
+  },
+  "commercial": {
+    "label": "Tijoriy modellar",
+    "title": "Har bir hamkorlik formati\nimkoniyatga qarab tuziladi.",
+    "lead": "Biz narxlarni eʼlon qilmaymiz. Manfaatlarimizni natija bilan uygʻunlashtiradigan modelni kelishib olamiz — va uni maxfiy saqlaymiz.",
+    "models": [
+      {
+        "name": "Maslahat",
+        "text": "Belgilangan doiradagi strategik loyihalar."
+      },
+      {
+        "name": "Loyiha",
+        "text": "Aniq belgilangan ishlab chiqish yoki transformatsiya loyihasi."
+      },
+      {
+        "name": "Doimiy hamkorlik (retainer)",
+        "text": "Davomiy strategik hamkorlik."
+      },
+      {
+        "name": "Natijaga asoslangan",
+        "text": "Zarur hollarda belgilangan natijalarga bogʻliq tijoriy kelishuvlar."
+      },
+      {
+        "name": "Investitsiya",
+        "text": "Mijozlar bilan birga toʻgʻridan-toʻgʻri yoki birgalikda investitsiya qilish."
+      },
+      {
+        "name": "Qoʻshma korxona",
+        "text": "Yangi loyihada umumiy iqtisodiy ishtirok."
+      },
+      {
+        "name": "Gibrid",
+        "text": "Maslahat, loyiha, natijaga asoslangan va investitsion komponentlar kombinatsiyasi."
+      }
+    ],
+    "cta": {
+      "label": "Mos modelni muhokama qilish",
+      "interest": "other"
+    }
+  }
+}

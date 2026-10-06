@@ -1,0 +1,943 @@
+{
+  "seo": {
+    "title": "",
+    "description": "Silk Road Capital — Saudiya Arabistoni, Fors koʻrfazi arab davlatlari, Oʻzbekiston va Markaziy Osiyodagi investorlar, oilaviy ofislar va kompaniyalar uchun biznes qurishdagi strategik hamkor: investitsion maslahat, strategiya, qoʻshma korxonalar, bozorga kirish, raqamli transformatsiya va sunʼiy intellekt."
+  },
+  "hero": {
+    "label": "Xususiy investitsiyalar va biznes qurish boʻyicha hamkor",
+    "title": [
+      "Bozorlarni bogʻlaymiz.",
+      "Imkoniyatlar yaratamiz.",
+      "Oʻsishni taʼminlaymiz."
+    ],
+    "text": [
+      "Biz Markaziy Osiyo, Fors koʻrfazi arab davlatlari, MDH va Shimoliy Yevropa davlatlaridagi bizneslar, investorlar, texnologiyalar va strategik hamkorlarni bir-biri bilan bogʻlaymiz.",
+      "Bozorga kirish va strategik hamkorlikdan tortib qoʻshma korxonalar, investitsiyalar, raqamli transformatsiya va sunʼiy intellektgacha — biz tashkilotlarga chegaralardan oshib faoliyat yuritishda va imkoniyatlarni haqiqiy biznesga aylantirishda yordam beramiz."
+    ],
+    "primary": {
+      "label": "Xizmatlarimiz bilan tanishing",
+      "href": "#capabilities"
+    },
+    "secondary": {
+      "label": "Imkoniyatingizni muhokama qiling",
+      "href": "/contact/"
+    },
+    "image": "hero",
+    "imageAlt": "Ar-Riyoddagi Kingdom Centre osmonoʻpar binosi iliq kechki osmon fonida",
+    "eyebrow": "Investitsiyalar · Strategiya · Texnologiyalar · Ijro",
+    "cases": [
+      {
+        "service": "Investitsion maslahat",
+        "icon": "chart",
+        "href": "/invest/",
+        "image": "hero",
+        "imageAlt": "Ar-Riyoddagi Kingdom Centre osmonoʻpar binosi iliq kechki osmon fonida",
+        "chips": [
+          "Imkoniyat topildi — Ar-Riyod",
+          "Tijorat jihatidan har tomonlama tekshiruv yakunlandi",
+          "Investitsion tezis tasdiqlandi",
+          "Hamkor investorlar bilan kelishildi"
+        ],
+        "steps": [
+          {
+            "name": "Imkoniyatlarni izlash",
+            "state": "done"
+          },
+          {
+            "name": "Har tomonlama tekshiruv",
+            "state": "done"
+          },
+          {
+            "name": "Tuzilmalash",
+            "state": "active"
+          },
+          {
+            "name": "Bitimni yopish",
+            "state": "next"
+          }
+        ]
+      },
+      {
+        "service": "Strategik maslahat",
+        "icon": "compass",
+        "href": "/advisory/",
+        "image": "boardroom",
+        "imageAlt": "Shahar manzarasi koʻrinib turgan sokin majlislar zali",
+        "chips": [
+          "Bozor hajmi baholandi — Saudiya Arabistoni",
+          "Bozorga kirish modeli tavsiya etildi",
+          "Mahalliy hamkorlar saralandi",
+          "Reja direktorlar kengashi tomonidan tasdiqlandi"
+        ],
+        "steps": [
+          {
+            "name": "Bozor tahlili",
+            "state": "done"
+          },
+          {
+            "name": "Kirish strategiyasi",
+            "state": "done"
+          },
+          {
+            "name": "Hamkor izlash",
+            "state": "active"
+          },
+          {
+            "name": "Ishga tushirish rejasi",
+            "state": "next"
+          }
+        ]
+      },
+      {
+        "service": "Qoʻshma korxonalar",
+        "icon": "link",
+        "href": "/joint-ventures/",
+        "image": "dubai",
+        "imageAlt": "Dubay markazining manzarasi",
+        "chips": [
+          "Hamkor tanlandi — Dubay",
+          "Strategik muvofiqlik tasdiqlandi",
+          "Egalik va boshqaruv kelishildi",
+          "Korxonani ishga tushirish rejalashtirildi"
+        ],
+        "steps": [
+          {
+            "name": "Topish",
+            "state": "done"
+          },
+          {
+            "name": "Tekshirish",
+            "state": "done"
+          },
+          {
+            "name": "Tuzilmalash",
+            "state": "active"
+          },
+          {
+            "name": "Ishga tushirish",
+            "state": "next"
+          }
+        ]
+      },
+      {
+        "service": "Raqamli transformatsiya",
+        "icon": "layers",
+        "href": "/digital/",
+        "image": "industrial",
+        "imageAlt": "Zamonaviy sanoat sexi",
+        "chips": [
+          "Operatsiyalar boshidan oxirigacha tavsiflandi",
+          "CRM va ERP integratsiya qilindi",
+          "Qoʻlda hisobot tayyorlash bartaraf etildi",
+          "Boshqaruv paneli ishga tushirildi"
+        ],
+        "steps": [
+          {
+            "name": "Jarayonlar tahlili",
+            "state": "done"
+          },
+          {
+            "name": "Tizimlarni loyihalash",
+            "state": "done"
+          },
+          {
+            "name": "Integratsiya",
+            "state": "active"
+          },
+          {
+            "name": "Kengaytirish",
+            "state": "next"
+          }
+        ]
+      },
+      {
+        "service": "Biznesni SI yordamida transformatsiya qilish",
+        "icon": "cpu",
+        "href": "/ai/",
+        "image": "servers",
+        "imageAlt": "Maʼlumotlar markazidagi server chiroqlari",
+        "chips": [
+          "SI auditi yakunlandi",
+          "Yuqori qiymatli foydalanish holatlari ustuvorlashtirildi",
+          "Qoʻllab-quvvatlash agenti sinovdan oʻtkazildi",
+          "SI ishlab chiqarishda — tejamkorlik oʻlchandi"
+        ],
+        "steps": [
+          {
+            "name": "Oʻrganish",
+            "state": "done"
+          },
+          {
+            "name": "Baholash",
+            "state": "done"
+          },
+          {
+            "name": "Pilot",
+            "state": "active"
+          },
+          {
+            "name": "Kengaytirish",
+            "state": "next"
+          }
+        ]
+      },
+      {
+        "service": "Raqamli mahsulotlar va platformalar",
+        "icon": "box",
+        "href": "/products/",
+        "image": "glass",
+        "imageAlt": "Pastdan koʻrinib turgan shisha minoralar",
+        "chips": [
+          "Biznes modeli tasdiqlandi",
+          "UX prototipi sinovdan oʻtkazildi",
+          "MVP chiqarildi",
+          "Ilk mijozlar ulandi"
+        ],
+        "steps": [
+          {
+            "name": "Konsepsiya",
+            "state": "done"
+          },
+          {
+            "name": "Dizayn",
+            "state": "done"
+          },
+          {
+            "name": "Ishlab chiqish",
+            "state": "active"
+          },
+          {
+            "name": "Ishga tushirish",
+            "state": "next"
+          }
+        ]
+      }
+    ],
+    "tag": "Namunaviy misol"
+  },
+  "intro": {
+    "label": "Biz kimmiz",
+    "title": "Biz kapital, strategiya va texnologiyalar tutashgan nuqtada faoliyat yuritamiz.",
+    "text": "Biz maslahatdan koʻproq narsani izlayotgan investorlar, tadbirkorlar va tashkilotlar bilan ishlaymiz. Imkoniyatlarni aniqlash, bizneslarni baholash, hamkorliklarni tuzilmalash, bozorlarga kirish va strategik gʻoyalarni faoliyat yurituvchi biznesga aylantirishda yordam beramiz.",
+    "positioning": [
+      "Biz bizneslarga shunchaki maslahat bermaymiz. Ularni yaratishga yordam beramiz.",
+      "Biz texnologiyalarni shunchaki joriy etmaymiz. Ularni biznes natijalari bilan bogʻlaymiz.",
+      "Biz imkoniyatlarni shunchaki aniqlamaymiz. Ularni investitsiyalar, hamkorliklar va faoliyat yurituvchi bizneslarga aylantiramiz."
+    ]
+  },
+  "capabilities": {
+    "label": "Imkoniyatlarimiz",
+    "title": "Yagona hamkor.\nOldinga bir necha yoʻl.",
+    "text": "Mustaqil ravishda yoki birgalikda ishlaydigan oltita yoʻnalish — ilk investitsion savoldan faoliyat yurituvchi biznesgacha."
+  },
+  "needs": {
+    "label": "Shu yerdan boshlang",
+    "title": "Nimaga erishmoqchisiz?",
+    "items": [
+      {
+        "key": "invest",
+        "label": "Investitsiya kiritmoqchiman",
+        "text": "Investitsiya imkoniyatlarini topish va baholash.",
+        "pathway": [
+          "Investitsion maslahat",
+          "Har tomonlama tekshiruv",
+          "Bozor tahlili",
+          "Moliyaviy tahlil",
+          "Yuridik muvofiqlashtirish",
+          "Birgalikda investitsiya"
+        ],
+        "engagements": [
+          "investment-advisory",
+          "business-structure"
+        ],
+        "cta": {
+          "label": "Imkoniyatni muhokama qilish",
+          "interest": "investment"
+        }
+      },
+      {
+        "key": "market",
+        "label": "Yangi bozorga kirmoqchiman",
+        "text": "Bozorni tushunish va mahalliy hamkorlarni topish.",
+        "pathway": [
+          "Bozorga kirish",
+          "Hamkor izlash",
+          "Qoʻshma korxona strategiyasi",
+          "Yuridik tuzilma",
+          "Moliyaviy model",
+          "Savdo",
+          "Raqamlashtirish"
+        ],
+        "engagements": [
+          "market-entry",
+          "joint-venture"
+        ],
+        "cta": {
+          "label": "Bozorga kirishni rejalashtiring",
+          "interest": "market-entry"
+        }
+      },
+      {
+        "key": "partner",
+        "label": "Strategik hamkor topmoqchiman",
+        "text": "Potensial hamkorlarni aniqlash va hamkorlikni tuzilmalash.",
+        "pathway": [
+          "Hamkorlarni aniqlash",
+          "Strategik muvofiqlik",
+          "Tijorat shartlari",
+          "Hamkorlik tuzilmasi",
+          "Ishga tushirish rejasi"
+        ],
+        "engagements": [
+          "joint-venture",
+          "market-entry"
+        ],
+        "cta": {
+          "label": "Hamkorlik imkoniyatini oʻrganing",
+          "interest": "joint-venture"
+        }
+      },
+      {
+        "key": "jv",
+        "label": "Qoʻshma korxona tashkil etmoqchiman",
+        "text": "Mahalliy yoki xalqaro hamkor bilan yangi biznes qurish.",
+        "pathway": [
+          "Hamkorni tanlash",
+          "Qoʻshma korxona strategiyasi",
+          "Qoʻshma korxona iqtisodiyoti",
+          "Boshqaruv",
+          "Operatsion model",
+          "Mahsulot va texnologiya",
+          "Ishga tushirish"
+        ],
+        "engagements": [
+          "joint-venture",
+          "business-structure"
+        ],
+        "cta": {
+          "label": "Qoʻshma korxona quring",
+          "interest": "joint-venture"
+        }
+      },
+      {
+        "key": "digital",
+        "label": "Biznesimni raqamlashtirmoqchiman",
+        "text": "Tizimlar va operatsiyalarni modernizatsiya qilish.",
+        "pathway": [
+          "Jarayonlar tahlili",
+          "Raqamlashtirish strategiyasi",
+          "CRM / ERP",
+          "Integratsiyalar",
+          "Avtomatlashtirish",
+          "Maʼlumotlar",
+          "Boshqaruv tahlili"
+        ],
+        "engagements": [
+          "digital-product",
+          "ai-transformation"
+        ],
+        "cta": {
+          "label": "Transformatsiyani muhokama qiling",
+          "interest": "digital"
+        }
+      },
+      {
+        "key": "ai",
+        "label": "Sunʼiy intellektni joriy etmoqchiman",
+        "text": "Yuqori qiymatli SI foydalanish holatlarini aniqlash va joriy etish.",
+        "pathway": [
+          "SI auditi",
+          "Foydalanish holatlarini ustuvorlashtirish",
+          "Pilot",
+          "Joriy etish",
+          "SI agentlari",
+          "Boshqaruv",
+          "Kengaytirish"
+        ],
+        "engagements": [
+          "ai-transformation"
+        ],
+        "cta": {
+          "label": "SI imkoniyatlarini aniqlash",
+          "interest": "ai"
+        }
+      },
+      {
+        "key": "product",
+        "label": "Yangi mahsulot yaratmoqchiman",
+        "text": "Gʻoyani ishlaydigan raqamli mahsulotga aylantirish.",
+        "pathway": [
+          "Biznes modeli",
+          "Mahsulot strategiyasi",
+          "UX / UI",
+          "MVP",
+          "SI funksiyalari",
+          "Ishga tushirish",
+          "Oʻsish"
+        ],
+        "engagements": [
+          "digital-product",
+          "business-build"
+        ],
+        "cta": {
+          "label": "Mahsulotni yarating",
+          "interest": "product"
+        }
+      }
+    ],
+    "eyebrow": "Shu yerdan boshlang",
+    "text": "Maqsadni tanlang. Biz yoʻlni va odatda mos keladigan hamkorlik formatini koʻrsatamiz."
+  },
+  "journey": {
+    "label": "Yagona hamkor",
+    "title": "Butun yoʻl davomida\nyagona hamkor.",
+    "text": "Bir-biri bilan bogʻlanmagan bir nechta maslahatchilar, texnologiya provayderlari, agentliklar va dasturchilar jamoalarini muvofiqlashtirish oʻrniga mijozlar butun jarayonni muvofiqlashtiradigan yagona strategik hamkor bilan ishlaydi.",
+    "note": "Biz yuridik, soliq, moliyaviy, texnologik va muayyan bozorga xos yoʻnalishlardagi ixtisoslashgan hamkorlar ishini muvofiqlashtiramiz.",
+    "stages": [
+      "Gʻoya",
+      "Bozor",
+      "Kapital",
+      "Tuzilma",
+      "Mahsulot",
+      "SI",
+      "Marketing",
+      "Savdo",
+      "Operatsiyalar",
+      "Kengayish"
+    ]
+  },
+  "packages": {
+    "label": "Hamkorlik formatlari",
+    "title": "Birgalikda ishlash usullarimiz.",
+    "text": "Tuzilmalangan hamkorlik formatlari — narxlar roʻyxati emas. Har biri imkoniyat, bozor va sizga kerakli ishtirok darajasiga moslab shakllantiriladi."
+  },
+  "mandates": {
+    "label": "Tanlangan tajriba",
+    "title": "Logotiplar emas, mazmun.",
+    "text": "Ishimizning katta qismini ommaga oshkor etib boʻlmaydi, shuning uchun biz uni mijoz logotipi orqali emas, topshiriq turi orqali tavsiflaymiz.",
+    "items": [
+      "Fors koʻrfazi davlatlaridagi texnologik imkoniyatni baholayotgan xalqaro investorni qoʻllab-quvvatlash.",
+      "Yevropa va Yaqin Sharq hamkorlari oʻrtasida chegaralararo qoʻshma korxonani tuzilmalash.",
+      "Mintaqaviy tashkilot uchun raqamli platforma ishlab chiqish.",
+      "Biznesga Saudiya Arabistoni bozoriga kirishni baholashda yordam berish.",
+      "Faoliyat yurituvchi kompaniya uchun SI transformatsiyasi yoʻl xaritasini ishlab chiqish.",
+      "Strategik hamkorlik uchun raqamli mahsulot konsepsiyasi va MVP ishlab chiqish."
+    ]
+  },
+  "method": {
+    "label": "Qanday ishlaymiz",
+    "title": "Imkoniyatdan ijrogacha.",
+    "steps": [
+      {
+        "name": "Oʻrganish",
+        "text": "Biznes, kapital, bozor va maqsadni tushunish.",
+        "detail": "Egalar, investorlar va jamoalar bilan suhbatlar; muvaffaqiyat nimadan iborat ekanini aniq belgilash."
+      },
+      {
+        "name": "Baholash",
+        "text": "Imkoniyatlar, xavflar, iqtisodiy koʻrsatkichlar va amalga oshirish mumkinligini tahlil qilish.",
+        "detail": "Bozor dalillari, moliyaviy mantiq va qanday shartlar bajarilishi kerakligiga xolis qarash."
+      },
+      {
+        "name": "Tuzilmalash",
+        "text": "Strategiya, hamkorlik yoki investitsiya tuzilmasini belgilash.",
+        "detail": "Egalik, boshqaruv va iqtisodiy shartlar — malakali yuridik va soliq hamkorlari bilan birga."
+      },
+      {
+        "name": "Qurish",
+        "text": "Zarur texnologiya, mahsulot yoki operatsion modelni ishlab chiqish.",
+        "detail": "Platformalar, tizimlar, sunʼiy intellekt va ularning ishlashini taʼminlaydigan operatsion model."
+      },
+      {
+        "name": "Amalga oshirish",
+        "text": "Joriy etish, ishga tushirish va kengaytirishni qoʻllab-quvvatlash.",
+        "detail": "Bozorga chiqish, dastlabki operatsiyalar, samaradorlikni boshqarish va kengayish."
+      }
+    ]
+  },
+  "ai": {
+    "label": "SI transformatsiyasi",
+    "title": "Ortiqcha xarajatlarsiz\nintellekt.",
+    "text": "Biz sunʼiy intellektni aniq va amaliy qilamiz: muayyan ish jarayonlari, oʻlchanadigan natijalar va nazorat insonlar qoʻlida.",
+    "ladder": [
+      {
+        "name": "Qoʻlda",
+        "text": "Xodimlar maʼlumotlarni tizimlar oʻrtasida qoʻlda koʻchiradi."
+      },
+      {
+        "name": "Avtomatlashtirilgan",
+        "text": "Takrorlanuvchi bosqichlar aralashuvsiz bajariladi."
+      },
+      {
+        "name": "Intellektual",
+        "text": "Sunʼiy intellekt oʻqiydi, tasniflaydi, qoralama tayyorlaydi va tavsiya beradi."
+      },
+      {
+        "name": "Optimallashtirilgan",
+        "text": "Jarayonlar oʻz maʼlumotlari asosida uzluksiz takomillashadi."
+      }
+    ],
+    "useCases": [
+      {
+        "name": "Savdo",
+        "text": "Kiruvchi murojaatlarni saralash va tun davomida individual javob xatlarini tayyorlash."
+      },
+      {
+        "name": "Moliya",
+        "text": "Tranzaksiyalarni solishtirish va oy yakunigacha anomaliyalarni aniqlash."
+      },
+      {
+        "name": "Operatsiyalar",
+        "text": "Buyurtmalardagi kechikishlarni aniqlash va keyingi harakatni taklif qilish."
+      },
+      {
+        "name": "Mijozlarni qoʻllab-quvvatlash",
+        "text": "Odatiy savollarga arab va ingliz tillarida javob berish, qolganlarini mutaxassislarga yoʻnaltirish."
+      },
+      {
+        "name": "Tadqiqot",
+        "text": "Bozorlar, kompaniyalar va hujjatlarni bir sahifalik qisqacha sharhlarga jamlash."
+      },
+      {
+        "name": "Hisobotlar",
+        "text": "Haftalik boshqaruv hisobotlarini real vaqtdagi maʼlumotlar asosida tayyorlash."
+      },
+      {
+        "name": "Marketing",
+        "text": "Kampaniya variantlarini yaratish va sinash hamda qaysi biri samarali ekani haqida hisobot berish."
+      },
+      {
+        "name": "Kadrlar",
+        "text": "Arizalarni saralash va ichki qoidalar boʻyicha savollarga izchil javob berish."
+      },
+      {
+        "name": "Xaridlar",
+        "text": "Yetkazib beruvchilar takliflarini solishtirish va shartnoma shartlarini kuzatib borish."
+      },
+      {
+        "name": "Boshqaruv",
+        "text": "Koʻrsatkichlar va eʼtibor talab qiladigan istisnolar boʻyicha kundalik qisqacha sharh."
+      }
+    ],
+    "dashboard": {
+      "title": "Operatsion tahlil",
+      "subtitle": "Haftalik sharh · Guruh operatsiyalari",
+      "tag": "Namunaviy interfeys",
+      "kpis": [
+        {
+          "label": "Tejalgan qoʻl mehnati soatlari",
+          "value": "126",
+          "delta": "+18%"
+        },
+        {
+          "label": "Avtomatlashtirilgan hisobotlar",
+          "value": "14",
+          "delta": "+3"
+        },
+        {
+          "label": "Oʻrtacha javob berish vaqti (mediana)",
+          "value": "4 daqiqa",
+          "delta": "−62%"
+        }
+      ],
+      "bars": [
+        42,
+        55,
+        48,
+        63,
+        70,
+        66,
+        82
+      ],
+      "agents": [
+        {
+          "name": "Savdo agenti",
+          "task": "Murojaatlar saralandi va yoʻnaltirildi",
+          "status": "Ishlamoqda"
+        },
+        {
+          "name": "Qoʻllab-quvvatlash agenti",
+          "task": "Odatiy savollar hal qilindi",
+          "status": "Ishlamoqda"
+        },
+        {
+          "name": "Moliya agenti",
+          "task": "Oy yakunidagi solishtirish",
+          "status": "Tekshiruvda"
+        },
+        {
+          "name": "Hisobot agenti",
+          "task": "Direktorlar kengashi uchun materiallar tayyorlandi",
+          "status": "Tayyor"
+        }
+      ]
+    },
+    "cta": {
+      "label": "SI transformatsiyasi bilan tanishing",
+      "href": "/ai/"
+    },
+    "eyebrow": "SI transformatsiyasi",
+    "split": {
+      "title": "Ortiqcha xarajatlarsiz\nintellekt",
+      "text": "Sunʼiy intellekt — operatsion vosita sifatida: muayyan ish jarayonlari, oʻlchanadigan natijalar va nazorat insonlar qoʻlida.",
+      "link": {
+        "label": "SI transformatsiyasi bilan tanishing",
+        "href": "/ai/"
+      }
+    }
+  },
+  "audience": {
+    "label": "Kimlar bilan ishlaymiz",
+    "title": "Kapitali, biznesi va qurish istagi borlar uchun.",
+    "items": [
+      {
+        "title": "Oilaviy ofislar",
+        "text": "Investitsiya imkoniyatlari va strategik loyihalar."
+      },
+      {
+        "title": "Xususiy investorlar",
+        "text": "Bitimlarni izlash va investitsion tahlil."
+      },
+      {
+        "title": "Tadbirkorlar",
+        "text": "Oʻsish, kapital va strategik hamkorlik."
+      },
+      {
+        "title": "Korporativ guruhlar",
+        "text": "Transformatsiya va bozorlarda kengayish."
+      },
+      {
+        "title": "Investitsiya kompaniyalari",
+        "text": "Har tomonlama tekshiruv (due diligence), bozor tahlili va ijro."
+      },
+      {
+        "title": "Strategik hamkorlar",
+        "text": "Qoʻshma korxonalar va yangi biznes yaratish."
+      },
+      {
+        "title": "Davlat va institutlar",
+        "text": "Raqamli transformatsiya va strategik tashabbuslar."
+      },
+      {
+        "title": "Xalqaro kompaniyalar",
+        "text": "Fors koʻrfazi davlatlari va Markaziy Osiyo bozorlariga kirish."
+      }
+    ]
+  },
+  "network": {
+    "label": "Tarmoq",
+    "title": "Ishonchli aloqalarga asoslangan.",
+    "text": "Ishimiz kapital, operatsiyalar va texnologiyalar sohalaridagi ishonchli aloqalarga tayanadi — ular ehtiyotkorlik bilan quriladi, faqat rozilik bilan foydalaniladi va hech qachon savdo predmetiga aylanmaydi.",
+    "nodes": [
+      "Investorlar",
+      "Operatorlar",
+      "Asoschilar",
+      "Texnologik hamkorlar",
+      "Oilaviy ofislar",
+      "Korporatsiyalar",
+      "Davlat",
+      "Mahalliy hamkorlar"
+    ]
+  },
+  "discretion": {
+    "label": "Maxfiylik",
+    "title": "Maxfiylik — xizmatimizning bir qismi.",
+    "text": "Biz bir vaqtning oʻzida cheklangan miqdordagi mijozlar va imkoniyatlar bilan ishlaymiz. Ayrim hamkorlik formatlarini ommaga oshkor etib boʻlmaydi. Oʻrinli boʻlgan hollarda tajriba mijoz logotipi orqali emas, topshiriq turi orqali taqdim etiladi."
+  },
+  "insights": {
+    "label": "Tahliliy materiallar",
+    "title": "Nuqtai nazarlar."
+  },
+  "final": {
+    "title": "Oʻrganishga arziydigan\nimkoniyatingiz bormi?",
+    "text": "Investitsiyani baholayotgan, yangi bozorga kirayotgan, strategik hamkor izlayotgan yoki mavjud biznesni transformatsiya qilayotgan boʻlsangiz ham — muloqotdan boshlang.",
+    "primary": {
+      "label": "Muloqotni boshlash",
+      "href": "/contact/"
+    },
+    "secondary": {
+      "label": "Imkoniyatlar bilan tanishing",
+      "href": "/opportunities/"
+    },
+    "image": "boardroomBright"
+  },
+  "marquee": [
+    {
+      "name": "Saudiya Arabistoni",
+      "flag": "sa",
+      "href": "/markets/#saudi-arabia"
+    },
+    {
+      "name": "Birlashgan Arab Amirliklari",
+      "flag": "ae",
+      "href": "/markets/#gcc"
+    },
+    {
+      "name": "Qatar",
+      "flag": "qa",
+      "href": "/markets/#gcc"
+    },
+    {
+      "name": "Quvayt",
+      "flag": "kw",
+      "href": "/markets/#gcc"
+    },
+    {
+      "name": "Bahrayn",
+      "flag": "bh",
+      "href": "/markets/#gcc"
+    },
+    {
+      "name": "Ummon",
+      "flag": "om",
+      "href": "/markets/#gcc"
+    },
+    {
+      "name": "Oʻzbekiston",
+      "flag": "uz",
+      "href": "/markets/#uzbekistan"
+    },
+    {
+      "name": "Qozogʻiston",
+      "flag": "kz",
+      "href": "/markets/#other-markets"
+    },
+    {
+      "name": "Shvetsiya",
+      "flag": "se",
+      "href": "/markets/#other-markets"
+    },
+    {
+      "name": "Norvegiya",
+      "flag": "no",
+      "href": "/markets/#other-markets"
+    },
+    {
+      "name": "Daniya",
+      "flag": "dk",
+      "href": "/markets/#other-markets"
+    },
+    {
+      "name": "Finlandiya",
+      "flag": "fi",
+      "href": "/markets/#other-markets"
+    },
+    {
+      "name": "Yevropa",
+      "flag": "european_union",
+      "href": "/markets/#other-markets"
+    }
+  ],
+  "links": [
+    {
+      "label": "Investitsion maslahat",
+      "href": "/invest/",
+      "icon": "chart"
+    },
+    {
+      "label": "Strategik maslahat",
+      "href": "/advisory/",
+      "icon": "compass"
+    },
+    {
+      "label": "Qoʻshma korxonalar",
+      "href": "/joint-ventures/",
+      "icon": "link"
+    },
+    {
+      "label": "Bozorga kirish",
+      "href": "/engagements/market-entry/",
+      "icon": "flag"
+    },
+    {
+      "label": "Raqamli transformatsiya",
+      "href": "/digital/",
+      "icon": "layers"
+    },
+    {
+      "label": "SI transformatsiyasi",
+      "href": "/ai/",
+      "icon": "cpu"
+    },
+    {
+      "label": "Raqamli mahsulotlar",
+      "href": "/products/",
+      "icon": "box"
+    },
+    {
+      "label": "Oʻsish mexanizmi",
+      "href": "/engagements/growth-engine/",
+      "icon": "trending"
+    },
+    {
+      "label": "Biznes tuzilmasi",
+      "href": "/engagements/business-structure/",
+      "icon": "building"
+    },
+    {
+      "label": "Imkoniyatlar",
+      "href": "/opportunities/",
+      "icon": "briefcase"
+    }
+  ],
+  "pairs": [
+    [
+      {
+        "eyebrow": "Investitsion maslahat",
+        "title": "Kapitalingizga munosib\nimkoniyatlarni toping va baholang",
+        "link": {
+          "label": "Investitsion maslahat bilan tanishing",
+          "href": "/invest/"
+        },
+        "visual": "deals"
+      },
+      {
+        "eyebrow": "Strategik maslahat",
+        "title": "Murakkab bozorlarda\naniq qarorlar",
+        "link": {
+          "label": "Strategik maslahat bilan tanishing",
+          "href": "/advisory/"
+        },
+        "visual": "market"
+      }
+    ],
+    [
+      {
+        "eyebrow": "Raqamli transformatsiya",
+        "title": "Zamonaviy tizimlar,\nyengilroq operatsiyalar",
+        "link": {
+          "label": "Raqamli transformatsiya bilan tanishing",
+          "href": "/digital/"
+        },
+        "visual": "systems"
+      },
+      {
+        "eyebrow": "Mahsulotlar va platformalar",
+        "title": "Imkoniyatdan\nishlaydigan mahsulotgacha",
+        "link": {
+          "label": "Mahsulotlar va platformalar bilan tanishing",
+          "href": "/products/"
+        },
+        "visual": "product"
+      }
+    ]
+  ],
+  "wide": {
+    "eyebrow": "Qoʻshma korxonalar",
+    "title": "Munosib hamkorni toping.\nBirgalikda quring.",
+    "fan": [
+      "Kapital",
+      "Texnologiya",
+      "Mahalliy tarmoq",
+      "Distributsiya",
+      "Operator"
+    ],
+    "lines": [
+      "Kuchli tomonlari sizni toʻldiradigan hamkorlarni aniqlash va tanlash",
+      "Egalik, boshqaruv va iqtisodiy shartlarni tuzilmalash — malakali huquqshunoslar bilan birga",
+      "Mahsulot va operatsion modelni yaratish, soʻngra ishga tushirish"
+    ],
+    "link": {
+      "label": "Qoʻshma korxonalar bilan tanishing",
+      "href": "/joint-ventures/"
+    }
+  },
+  "stories": {
+    "eyebrow": "Investitsiya yoʻnalishlari",
+    "title": "Oʻrganishga arziydigan\nimkoniyatlar.",
+    "items": [
+      {
+        "title": "Raqamli mahsulotlar",
+        "text": "SaaS platformalar, marketpleyslar va amaliy SI mahsulotlari — Markaziy Osiyodan sinovdan oʻtgan texnologiyalarni Fors koʻrfazi davlatlariga olib chiqish va mahalliy hamkorlar bilan mintaqaviy kompaniyalar yaratish.",
+        "meta": "Saudiya Arabistoni · BAA · Oʻzbekiston · Oʻsish kapitali · Qoʻshma korxonalar"
+      },
+      {
+        "title": "Koʻchmas mulk loyihalari",
+        "text": "Tajribali mahalliy operatorlar, aniq tuzilma va mahalliy hamkorlar bilan birgalikdagi investitsiyaga ega turar-joy, mehmonxona va koʻp funksiyali loyihalar.",
+        "meta": "Saudiya Arabistoni · BAA · Oʻzbekiston · Birgalikdagi investitsiya · Qurilish QK"
+      },
+      {
+        "title": "Sportga investitsiyalar",
+        "text": "Sport, tadbirlar va muxlislar tajribasiga katta sarmoya kiritayotgan bozorlardagi klublar, akademiyalar, sport inshootlari va sport texnologiyalari.",
+        "meta": "Saudiya Arabistoni · Qatar · BAA · Strategik investitsiya · Hamkorlik"
+      },
+      {
+        "title": "Sanoat loyihalari",
+        "text": "Ishlab chiqarish, logistika va sanoatni raqamlashtirish — Qirollikda ishlab chiqarishni mahalliylashtirish va Markaziy Osiyoda quvvatlarni modernizatsiya qilish.",
+        "meta": "Saudiya Arabistoni · Oʻzbekiston · Qozogʻiston · Loyiha investitsiyasi · QK"
+      }
+    ]
+  },
+  "glow": {
+    "title": "Maxfiylik —\nxizmatimizning bir qismi.",
+    "text": "Biz bir vaqtning oʻzida cheklangan miqdordagi mijozlar va imkoniyatlar bilan ishlaymiz. Ayrim hamkorlik formatlarini ommaga oshkor etib boʻlmaydi, shuning uchun tajriba mijoz logotipi orqali emas, topshiriq turi orqali taqdim etiladi.",
+    "card": {
+      "title": "Dolzarb imkoniyatlarga kirish",
+      "text": "Malakali investorlar va strategik hamkorlar NDA asosida qisqacha taqdimotlar va maʼlumotlar xonalariga kirish imkoniyatini oladi.",
+      "link": {
+        "label": "Kirish huquqini soʻrash",
+        "href": "/contact/?interest=investment&topic=Access%20to%20opportunities"
+      }
+    }
+  },
+  "support": {
+    "places": [
+      "riyadh",
+      "dubai",
+      "doha",
+      "registan",
+      "jeddah",
+      "frankfurt"
+    ],
+    "title": "Ilk suhbatdan\nhaqiqiy biznesgacha.",
+    "text": "Beshta aniq qadam va butun yoʻlni — gʻoya va kapitaldan mahsulot, savdo va kengayishgacha — muvofiqlashtiradigan yagona strategik hamkor.",
+    "steps": [
+      {
+        "art": "outline",
+        "tone": "orange",
+        "name": "Umumiy tavsifni yuboring",
+        "text": "Imkoniyat, bozor va sizga nima kerakligi haqida bir necha satr. NDA boshidanoq imzolanishi mumkin."
+      },
+      {
+        "art": "call",
+        "tone": "sand",
+        "name": "Tanishuv suhbati",
+        "text": "Biz uni koʻrib chiqamiz va jamoamizning yuqori lavozimli aʼzosi bilan muhokama qilamiz."
+      },
+      {
+        "art": "scope",
+        "tone": "teal",
+        "name": "Ish hajmi va model",
+        "text": "Ish hajmi, jamoa va mos tijorat modelini taklif qilamiz."
+      },
+      {
+        "art": "kickoff",
+        "tone": "apricot",
+        "name": "Ishni boshlash",
+        "text": "Oʻrganish boʻyicha seminarlar hamda masʼullar va muhim bosqichlar belgilangan aniq reja."
+      },
+      {
+        "art": "scale",
+        "tone": "night",
+        "name": "Amalga oshirish va kengaytirish",
+        "text": "Siz bilan birga ijro etamiz, natijalar haqida hisobot beramiz hamda ishga tushirish va oʻsish davomida yoningizda boʻlamiz."
+      }
+    ],
+    "cta": {
+      "label": "Muloqotni boshlash",
+      "href": "/contact/"
+    }
+  },
+  "cta": {
+    "title": "Oʻrganishga arziydigan\nimkoniyatingiz bormi?",
+    "primary": {
+      "label": "Muloqotni boshlash",
+      "href": "/contact/"
+    },
+    "secondary": {
+      "label": "Imkoniyatlar bilan tanishing",
+      "href": "/opportunities/"
+    }
+  },
+  "tilesTitle": "Bozorlar"
+}

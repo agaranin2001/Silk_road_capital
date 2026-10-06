@@ -1,0 +1,17 @@
+{
+  "name": "silk-road-capital",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Silk Road Capital website — investment, strategy, joint ventures, digital & AI. Static build in the Silk Road Travel design language, zero runtime dependencies.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "start": "node scripts/dev.mjs --no-watch",
+    "check": "node scripts/check.mjs",
+    "map": "python3 scripts/generate-map.py"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

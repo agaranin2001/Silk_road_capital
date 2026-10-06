@@ -1,0 +1,727 @@
+[
+  {
+    "slug": "invest",
+    "key": "Invest",
+    "index": "01",
+    "name": "Investment Advisory",
+    "visual": "invest",
+    "image": "glass",
+    "headline": "Better opportunities.\nBetter decisions.",
+    "summary": "We help private investors, family offices and entrepreneurs identify and evaluate investment opportunities worth their capital.",
+    "lead": "We help private investors, family offices and entrepreneurs find, evaluate and structure investment opportunities across Saudi Arabia, the GCC, Uzbekistan and selected international markets — with the rigour of an investor, not the incentives of a broker.",
+    "includes": [
+      "Investment opportunity sourcing",
+      "Commercial due diligence",
+      "Market research",
+      "Investment thesis development",
+      "Business evaluation",
+      "Financial and operational assessment",
+      "Risk analysis",
+      "Investment structuring",
+      "Co-investment opportunities",
+      "Portfolio strategy"
+    ],
+    "cardCta": "Explore investment advisory",
+    "cta": {
+      "label": "Discuss an opportunity",
+      "interest": "investment"
+    },
+    "seo": {
+      "title": "Investment Advisory in Saudi Arabia, the GCC & Uzbekistan",
+      "description": "Investment advisory for family offices, private investors and entrepreneurs: opportunity sourcing, commercial due diligence, investment theses and cross-border structuring across Saudi Arabia, the GCC and Uzbekistan."
+    },
+    "blocks": [
+      {
+        "type": "pillars",
+        "label": "What we do",
+        "title": "From first conversation to committed capital.",
+        "items": [
+          {
+            "title": "Opportunity sourcing",
+            "text": "We identify opportunities through founders, operators, investors and local partners — many of which never reach a public process."
+          },
+          {
+            "title": "Commercial due diligence",
+            "text": "We test the market, the business model, the competitive position and the management team before capital is committed."
+          },
+          {
+            "title": "Investment thesis",
+            "text": "We articulate why an opportunity is attractive, what has to be true for it to work and what would change the view."
+          },
+          {
+            "title": "Financial & operational assessment",
+            "text": "We review the numbers behind the story: unit economics, cost structure, cash generation and operating capacity."
+          },
+          {
+            "title": "Risk analysis",
+            "text": "We map commercial, market, partner and execution risks — and what can realistically be done about each."
+          },
+          {
+            "title": "Structuring & co-investment",
+            "text": "We define the investment structure and, where appropriate, assemble co-investors — coordinating legal and tax work with qualified counsel."
+          },
+          {
+            "title": "Market research",
+            "text": "We size markets, map competitors and speak to customers so decisions rest on evidence rather than assumptions."
+          },
+          {
+            "title": "Portfolio strategy",
+            "text": "We help family offices and investors shape where they want exposure — by market, sector and type of participation."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "label": "How a mandate runs",
+        "title": "A disciplined process. A small number of decisions that matter.",
+        "items": [
+          {
+            "name": "Source",
+            "text": "Opportunities from our network and yours, screened against your mandate."
+          },
+          {
+            "name": "Screen",
+            "text": "A first view on fit, attractiveness and obvious deal-breakers."
+          },
+          {
+            "name": "Evaluate",
+            "text": "Commercial, financial and operational due diligence."
+          },
+          {
+            "name": "Structure",
+            "text": "Investment structure, terms and partners, with qualified counsel."
+          },
+          {
+            "name": "Execute",
+            "text": "Negotiation support, closing coordination and onboarding."
+          },
+          {
+            "name": "Support",
+            "text": "Post-investment value creation, reporting and follow-on decisions."
+          }
+        ]
+      },
+      {
+        "type": "statement",
+        "text": "We evaluate opportunities the way an investor would — and say so when one doesn’t hold up."
+      },
+      {
+        "type": "audience",
+        "label": "Who we work with",
+        "items": [
+          {
+            "title": "Family offices",
+            "text": "Direct investments and strategic projects outside the core business."
+          },
+          {
+            "title": "Private investors",
+            "text": "Deal sourcing, independent analysis and co-investment access."
+          },
+          {
+            "title": "Investment companies",
+            "text": "Market intelligence, commercial due diligence and local execution."
+          },
+          {
+            "title": "Entrepreneurs",
+            "text": "Preparing a business for capital and finding the right investor."
+          }
+        ]
+      }
+    ],
+    "related": [
+      "investment-advisory",
+      "business-structure",
+      "joint-venture"
+    ]
+  },
+  {
+    "slug": "advisory",
+    "key": "Advise",
+    "index": "02",
+    "name": "Strategic Advisory",
+    "visual": "advise",
+    "image": "boardroom",
+    "headline": "Clear decisions\nin complex markets.",
+    "summary": "We help business owners and investors decide where to compete, how to grow and which moves are worth making.",
+    "lead": "We help business owners, boards and investors decide where to compete, how to grow and which moves are worth making — grounded in market intelligence and built to be executed.",
+    "includes": [
+      "Corporate strategy",
+      "Market entry strategy",
+      "Business model analysis",
+      "Growth strategy",
+      "Commercial due diligence",
+      "Competitive intelligence",
+      "Market intelligence",
+      "Business optimisation",
+      "Operating model design",
+      "Strategic planning"
+    ],
+    "cardCta": "Explore strategic advisory",
+    "cta": {
+      "label": "Discuss your strategy",
+      "interest": "advisory"
+    },
+    "seo": {
+      "title": "Strategic Advisory & Market Entry Strategy for the GCC",
+      "description": "Strategic advisory in Saudi Arabia and the GCC: corporate and growth strategy, market entry, business model analysis, competitive intelligence and operating model design."
+    },
+    "blocks": [
+      {
+        "type": "pillars",
+        "label": "What we do",
+        "title": "Strategy that survives contact with the market.",
+        "items": [
+          {
+            "title": "Corporate & growth strategy",
+            "text": "Where to play, how to win and what to stop doing — with a plan the organisation can carry."
+          },
+          {
+            "title": "Market entry strategy",
+            "text": "Which market, which model, which partner and which sequence — before capital is committed."
+          },
+          {
+            "title": "Business model analysis",
+            "text": "How value is created and captured today, and where the model is fragile or under-monetised."
+          },
+          {
+            "title": "Market & competitive intelligence",
+            "text": "Clear, sourced views of markets, competitors, customers and regulation in the GCC and Central Asia."
+          },
+          {
+            "title": "Commercial due diligence",
+            "text": "An independent view of a business’s market position before an acquisition, partnership or investment."
+          },
+          {
+            "title": "Operating model design",
+            "text": "Structure, processes, governance and systems aligned to the strategy rather than to history."
+          },
+          {
+            "title": "Business optimisation",
+            "text": "Finding the cost, time and complexity that do not create value — and removing them."
+          },
+          {
+            "title": "Strategic planning",
+            "text": "Multi-year plans with clear priorities, owners, milestones and the metrics that matter."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "label": "How we work",
+        "title": "From opportunity to execution.",
+        "items": [
+          {
+            "name": "Discover",
+            "text": "Understand the business, capital, market and objective."
+          },
+          {
+            "name": "Assess",
+            "text": "Analyse opportunities, risks, economics and feasibility."
+          },
+          {
+            "name": "Structure",
+            "text": "Define the strategy, partnership or investment structure."
+          },
+          {
+            "name": "Build",
+            "text": "Develop the required technology, product or operating model."
+          },
+          {
+            "name": "Execute",
+            "text": "Support implementation, launch and scaling."
+          }
+        ]
+      },
+      {
+        "type": "statement",
+        "text": "Advice is only useful if it can be executed. Every recommendation comes with a route to implementation — and we can stay to deliver it."
+      }
+    ],
+    "related": [
+      "market-entry",
+      "business-build",
+      "full-launch"
+    ]
+  },
+  {
+    "slug": "joint-ventures",
+    "key": "Partner",
+    "index": "03",
+    "name": "Joint Ventures",
+    "visual": "partner",
+    "image": "riyadhStreet",
+    "headline": "Find the right partner.\nBuild something together.",
+    "summary": "We help investors and companies find the right partner and create a new business together.",
+    "lead": "We help investors, companies and strategic partners turn complementary capabilities into new businesses — from identifying the partner to structuring the venture and bringing it to market.",
+    "includes": [
+      "Partner identification",
+      "JV strategy",
+      "Partner matching",
+      "Market entry",
+      "Business model creation",
+      "JV structuring",
+      "Product concept development",
+      "Operating model",
+      "Technology implementation",
+      "Launch support"
+    ],
+    "cardCta": "Explore joint ventures",
+    "cta": {
+      "label": "Explore a partnership",
+      "interest": "joint-venture"
+    },
+    "seo": {
+      "title": "Joint Ventures in Saudi Arabia, the UAE & Uzbekistan",
+      "description": "Joint venture advisory and building: partner identification, JV strategy, structuring, operating model and launch for ventures across Saudi Arabia, the UAE, the GCC and Uzbekistan."
+    },
+    "blocks": [
+      {
+        "type": "steps",
+        "label": "The JV builder",
+        "title": "Build the right venture with the right partner.",
+        "items": [
+          {
+            "name": "Find",
+            "text": "Identify potential partners."
+          },
+          {
+            "name": "Validate",
+            "text": "Evaluate strategic and commercial fit."
+          },
+          {
+            "name": "Structure",
+            "text": "Define ownership, governance and economics."
+          },
+          {
+            "name": "Design",
+            "text": "Create the business model and operating model."
+          },
+          {
+            "name": "Build",
+            "text": "Develop the required product and technology."
+          },
+          {
+            "name": "Launch",
+            "text": "Bring the venture to market."
+          },
+          {
+            "name": "Scale",
+            "text": "Support growth and expansion."
+          }
+        ]
+      },
+      {
+        "type": "models",
+        "label": "Venture models",
+        "title": "Complementary capabilities, combined.",
+        "items": [
+          {
+            "a": "Technology",
+            "b": "Capital",
+            "text": "A proven product meets an investor ready to fund its regional roll-out."
+          },
+          {
+            "a": "International company",
+            "b": "Local partner",
+            "text": "Global capability, local relationships, licences and market access."
+          },
+          {
+            "a": "Investor",
+            "b": "Operator",
+            "text": "Capital paired with the team that knows how to run the business."
+          },
+          {
+            "a": "Product",
+            "b": "Distribution",
+            "text": "A strong product placed into an established commercial channel."
+          },
+          {
+            "a": "European technology",
+            "b": "GCC market",
+            "text": "Mature solutions brought to fast-moving GCC demand."
+          },
+          {
+            "a": "GCC capital",
+            "b": "Central Asian opportunity",
+            "text": "Regional investors accessing growth markets across Central Asia."
+          },
+          {
+            "a": "Local network",
+            "b": "International product",
+            "text": "A trusted local platform that accelerates an international offer."
+          }
+        ]
+      },
+      {
+        "type": "pillars",
+        "label": "What we do",
+        "title": "Every part of the venture, coordinated.",
+        "items": [
+          {
+            "title": "Partner identification & matching",
+            "text": "Long-list, screen and introduce partners whose strengths genuinely complement yours."
+          },
+          {
+            "title": "JV strategy",
+            "text": "Why the venture should exist, what it will do and how each partner benefits."
+          },
+          {
+            "title": "JV structuring",
+            "text": "Ownership, governance, contributions and economics — with qualified legal counsel."
+          },
+          {
+            "title": "Business & operating model",
+            "text": "How the venture makes money, who does what and how decisions are made."
+          },
+          {
+            "title": "Product & technology",
+            "text": "Product concept, platform and systems built for the venture from day one."
+          },
+          {
+            "title": "Launch support",
+            "text": "Go-to-market, early operations and the first year of performance management."
+          }
+        ]
+      }
+    ],
+    "related": [
+      "joint-venture",
+      "business-structure",
+      "market-entry"
+    ]
+  },
+  {
+    "slug": "digital",
+    "key": "Transform",
+    "index": "04",
+    "name": "Digital Transformation",
+    "visual": "transform",
+    "image": "datacenter",
+    "headline": "Modern systems.\nLighter operations.",
+    "summary": "We modernise businesses through technology — connecting systems, removing manual work and making information available.",
+    "lead": "We modernise how businesses run — connecting systems, removing repetitive work and giving management the information it needs, when it needs it. The goal is more capability with less overhead.",
+    "includes": [
+      "Business process analysis",
+      "Digitalisation strategy",
+      "CRM",
+      "ERP",
+      "Internal platforms",
+      "Customer portals",
+      "E-commerce",
+      "Marketplace development",
+      "Data infrastructure",
+      "System integrations",
+      "Automation"
+    ],
+    "cardCta": "Explore digital transformation",
+    "cta": {
+      "label": "Discuss your transformation",
+      "interest": "digital"
+    },
+    "seo": {
+      "title": "Digital Transformation in Saudi Arabia & Uzbekistan",
+      "description": "Business digitalisation in Saudi Arabia, the GCC and Uzbekistan: process analysis, CRM, ERP, portals, e-commerce, data infrastructure, integrations and automation."
+    },
+    "blocks": [
+      {
+        "type": "beforeAfter",
+        "label": "Business optimisation",
+        "title": "Technology should reduce complexity.\nNot create more of it.",
+        "before": [
+          "Manual reporting",
+          "Disconnected systems",
+          "Repeated work",
+          "Slow decisions",
+          "High operational overhead"
+        ],
+        "after": [
+          "Automated workflows",
+          "Connected systems",
+          "AI-assisted operations",
+          "Real-time intelligence",
+          "Lower operating costs"
+        ],
+        "cta": {
+          "label": "Identify opportunities for optimisation",
+          "interest": "digital"
+        }
+      },
+      {
+        "type": "pillars",
+        "label": "What we do",
+        "title": "The systems behind a well-run business.",
+        "items": [
+          {
+            "title": "Process analysis",
+            "text": "Map how work actually flows, where time is lost and which steps should not exist."
+          },
+          {
+            "title": "Digitalisation strategy",
+            "text": "A prioritised roadmap: what to digitise, in what order and with what return."
+          },
+          {
+            "title": "CRM & ERP",
+            "text": "Select, configure and integrate core systems — or build them where off-the-shelf does not fit."
+          },
+          {
+            "title": "Internal platforms & portals",
+            "text": "Tools for teams, partners and customers that remove email, spreadsheets and phone calls."
+          },
+          {
+            "title": "E-commerce & marketplaces",
+            "text": "Digital sales channels for B2C and B2B, connected to operations and finance."
+          },
+          {
+            "title": "Data infrastructure",
+            "text": "One reliable source of business data, ready for reporting and AI."
+          },
+          {
+            "title": "Integrations",
+            "text": "Connect the systems a business already has so information moves without re-keying."
+          },
+          {
+            "title": "Automation",
+            "text": "Remove repetitive tasks across finance, operations, sales and service."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "label": "Delivery",
+        "title": "Identify. Transform. Implement. Scale.",
+        "items": [
+          {
+            "name": "Identify",
+            "text": "Find the processes where technology changes cost, speed or quality."
+          },
+          {
+            "name": "Transform",
+            "text": "Redesign the process first, then choose the technology."
+          },
+          {
+            "name": "Implement",
+            "text": "Deliver in short, measurable releases, with AI-assisted development."
+          },
+          {
+            "name": "Scale",
+            "text": "Extend what works across teams, entities and markets."
+          }
+        ]
+      }
+    ],
+    "related": [
+      "ai-transformation",
+      "digital-product",
+      "growth-engine"
+    ]
+  },
+  {
+    "slug": "ai",
+    "key": "AI",
+    "index": "05",
+    "name": "AI Business Transformation",
+    "visual": "ai",
+    "headline": "AI where it creates\nmeasurable value.",
+    "summary": "We help organisations use AI to reduce costs, automate work and make better decisions — where it creates measurable value.",
+    "lead": "We treat AI as an operating tool, not a headline. We find the processes where it reduces cost, saves time or improves decisions — then pilot, implement, measure and scale.",
+    "includes": [
+      "Reduce operational costs",
+      "Automate repetitive work",
+      "Analyse large amounts of information",
+      "Improve decision-making",
+      "Accelerate internal processes",
+      "Improve customer service",
+      "Automate reporting",
+      "Generate business intelligence",
+      "Improve sales operations",
+      "Optimise workforce productivity"
+    ],
+    "cardCta": "Explore AI transformation",
+    "cta": {
+      "label": "Identify AI opportunities",
+      "interest": "ai"
+    },
+    "seo": {
+      "title": "AI Consulting & AI Transformation in Saudi Arabia and the GCC",
+      "description": "Practical AI consulting in Saudi Arabia, the GCC and Uzbekistan: AI audits, strategy, pilots, AI agents, automation, business intelligence and governance — focused on measurable value."
+    },
+    "blocks": [
+      {
+        "type": "aiShowcase"
+      },
+      {
+        "type": "pillars",
+        "label": "AI services",
+        "title": "Put AI where it actually matters.",
+        "items": [
+          {
+            "title": "AI audit",
+            "text": "Analyse the existing business and identify where AI creates value."
+          },
+          {
+            "title": "AI strategy",
+            "text": "Define where AI should be introduced — and where it should not."
+          },
+          {
+            "title": "AI pilots",
+            "text": "Rapidly test high-value use cases against a clear success measure."
+          },
+          {
+            "title": "AI implementation",
+            "text": "Integrate AI into existing systems and day-to-day workflows."
+          },
+          {
+            "title": "AI agents",
+            "text": "Task-specific agents for sales, marketing, research, HR, support, operations and management."
+          },
+          {
+            "title": "AI automation",
+            "text": "Automate repetitive workflows end to end, with people kept in control."
+          },
+          {
+            "title": "AI intelligence",
+            "text": "Turn business data into information management can act on."
+          },
+          {
+            "title": "AI governance",
+            "text": "Security, access, data and responsible-use principles from the start."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "label": "Delivery",
+        "title": "Discover. Assess. Pilot. Implement. Scale.",
+        "items": [
+          {
+            "name": "Discover",
+            "text": "Workshops and process reviews to collect candidate use cases."
+          },
+          {
+            "name": "Assess",
+            "text": "Rank by value, feasibility, data readiness and risk."
+          },
+          {
+            "name": "Pilot",
+            "text": "A time-boxed test on real work with a measurable target."
+          },
+          {
+            "name": "Implement",
+            "text": "Integrate into systems, train teams, set up monitoring."
+          },
+          {
+            "name": "Scale",
+            "text": "Roll out across functions and entities; retire what does not perform."
+          }
+        ]
+      },
+      {
+        "type": "beforeAfter",
+        "label": "Business optimisation",
+        "title": "Intelligence without\nunnecessary overhead.",
+        "before": [
+          "Manual reporting",
+          "Disconnected systems",
+          "Repeated work",
+          "Slow decisions",
+          "High operational overhead"
+        ],
+        "after": [
+          "Automated workflows",
+          "Connected systems",
+          "AI-assisted operations",
+          "Real-time intelligence",
+          "Lower operating costs"
+        ],
+        "cta": {
+          "label": "Identify opportunities for optimisation",
+          "interest": "ai"
+        }
+      },
+      {
+        "type": "statement",
+        "text": "Where AI is not the right answer, we say so. Most value comes from a handful of well-chosen use cases, implemented properly."
+      }
+    ],
+    "related": [
+      "ai-transformation",
+      "digital-product",
+      "growth-engine"
+    ],
+    "image": "servers"
+  },
+  {
+    "slug": "products",
+    "key": "Build",
+    "index": "06",
+    "name": "Digital Products & Platforms",
+    "visual": "build",
+    "headline": "From opportunity\nto working product.",
+    "summary": "When the required solution does not exist, we build it — from MVP to enterprise platform.",
+    "lead": "When the solution a business needs does not exist, we design and build it. From a first MVP to an enterprise platform, we connect the product to the business model it has to serve.",
+    "includes": [
+      "MVP development",
+      "Enterprise platforms",
+      "Internal systems",
+      "AI-powered products",
+      "Marketplaces",
+      "Customer portals",
+      "Mobile applications",
+      "SaaS platforms",
+      "Data platforms",
+      "Integrations",
+      "White-label products"
+    ],
+    "cardCta": "Explore products & platforms",
+    "cta": {
+      "label": "Build the product",
+      "interest": "product"
+    },
+    "seo": {
+      "title": "Digital Product Development — MVPs, Platforms & AI Products",
+      "description": "Digital product and platform development for the GCC and Central Asia: MVPs, enterprise platforms, marketplaces, customer portals, mobile apps, SaaS and AI-powered products."
+    },
+    "blocks": [
+      {
+        "type": "catalogue"
+      },
+      {
+        "type": "steps",
+        "label": "How we build",
+        "title": "Business logic first. Code second.",
+        "items": [
+          {
+            "name": "Concept",
+            "text": "Business model, value proposition, audience and positioning."
+          },
+          {
+            "name": "Strategy",
+            "text": "Product architecture, features, user journeys and MVP scope."
+          },
+          {
+            "name": "Design",
+            "text": "UX, UI, design system and a clickable prototype."
+          },
+          {
+            "name": "Develop",
+            "text": "Web, mobile, SaaS and AI-powered products, built with AI-assisted delivery."
+          },
+          {
+            "name": "Launch",
+            "text": "Testing, deployment, analytics, operations and iteration."
+          }
+        ]
+      },
+      {
+        "type": "statement",
+        "text": "We build products that have a business behind them — and stay involved until they work in the market."
+      }
+    ],
+    "related": [
+      "digital-product",
+      "business-build",
+      "ai-transformation"
+    ],
+    "image": "meetingRoom"
+  }
+]

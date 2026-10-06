@@ -1,0 +1,345 @@
+{
+  "name": "Silk Road Capital",
+  "origin": "https://silkroad.capital",
+  "lang": "en",
+  "locale": "en_GB",
+  "defaultTitle": "Silk Road Capital — Investment, Strategy & Business Building across Saudi Arabia, the GCC and Central Asia",
+  "defaultDescription": "Silk Road Capital helps investors, family offices and companies find opportunities, enter markets, build joint ventures and transform businesses with technology and AI across Saudi Arabia, the GCC, Uzbekistan and Europe.",
+  "ogImage": "/assets/img/opt/banner-dubai-1600.webp",
+  "statement": "Investment. Strategy. Technology. Execution.",
+  "promise": "We help the right people find the right opportunities — and turn them into real businesses.",
+  "geography": [
+    "Saudi Arabia",
+    "GCC",
+    "Uzbekistan",
+    "Central Asia",
+    "Europe"
+  ],
+  "cta": {
+    "label": "Start a conversation",
+    "href": "/contact/"
+  },
+  "nav": [
+    {
+      "label": "Services",
+      "href": "/invest/",
+      "match": [
+        "/invest/",
+        "/advisory/",
+        "/joint-ventures/"
+      ],
+      "children": [
+        {
+          "label": "Investment Advisory",
+          "href": "/invest/",
+          "text": "Find and evaluate opportunities worth your capital"
+        },
+        {
+          "label": "Strategic Advisory",
+          "href": "/advisory/",
+          "text": "Clear decisions in complex markets"
+        },
+        {
+          "label": "Joint Ventures",
+          "href": "/joint-ventures/",
+          "text": "Find the right partner and build together"
+        },
+        {
+          "label": "Market Entry",
+          "href": "/engagements/market-entry/",
+          "text": "Enter new markets with the right structure"
+        }
+      ],
+      "mega": {
+        "image": "glass",
+        "kicker": "Capabilities",
+        "title": "Better opportunities. Better decisions.",
+        "text": "Investment, strategy and partnerships across borders.",
+        "cta": {
+          "label": "Discuss an opportunity",
+          "href": "/contact/?interest=investment"
+        }
+      }
+    },
+    {
+      "label": "Digital & AI",
+      "href": "/digital/",
+      "match": [
+        "/digital/",
+        "/ai/",
+        "/products/"
+      ],
+      "children": [
+        {
+          "label": "Digital Transformation",
+          "href": "/digital/",
+          "text": "Modern systems, lighter operations"
+        },
+        {
+          "label": "AI Business Transformation",
+          "href": "/ai/",
+          "text": "AI where it creates measurable value"
+        },
+        {
+          "label": "Digital Products & Platforms",
+          "href": "/products/",
+          "text": "From opportunity to working product"
+        },
+        {
+          "label": "Growth Engine",
+          "href": "/engagements/growth-engine/",
+          "text": "Marketing, sales, CRM and automation"
+        }
+      ],
+      "mega": {
+        "image": "servers",
+        "kicker": "Technology",
+        "title": "Intelligence without unnecessary overhead.",
+        "text": "Digitalisation, AI and products that serve the business model.",
+        "cta": {
+          "label": "Identify AI opportunities",
+          "href": "/contact/?interest=ai"
+        }
+      }
+    },
+    {
+      "label": "Engagements",
+      "href": "/engagements/",
+      "match": [
+        "/engagements/"
+      ],
+      "children": [
+        {
+          "label": "Business Build",
+          "href": "/engagements/business-build/",
+          "text": "From concept to a working business"
+        },
+        {
+          "label": "Joint Venture",
+          "href": "/engagements/joint-venture/",
+          "text": "A new business with a strategic partner"
+        },
+        {
+          "label": "Digital Product",
+          "href": "/engagements/digital-product/",
+          "text": "The technology behind the business model"
+        },
+        {
+          "label": "AI Transformation",
+          "href": "/engagements/ai-transformation/",
+          "text": "Identify, implement and scale AI"
+        },
+        {
+          "label": "Business Structure",
+          "href": "/engagements/business-structure/",
+          "text": "Financial, corporate and legal architecture"
+        },
+        {
+          "label": "Full Business Launch",
+          "href": "/engagements/full-launch/",
+          "text": "Strategy to scale, with one partner"
+        }
+      ],
+      "mega": {
+        "image": "boardroom",
+        "kicker": "Engagements",
+        "title": "Ways we can work together.",
+        "text": "Structured engagement models — no price lists.",
+        "cta": {
+          "label": "All engagements",
+          "href": "/engagements/"
+        }
+      }
+    },
+    {
+      "label": "Markets",
+      "href": "/markets/",
+      "match": [
+        "/markets/",
+        "/opportunities/"
+      ],
+      "children": [
+        {
+          "label": "Saudi Arabia",
+          "href": "/markets/#saudi-arabia",
+          "text": "Capital, transformation and opportunity"
+        },
+        {
+          "label": "GCC",
+          "href": "/markets/#gcc",
+          "text": "A platform for growth"
+        },
+        {
+          "label": "Uzbekistan",
+          "href": "/markets/#uzbekistan",
+          "text": "Capital, technology and partnerships"
+        },
+        {
+          "label": "Central Asia & Europe",
+          "href": "/markets/#other-markets",
+          "text": "Connected markets"
+        },
+        {
+          "label": "Opportunities",
+          "href": "/opportunities/",
+          "text": "Selected investment and partnership opportunities"
+        }
+      ],
+      "mega": {
+        "image": "riyadh",
+        "kicker": "Markets",
+        "title": "Local knowledge. International perspective.",
+        "text": "Saudi Arabia, the GCC, Uzbekistan, Central Asia and Europe.",
+        "cta": {
+          "label": "Explore markets",
+          "href": "/markets/"
+        }
+      }
+    },
+    {
+      "label": "Insights",
+      "href": "/insights/"
+    }
+  ],
+  "navSecondary": [
+    {
+      "label": "About",
+      "href": "/about/"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact/"
+    }
+  ],
+  "footer": [
+    {
+      "title": "Company",
+      "links": [
+        {
+          "label": "About",
+          "href": "/about/"
+        },
+        {
+          "label": "Approach",
+          "href": "/about/#approach"
+        },
+        {
+          "label": "Network",
+          "href": "/about/#network"
+        },
+        {
+          "label": "Engagements",
+          "href": "/engagements/"
+        },
+        {
+          "label": "Insights",
+          "href": "/insights/"
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "links": [
+        {
+          "label": "Investment",
+          "href": "/invest/"
+        },
+        {
+          "label": "Advisory",
+          "href": "/advisory/"
+        },
+        {
+          "label": "Joint Ventures",
+          "href": "/joint-ventures/"
+        },
+        {
+          "label": "Digital Transformation",
+          "href": "/digital/"
+        },
+        {
+          "label": "AI",
+          "href": "/ai/"
+        },
+        {
+          "label": "Product Development",
+          "href": "/products/"
+        }
+      ]
+    },
+    {
+      "title": "Markets",
+      "links": [
+        {
+          "label": "Saudi Arabia",
+          "href": "/markets/#saudi-arabia"
+        },
+        {
+          "label": "GCC",
+          "href": "/markets/#gcc"
+        },
+        {
+          "label": "Uzbekistan",
+          "href": "/markets/#uzbekistan"
+        },
+        {
+          "label": "Central Asia",
+          "href": "/markets/#other-markets"
+        },
+        {
+          "label": "Europe",
+          "href": "/markets/#other-markets"
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "links": [
+        {
+          "label": "Start a conversation",
+          "href": "/contact/"
+        },
+        {
+          "label": "Opportunities",
+          "href": "/opportunities/"
+        },
+        {
+          "label": "Privacy",
+          "href": "/privacy/"
+        }
+      ]
+    }
+  ],
+  "contacts": {
+    "email": null,
+    "note": "Enquiries are handled confidentially."
+  },
+  "disclaimer": "Information on this website is provided for general information only. It does not constitute an offer, solicitation or recommendation to buy or sell any security or to make any investment. Regulated activities are carried out only where appropriately licensed or through licensed partners. Legal, tax and regulatory work is coordinated with qualified counsel.",
+  "copyright": "© Silk Road Capital",
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "native": "English",
+      "available": true
+    },
+    {
+      "code": "ar",
+      "name": "Arabic",
+      "native": "العربية",
+      "dir": "rtl",
+      "available": false
+    },
+    {
+      "code": "ru",
+      "name": "Russian",
+      "native": "Русский",
+      "available": false
+    },
+    {
+      "code": "uz",
+      "name": "Uzbek",
+      "native": "Oʻzbekcha",
+      "available": false
+    }
+  ]
+}

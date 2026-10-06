@@ -1,0 +1,58 @@
+{
+  "label": "Solutions catalogue",
+  "title": "Technology we can deploy.\nProducts we can build.",
+  "lead": "A catalogue of solutions we configure from proven building blocks or build from scratch — each adapted to the client’s business model, language and market.",
+  "deploymentNote": "Deployment: cloud, private hosting or the client’s own infrastructure, depending on data and regulatory requirements.",
+  "categories": [
+    {
+      "key": "business",
+      "name": "Business Platforms",
+      "products": [
+        { "name": "CRM", "text": "One view of customers, pipeline and relationships.", "for": "Sales-led and relationship-driven businesses", "capabilities": ["Pipeline & deal tracking", "Client records", "Activity automation", "Sales reporting"], "deployment": "Configured platform or custom build" },
+        { "name": "ERP", "text": "Finance, procurement, inventory and operations in one system.", "for": "Growing companies and multi-entity groups", "capabilities": ["Finance & accounting integration", "Procurement", "Inventory", "Management reporting"], "deployment": "Configured platform with integrations" },
+        { "name": "Operations platform", "text": "Digital workflows for the processes that run the business.", "for": "Service and industrial operators", "capabilities": ["Workflow builder", "Task & SLA tracking", "Approvals", "Mobile field access"], "deployment": "Custom build on proven modules" },
+        { "name": "Management cockpit", "text": "The numbers leadership needs, updated automatically.", "for": "Owners, boards and family offices", "capabilities": ["KPI dashboards", "Multi-entity consolidation", "Alerts", "Board reporting"], "deployment": "Data layer + dashboards" }
+      ]
+    },
+    {
+      "key": "commerce",
+      "name": "Commerce",
+      "products": [
+        { "name": "E-commerce", "text": "Direct-to-customer sales, connected to operations.", "for": "Brands, retailers and distributors", "capabilities": ["Catalogue & checkout", "Local payments", "Order management", "Arabic & multilingual"], "deployment": "Platform or headless custom build" },
+        { "name": "Marketplaces", "text": "Multi-vendor platforms that bring supply and demand together.", "for": "Ventures and sector platforms", "capabilities": ["Vendor onboarding", "Commission logic", "Reviews & trust", "Payouts"], "deployment": "Custom build" },
+        { "name": "B2B commerce", "text": "Self-service ordering for trade customers.", "for": "Manufacturers and wholesalers", "capabilities": ["Customer-specific pricing", "Quotes & reorders", "Credit terms", "ERP integration"], "deployment": "Configured platform with integrations" }
+      ]
+    },
+    {
+      "key": "marketing",
+      "name": "Marketing",
+      "products": [
+        { "name": "Marketing management", "text": "Plan, run and measure marketing in one place.", "for": "Marketing teams and agencies", "capabilities": ["Planning calendar", "Budget tracking", "Asset library", "Performance reporting"], "deployment": "Configured platform" },
+        { "name": "Partner management", "text": "Onboard, enable and track channel partners.", "for": "Companies selling through partners", "capabilities": ["Partner portal", "Deal registration", "Enablement content", "Partner performance"], "deployment": "Custom build on proven modules" },
+        { "name": "Campaign management", "text": "Multi-channel campaigns with clear attribution.", "for": "Growth and performance teams", "capabilities": ["Segmentation", "Email & messaging", "Attribution", "A/B testing"], "deployment": "Configured platform" },
+        { "name": "Media management", "text": "Organise, approve and distribute content and media.", "for": "Media, sports and brand owners", "capabilities": ["Digital asset management", "Approval flows", "Rights metadata", "Distribution"], "deployment": "Custom build" }
+      ]
+    },
+    {
+      "key": "ai",
+      "name": "AI & Automation",
+      "products": [
+        { "name": "AI agents", "text": "Task-specific agents that handle defined work end to end.", "for": "Sales, support, research and operations teams", "capabilities": ["Lead qualification", "Customer replies", "Research briefs", "Human hand-off"], "deployment": "Integrated into existing systems" },
+        { "name": "Business intelligence", "text": "Turn business data into answers management can act on.", "for": "Leadership and finance teams", "capabilities": ["Data warehouse", "Dashboards", "Natural-language queries", "Forecasts"], "deployment": "Data layer + BI + AI assistant" },
+        { "name": "Workflow automation", "text": "Remove manual steps across departments.", "for": "Finance, HR, procurement and operations", "capabilities": ["Document extraction", "Approvals", "System-to-system sync", "Audit trail"], "deployment": "Automation layer over current systems" },
+        { "name": "Decision support", "text": "Structured analysis for complex, recurring decisions.", "for": "Investment, credit and pricing teams", "capabilities": ["Scenario analysis", "Risk scoring", "Evidence summaries", "Decision logs"], "deployment": "Custom build" }
+      ]
+    },
+    {
+      "key": "cx",
+      "name": "Customer Experience",
+      "products": [
+        { "name": "Customer portals", "text": "Self-service for customers: orders, documents, support.", "for": "B2B and service companies", "capabilities": ["Secure login", "Documents & invoices", "Requests & tickets", "Notifications"], "deployment": "Custom build on proven modules" },
+        { "name": "Mobile applications", "text": "Native-quality apps for customers, staff or partners.", "for": "Consumer brands and operators", "capabilities": ["iOS & Android", "Payments", "Push notifications", "Offline mode"], "deployment": "Cross-platform build" },
+        { "name": "Booking platforms", "text": "Reservations, scheduling and payments for any service.", "for": "Hospitality, sports, health and education", "capabilities": ["Availability & pricing", "Payments", "Reminders", "Back-office"], "deployment": "Configured platform or custom build" },
+        { "name": "Digital services", "text": "Public-facing services redesigned for digital delivery.", "for": "Institutions and government-related entities", "capabilities": ["Service design", "Digital forms", "Case management", "Accessibility"], "deployment": "Custom build, private hosting available" }
+      ]
+    }
+  ],
+  "cta": { "label": "Explore solutions", "interest": "product" }
+}

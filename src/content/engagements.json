@@ -1,0 +1,283 @@
+{
+  "intro": {
+    "label": "Engagements",
+    "title": "Ways we can work together.",
+    "lead": "Our engagements are structured models, not fixed-price packages. Each one is shaped around the business concept, target market, investment size, industry, complexity, technology needs, partnership structure and geographic scope."
+  },
+  "philosophy": {
+    "label": "Levels of engagement",
+    "title": "We don’t sell isolated services.\nWe take an opportunity as far as it needs to go.",
+    "levels": [
+      { "name": "Advise", "quote": "We help you understand what to do." },
+      { "name": "Build", "quote": "We build the solution with you." },
+      { "name": "Launch", "quote": "We help you bring it to market." },
+      { "name": "Transform", "quote": "We modernise an existing business." },
+      { "name": "Partner", "quote": "We build and operate opportunities together." }
+    ],
+    "progression": ["Idea", "Strategy", "Product", "Market", "Revenue", "Scale"]
+  },
+  "packages": [
+    {
+      "slug": "investment-advisory",
+      "name": "Investment Advisory",
+      "mode": "Advise",
+      "short": "Identify and evaluate investment opportunities.",
+      "headline": "Find the opportunity.\nTest it properly.",
+      "lead": "For investors who want access to opportunities across Saudi Arabia, the GCC and Central Asia — and an independent, investor-grade view before committing capital.",
+      "idealClient": "Family offices, private investors and investment companies.",
+      "groups": [
+        { "title": "Sourcing", "items": ["Opportunity sourcing against your mandate", "Access through founders, operators and local partners", "Co-investment opportunities"] },
+        { "title": "Evaluation", "items": ["Market research", "Commercial due diligence", "Financial and operational assessment", "Risk analysis"] },
+        { "title": "Decision", "items": ["Investment thesis", "Valuation perspective and scenarios", "Investment committee materials"] },
+        { "title": "Structuring", "items": ["Investment structure", "Partner and co-investor coordination", "Legal and tax coordination with qualified counsel"] }
+      ],
+      "deliverables": ["Opportunity screening memo", "Market assessment", "Commercial due diligence report", "Financial review", "Risk register", "Investment thesis", "Investment structure options", "Investment committee pack", "Post-investment value-creation plan"],
+      "cta": { "label": "Discuss an opportunity", "interest": "investment" },
+      "related": ["business-structure", "joint-venture", "market-entry"]
+    },
+    {
+      "slug": "market-entry",
+      "name": "Market Entry",
+      "mode": "Launch",
+      "short": "Enter Saudi Arabia, the GCC or Central Asia with the right strategy and partners.",
+      "headline": "Enter a new market\nwith the right structure.",
+      "lead": "For companies and investors entering Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain, Oman, Uzbekistan, Central Asia or Europe — from market intelligence to the first customers.",
+      "idealClient": "International companies, investors and regional groups expanding across borders.",
+      "markets": ["Saudi Arabia", "UAE", "Qatar", "Kuwait", "Bahrain", "Oman", "Uzbekistan", "Central Asia", "Europe"],
+      "groups": [
+        { "title": "Market intelligence", "items": ["Market sizing", "Competitor analysis", "Customer research", "Regulatory landscape", "Industry mapping", "Opportunity analysis"] },
+        { "title": "Local network", "items": ["Potential partners", "Investors", "Distributors", "Operators", "Government and institutional contacts", "Strategic relationships"] },
+        { "title": "Market entry strategy", "items": ["Entry model", "Local entity structure", "Partnership strategy", "JV opportunities", "Product adaptation", "Commercial strategy"] },
+        { "title": "Execution", "items": ["Partner identification", "Business development", "Product localisation", "Sales set-up", "Marketing", "Launch"] }
+      ],
+      "deliverables": ["Market assessment", "Competitor and customer map", "Regulatory overview (with counsel)", "Entry model recommendation", "Partner long-list and introductions", "Commercial strategy", "Localisation plan", "Launch roadmap"],
+      "cta": { "label": "Plan your market entry", "interest": "market-entry" },
+      "related": ["joint-venture", "business-structure", "growth-engine"]
+    },
+    {
+      "slug": "business-build",
+      "name": "Business Build",
+      "mode": "Build",
+      "short": "Turn a concept into a commercially viable business.",
+      "headline": "From business concept\nto market.",
+      "lead": "We help turn an idea into a commercially viable business — from market validation and business model design to product development, market entry, monetisation and launch.",
+      "idealClient": "Entrepreneurs, family offices and corporates launching a new business.",
+      "steps": [
+        { "name": "Concept", "text": "Understand the business idea." },
+        { "name": "Market", "text": "Identify and validate the target market." },
+        { "name": "Business model", "text": "Define how the business creates and captures value." },
+        { "name": "Product", "text": "Design and build the required product or platform." },
+        { "name": "Monetisation", "text": "Develop revenue streams and pricing logic." },
+        { "name": "Go-to-market", "text": "Build the marketing and sales strategy." },
+        { "name": "Structure", "text": "Establish the financial and legal framework." },
+        { "name": "Launch", "text": "Support the launch and initial operations." },
+        { "name": "Scale", "text": "Optimise and expand." }
+      ],
+      "deliverables": ["Market assessment", "Business model", "Revenue model", "Financial model", "Product concept", "UX/UI", "MVP", "Technology architecture", "AI opportunities", "Marketing strategy", "Sales strategy", "CRM", "Go-to-market plan", "Partner strategy", "Launch roadmap"],
+      "cta": { "label": "Discuss your concept", "interest": "business-build" },
+      "related": ["digital-product", "growth-engine", "business-structure"]
+    },
+    {
+      "slug": "joint-venture",
+      "name": "Joint Venture",
+      "mode": "Partner",
+      "short": "Create a new business with a strategic partner.",
+      "headline": "Build the right venture\nwith the right partner.",
+      "lead": "We help investors, companies and strategic partners transform complementary capabilities into new businesses.",
+      "idealClient": "Investors, international companies and local groups with complementary strengths.",
+      "steps": [
+        { "name": "Find", "text": "Identify potential partners." },
+        { "name": "Validate", "text": "Evaluate strategic and commercial fit." },
+        { "name": "Structure", "text": "Define ownership, governance and economics." },
+        { "name": "Design", "text": "Create the business model and operating model." },
+        { "name": "Build", "text": "Develop the required product and technology." },
+        { "name": "Launch", "text": "Bring the venture to market." },
+        { "name": "Scale", "text": "Support growth and expansion." }
+      ],
+      "models": ["Technology + Capital", "International Company + Local Partner", "Investor + Operator", "Product + Distribution", "European Technology + GCC Market", "GCC Capital + Central Asian Opportunity", "Local Network + International Product"],
+      "deliverables": ["Partner long-list and screening", "Strategic fit assessment", "JV strategy", "Ownership and governance options", "JV economics model", "Business and operating model", "Product and technology plan", "Launch plan"],
+      "cta": { "label": "Explore a partnership", "interest": "joint-venture" },
+      "related": ["business-structure", "market-entry", "digital-product"]
+    },
+    {
+      "slug": "digital-product",
+      "name": "Digital Product",
+      "mode": "Build",
+      "short": "Design and build the technology required to execute the business model.",
+      "headline": "Have the business idea.\nWe build the product.",
+      "lead": "For clients with a business concept who need the technology to run it — designed around the business model, not the other way round.",
+      "idealClient": "Founders, corporates and ventures that need a platform built.",
+      "groups": [
+        { "title": "Business concept", "items": ["Business model", "Value proposition", "Target audience", "Market positioning"] },
+        { "title": "Product strategy", "items": ["Product architecture", "Feature definition", "User journeys", "MVP strategy"] },
+        { "title": "Design", "items": ["UX", "UI", "Design system", "Prototype"] },
+        { "title": "Development", "items": ["Web applications", "Mobile applications", "SaaS", "Marketplaces", "B2B platforms", "Internal platforms", "AI-powered products"] },
+        { "title": "Launch", "items": ["Testing", "Deployment", "Analytics", "Operations", "Iteration"] }
+      ],
+      "deliverables": ["Product strategy", "User journeys", "Clickable prototype", "Design system", "MVP", "Technology architecture", "Analytics set-up", "Release roadmap"],
+      "cta": { "label": "Build the product", "interest": "product" },
+      "related": ["business-build", "ai-transformation", "growth-engine"]
+    },
+    {
+      "slug": "ai-transformation",
+      "name": "AI Transformation",
+      "mode": "Transform",
+      "short": "Identify, implement and scale AI opportunities.",
+      "headline": "Put AI where it\nactually matters.",
+      "lead": "AI as a mechanism for lower operating costs, higher productivity, faster decisions and better service — not as a standalone technology project.",
+      "idealClient": "Operating companies, corporate groups and institutions.",
+      "groups": [
+        { "title": "AI audit", "items": ["Analyse the existing business", "Identify AI opportunities"] },
+        { "title": "AI strategy", "items": ["Where AI should be introduced", "Where it should not"] },
+        { "title": "AI pilots", "items": ["Rapid tests of high-value use cases"] },
+        { "title": "AI implementation", "items": ["Integration into existing systems and workflows"] },
+        { "title": "AI agents", "items": ["Sales", "Marketing", "Research", "HR", "Customer support", "Operations", "Management"] },
+        { "title": "AI automation", "items": ["Automate repetitive workflows"] },
+        { "title": "AI intelligence", "items": ["Turn business data into actionable information"] },
+        { "title": "AI governance", "items": ["Security, access, data and responsible-use principles"] }
+      ],
+      "deliverables": ["AI opportunity map", "Prioritised use-case portfolio", "Business case per use case", "Pilot results", "Implementation roadmap", "AI agents in production", "Automation of selected workflows", "Management dashboards", "AI governance framework"],
+      "cta": { "label": "Identify AI opportunities", "interest": "ai" },
+      "related": ["digital-product", "growth-engine", "business-build"]
+    },
+    {
+      "slug": "growth-engine",
+      "name": "Growth Engine",
+      "mode": "Launch",
+      "short": "Build marketing, sales, CRM and commercial infrastructure.",
+      "headline": "Build demand.\nBuild sales.\nBuild distribution.",
+      "lead": "A complete commercialisation engagement combining strategy, technology and execution — so growth does not depend on a few individuals.",
+      "idealClient": "Companies launching, entering a market or scaling revenue.",
+      "groups": [
+        { "title": "Positioning", "items": ["Brand positioning", "Market positioning", "Value proposition", "Product messaging"] },
+        { "title": "Marketing", "items": ["Marketing strategy", "Content", "Digital campaigns", "Performance marketing", "Social media", "Email marketing", "Lead generation"] },
+        { "title": "Sales", "items": ["Sales strategy", "CRM", "Pipeline", "Sales processes", "Lead qualification", "Business development", "Partner sales", "Enterprise sales"] },
+        { "title": "Analytics", "items": ["Marketing analytics", "Sales analytics", "Conversion tracking", "Customer acquisition", "Revenue analytics"] },
+        { "title": "Automation", "items": ["CRM automation", "Marketing automation", "AI-assisted sales", "Lead scoring", "AI sales agents", "Reporting automation"] }
+      ],
+      "deliverables": ["Positioning and messaging", "Marketing plan", "Campaign set-up", "Sales playbook", "CRM and pipeline", "Lead scoring", "Revenue dashboards", "AI-assisted sales workflows"],
+      "cta": { "label": "Build a growth engine", "interest": "growth" },
+      "related": ["market-entry", "ai-transformation", "digital-product"]
+    },
+    {
+      "slug": "business-structure",
+      "name": "Business Structure",
+      "mode": "Advise",
+      "short": "Build the financial, corporate and legal architecture with qualified partners.",
+      "headline": "Build the structure\nbehind the opportunity.",
+      "lead": "Strategic financial structuring and corporate architecture — designed for how the business needs to operate, and delivered together with qualified legal, tax and financial partners.",
+      "idealClient": "Ventures, JVs, investors and companies entering new markets.",
+      "groups": [
+        { "title": "Business model", "items": ["Revenue model", "Unit economics", "Cost structure", "Profitability model"] },
+        { "title": "Financial model", "items": ["Revenue forecasts", "Operating costs", "Cash flow", "Scenario modelling", "Break-even analysis"] },
+        { "title": "Investment structure", "items": ["Investment requirements", "Capital structure", "Investment scenarios", "Investor materials", "Funding strategy"] },
+        { "title": "JV economics", "items": ["Ownership", "Revenue sharing", "Profit sharing", "Capital contribution", "Partner economics"] },
+        { "title": "Management reporting", "items": ["KPIs", "Dashboards", "Financial intelligence", "Management reporting"] },
+        { "title": "Corporate structure", "items": ["Company structure", "Holding structures", "Subsidiaries", "SPVs", "JV structures"] },
+        { "title": "Commercial structure", "items": ["Partner agreements", "Commercial arrangements", "Distribution models", "Licensing structures"] },
+        { "title": "Market entry structure", "items": ["Local entity considerations", "Partner structures", "Operating structures", "Regulatory mapping"] },
+        { "title": "Contractual framework", "items": ["Shareholder agreements", "JV agreements", "Commercial contracts", "Licensing and IP", "Employment", "Technology agreements"] }
+      ],
+      "note": "This is strategic structuring, not regulated legal, tax or accounting advice. We coordinate the required legal and corporate work with qualified local and international counsel, and financial and tax matters with qualified advisers.",
+      "deliverables": ["Business model and unit economics", "Financial model with scenarios", "Capital structure options", "Investor materials", "JV economics", "KPI framework and dashboards", "Corporate structure options (with counsel)", "Contractual framework coordinated with counsel"],
+      "cta": { "label": "Build the financial structure", "interest": "structure" },
+      "related": ["joint-venture", "investment-advisory", "market-entry"]
+    },
+    {
+      "slug": "full-launch",
+      "name": "Full Business Launch",
+      "mode": "Partner",
+      "flagship": true,
+      "short": "Our most comprehensive engagement — from strategy to scale, coordinated by one partner.",
+      "headline": "Build the business.\nEnter the market.\nMake it work.",
+      "lead": "Our most comprehensive engagement model. One strategic partner coordinates the full chain — strategy, structure, product, go-to-market, operations and scale — instead of a client managing a dozen disconnected advisers.",
+      "idealClient": "Investors, family offices and companies building a significant new business or market presence.",
+      "chain": [
+        { "name": "Strategy", "items": ["Market", "Business model", "Positioning"] },
+        { "name": "Structure", "items": ["Legal", "Corporate", "Financial", "Investment"] },
+        { "name": "Product", "items": ["UX", "Technology", "AI", "Platform"] },
+        { "name": "Go-to-market", "items": ["Marketing", "Sales", "Distribution", "Partnerships"] },
+        { "name": "Operations", "items": ["CRM", "Automation", "Analytics", "Management"] },
+        { "name": "Scale", "items": ["Investment", "Expansion", "New markets", "New products"] }
+      ],
+      "deliverables": ["Market and business model", "Corporate, legal and financial structure (with counsel)", "Investment plan", "Product and platform", "AI and automation", "Marketing and sales engine", "Operating model and systems", "Management reporting", "Expansion roadmap"],
+      "cta": { "label": "Discuss a full-scale engagement", "interest": "business-build" },
+      "related": ["business-build", "market-entry", "joint-venture"]
+    }
+  ],
+  "selector": {
+    "label": "Engagement selector",
+    "title": "What are you building?",
+    "questions": [
+      {
+        "key": "start",
+        "title": "What is your starting point?",
+        "options": [
+          { "value": "idea", "label": "I have an idea", "adds": "business-build" },
+          { "value": "business", "label": "I have an existing business", "adds": "ai-transformation" },
+          { "value": "capital", "label": "I have capital", "adds": "investment-advisory" },
+          { "value": "product", "label": "I have a product", "adds": "market-entry" },
+          { "value": "market", "label": "I have a market", "adds": "joint-venture" },
+          { "value": "partner", "label": "I have a partner", "adds": "joint-venture" }
+        ]
+      },
+      {
+        "key": "need",
+        "title": "What do you need?",
+        "options": [
+          { "value": "validate", "label": "Validate an opportunity", "adds": "investment-advisory" },
+          { "value": "enter", "label": "Enter a market", "adds": "market-entry" },
+          { "value": "partner", "label": "Find a partner", "adds": "joint-venture" },
+          { "value": "build", "label": "Build a product", "adds": "digital-product" },
+          { "value": "digitalise", "label": "Digitalise the business", "adds": "digital-product", "also": "ai-transformation" },
+          { "value": "ai", "label": "Implement AI", "adds": "ai-transformation" },
+          { "value": "sales", "label": "Build sales", "adds": "growth-engine" },
+          { "value": "raise", "label": "Raise investment", "adds": "business-structure" },
+          { "value": "jv", "label": "Create a JV", "adds": "joint-venture" }
+        ]
+      },
+      {
+        "key": "where",
+        "title": "Where?",
+        "options": [
+          { "value": "saudi-arabia", "label": "Saudi Arabia" },
+          { "value": "uae", "label": "UAE" },
+          { "value": "qatar", "label": "Qatar" },
+          { "value": "kuwait", "label": "Kuwait" },
+          { "value": "gcc", "label": "GCC" },
+          { "value": "uzbekistan", "label": "Uzbekistan" },
+          { "value": "central-asia", "label": "Central Asia" },
+          { "value": "europe", "label": "Europe" },
+          { "value": "international", "label": "International" }
+        ]
+      }
+    ],
+    "scopeNote": "Let’s define the scope. Every engagement is shaped around the opportunity, so there is no price list — we agree scope, team and commercial model together.",
+    "cta": "Discuss this engagement"
+  },
+  "solutions": {
+    "label": "Opportunity → solution",
+    "title": "You bring the situation.\nWe assemble the solution.",
+    "items": [
+      { "says": "I want to enter Saudi Arabia.", "chain": ["Market Entry", "Partner Search", "JV Strategy", "Legal Structure", "Financial Model", "Sales", "Digitalisation", "AI"], "cta": { "label": "Plan your market entry", "href": "/engagements/market-entry/" } },
+      { "says": "I have an investment opportunity.", "chain": ["Investment Advisory", "Due Diligence", "Market Intelligence", "Financial Analysis", "Legal Coordination", "Technology Assessment", "JV / Co-investment"], "cta": { "label": "Discuss an opportunity", "href": "/engagements/investment-advisory/" } },
+      { "says": "I have a business idea.", "chain": ["Business Build", "Market Validation", "Business Model", "Financial Model", "Product Development", "AI", "Marketing", "Sales", "Market Launch"], "cta": { "label": "Discuss your concept", "href": "/engagements/business-build/" } },
+      { "says": "My company is inefficient.", "chain": ["Digital Transformation", "Process Analysis", "Automation", "AI", "CRM", "Data", "Management Intelligence"], "cta": { "label": "Discuss your transformation", "href": "/digital/" } }
+    ]
+  },
+  "commercial": {
+    "label": "Commercial models",
+    "title": "Every engagement is structured\naround the opportunity.",
+    "lead": "We do not publish prices. We agree the model that aligns our incentives with the outcome — and keep it discreet.",
+    "models": [
+      { "name": "Advisory", "text": "Fixed-scope strategic engagements." },
+      { "name": "Project", "text": "A defined development or transformation project." },
+      { "name": "Retainer", "text": "An ongoing strategic partnership." },
+      { "name": "Success-based", "text": "Commercial arrangements linked to defined outcomes, where appropriate." },
+      { "name": "Investment", "text": "Direct or co-investment alongside clients." },
+      { "name": "Joint venture", "text": "Shared economic participation in a new venture." },
+      { "name": "Hybrid", "text": "A combination of advisory, project, success-based and investment components." }
+    ],
+    "cta": { "label": "Discuss the right model", "interest": "other" }
+  }
+}

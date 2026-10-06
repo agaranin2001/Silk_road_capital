@@ -1,0 +1,345 @@
+{
+  "name": "Silk Road Capital",
+  "origin": "https://silkroad.capital",
+  "lang": "en",
+  "locale": "en_GB",
+  "defaultTitle": "Silk Road Capital — Saudiya Arabistoni, Fors koʻrfazi davlatlari va Markaziy Osiyoda investitsiyalar, strategiya va biznes qurish",
+  "defaultDescription": "Silk Road Capital investorlar, oilaviy ofislar va kompaniyalarga Saudiya Arabistoni, Fors koʻrfazi arab davlatlari, Oʻzbekiston va Yevropada imkoniyatlarni topish, bozorlarga kirish, qoʻshma korxonalar qurish hamda texnologiyalar va sunʼiy intellekt yordamida biznesni transformatsiya qilishda koʻmaklashadi.",
+  "ogImage": "/assets/img/opt/banner-dubai-1600.webp",
+  "statement": "Investitsiyalar. Strategiya. Texnologiyalar. Ijro.",
+  "promise": "Biz munosib insonlarga munosib imkoniyatlarni topishda va ularni haqiqiy biznesga aylantirishda yordam beramiz.",
+  "geography": [
+    "Saudiya Arabistoni",
+    "Fors koʻrfazi davlatlari",
+    "Oʻzbekiston",
+    "Markaziy Osiyo",
+    "Yevropa"
+  ],
+  "cta": {
+    "label": "Muloqotni boshlash",
+    "href": "/contact/"
+  },
+  "nav": [
+    {
+      "label": "Xizmatlar",
+      "href": "/invest/",
+      "match": [
+        "/invest/",
+        "/advisory/",
+        "/joint-ventures/"
+      ],
+      "children": [
+        {
+          "label": "Investitsion maslahat",
+          "href": "/invest/",
+          "text": "Kapitalingizga munosib imkoniyatlarni toping va baholang"
+        },
+        {
+          "label": "Strategik maslahat",
+          "href": "/advisory/",
+          "text": "Murakkab bozorlarda aniq qarorlar"
+        },
+        {
+          "label": "Qoʻshma korxonalar",
+          "href": "/joint-ventures/",
+          "text": "Munosib hamkorni toping va birgalikda quring"
+        },
+        {
+          "label": "Bozorga kirish",
+          "href": "/engagements/market-entry/",
+          "text": "Yangi bozorlarga toʻgʻri tuzilma bilan kiring"
+        }
+      ],
+      "mega": {
+        "image": "glass",
+        "kicker": "Imkoniyatlarimiz",
+        "title": "Yaxshiroq imkoniyatlar. Yaxshiroq qarorlar.",
+        "text": "Chegaralararo investitsiyalar, strategiya va hamkorlik.",
+        "cta": {
+          "label": "Imkoniyatni muhokama qilish",
+          "href": "/contact/?interest=investment"
+        }
+      }
+    },
+    {
+      "label": "Raqamli yechimlar va SI",
+      "href": "/digital/",
+      "match": [
+        "/digital/",
+        "/ai/",
+        "/products/"
+      ],
+      "children": [
+        {
+          "label": "Raqamli transformatsiya",
+          "href": "/digital/",
+          "text": "Zamonaviy tizimlar, yengilroq operatsiyalar"
+        },
+        {
+          "label": "Biznesni SI yordamida transformatsiya qilish",
+          "href": "/ai/",
+          "text": "Sunʼiy intellekt — oʻlchanadigan qiymat yaratadigan joyda"
+        },
+        {
+          "label": "Raqamli mahsulotlar va platformalar",
+          "href": "/products/",
+          "text": "Imkoniyatdan ishlaydigan mahsulotgacha"
+        },
+        {
+          "label": "Oʻsish mexanizmi",
+          "href": "/engagements/growth-engine/",
+          "text": "Marketing, savdo, CRM va avtomatlashtirish"
+        }
+      ],
+      "mega": {
+        "image": "servers",
+        "kicker": "Texnologiyalar",
+        "title": "Ortiqcha xarajatlarsiz intellekt.",
+        "text": "Biznes modeliga xizmat qiladigan raqamlashtirish, sunʼiy intellekt va mahsulotlar.",
+        "cta": {
+          "label": "SI imkoniyatlarini aniqlash",
+          "href": "/contact/?interest=ai"
+        }
+      }
+    },
+    {
+      "label": "Hamkorlik formatlari",
+      "href": "/engagements/",
+      "match": [
+        "/engagements/"
+      ],
+      "children": [
+        {
+          "label": "Biznes qurish",
+          "href": "/engagements/business-build/",
+          "text": "Konsepsiyadan ishlaydigan biznesgacha"
+        },
+        {
+          "label": "Qoʻshma korxona",
+          "href": "/engagements/joint-venture/",
+          "text": "Strategik hamkor bilan yangi biznes"
+        },
+        {
+          "label": "Raqamli mahsulot",
+          "href": "/engagements/digital-product/",
+          "text": "Biznes modeli ortidagi texnologiya"
+        },
+        {
+          "label": "SI transformatsiyasi",
+          "href": "/engagements/ai-transformation/",
+          "text": "Sunʼiy intellektni aniqlash, joriy etish va kengaytirish"
+        },
+        {
+          "label": "Biznes tuzilmasi",
+          "href": "/engagements/business-structure/",
+          "text": "Moliyaviy, korporativ va huquqiy arxitektura"
+        },
+        {
+          "label": "Biznesni toʻliq ishga tushirish",
+          "href": "/engagements/full-launch/",
+          "text": "Strategiyadan kengayishgacha — yagona hamkor bilan"
+        }
+      ],
+      "mega": {
+        "image": "boardroom",
+        "kicker": "Hamkorlik formatlari",
+        "title": "Birgalikda ishlash usullarimiz.",
+        "text": "Tuzilmalangan hamkorlik formatlari — narxlar roʻyxatisiz.",
+        "cta": {
+          "label": "Barcha hamkorlik formatlari",
+          "href": "/engagements/"
+        }
+      }
+    },
+    {
+      "label": "Bozorlar",
+      "href": "/markets/",
+      "match": [
+        "/markets/",
+        "/opportunities/"
+      ],
+      "children": [
+        {
+          "label": "Saudiya Arabistoni",
+          "href": "/markets/#saudi-arabia",
+          "text": "Kapital, transformatsiya va imkoniyatlar"
+        },
+        {
+          "label": "Fors koʻrfazi davlatlari",
+          "href": "/markets/#gcc",
+          "text": "Oʻsish uchun platforma"
+        },
+        {
+          "label": "Oʻzbekiston",
+          "href": "/markets/#uzbekistan",
+          "text": "Kapital, texnologiyalar va hamkorlik"
+        },
+        {
+          "label": "Markaziy Osiyo va Yevropa",
+          "href": "/markets/#other-markets",
+          "text": "Oʻzaro bogʻlangan bozorlar"
+        },
+        {
+          "label": "Imkoniyatlar",
+          "href": "/opportunities/",
+          "text": "Tanlangan investitsiya va hamkorlik imkoniyatlari"
+        }
+      ],
+      "mega": {
+        "image": "riyadh",
+        "kicker": "Bozorlar",
+        "title": "Mahalliy bilim. Xalqaro nuqtai nazar.",
+        "text": "Saudiya Arabistoni, Fors koʻrfazi davlatlari, Oʻzbekiston, Markaziy Osiyo va Yevropa.",
+        "cta": {
+          "label": "Bozorlarni oʻrganish",
+          "href": "/markets/"
+        }
+      }
+    },
+    {
+      "label": "Tahlillar",
+      "href": "/insights/"
+    }
+  ],
+  "navSecondary": [
+    {
+      "label": "Biz haqimizda",
+      "href": "/about/"
+    },
+    {
+      "label": "Aloqa",
+      "href": "/contact/"
+    }
+  ],
+  "footer": [
+    {
+      "title": "Kompaniya",
+      "links": [
+        {
+          "label": "Biz haqimizda",
+          "href": "/about/"
+        },
+        {
+          "label": "Yondashuv",
+          "href": "/about/#approach"
+        },
+        {
+          "label": "Tarmoq",
+          "href": "/about/#network"
+        },
+        {
+          "label": "Hamkorlik formatlari",
+          "href": "/engagements/"
+        },
+        {
+          "label": "Tahliliy materiallar",
+          "href": "/insights/"
+        }
+      ]
+    },
+    {
+      "title": "Xizmatlar",
+      "links": [
+        {
+          "label": "Investitsiyalar",
+          "href": "/invest/"
+        },
+        {
+          "label": "Maslahat xizmatlari",
+          "href": "/advisory/"
+        },
+        {
+          "label": "Qoʻshma korxonalar",
+          "href": "/joint-ventures/"
+        },
+        {
+          "label": "Raqamli transformatsiya",
+          "href": "/digital/"
+        },
+        {
+          "label": "Sunʼiy intellekt",
+          "href": "/ai/"
+        },
+        {
+          "label": "Mahsulot ishlab chiqish",
+          "href": "/products/"
+        }
+      ]
+    },
+    {
+      "title": "Bozorlar",
+      "links": [
+        {
+          "label": "Saudiya Arabistoni",
+          "href": "/markets/#saudi-arabia"
+        },
+        {
+          "label": "Fors koʻrfazi davlatlari",
+          "href": "/markets/#gcc"
+        },
+        {
+          "label": "Oʻzbekiston",
+          "href": "/markets/#uzbekistan"
+        },
+        {
+          "label": "Markaziy Osiyo",
+          "href": "/markets/#other-markets"
+        },
+        {
+          "label": "Yevropa",
+          "href": "/markets/#other-markets"
+        }
+      ]
+    },
+    {
+      "title": "Aloqa",
+      "links": [
+        {
+          "label": "Muloqotni boshlash",
+          "href": "/contact/"
+        },
+        {
+          "label": "Imkoniyatlar",
+          "href": "/opportunities/"
+        },
+        {
+          "label": "Maxfiylik",
+          "href": "/privacy/"
+        }
+      ]
+    }
+  ],
+  "contacts": {
+    "email": null,
+    "note": "Murojaatlar maxfiy tarzda koʻrib chiqiladi."
+  },
+  "disclaimer": "Ushbu veb-saytdagi maʼlumotlar faqat umumiy tanishish uchun taqdim etilgan. Ular biror qimmatli qogʻozni sotib olish yoki sotish yoxud investitsiya kiritish boʻyicha taklif, daʼvat yoki tavsiya hisoblanmaydi. Tartibga solinadigan faoliyat faqat tegishli litsenziya mavjud boʻlganda yoki litsenziyaga ega hamkorlar orqali amalga oshiriladi. Yuridik, soliq va regulyativ ishlar malakali huquqshunoslar bilan muvofiqlashtiriladi.",
+  "copyright": "© Silk Road Capital",
+  "languages": [
+    {
+      "code": "en",
+      "name": "Ingliz tili",
+      "native": "English",
+      "available": true
+    },
+    {
+      "code": "ar",
+      "name": "Arab tili",
+      "native": "العربية",
+      "dir": "rtl",
+      "available": false
+    },
+    {
+      "code": "ru",
+      "name": "Rus tili",
+      "native": "Русский",
+      "available": false
+    },
+    {
+      "code": "uz",
+      "name": "Oʻzbek tili",
+      "native": "Oʻzbekcha",
+      "available": false
+    }
+  ]
+}

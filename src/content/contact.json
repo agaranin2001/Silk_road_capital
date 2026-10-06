@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "Start a Confidential Conversation",
+    "description": "Discuss an investment, market entry, joint venture, digital transformation or AI opportunity with Silk Road Capital. Every enquiry is treated confidentially."
+  },
+  "label": "Contact",
+  "title": "Start a conversation.",
+  "lead": "Tell us briefly what you are evaluating or building. Share only what you are comfortable with — we can sign an NDA before going into detail.",
+  "steps": [
+    { "name": "Share the outline", "text": "A few lines on the opportunity, the market and what you need." },
+    { "name": "Introductory call", "text": "We review it and arrange a conversation, under NDA where needed." },
+    { "name": "Scope & model", "text": "We propose a scope, a team and the right commercial model." }
+  ],
+  "interests": [
+    { "value": "investment", "label": "Investment" },
+    { "value": "advisory", "label": "Strategic Advisory" },
+    { "value": "joint-venture", "label": "Joint Venture" },
+    { "value": "market-entry", "label": "Market Entry" },
+    { "value": "digital", "label": "Digital Transformation" },
+    { "value": "ai", "label": "AI" },
+    { "value": "product", "label": "Product Development" },
+    { "value": "other", "label": "Other" }
+  ],
+  "aliases": {
+    "business-build": "advisory",
+    "growth": "digital",
+    "structure": "advisory"
+  },
+  "countries": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait", "Bahrain", "Oman", "Uzbekistan", "Kazakhstan", "Other Central Asia", "United Kingdom", "Germany", "Switzerland", "Other Europe", "Other"],
+  "privacy": "Your enquiry is read only by the Silk Road Capital team and is never shared without your consent. We use your details solely to respond. See our privacy notice.",
+  "submit": "Start a confidential conversation",
+  "success": {
+    "title": "Thank you.",
+    "text": "Your enquiry has been received and will be treated confidentially. We will be in touch to arrange an introductory conversation."
+  },
+  "error": "We could not send your enquiry just now. Please try again in a moment."
+}

@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "Maxfiy muloqotni boshlang",
+    "description": "Silk Road Capital bilan investitsiya, bozorga kirish, qoʻshma korxona, raqamli transformatsiya yoki sunʼiy intellekt imkoniyatini muhokama qiling. Har bir murojaat maxfiy tarzda koʻrib chiqiladi."
+  },
+  "label": "Aloqa",
+  "title": "Muloqotni boshlang.",
+  "lead": "Nimani baholayotganingiz yoki qurayotganingizni qisqacha bayon qiling. Faqat oʻzingiz uchun qulay boʻlgan maʼlumotlarni ulashing — tafsilotlarga oʻtishdan oldin NDA imzolashimiz mumkin.",
+  "steps": [
+    { "name": "Umumiy tavsifni yuboring", "text": "Imkoniyat, bozor va sizga nima kerakligi haqida bir necha satr." },
+    { "name": "Tanishuv suhbati", "text": "Biz uni koʻrib chiqamiz va zarur boʻlsa, NDA asosida suhbat tashkil qilamiz." },
+    { "name": "Ish hajmi va model", "text": "Ish hajmi, jamoa va mos tijorat modelini taklif qilamiz." }
+  ],
+  "interests": [
+    { "value": "investment", "label": "Investitsiyalar" },
+    { "value": "advisory", "label": "Strategik maslahat" },
+    { "value": "joint-venture", "label": "Qoʻshma korxona" },
+    { "value": "market-entry", "label": "Bozorga kirish" },
+    { "value": "digital", "label": "Raqamli transformatsiya" },
+    { "value": "ai", "label": "Sunʼiy intellekt" },
+    { "value": "product", "label": "Mahsulot ishlab chiqish" },
+    { "value": "other", "label": "Boshqa" }
+  ],
+  "aliases": {
+    "business-build": "advisory",
+    "growth": "digital",
+    "structure": "advisory"
+  },
+  "countries": ["Saudiya Arabistoni", "Birlashgan Arab Amirliklari", "Qatar", "Quvayt", "Bahrayn", "Ummon", "Oʻzbekiston", "Qozogʻiston", "Markaziy Osiyoning boshqa davlatlari", "Buyuk Britaniya", "Germaniya", "Shveytsariya", "Yevropaning boshqa davlatlari", "Boshqa"],
+  "privacy": "Murojaatingizni faqat Silk Road Capital jamoasi oʻqiydi va u sizning roziligingizsiz hech qachon uchinchi shaxslarga berilmaydi. Maʼlumotlaringizdan faqat javob berish uchun foydalanamiz. Maxfiylik siyosatimiz bilan tanishing.",
+  "submit": "Maxfiy muloqotni boshlash",
+  "success": {
+    "title": "Rahmat.",
+    "text": "Murojaatingiz qabul qilindi va maxfiy tarzda koʻrib chiqiladi. Tanishuv suhbatini tashkil qilish uchun siz bilan bogʻlanamiz."
+  },
+  "error": "Hozircha murojaatingizni yuborib boʻlmadi. Iltimos, birozdan soʻng qayta urinib koʻring."
+}

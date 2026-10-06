@@ -1,0 +1,270 @@
+{
+  "label": "Yechimlar katalogi",
+  "title": "Biz joriy eta oladigan texnologiyalar.\nBiz yarata oladigan mahsulotlar.",
+  "lead": "Oʻzini isbotlagan bloklar asosida sozlaydigan yoki noldan yaratadigan yechimlarimiz katalogi — ularning har biri mijozning biznes modeli, tili va bozoriga moslashtiriladi.",
+  "deploymentNote": "Joylashtirish: maʼlumotlar va tartibga solish talablariga qarab bulutda, xususiy xostingda yoki mijozning oʻz infratuzilmasida.",
+  "categories": [
+    {
+      "key": "business",
+      "name": "Biznes platformalari",
+      "products": [
+        {
+          "name": "CRM",
+          "text": "Mijozlar, savdo voronkasi va munosabatlarning yagona koʻrinishi.",
+          "for": "Savdoga yoʻnaltirilgan va munosabatlarga asoslangan bizneslar",
+          "capabilities": [
+            "Savdo voronkasi va bitimlarni kuzatish",
+            "Mijozlar maʼlumotlari",
+            "Faoliyatni avtomatlashtirish",
+            "Savdo hisobotlari"
+          ],
+          "deployment": "Sozlangan platforma yoki maxsus ishlanma"
+        },
+        {
+          "name": "ERP",
+          "text": "Moliya, xaridlar, ombor zaxiralari va operatsiyalar yagona tizimda.",
+          "for": "Oʻsib borayotgan kompaniyalar va koʻp tarkibli guruhlar",
+          "capabilities": [
+            "Moliya va buxgalteriya integratsiyasi",
+            "Xaridlar",
+            "Ombor zaxiralari",
+            "Boshqaruv hisoboti"
+          ],
+          "deployment": "Integratsiyalarga ega sozlangan platforma"
+        },
+        {
+          "name": "Operatsion platforma",
+          "text": "Biznesni harakatga keltiruvchi jarayonlar uchun raqamli ish oqimlari.",
+          "for": "Xizmat koʻrsatish va sanoat operatorlari",
+          "capabilities": [
+            "Ish jarayonlari konstruktori",
+            "Vazifalar va SLA nazorati",
+            "Tasdiqlash jarayonlari",
+            "Dala xodimlari uchun mobil kirish"
+          ],
+          "deployment": "Oʻzini isbotlagan modullar asosida maxsus ishlanma"
+        },
+        {
+          "name": "Boshqaruv paneli",
+          "text": "Rahbariyatga kerakli raqamlar — avtomatik yangilanadi.",
+          "for": "Biznes egalari, direktorlar kengashlari va oilaviy ofislar",
+          "capabilities": [
+            "KPI dashbordlari",
+            "Koʻp tarkibli konsolidatsiya",
+            "Ogohlantirishlar",
+            "Direktorlar kengashi uchun hisobotlar"
+          ],
+          "deployment": "Maʼlumotlar qatlami + dashbordlar"
+        }
+      ]
+    },
+    {
+      "key": "commerce",
+      "name": "Tijorat",
+      "products": [
+        {
+          "name": "Elektron tijorat",
+          "text": "Operatsiyalar bilan bogʻlangan, mijozga toʻgʻridan-toʻgʻri savdo.",
+          "for": "Brendlar, chakana savdo kompaniyalari va distributorlar",
+          "capabilities": [
+            "Katalog va buyurtmani rasmiylashtirish",
+            "Mahalliy toʻlov tizimlari",
+            "Buyurtmalarni boshqarish",
+            "Arab tili va koʻp tillilik"
+          ],
+          "deployment": "Platforma yoki headless maxsus ishlanma"
+        },
+        {
+          "name": "Marketpleyslar",
+          "text": "Taklif va talabni birlashtiradigan koʻp sotuvchili platformalar.",
+          "for": "Yangi loyihalar va soha platformalari",
+          "capabilities": [
+            "Sotuvchilarni ulash",
+            "Komissiya mantigʻi",
+            "Sharhlar va ishonch",
+            "Sotuvchilarga toʻlovlar"
+          ],
+          "deployment": "Maxsus ishlanma"
+        },
+        {
+          "name": "B2B tijorat",
+          "text": "Ulgurji mijozlar uchun mustaqil buyurtma berish.",
+          "for": "Ishlab chiqaruvchilar va ulgurji savdo kompaniyalari",
+          "capabilities": [
+            "Mijozga xos narxlar",
+            "Tijoriy takliflar va takroriy buyurtmalar",
+            "Kredit shartlari",
+            "ERP bilan integratsiya"
+          ],
+          "deployment": "Integratsiyalarga ega sozlangan platforma"
+        }
+      ]
+    },
+    {
+      "key": "marketing",
+      "name": "Marketing",
+      "products": [
+        {
+          "name": "Marketingni boshqarish",
+          "text": "Marketingni bir joyda rejalashtirish, yuritish va oʻlchash.",
+          "for": "Marketing jamoalari va agentliklar",
+          "capabilities": [
+            "Rejalashtirish kalendari",
+            "Byudjetni nazorat qilish",
+            "Materiallar kutubxonasi",
+            "Samaradorlik hisobotlari"
+          ],
+          "deployment": "Sozlangan platforma"
+        },
+        {
+          "name": "Hamkorlarni boshqarish",
+          "text": "Savdo kanali hamkorlarini ulash, ularga koʻmaklashish va natijalarini kuzatish.",
+          "for": "Hamkorlar orqali sotuvchi kompaniyalar",
+          "capabilities": [
+            "Hamkorlar portali",
+            "Bitimlarni roʻyxatdan oʻtkazish",
+            "Hamkorlar uchun oʻquv materiallari",
+            "Hamkorlar samaradorligi"
+          ],
+          "deployment": "Oʻzini isbotlagan modullar asosida maxsus ishlanma"
+        },
+        {
+          "name": "Kampaniyalarni boshqarish",
+          "text": "Aniq atributsiyaga ega koʻp kanalli kampaniyalar.",
+          "for": "Oʻsish va performance-marketing jamoalari",
+          "capabilities": [
+            "Segmentatsiya",
+            "Email va xabarlar",
+            "Atributsiya",
+            "A/B testlash"
+          ],
+          "deployment": "Sozlangan platforma"
+        },
+        {
+          "name": "Media boshqaruvi",
+          "text": "Kontent va media materiallarni tartibga solish, tasdiqlash va tarqatish.",
+          "for": "Media, sport va brend egalari",
+          "capabilities": [
+            "Raqamli aktivlarni boshqarish",
+            "Tasdiqlash jarayonlari",
+            "Huquqlar metamaʼlumotlari",
+            "Tarqatish"
+          ],
+          "deployment": "Maxsus ishlanma"
+        }
+      ]
+    },
+    {
+      "key": "ai",
+      "name": "SI va avtomatlashtirish",
+      "products": [
+        {
+          "name": "SI agentlari",
+          "text": "Belgilangan ishlarni boshidan oxirigacha bajaradigan, muayyan vazifalarga moʻljallangan agentlar.",
+          "for": "Savdo, qoʻllab-quvvatlash, tadqiqot va operatsiyalar jamoalari",
+          "capabilities": [
+            "Lidlarni saralash",
+            "Mijozlarga javob berish",
+            "Tadqiqot xulosalari",
+            "Xodimga uzatish"
+          ],
+          "deployment": "Mavjud tizimlarga integratsiya qilinadi"
+        },
+        {
+          "name": "Biznes tahlili (BI)",
+          "text": "Biznes maʼlumotlarini rahbariyat amal qila oladigan javoblarga aylantirish.",
+          "for": "Rahbariyat va moliya jamoalari",
+          "capabilities": [
+            "Maʼlumotlar ombori",
+            "Dashbordlar",
+            "Tabiiy tildagi soʻrovlar",
+            "Prognozlar"
+          ],
+          "deployment": "Maʼlumotlar qatlami + BI + SI yordamchisi"
+        },
+        {
+          "name": "Ish jarayonlarini avtomatlashtirish",
+          "text": "Boʻlimlar boʻylab qoʻlda bajariladigan bosqichlarni bartaraf etish.",
+          "for": "Moliya, HR, xaridlar va operatsiyalar",
+          "capabilities": [
+            "Hujjatlardan maʼlumot ajratib olish",
+            "Tasdiqlash jarayonlari",
+            "Tizimlararo sinxronizatsiya",
+            "Audit izi"
+          ],
+          "deployment": "Joriy tizimlar ustidagi avtomatlashtirish qatlami"
+        },
+        {
+          "name": "Qarorlarni qoʻllab-quvvatlash",
+          "text": "Murakkab, takrorlanuvchi qarorlar uchun tizimli tahlil.",
+          "for": "Investitsiya, kredit va narxlash jamoalari",
+          "capabilities": [
+            "Ssenariy tahlili",
+            "Risklarni baholash (skoring)",
+            "Dalillar xulosasi",
+            "Qarorlar jurnali"
+          ],
+          "deployment": "Maxsus ishlanma"
+        }
+      ]
+    },
+    {
+      "key": "cx",
+      "name": "Mijoz tajribasi",
+      "products": [
+        {
+          "name": "Mijoz portallari",
+          "text": "Mijozlar uchun mustaqil xizmat: buyurtmalar, hujjatlar, qoʻllab-quvvatlash.",
+          "for": "B2B va xizmat koʻrsatuvchi kompaniyalar",
+          "capabilities": [
+            "Xavfsiz kirish",
+            "Hujjatlar va hisob-fakturalar",
+            "Soʻrovlar va murojaatlar",
+            "Bildirishnomalar"
+          ],
+          "deployment": "Oʻzini isbotlagan modullar asosida maxsus ishlanma"
+        },
+        {
+          "name": "Mobil ilovalar",
+          "text": "Mijozlar, xodimlar yoki hamkorlar uchun nativ darajadagi ilovalar.",
+          "for": "Isteʼmol brendlari va operatorlar",
+          "capabilities": [
+            "iOS va Android",
+            "Toʻlovlar",
+            "Push-bildirishnomalar",
+            "Oflayn rejim"
+          ],
+          "deployment": "Kross-platforma ishlanma"
+        },
+        {
+          "name": "Bron qilish platformalari",
+          "text": "Har qanday xizmat uchun bron qilish, jadval tuzish va toʻlovlar.",
+          "for": "Mehmondoʻstlik, sport, sogʻliqni saqlash va taʼlim",
+          "capabilities": [
+            "Boʻsh joylar va narxlar",
+            "Toʻlovlar",
+            "Eslatmalar",
+            "Bek-ofis"
+          ],
+          "deployment": "Sozlangan platforma yoki maxsus ishlanma"
+        },
+        {
+          "name": "Raqamli xizmatlar",
+          "text": "Raqamli shaklda koʻrsatish uchun qayta loyihalangan ommaviy xizmatlar.",
+          "for": "Muassasalar va davlat bilan bogʻliq tashkilotlar",
+          "capabilities": [
+            "Xizmat dizayni",
+            "Raqamli shakllar",
+            "Murojaatlarni boshqarish",
+            "Foydalanish imkoniyati (accessibility)"
+          ],
+          "deployment": "Maxsus ishlanma, xususiy xosting imkoniyati mavjud"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "label": "Yechimlar bilan tanishish",
+    "interest": "product"
+  }
+}

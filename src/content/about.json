@@ -1,0 +1,94 @@
+{
+  "seo": {
+    "title": "About — A Strategic Business-Building Partner",
+    "description": "Silk Road Capital sits between capital, business and technology: a strategic partner for investors, family offices and companies across Saudi Arabia, the GCC, Uzbekistan and Central Asia."
+  },
+  "hero": {
+    "label": "About",
+    "title": "A strategic partner between capital, business and technology.",
+    "lead": "We help the right people find the right opportunities — and turn them into real businesses. We are not a traditional consultancy: we advise, invest, partner, build and implement, depending on what the opportunity needs.",
+    "image": "boardroom",
+    "imageAlt": "A quiet boardroom with a city view"
+  },
+  "modes": {
+    "label": "Operating modes",
+    "title": "Several ways to participate.\nOne set of incentives.",
+    "text": "This multi-model structure is what makes us different. We can stay an adviser, become a partner or build alongside you — whichever creates the most value.",
+    "items": [
+      {
+        "name": "Advisory",
+        "text": "The client engages us for strategic expertise."
+      },
+      {
+        "name": "Investment",
+        "text": "We identify opportunities and, where appropriate, participate in them."
+      },
+      {
+        "name": "Joint venture",
+        "text": "We help create a new business with partners — and can share in it."
+      },
+      {
+        "name": "Technology",
+        "text": "We develop or implement the technology the business needs."
+      },
+      {
+        "name": "AI transformation",
+        "text": "We identify and implement AI-driven optimisation."
+      },
+      {
+        "name": "Market entry",
+        "text": "We help international companies enter the GCC and Central Asia."
+      }
+    ]
+  },
+  "ecosystem": {
+    "label": "Partner ecosystem",
+    "title": "The right expertise.\nAt the right stage.",
+    "text": "We sit at the centre as the strategic partner and bring in specialists when each stage requires them. Regulated legal, tax and financial work is carried out by qualified, licensed partners.",
+    "center": "Strategic partner",
+    "categories": [
+      "Investment",
+      "Legal",
+      "Finance",
+      "Tax",
+      "Technology",
+      "AI",
+      "Marketing",
+      "Sales",
+      "Design",
+      "Local market",
+      "Government relations",
+      "Operations"
+    ]
+  },
+  "principles": {
+    "label": "Principles",
+    "title": "How we behave.",
+    "items": [
+      {
+        "name": "Selective",
+        "text": "We take on a limited number of mandates so each gets senior attention."
+      },
+      {
+        "name": "Candid",
+        "text": "We say when an opportunity does not hold up, or when AI is not the answer."
+      },
+      {
+        "name": "Aligned",
+        "text": "Commercial models link our reward to the client’s outcome wherever possible."
+      },
+      {
+        "name": "Discreet",
+        "text": "Confidentiality is the default. Introductions are made with consent."
+      },
+      {
+        "name": "Practical",
+        "text": "Every recommendation comes with a route to execution."
+      },
+      {
+        "name": "International",
+        "text": "Local knowledge of the GCC and Central Asia, combined with a global perspective."
+      }
+    ]
+  }
+}

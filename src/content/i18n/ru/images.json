@@ -1,0 +1,191 @@
+{
+  "comment": "Photography from Unsplash (free Unsplash License — commercial use allowed, attribution appreciated). Served from the Unsplash CDN with size parameters; see README → Images.",
+  "items": {
+    "hero": {
+      "id": "photo-1694018359679-49465b4c0d61",
+      "alt": "Kingdom Centre в Эр-Рияде на фоне тёплого вечернего неба",
+      "by": "Ibrahim Abdullah",
+      "page": "https://unsplash.com/photos/_UxsPARhtOg"
+    },
+    "riyadh": {
+      "id": "photo-1778846266193-74c83f7f5117",
+      "alt": "Панорама Эр-Рияда с современными башнями",
+      "by": "Oualid Lakhrouti",
+      "page": "https://unsplash.com/photos/NCD37SPA2wk"
+    },
+    "riyadhStreet": {
+      "id": "photo-1784637729389-f24e1d2a8b22",
+      "alt": "Городской пейзаж Эр-Рияда с Kingdom Centre и современными зданиями",
+      "by": "Tati Odintsova",
+      "page": "https://unsplash.com/photos/kZ5nwgLVjqQ"
+    },
+    "riyadhNight": {
+      "id": "photo-1663900108404-a05e8bf82cda",
+      "alt": "Ночной Эр-Рияд",
+      "by": "سيف الظاهر",
+      "page": "https://unsplash.com/photos/vAkHAP27QMk"
+    },
+    "registan": {
+      "id": "photo-1733586092622-1b3201e802a5",
+      "alt": "Регистан в Самарканде, Узбекистан",
+      "by": "Hans-Jürgen Weinhardt",
+      "page": "https://unsplash.com/photos/JRpE5XBwlg0"
+    },
+    "tashkent": {
+      "id": "photo-1654861857666-1e8c438cbe4a",
+      "alt": "Исторический комплекс в Ташкенте, Узбекистан",
+      "by": "Dmitriy Efimov",
+      "page": "https://unsplash.com/photos/IyeWrvpt7sQ"
+    },
+    "dubai": {
+      "id": "photo-1651467606797-e1c660cf3fda",
+      "alt": "Панорама делового центра Дубая",
+      "by": "Ahmed Aldaie",
+      "page": "https://unsplash.com/photos/aKj9uDanF18"
+    },
+    "doha": {
+      "id": "photo-1685113872064-de4180a0ea93",
+      "alt": "Панорама Дохи",
+      "by": "Kenny",
+      "page": "https://unsplash.com/photos/rsMfEFFrgqc"
+    },
+    "jeddah": {
+      "id": "photo-1586715065342-98d1f6016fd1",
+      "alt": "Набережная Джидды",
+      "by": "mohammed alorabi",
+      "page": "https://unsplash.com/photos/_ABfNIGGsZk"
+    },
+    "frankfurt": {
+      "id": "photo-1576930343276-902c521c9d2f",
+      "alt": "Финансовый район Франкфурта",
+      "by": "Charlotte Venema",
+      "page": "https://unsplash.com/photos/2OxSJVGE5zM"
+    },
+    "boardroom": {
+      "id": "photo-1517502884422-41eaead166d4",
+      "alt": "Тихий зал заседаний с видом на город",
+      "by": "Dane Deaner",
+      "page": "https://unsplash.com/photos/_-KLkj7on_c"
+    },
+    "boardroomBright": {
+      "id": "photo-1431540015161-0bf868a2d407",
+      "alt": "Конференц-зал с панорамными окнами от пола до потолка",
+      "by": "Benjamin Child",
+      "page": "https://unsplash.com/photos/GWe0dlVD9e0"
+    },
+    "meetingRoom": {
+      "id": "photo-1582653291997-079a1c04e5a1",
+      "alt": "Современная переговорная комната",
+      "by": "Danielle Cerullo",
+      "page": "https://unsplash.com/photos/bIZJRVBLfOM"
+    },
+    "glass": {
+      "id": "photo-1692797960717-1738a7a872c8",
+      "alt": "Стеклянные башни, вид снизу",
+      "by": "Zouhir Zouhir",
+      "page": "https://unsplash.com/photos/GP6-P0QAEzY"
+    },
+    "datacenter": {
+      "id": "photo-1506399309177-3b43e99fead2",
+      "alt": "Серверные стойки в центре обработки данных",
+      "by": "imgix",
+      "page": "https://unsplash.com/photos/pgdaAwf6IJg"
+    },
+    "servers": {
+      "id": "photo-1680992046617-e2e35451bcdb",
+      "alt": "Огни серверов в центре обработки данных",
+      "by": "Tyler",
+      "page": "https://unsplash.com/photos/zMrGQu21qcU"
+    },
+    "industrial": {
+      "id": "photo-1689752784205-05109681c803",
+      "alt": "Современный производственный цех",
+      "by": "Tom Bronab",
+      "page": "https://unsplash.com/photos/h18Dj4zb7WU"
+    },
+    "stadium": {
+      "id": "photo-1489944440615-453fc2b6a9a9",
+      "alt": "Футбольный стадион с высоты",
+      "by": "Mario Klassen",
+      "page": "https://unsplash.com/photos/70YxSTWa2Zw"
+    },
+    "hotel": {
+      "id": "photo-1759038085950-1234ca8f5fed",
+      "alt": "Стойка регистрации отеля с современной деревянной мебелью",
+      "by": "Neon Wang",
+      "page": "https://unsplash.com/photos/kfnWOD1Tbp8"
+    },
+    "desertRoad": {
+      "id": "photo-1633876652758-814defbf4793",
+      "alt": "Дорога через пустыню с высоты",
+      "by": "Alex Diaz",
+      "page": "https://unsplash.com/photos/rbDvm1HBJqg"
+    },
+    "stockholm": {
+      "id": "photo-1715589632802-66aa0194c1c8",
+      "alt": "Стокгольмская ратуша на другом берегу в сумерках",
+      "by": "time lapse",
+      "page": "https://unsplash.com/photos/A2bjd0RfA54"
+    },
+    "almaty": {
+      "id": "photo-1659651117607-d2b397cf100f",
+      "alt": "Алматы на фоне гор",
+      "by": "Ilyas Dautov",
+      "page": "https://unsplash.com/photos/ljw3mBWuwTA"
+    },
+    "dohaNight": {
+      "id": "photo-1724614766527-6f5a86ef4c5c",
+      "alt": "Ночная панорама Дохи через залив",
+      "by": "Jimmy Hu",
+      "page": "https://unsplash.com/photos/LIuY3-Mwc_k"
+    },
+    "abuDhabi": {
+      "id": "photo-1668060742975-9a462159b0bd",
+      "alt": "Панорама Абу-Даби с воды",
+      "by": "Karthik B K",
+      "page": "https://unsplash.com/photos/J1dkREbfefU"
+    },
+    "kuwait": {
+      "id": "photo-1567074994308-df304d5611db",
+      "alt": "Кувейтские башни у моря",
+      "by": "Masrur Rahman",
+      "page": "https://unsplash.com/photos/RvBN5Maxg5c"
+    },
+    "bahrain": {
+      "id": "photo-1748066768504-99532da7d1e9",
+      "alt": "Бахрейнский Всемирный торговый центр на рассвете",
+      "by": "Ondrej Bocek",
+      "page": "https://unsplash.com/photos/wOlMEpBzwHs"
+    },
+    "muscat": {
+      "id": "photo-1606813332135-228593b6e201",
+      "alt": "Набережная Маската с высоты",
+      "by": "Anfal Shamsudeen",
+      "page": "https://unsplash.com/photos/n8MmkmHcR3Y"
+    },
+    "oslo": {
+      "id": "photo-1518517611416-da57df49b8d3",
+      "alt": "Оперный театр Осло на набережной",
+      "by": "Vidar Nordli-Mathisen",
+      "page": "https://unsplash.com/photos/q-fr4QsIyic"
+    },
+    "copenhagen": {
+      "id": "photo-1550682837-891ae070f347",
+      "alt": "Гавань Нюхавн в Копенгагене",
+      "by": "Zachary Shakked",
+      "page": "https://unsplash.com/photos/RQIqJf0K7Bs"
+    },
+    "helsinki": {
+      "id": "photo-1540799051881-f52f8d808bf3",
+      "alt": "Кафедральный собор Хельсинки в сумерках",
+      "by": "Tapio Haaja",
+      "page": "https://unsplash.com/photos/s5Pcw6zSbvE"
+    },
+    "berlin": {
+      "id": "photo-1566404791232-af9fe0ae8f8b",
+      "alt": "Берлин с телебашней",
+      "by": "Adam Vradenburg",
+      "page": "https://unsplash.com/photos/g8DI2ZZFt8I"
+    }
+  }
+}

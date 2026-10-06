@@ -1,0 +1,94 @@
+{
+  "seo": {
+    "title": "Biz haqimizda — biznes qurishdagi strategik hamkor",
+    "description": "Silk Road Capital kapital, biznes va texnologiyalar tutashgan nuqtada faoliyat yuritadi: Saudiya Arabistoni, Fors koʻrfazi arab davlatlari, Oʻzbekiston va Markaziy Osiyodagi investorlar, oilaviy ofislar va kompaniyalar uchun strategik hamkor."
+  },
+  "hero": {
+    "label": "Biz haqimizda",
+    "title": "Kapital, biznes va texnologiyalar oʻrtasidagi strategik hamkor.",
+    "lead": "Biz munosib insonlarga munosib imkoniyatlarni topishda va ularni haqiqiy biznesga aylantirishda yordam beramiz. Biz anʼanaviy konsalting kompaniyasi emasmiz: imkoniyat nimani talab qilishiga qarab maslahat beramiz, sarmoya kiritamiz, hamkorlik qilamiz, biznes quramiz va yechimlarni joriy etamiz.",
+    "image": "boardroom",
+    "imageAlt": "Shahar manzarasi koʻrinib turgan sokin majlislar zali"
+  },
+  "modes": {
+    "label": "Faoliyat modellari",
+    "title": "Ishtirok etishning bir necha usuli.\nYagona manfaatlar tizimi.",
+    "text": "Bizni boshqalardan ajratib turadigan narsa aynan shu koʻp modelli tuzilmadir. Qaysi biri eng koʻp qiymat yaratsa, shunga koʻra maslahatchi boʻlib qolishimiz, hamkorga aylanishimiz yoki siz bilan birga biznes qurishimiz mumkin.",
+    "items": [
+      {
+        "name": "Maslahat xizmatlari",
+        "text": "Mijoz bizni strategik ekspertiza uchun jalb qiladi."
+      },
+      {
+        "name": "Investitsiyalar",
+        "text": "Biz imkoniyatlarni aniqlaymiz va oʻrinli boʻlgan hollarda ularda ishtirok etamiz."
+      },
+      {
+        "name": "Qoʻshma korxona",
+        "text": "Hamkorlar bilan birgalikda yangi biznes yaratishga yordam beramiz va unda ulushga ega boʻlishimiz mumkin."
+      },
+      {
+        "name": "Texnologiyalar",
+        "text": "Biznesga zarur boʻlgan texnologiyalarni ishlab chiqamiz yoki joriy etamiz."
+      },
+      {
+        "name": "SI transformatsiyasi",
+        "text": "Sunʼiy intellekt asosidagi optimallashtirish imkoniyatlarini aniqlaymiz va joriy etamiz."
+      },
+      {
+        "name": "Bozorga kirish",
+        "text": "Xalqaro kompaniyalarga Fors koʻrfazi davlatlari va Markaziy Osiyo bozorlariga kirishda yordam beramiz."
+      }
+    ]
+  },
+  "ecosystem": {
+    "label": "Hamkorlar ekotizimi",
+    "title": "Munosib ekspertiza.\nMunosib bosqichda.",
+    "text": "Biz markazda strategik hamkor sifatida turamiz va har bir bosqich talab qilganda tegishli mutaxassislarni jalb qilamiz. Tartibga solinadigan yuridik, soliq va moliyaviy ishlar malakali, litsenziyaga ega hamkorlar tomonidan amalga oshiriladi.",
+    "center": "Strategik hamkor",
+    "categories": [
+      "Investitsiyalar",
+      "Huquq",
+      "Moliya",
+      "Soliqlar",
+      "Texnologiyalar",
+      "Sunʼiy intellekt",
+      "Marketing",
+      "Savdo",
+      "Dizayn",
+      "Mahalliy bozor",
+      "Davlat organlari bilan aloqalar",
+      "Operatsion faoliyat"
+    ]
+  },
+  "principles": {
+    "label": "Tamoyillar",
+    "title": "Biz qanday ishlaymiz.",
+    "items": [
+      {
+        "name": "Tanlab ishlash",
+        "text": "Har biriga yuqori darajadagi mutaxassislar eʼtibor qaratishi uchun cheklangan miqdordagi topshiriqlarni qabul qilamiz."
+      },
+      {
+        "name": "Ochiqlik",
+        "text": "Imkoniyat oʻzini oqlamasa yoki sunʼiy intellekt toʻgʻri yechim boʻlmasa, buni ochiq aytamiz."
+      },
+      {
+        "name": "Manfaatlar uygʻunligi",
+        "text": "Iloji boricha tijorat modellari bizning mukofotimizni mijoz erishgan natija bilan bogʻlaydi."
+      },
+      {
+        "name": "Maxfiylik",
+        "text": "Maxfiylik — standart qoida. Tanishtiruvlar faqat rozilik bilan amalga oshiriladi."
+      },
+      {
+        "name": "Amaliylik",
+        "text": "Har bir tavsiya uni amalga oshirish yoʻli bilan birga taqdim etiladi."
+      },
+      {
+        "name": "Xalqarolik",
+        "text": "Fors koʻrfazi davlatlari va Markaziy Osiyo boʻyicha mahalliy bilimlar global nuqtai nazar bilan uygʻunlashgan."
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "intro": {
+    "label": "Opportunities",
+    "title": "Selected opportunities.",
+    "lead": "Opportunities reach us through founders, operators, investors and local partners. We share them selectively, with qualified investors and strategic partners, under NDA.",
+    "notice": "Illustrative examples. The opportunities shown describe the types of mandates we work on. They are not offers and contain no client information. Live opportunities are shared privately with qualified parties."
+  },
+  "fields": [
+    {
+      "key": "country",
+      "label": "Country"
+    },
+    {
+      "key": "stage",
+      "label": "Stage"
+    },
+    {
+      "key": "type",
+      "label": "Investment type"
+    },
+    {
+      "key": "size",
+      "label": "Opportunity size"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ],
+  "items": [
+    {
+      "slug": "digital-infrastructure-saudi-arabia",
+      "sector": "Digital Infrastructure",
+      "country": "Saudi Arabia",
+      "stage": "Growth",
+      "type": "Strategic investment",
+      "size": "Disclosed under NDA",
+      "status": "Evaluation",
+      "summary": "A regional digital infrastructure platform seeking a strategic investor to fund expansion across Saudi Arabia.",
+      "sections": {
+        "overview": "An established operator of digital infrastructure services for enterprise and public-sector customers, looking for a strategic investor to accelerate its expansion programme.",
+        "market": "Enterprise and government digitisation in Saudi Arabia is driving sustained demand for local capacity, connectivity and managed services, with a preference for in-country providers.",
+        "business": "Recurring, contract-based revenue from enterprise customers, an experienced local management team and an expansion pipeline that requires growth capital.",
+        "thesis": "Structural demand growth, high switching costs and the value of local presence support long-term, contracted cash flows.",
+        "opportunity": "A minority or significant minority position alongside the founders, with governance rights and participation in the expansion plan.",
+        "rationale": "Attractive for investors seeking infrastructure-like exposure to the Saudi digital economy, or for strategic investors adding regional capability.",
+        "structure": "Primary investment into the operating company or a dedicated expansion vehicle, structured with qualified legal and tax counsel.",
+        "next": "Qualified investors receive a teaser under NDA, followed by management access and a data room."
+      },
+      "image": "datacenter"
+    },
+    {
+      "slug": "hospitality-technology-uae",
+      "sector": "Hospitality Technology",
+      "country": "UAE",
+      "stage": "Early growth",
+      "type": "Joint venture",
+      "size": "Disclosed under NDA",
+      "status": "Partner search",
+      "summary": "A proven hospitality software product seeking a GCC partner to launch a regional joint venture.",
+      "sections": {
+        "overview": "An international hospitality technology company with a proven product, seeking a regional partner to establish a joint venture for the GCC.",
+        "market": "New hotel and destination supply across the Gulf is creating demand for modern guest-experience, operations and revenue-management technology.",
+        "business": "A software platform with an established international customer base, adaptable to Arabic-language and regional operating requirements.",
+        "thesis": "Pairing a proven product with local relationships shortens sales cycles and builds a defensible regional position.",
+        "opportunity": "A joint venture combining the technology licence with a partner bringing capital, hospitality relationships and local operations.",
+        "rationale": "Suits hospitality groups, real estate developers and investors with exposure to the regional tourism pipeline.",
+        "structure": "A GCC joint-venture company with a technology licence, shared governance and agreed contribution of capital and distribution.",
+        "next": "Introductory discussion, partner fit assessment and a jointly developed business plan."
+      },
+      "image": "hotel"
+    },
+    {
+      "slug": "ai-platform-uzbekistan",
+      "sector": "AI Platform",
+      "country": "Uzbekistan",
+      "stage": "Growth",
+      "type": "Growth investment",
+      "size": "Disclosed under NDA",
+      "status": "Structuring",
+      "summary": "An applied-AI company serving enterprises in Central Asia, raising growth capital for regional expansion.",
+      "sections": {
+        "overview": "A technology company delivering applied-AI products for enterprises in Uzbekistan, with plans to expand across Central Asia and into the GCC.",
+        "market": "Rapid digitisation of the Uzbek economy and limited local AI capability create room for a focused regional player.",
+        "business": "Products for document processing, customer service and analytics, sold to enterprise and institutional customers.",
+        "thesis": "A local team with enterprise references, cost-efficient delivery and a credible path to regional expansion.",
+        "opportunity": "A growth round to fund product development, sales capacity and entry into neighbouring markets.",
+        "rationale": "Exposure to Central Asian technology growth with a business that can also serve GCC customers.",
+        "structure": "Equity investment, potentially through a holding structure, coordinated with qualified counsel.",
+        "next": "Teaser and management presentation under NDA, followed by commercial and technical due diligence."
+      },
+      "image": "servers"
+    },
+    {
+      "slug": "sports-technology-saudi-arabia",
+      "sector": "Sports Technology",
+      "country": "Saudi Arabia",
+      "stage": "Launch",
+      "type": "Strategic partnership",
+      "size": "Disclosed under NDA",
+      "status": "Partner search",
+      "summary": "A sports technology concept looking for a strategic partner to launch in Saudi Arabia.",
+      "sections": {
+        "overview": "A sports technology concept serving fans, clubs and venues, prepared for launch in Saudi Arabia with a strategic partner.",
+        "market": "Investment in sport, events and venues across the Kingdom is creating demand for fan engagement, ticketing and performance technology.",
+        "business": "A digital platform combining fan engagement and commercial tools for rights holders and venues.",
+        "thesis": "A strategic partner with sports relationships can unlock distribution and early anchor customers.",
+        "opportunity": "A strategic partnership or joint venture to launch, localise and commercialise the platform.",
+        "rationale": "Relevant to sports organisations, media groups and investors building exposure to the sports economy.",
+        "structure": "Partnership agreement or JV company with defined contributions, governance and economics.",
+        "next": "Partner discussion, concept review and joint launch plan."
+      },
+      "image": "stadium"
+    },
+    {
+      "slug": "industrial-digitalisation-uzbekistan",
+      "sector": "Industrial Digitalisation",
+      "country": "Uzbekistan",
+      "stage": "Established",
+      "type": "JV opportunity",
+      "size": "Disclosed under NDA",
+      "status": "Evaluation",
+      "summary": "Modernising an established industrial business in Uzbekistan through a JV with a technology partner.",
+      "sections": {
+        "overview": "An established industrial group in Uzbekistan seeking a technology partner to digitise operations and create a jointly owned solutions business.",
+        "market": "Industrial modernisation is a national priority, and many producers are still running on manual or legacy processes.",
+        "business": "An operating industrial business with stable revenue, a modernisation budget and access to sector peers.",
+        "thesis": "Digitising a lighthouse operation creates a reference case that a JV can then sell across the sector.",
+        "opportunity": "A joint venture between the industrial group and a European or GCC technology partner.",
+        "rationale": "Suits industrial technology companies looking for a Central Asian entry point with an anchor customer.",
+        "structure": "A JV company with technology licensing, implementation services and shared economics.",
+        "next": "Site assessment, partner matching and a joint business plan."
+      },
+      "image": "industrial"
+    }
+  ],
+  "sectionTitles": [
+    {
+      "key": "overview",
+      "title": "Overview"
+    },
+    {
+      "key": "market",
+      "title": "Market"
+    },
+    {
+      "key": "business",
+      "title": "Business"
+    },
+    {
+      "key": "thesis",
+      "title": "Investment thesis"
+    },
+    {
+      "key": "opportunity",
+      "title": "Opportunity"
+    },
+    {
+      "key": "rationale",
+      "title": "Strategic rationale"
+    },
+    {
+      "key": "structure",
+      "title": "Potential structure"
+    },
+    {
+      "key": "next",
+      "title": "Next steps"
+    }
+  ]
+}

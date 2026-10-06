@@ -1,0 +1,727 @@
+[
+  {
+    "slug": "invest",
+    "key": "Investitsiya",
+    "index": "01",
+    "name": "Investitsiya maslahati",
+    "visual": "invest",
+    "image": "glass",
+    "headline": "Yaxshiroq imkoniyatlar.\nAsosliroq qarorlar.",
+    "summary": "Biz xususiy investorlar, oilaviy ofislar va tadbirkorlarga kapitaliga munosib investitsiya imkoniyatlarini aniqlash va baholashda yordam beramiz.",
+    "lead": "Biz xususiy investorlar, oilaviy ofislar va tadbirkorlarga Saudiya Arabistoni, Fors koʻrfazi arab davlatlari, Oʻzbekiston va tanlangan xalqaro bozorlarda investitsiya imkoniyatlarini topish, baholash va tuzilmalashda yordam beramiz — broker manfaatlari bilan emas, investorga xos sinchkovlik bilan.",
+    "includes": [
+      "Investitsiya imkoniyatlarini izlab topish",
+      "Tijoriy har tomonlama tekshiruv (due diligence)",
+      "Bozor tadqiqoti",
+      "Investitsiya tezisini ishlab chiqish",
+      "Biznesni baholash",
+      "Moliyaviy va operatsion baholash",
+      "Risklar tahlili",
+      "Investitsiyani tuzilmalash",
+      "Birgalikda investitsiya qilish imkoniyatlari",
+      "Portfel strategiyasi"
+    ],
+    "cardCta": "Investitsiya maslahati bilan tanishish",
+    "cta": {
+      "label": "Imkoniyatni muhokama qilish",
+      "interest": "investment"
+    },
+    "seo": {
+      "title": "Saudiya Arabistoni, Fors koʻrfazi davlatlari va Oʻzbekistonda investitsiya maslahati",
+      "description": "Oilaviy ofislar, xususiy investorlar va tadbirkorlar uchun investitsiya maslahati: Saudiya Arabistoni, Fors koʻrfazi arab davlatlari va Oʻzbekistonda imkoniyatlarni izlab topish, tijoriy har tomonlama tekshiruv (due diligence), investitsiya tezislari va transchegaraviy tuzilmalash."
+    },
+    "blocks": [
+      {
+        "type": "pillars",
+        "label": "Biz nima qilamiz",
+        "title": "Ilk suhbatdan kapital kiritilgunga qadar.",
+        "items": [
+          {
+            "title": "Imkoniyatlarni izlab topish",
+            "text": "Biz imkoniyatlarni asoschilar, operatorlar, investorlar va mahalliy hamkorlar orqali aniqlaymiz — ularning koʻpchiligi hech qachon ochiq jarayonga chiqmaydi."
+          },
+          {
+            "title": "Tijoriy har tomonlama tekshiruv",
+            "text": "Kapital kiritilishidan oldin bozor, biznes modeli, raqobatdagi mavqe va boshqaruv jamoasini sinovdan oʻtkazamiz."
+          },
+          {
+            "title": "Investitsiya tezisi",
+            "text": "Imkoniyat nima uchun jozibador ekanini, u muvaffaqiyatli boʻlishi uchun qanday shartlar bajarilishi kerakligini va qaysi omillar bahoni oʻzgartirishi mumkinligini aniq ifodalaymiz."
+          },
+          {
+            "title": "Moliyaviy va operatsion baholash",
+            "text": "Taqdimot ortidagi raqamlarni koʻrib chiqamiz: birlik iqtisodiyoti, xarajatlar tuzilmasi, pul oqimini yaratish qobiliyati va operatsion salohiyat."
+          },
+          {
+            "title": "Risklar tahlili",
+            "text": "Tijoriy, bozor, hamkor va ijro bilan bogʻliq risklarni xaritalaymiz — hamda har biri boʻyicha real ravishda nima qilish mumkinligini belgilaymiz."
+          },
+          {
+            "title": "Tuzilmalash va birgalikda investitsiya",
+            "text": "Investitsiya tuzilmasini belgilaymiz va zarur hollarda birgalikdagi investorlarni jalb qilamiz — huquqiy va soliq ishlarini malakali yuristlar bilan muvofiqlashtirgan holda."
+          },
+          {
+            "title": "Bozor tadqiqoti",
+            "text": "Qarorlar taxminlarga emas, dalillarga asoslanishi uchun bozor hajmini baholaymiz, raqobatchilarni xaritalaymiz va mijozlar bilan suhbatlashamiz."
+          },
+          {
+            "title": "Portfel strategiyasi",
+            "text": "Oilaviy ofislar va investorlarga qaysi yoʻnalishlarda ishtirok etishni — bozor, soha va ishtirok turi boʻyicha — belgilashda yordam beramiz."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "label": "Mandat qanday amalga oshiriladi",
+        "title": "Intizomli jarayon. Haqiqatan muhim boʻlgan bir nechta qaror.",
+        "items": [
+          {
+            "name": "Izlash",
+            "text": "Bizning va sizning tarmogʻingizdan kelgan, mandatingizga muvofiqligi tekshirilgan imkoniyatlar."
+          },
+          {
+            "name": "Saralash",
+            "text": "Muvofiqlik, jozibadorlik va yaqqol toʻsiq boʻluvchi omillar boʻyicha dastlabki xulosa."
+          },
+          {
+            "name": "Baholash",
+            "text": "Tijoriy, moliyaviy va operatsion har tomonlama tekshiruv."
+          },
+          {
+            "name": "Tuzilmalash",
+            "text": "Investitsiya tuzilmasi, shartlar va hamkorlar — malakali yuristlar ishtirokida."
+          },
+          {
+            "name": "Amalga oshirish",
+            "text": "Muzokaralarda koʻmak, bitimni yakunlashni muvofiqlashtirish va investitsiyadan keyingi ishga kirishish."
+          },
+          {
+            "name": "Qoʻllab-quvvatlash",
+            "text": "Investitsiyadan keyingi qiymat yaratish, hisobot va keyingi qarorlar."
+          }
+        ]
+      },
+      {
+        "type": "statement",
+        "text": "Biz imkoniyatlarni investor kabi baholaymiz — va imkoniyat oʻzini oqlamasa, buni ochiq aytamiz."
+      },
+      {
+        "type": "audience",
+        "label": "Kimlar bilan ishlaymiz",
+        "items": [
+          {
+            "title": "Oilaviy ofislar",
+            "text": "Asosiy biznesdan tashqaridagi toʻgʻridan-toʻgʻri investitsiyalar va strategik loyihalar."
+          },
+          {
+            "title": "Xususiy investorlar",
+            "text": "Bitimlarni izlab topish, mustaqil tahlil va birgalikda investitsiya qilish imkoniyati."
+          },
+          {
+            "title": "Investitsiya kompaniyalari",
+            "text": "Bozor tahlili, tijoriy har tomonlama tekshiruv va mahalliy ijro."
+          },
+          {
+            "title": "Tadbirkorlar",
+            "text": "Biznesni kapital jalb qilishga tayyorlash va munosib investorni topish."
+          }
+        ]
+      }
+    ],
+    "related": [
+      "investment-advisory",
+      "business-structure",
+      "joint-venture"
+    ]
+  },
+  {
+    "slug": "advisory",
+    "key": "Maslahat",
+    "index": "02",
+    "name": "Strategik maslahat",
+    "visual": "advise",
+    "image": "boardroom",
+    "headline": "Murakkab bozorlarda\naniq qarorlar.",
+    "summary": "Biznes egalari va investorlarga qayerda raqobatlashish, qanday oʻsish va qaysi qadamlar oʻzini oqlashini aniqlashda yordam beramiz.",
+    "lead": "Biznes egalari, direktorlar kengashlari va investorlarga qayerda raqobatlashish, qanday oʻsish va qaysi qadamlar oʻzini oqlashini aniqlashda yordam beramiz — bozor tahliliga tayangan va amalga oshirishga moʻljallangan holda.",
+    "includes": [
+      "Korporativ strategiya",
+      "Bozorga kirish strategiyasi",
+      "Biznes modeli tahlili",
+      "Oʻsish strategiyasi",
+      "Tijoriy har tomonlama tekshiruv (due diligence)",
+      "Raqobat tahlili",
+      "Bozor tahlili",
+      "Biznesni optimallashtirish",
+      "Operatsion modelni loyihalash",
+      "Strategik rejalashtirish"
+    ],
+    "cardCta": "Strategik maslahat bilan tanishish",
+    "cta": {
+      "label": "Strategiyangizni muhokama qilish",
+      "interest": "advisory"
+    },
+    "seo": {
+      "title": "Fors koʻrfazi davlatlari uchun strategik maslahat va bozorga kirish strategiyasi",
+      "description": "Saudiya Arabistoni va Fors koʻrfazi arab davlatlarida strategik maslahat: korporativ va oʻsish strategiyasi, bozorga kirish, biznes modeli tahlili, raqobat tahlili va operatsion modelni loyihalash."
+    },
+    "blocks": [
+      {
+        "type": "pillars",
+        "label": "Biz nima qilamiz",
+        "title": "Bozor sinovidan oʻta oladigan strategiya.",
+        "items": [
+          {
+            "title": "Korporativ va oʻsish strategiyasi",
+            "text": "Qayerda faoliyat yuritish, qanday ustunlikka erishish va nimadan voz kechish — tashkilot amalga oshira oladigan reja bilan."
+          },
+          {
+            "title": "Bozorga kirish strategiyasi",
+            "text": "Qaysi bozor, qaysi model, qaysi hamkor va qanday ketma-ketlik — kapital kiritilishidan oldin."
+          },
+          {
+            "title": "Biznes modeli tahlili",
+            "text": "Bugun qiymat qanday yaratilmoqda va qoʻlga kiritilmoqda, model qayerda zaif yoki yetarlicha monetizatsiya qilinmagan."
+          },
+          {
+            "title": "Bozor va raqobat tahlili",
+            "text": "Fors koʻrfazi davlatlari va Markaziy Osiyodagi bozorlar, raqobatchilar, mijozlar va tartibga solish boʻyicha manbalarga asoslangan aniq tahlillar."
+          },
+          {
+            "title": "Tijoriy har tomonlama tekshiruv",
+            "text": "Sotib olish, hamkorlik yoki investitsiyadan oldin biznesning bozordagi mavqeiga mustaqil baho."
+          },
+          {
+            "title": "Operatsion modelni loyihalash",
+            "text": "Oʻtmishdagi amaliyotga emas, strategiyaga moslashtirilgan tuzilma, jarayonlar, boshqaruv va tizimlar."
+          },
+          {
+            "title": "Biznesni optimallashtirish",
+            "text": "Qiymat yaratmaydigan xarajatlar, vaqt va murakkablikni aniqlash — va ularni bartaraf etish."
+          },
+          {
+            "title": "Strategik rejalashtirish",
+            "text": "Aniq ustuvorliklar, masʼullar, muhim bosqichlar va haqiqatan muhim koʻrsatkichlarga ega koʻp yillik rejalar."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "label": "Qanday ishlaymiz",
+        "title": "Imkoniyatdan amalga oshirishgacha.",
+        "items": [
+          {
+            "name": "Oʻrganish",
+            "text": "Biznes, kapital, bozor va maqsadni tushunish."
+          },
+          {
+            "name": "Baholash",
+            "text": "Imkoniyatlar, risklar, iqtisodiy koʻrsatkichlar va amalga oshirish imkoniyatini tahlil qilish."
+          },
+          {
+            "name": "Tuzilmalash",
+            "text": "Strategiya, hamkorlik yoki investitsiya tuzilmasini belgilash."
+          },
+          {
+            "name": "Yaratish",
+            "text": "Zarur texnologiya, mahsulot yoki operatsion modelni ishlab chiqish."
+          },
+          {
+            "name": "Amalga oshirish",
+            "text": "Joriy etish, ishga tushirish va kengaytirishni qoʻllab-quvvatlash."
+          }
+        ]
+      },
+      {
+        "type": "statement",
+        "text": "Maslahat faqat amalga oshirilishi mumkin boʻlsagina foydali. Har bir tavsiya joriy etish yoʻli bilan birga taqdim etiladi — va biz uni amalga oshirishda ishtirok etishda davom eta olamiz."
+      }
+    ],
+    "related": [
+      "market-entry",
+      "business-build",
+      "full-launch"
+    ]
+  },
+  {
+    "slug": "joint-ventures",
+    "key": "Hamkorlik",
+    "index": "03",
+    "name": "Qoʻshma korxonalar",
+    "visual": "partner",
+    "image": "riyadhStreet",
+    "headline": "Munosib hamkorni toping.\nBirgalikda yarating.",
+    "summary": "Investorlar va kompaniyalarga munosib hamkor topish va birgalikda yangi biznes yaratishda yordam beramiz.",
+    "lead": "Investorlar, kompaniyalar va strategik hamkorlarga bir-birini toʻldiruvchi imkoniyatlarni yangi bizneslarga aylantirishda yordam beramiz — hamkorni aniqlashdan tortib loyihani tuzilmalash va bozorga olib chiqishgacha.",
+    "includes": [
+      "Hamkorlarni aniqlash",
+      "Qoʻshma korxona strategiyasi",
+      "Hamkorlarni tanlash va moslashtirish",
+      "Bozorga kirish",
+      "Biznes modelini yaratish",
+      "Qoʻshma korxonani tuzilmalash",
+      "Mahsulot konsepsiyasini ishlab chiqish",
+      "Operatsion model",
+      "Texnologiyalarni joriy etish",
+      "Ishga tushirishda koʻmak"
+    ],
+    "cardCta": "Qoʻshma korxonalar bilan tanishish",
+    "cta": {
+      "label": "Hamkorlik imkoniyatini oʻrganish",
+      "interest": "joint-venture"
+    },
+    "seo": {
+      "title": "Saudiya Arabistoni, BAA va Oʻzbekistonda qoʻshma korxonalar",
+      "description": "Qoʻshma korxonalar boʻyicha maslahat va ularni yaratish: Saudiya Arabistoni, BAA, Fors koʻrfazi arab davlatlari va Oʻzbekistondagi loyihalar uchun hamkorlarni aniqlash, qoʻshma korxona strategiyasi, tuzilmalash, operatsion model va ishga tushirish."
+    },
+    "blocks": [
+      {
+        "type": "steps",
+        "label": "Qoʻshma korxona yaratish jarayoni",
+        "title": "Munosib hamkor bilan toʻgʻri loyihani yarating.",
+        "items": [
+          {
+            "name": "Topish",
+            "text": "Potensial hamkorlarni aniqlash."
+          },
+          {
+            "name": "Tekshirish",
+            "text": "Strategik va tijoriy muvofiqlikni baholash."
+          },
+          {
+            "name": "Tuzilmalash",
+            "text": "Mulkchilik, boshqaruv va iqtisodiy shartlarni belgilash."
+          },
+          {
+            "name": "Loyihalash",
+            "text": "Biznes modeli va operatsion modelni yaratish."
+          },
+          {
+            "name": "Yaratish",
+            "text": "Zarur mahsulot va texnologiyani ishlab chiqish."
+          },
+          {
+            "name": "Ishga tushirish",
+            "text": "Loyihani bozorga olib chiqish."
+          },
+          {
+            "name": "Kengaytirish",
+            "text": "Oʻsish va kengayishni qoʻllab-quvvatlash."
+          }
+        ]
+      },
+      {
+        "type": "models",
+        "label": "Hamkorlik modellari",
+        "title": "Bir-birini toʻldiruvchi imkoniyatlar — birlashtirilgan.",
+        "items": [
+          {
+            "a": "Texnologiya",
+            "b": "Kapital",
+            "text": "Oʻzini isbotlagan mahsulot uni mintaqada yoyishni moliyalashtirishga tayyor investor bilan birlashadi."
+          },
+          {
+            "a": "Xalqaro kompaniya",
+            "b": "Mahalliy hamkor",
+            "text": "Global salohiyat, mahalliy aloqalar, litsenziyalar va bozorga kirish imkoniyati."
+          },
+          {
+            "a": "Investor",
+            "b": "Operator",
+            "text": "Kapital biznesni qanday yuritishni biladigan jamoa bilan birlashadi."
+          },
+          {
+            "a": "Mahsulot",
+            "b": "Distributsiya",
+            "text": "Kuchli mahsulot yoʻlga qoʻyilgan tijoriy kanalga joylashtiriladi."
+          },
+          {
+            "a": "Yevropa texnologiyasi",
+            "b": "Fors koʻrfazi bozori",
+            "text": "Yetuk yechimlar Fors koʻrfazi davlatlaridagi tez oʻsayotgan talabga olib kelinadi."
+          },
+          {
+            "a": "Fors koʻrfazi kapitali",
+            "b": "Markaziy Osiyo imkoniyatlari",
+            "text": "Mintaqaviy investorlar Markaziy Osiyo boʻylab oʻsish bozorlariga kirish imkoniyatiga ega boʻladi."
+          },
+          {
+            "a": "Mahalliy tarmoq",
+            "b": "Xalqaro mahsulot",
+            "text": "Xalqaro taklifni jadallashtiruvchi ishonchli mahalliy platforma."
+          }
+        ]
+      },
+      {
+        "type": "pillars",
+        "label": "Biz nima qilamiz",
+        "title": "Loyihaning har bir qismi — muvofiqlashtirilgan.",
+        "items": [
+          {
+            "title": "Hamkorlarni aniqlash va tanlash",
+            "text": "Kuchli tomonlari sizniki bilan haqiqatan bir-birini toʻldiradigan hamkorlarning kengaytirilgan roʻyxatini tuzamiz, saralaymiz va ular bilan tanishtiramiz."
+          },
+          {
+            "title": "Qoʻshma korxona strategiyasi",
+            "text": "Loyiha nima uchun kerak, u nima bilan shugʻullanadi va har bir hamkor qanday naf koʻradi."
+          },
+          {
+            "title": "Qoʻshma korxonani tuzilmalash",
+            "text": "Mulkchilik, boshqaruv, hissalar va iqtisodiy shartlar — malakali yuristlar ishtirokida."
+          },
+          {
+            "title": "Biznes va operatsion model",
+            "text": "Loyiha qanday daromad topadi, kim nima qiladi va qarorlar qanday qabul qilinadi."
+          },
+          {
+            "title": "Mahsulot va texnologiya",
+            "text": "Birinchi kundanoq loyiha uchun yaratilgan mahsulot konsepsiyasi, platforma va tizimlar."
+          },
+          {
+            "title": "Ishga tushirishda koʻmak",
+            "text": "Bozorga chiqish, dastlabki operatsiyalar va samaradorlikni boshqarishning birinchi yili."
+          }
+        ]
+      }
+    ],
+    "related": [
+      "joint-venture",
+      "business-structure",
+      "market-entry"
+    ]
+  },
+  {
+    "slug": "digital",
+    "key": "Transformatsiya",
+    "index": "04",
+    "name": "Raqamli transformatsiya",
+    "visual": "transform",
+    "image": "datacenter",
+    "headline": "Zamonaviy tizimlar.\nYengilroq operatsiyalar.",
+    "summary": "Bizneslarni texnologiyalar yordamida modernizatsiya qilamiz — tizimlarni bogʻlaymiz, qoʻl mehnatini qisqartiramiz va maʼlumotlardan erkin foydalanish imkonini yaratamiz.",
+    "lead": "Biz bizneslar faoliyatini modernizatsiya qilamiz — tizimlarni bogʻlaymiz, takroriy ishlarni bartaraf etamiz va rahbariyatga kerakli maʼlumotlarni kerakli paytda taqdim etamiz. Maqsad — kamroq xarajat bilan koʻproq imkoniyat.",
+    "includes": [
+      "Biznes jarayonlarini tahlil qilish",
+      "Raqamlashtirish strategiyasi",
+      "CRM",
+      "ERP",
+      "Ichki platformalar",
+      "Mijoz portallari",
+      "Elektron tijorat",
+      "Marketpleyslarni ishlab chiqish",
+      "Maʼlumotlar infratuzilmasi",
+      "Tizim integratsiyalari",
+      "Avtomatlashtirish"
+    ],
+    "cardCta": "Raqamli transformatsiya bilan tanishish",
+    "cta": {
+      "label": "Transformatsiyangizni muhokama qilish",
+      "interest": "digital"
+    },
+    "seo": {
+      "title": "Saudiya Arabistoni va Oʻzbekistonda raqamli transformatsiya",
+      "description": "Saudiya Arabistoni, Fors koʻrfazi arab davlatlari va Oʻzbekistonda biznesni raqamlashtirish: jarayonlar tahlili, CRM, ERP, portallar, elektron tijorat, maʼlumotlar infratuzilmasi, integratsiyalar va avtomatlashtirish."
+    },
+    "blocks": [
+      {
+        "type": "beforeAfter",
+        "label": "Biznesni optimallashtirish",
+        "title": "Texnologiya murakkablikni kamaytirishi kerak.\nUni oshirmasligi kerak.",
+        "before": [
+          "Qoʻlda tayyorlanadigan hisobotlar",
+          "Oʻzaro bogʻlanmagan tizimlar",
+          "Takrorlanuvchi ishlar",
+          "Sekin qarorlar",
+          "Yuqori operatsion xarajatlar"
+        ],
+        "after": [
+          "Avtomatlashtirilgan ish jarayonlari",
+          "Oʻzaro bogʻlangan tizimlar",
+          "SI yordamidagi operatsiyalar",
+          "Real vaqtdagi tahliliy maʼlumotlar",
+          "Pastroq operatsion xarajatlar"
+        ],
+        "cta": {
+          "label": "Optimallashtirish imkoniyatlarini aniqlash",
+          "interest": "digital"
+        }
+      },
+      {
+        "type": "pillars",
+        "label": "Biz nima qilamiz",
+        "title": "Yaxshi boshqariladigan biznes ortidagi tizimlar.",
+        "items": [
+          {
+            "title": "Jarayonlar tahlili",
+            "text": "Ish amalda qanday kechishini, vaqt qayerda yoʻqotilishini va qaysi bosqichlar umuman boʻlmasligi kerakligini xaritalaymiz."
+          },
+          {
+            "title": "Raqamlashtirish strategiyasi",
+            "text": "Ustuvorliklar belgilangan yoʻl xaritasi: nimani, qanday tartibda va qanday samara bilan raqamlashtirish."
+          },
+          {
+            "title": "CRM va ERP",
+            "text": "Asosiy tizimlarni tanlaymiz, sozlaymiz va integratsiya qilamiz — tayyor yechimlar mos kelmasa, ularni oʻzimiz yaratamiz."
+          },
+          {
+            "title": "Ichki platformalar va portallar",
+            "text": "Jamoalar, hamkorlar va mijozlar uchun elektron pochta, jadvallar va telefon qoʻngʻiroqlariga ehtiyojni yoʻqotadigan vositalar."
+          },
+          {
+            "title": "Elektron tijorat va marketpleyslar",
+            "text": "B2C va B2B uchun operatsiyalar va moliya bilan bogʻlangan raqamli savdo kanallari."
+          },
+          {
+            "title": "Maʼlumotlar infratuzilmasi",
+            "text": "Hisobotlar va SI uchun tayyor boʻlgan biznes maʼlumotlarining yagona ishonchli manbai."
+          },
+          {
+            "title": "Integratsiyalar",
+            "text": "Biznesda mavjud tizimlarni bogʻlaymiz — maʼlumotlar qayta kiritilmasdan uzatiladi."
+          },
+          {
+            "title": "Avtomatlashtirish",
+            "text": "Moliya, operatsiyalar, savdo va xizmat koʻrsatishdagi takroriy vazifalarni bartaraf etamiz."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "label": "Amalga oshirish",
+        "title": "Aniqlash. Oʻzgartirish. Joriy etish. Kengaytirish.",
+        "items": [
+          {
+            "name": "Aniqlash",
+            "text": "Texnologiya xarajat, tezlik yoki sifatni oʻzgartira oladigan jarayonlarni topish."
+          },
+          {
+            "name": "Oʻzgartirish",
+            "text": "Avval jarayonni qayta loyihalash, keyin texnologiyani tanlash."
+          },
+          {
+            "name": "Joriy etish",
+            "text": "SI yordamida ishlab chiqish orqali qisqa va oʻlchanadigan relizlar bilan yetkazib berish."
+          },
+          {
+            "name": "Kengaytirish",
+            "text": "Samarali ishlayotgan yechimlarni jamoalar, yuridik shaxslar va bozorlar boʻylab kengaytirish."
+          }
+        ]
+      }
+    ],
+    "related": [
+      "ai-transformation",
+      "digital-product",
+      "growth-engine"
+    ]
+  },
+  {
+    "slug": "ai",
+    "key": "SI",
+    "index": "05",
+    "name": "Sunʼiy intellekt asosida biznes transformatsiyasi",
+    "visual": "ai",
+    "headline": "Sunʼiy intellekt — oʻlchanadigan\nqiymat yaratadigan joyda.",
+    "summary": "Tashkilotlarga sunʼiy intellekt (SI) yordamida xarajatlarni kamaytirish, ishlarni avtomatlashtirish va asosliroq qarorlar qabul qilishda yordam beramiz — u oʻlchanadigan qiymat yaratadigan joylarda.",
+    "lead": "Biz SIga shov-shuvli mavzu sifatida emas, operatsion vosita sifatida qaraymiz. U xarajatlarni kamaytiradigan, vaqtni tejaydigan yoki qarorlarni yaxshilaydigan jarayonlarni topamiz — soʻngra sinovdan oʻtkazamiz, joriy etamiz, natijani oʻlchaymiz va kengaytiramiz.",
+    "includes": [
+      "Operatsion xarajatlarni kamaytirish",
+      "Takroriy ishlarni avtomatlashtirish",
+      "Katta hajmdagi maʼlumotlarni tahlil qilish",
+      "Qaror qabul qilishni yaxshilash",
+      "Ichki jarayonlarni tezlashtirish",
+      "Mijozlarga xizmat koʻrsatishni yaxshilash",
+      "Hisobotlarni avtomatlashtirish",
+      "Biznes tahlilini shakllantirish",
+      "Savdo operatsiyalarini yaxshilash",
+      "Xodimlar unumdorligini optimallashtirish"
+    ],
+    "cardCta": "SI transformatsiyasi bilan tanishish",
+    "cta": {
+      "label": "SI imkoniyatlarini aniqlash",
+      "interest": "ai"
+    },
+    "seo": {
+      "title": "Saudiya Arabistoni va Fors koʻrfazi davlatlarida SI boʻyicha konsalting va SI transformatsiyasi",
+      "description": "Saudiya Arabistoni, Fors koʻrfazi arab davlatlari va Oʻzbekistonda amaliy sunʼiy intellekt (SI) konsaltingi: SI auditi, strategiya, pilot loyihalar, SI agentlari, avtomatlashtirish, biznes tahlili va boshqaruv — oʻlchanadigan qiymatga yoʻnaltirilgan."
+    },
+    "blocks": [
+      {
+        "type": "aiShowcase"
+      },
+      {
+        "type": "pillars",
+        "label": "SI xizmatlari",
+        "title": "SIni haqiqatan muhim boʻlgan joyda qoʻllang.",
+        "items": [
+          {
+            "title": "SI auditi",
+            "text": "Mavjud biznesni tahlil qilib, SI qayerda qiymat yaratishini aniqlaymiz."
+          },
+          {
+            "title": "SI strategiyasi",
+            "text": "SIni qayerda joriy etish kerakligini — va qayerda kerak emasligini belgilaymiz."
+          },
+          {
+            "title": "SI pilot loyihalari",
+            "text": "Yuqori qiymatli foydalanish holatlarini aniq muvaffaqiyat mezoni asosida tezkor sinovdan oʻtkazamiz."
+          },
+          {
+            "title": "SIni joriy etish",
+            "text": "SIni mavjud tizimlar va kundalik ish jarayonlariga integratsiya qilamiz."
+          },
+          {
+            "title": "SI agentlari",
+            "text": "Savdo, marketing, tadqiqot, HR, qoʻllab-quvvatlash, operatsiyalar va boshqaruv uchun muayyan vazifalarga moʻljallangan agentlar."
+          },
+          {
+            "title": "SI yordamida avtomatlashtirish",
+            "text": "Takroriy ish jarayonlarini boshidan oxirigacha avtomatlashtiramiz, nazorat esa odamlarda qoladi."
+          },
+          {
+            "title": "SI tahlili",
+            "text": "Biznes maʼlumotlarini rahbariyat amal qila oladigan axborotga aylantiramiz."
+          },
+          {
+            "title": "SI boshqaruvi",
+            "text": "Xavfsizlik, kirish huquqlari, maʼlumotlar va masʼuliyatli foydalanish tamoyillari — boshidanoq."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "label": "Amalga oshirish",
+        "title": "Oʻrganish. Baholash. Sinash. Joriy etish. Kengaytirish.",
+        "items": [
+          {
+            "name": "Oʻrganish",
+            "text": "Foydalanish holatlari variantlarini yigʻish uchun seminarlar va jarayonlar tahlili."
+          },
+          {
+            "name": "Baholash",
+            "text": "Qiymat, amalga oshirish imkoniyati, maʼlumotlarning tayyorligi va risk boʻyicha saralash."
+          },
+          {
+            "name": "Sinash",
+            "text": "Real ish ustida, oʻlchanadigan maqsad bilan muddati cheklangan sinov."
+          },
+          {
+            "name": "Joriy etish",
+            "text": "Tizimlarga integratsiya qilish, jamoalarni oʻqitish, monitoringni yoʻlga qoʻyish."
+          },
+          {
+            "name": "Kengaytirish",
+            "text": "Funksiyalar va yuridik shaxslar boʻylab joriy etish; samara bermaganlaridan voz kechish."
+          }
+        ]
+      },
+      {
+        "type": "beforeAfter",
+        "label": "Biznesni optimallashtirish",
+        "title": "Ortiqcha xarajatlarsiz\nintellektual yechimlar.",
+        "before": [
+          "Qoʻlda tayyorlanadigan hisobotlar",
+          "Oʻzaro bogʻlanmagan tizimlar",
+          "Takrorlanuvchi ishlar",
+          "Sekin qarorlar",
+          "Yuqori operatsion xarajatlar"
+        ],
+        "after": [
+          "Avtomatlashtirilgan ish jarayonlari",
+          "Oʻzaro bogʻlangan tizimlar",
+          "SI yordamidagi operatsiyalar",
+          "Real vaqtdagi tahliliy maʼlumotlar",
+          "Pastroq operatsion xarajatlar"
+        ],
+        "cta": {
+          "label": "Optimallashtirish imkoniyatlarini aniqlash",
+          "interest": "ai"
+        }
+      },
+      {
+        "type": "statement",
+        "text": "SI toʻgʻri yechim boʻlmagan joyda buni ochiq aytamiz. Qiymatning asosiy qismi puxta tanlangan va toʻgʻri joriy etilgan bir nechta foydalanish holatidan keladi."
+      }
+    ],
+    "related": [
+      "ai-transformation",
+      "digital-product",
+      "growth-engine"
+    ],
+    "image": "servers"
+  },
+  {
+    "slug": "products",
+    "key": "Yaratish",
+    "index": "06",
+    "name": "Raqamli mahsulotlar va platformalar",
+    "visual": "build",
+    "headline": "Imkoniyatdan\nishlaydigan mahsulotgacha.",
+    "summary": "Kerakli yechim mavjud boʻlmasa, biz uni yaratamiz — MVPdan korporativ platformagacha.",
+    "lead": "Biznesga kerakli yechim mavjud boʻlmasa, biz uni loyihalaymiz va yaratamiz. Birinchi MVPdan korporativ platformagacha — mahsulotni u xizmat qilishi lozim boʻlgan biznes modeli bilan bogʻlaymiz.",
+    "includes": [
+      "MVP ishlab chiqish",
+      "Korporativ platformalar",
+      "Ichki tizimlar",
+      "SI asosidagi mahsulotlar",
+      "Marketpleyslar",
+      "Mijoz portallari",
+      "Mobil ilovalar",
+      "SaaS platformalari",
+      "Maʼlumotlar platformalari",
+      "Integratsiyalar",
+      "White-label mahsulotlar"
+    ],
+    "cardCta": "Mahsulotlar va platformalar bilan tanishish",
+    "cta": {
+      "label": "Mahsulotni yaratish",
+      "interest": "product"
+    },
+    "seo": {
+      "title": "Raqamli mahsulotlarni ishlab chiqish — MVP, platformalar va SI mahsulotlari",
+      "description": "Fors koʻrfazi arab davlatlari va Markaziy Osiyo uchun raqamli mahsulot va platformalarni ishlab chiqish: MVP, korporativ platformalar, marketpleyslar, mijoz portallari, mobil ilovalar, SaaS va SI asosidagi mahsulotlar."
+    },
+    "blocks": [
+      {
+        "type": "catalogue"
+      },
+      {
+        "type": "steps",
+        "label": "Qanday yaratamiz",
+        "title": "Avval biznes mantigʻi. Keyin kod.",
+        "items": [
+          {
+            "name": "Konsepsiya",
+            "text": "Biznes modeli, qiymat taklifi, auditoriya va pozitsiyalash."
+          },
+          {
+            "name": "Strategiya",
+            "text": "Mahsulot arxitekturasi, funksiyalar, foydalanuvchi yoʻllari va MVP doirasi."
+          },
+          {
+            "name": "Dizayn",
+            "text": "UX, UI, dizayn tizimi va interaktiv prototip."
+          },
+          {
+            "name": "Ishlab chiqish",
+            "text": "SI yordamida yetkazib berish orqali yaratilgan veb, mobil, SaaS va SI asosidagi mahsulotlar."
+          },
+          {
+            "name": "Ishga tushirish",
+            "text": "Testlash, joylashtirish, analitika, operatsiyalar va iteratsiya."
+          }
+        ]
+      },
+      {
+        "type": "statement",
+        "text": "Biz ortida biznes turgan mahsulotlarni yaratamiz — va ular bozorda natija bermaguncha ishtirok etishda davom etamiz."
+      }
+    ],
+    "related": [
+      "digital-product",
+      "business-build",
+      "ai-transformation"
+    ],
+    "image": "meetingRoom"
+  }
+]

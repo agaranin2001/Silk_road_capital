@@ -1,0 +1,345 @@
+{
+  "name": "Silk Road Capital",
+  "origin": "https://silkroad.capital",
+  "lang": "en",
+  "locale": "en_GB",
+  "defaultTitle": "Silk Road Capital — الاستثمار والاستراتيجية وبناء الأعمال في المملكة العربية السعودية ودول مجلس التعاون الخليجي وآسيا الوسطى",
+  "defaultDescription": "تساعد Silk Road Capital المستثمرين والمكاتب العائلية والشركات على اكتشاف الفرص، ودخول الأسواق، وبناء المشاريع المشتركة، وتحويل الأعمال بالتقنية والذكاء الاصطناعي في المملكة العربية السعودية ودول مجلس التعاون الخليجي وأوزبكستان وأوروبا.",
+  "ogImage": "/assets/img/opt/banner-dubai-1600.webp",
+  "statement": "الاستثمار. الاستراتيجية. التقنية. التنفيذ.",
+  "promise": "نساعد الأشخاص المناسبين على اكتشاف الفرص المناسبة — وتحويلها إلى أعمال حقيقية.",
+  "geography": [
+    "المملكة العربية السعودية",
+    "دول الخليج",
+    "أوزبكستان",
+    "آسيا الوسطى",
+    "أوروبا"
+  ],
+  "cta": {
+    "label": "ابدأ محادثة",
+    "href": "/contact/"
+  },
+  "nav": [
+    {
+      "label": "الخدمات",
+      "href": "/invest/",
+      "match": [
+        "/invest/",
+        "/advisory/",
+        "/joint-ventures/"
+      ],
+      "children": [
+        {
+          "label": "الاستشارات الاستثمارية",
+          "href": "/invest/",
+          "text": "اكتشاف الفرص الجديرة برأس مالك وتقييمها"
+        },
+        {
+          "label": "الاستشارات الاستراتيجية",
+          "href": "/advisory/",
+          "text": "قرارات واضحة في أسواق معقدة"
+        },
+        {
+          "label": "المشاريع المشتركة",
+          "href": "/joint-ventures/",
+          "text": "اعثر على الشريك المناسب وابنِ معه"
+        },
+        {
+          "label": "دخول السوق",
+          "href": "/engagements/market-entry/",
+          "text": "ادخل أسواقًا جديدة بالهيكل المناسب"
+        }
+      ],
+      "mega": {
+        "image": "glass",
+        "kicker": "القدرات",
+        "title": "فرص أفضل. قرارات أفضل.",
+        "text": "الاستثمار والاستراتيجية والشراكات عبر الحدود.",
+        "cta": {
+          "label": "ناقش فرصة",
+          "href": "/contact/?interest=investment"
+        }
+      }
+    },
+    {
+      "label": "الرقمنة والذكاء الاصطناعي",
+      "href": "/digital/",
+      "match": [
+        "/digital/",
+        "/ai/",
+        "/products/"
+      ],
+      "children": [
+        {
+          "label": "التحول الرقمي",
+          "href": "/digital/",
+          "text": "أنظمة حديثة وعمليات أكثر مرونة"
+        },
+        {
+          "label": "تحويل الأعمال بالذكاء الاصطناعي",
+          "href": "/ai/",
+          "text": "الذكاء الاصطناعي حيث يحقق قيمة قابلة للقياس"
+        },
+        {
+          "label": "المنتجات والمنصات الرقمية",
+          "href": "/products/",
+          "text": "من الفرصة إلى منتج يعمل فعليًا"
+        },
+        {
+          "label": "محرك النمو",
+          "href": "/engagements/growth-engine/",
+          "text": "التسويق والمبيعات وإدارة علاقات العملاء والأتمتة"
+        }
+      ],
+      "mega": {
+        "image": "servers",
+        "kicker": "التقنية",
+        "title": "ذكاء دون أعباء غير ضرورية.",
+        "text": "الرقمنة والذكاء الاصطناعي والمنتجات في خدمة نموذج العمل.",
+        "cta": {
+          "label": "حدّد فرص الذكاء الاصطناعي",
+          "href": "/contact/?interest=ai"
+        }
+      }
+    },
+    {
+      "label": "نماذج التعاون",
+      "href": "/engagements/",
+      "match": [
+        "/engagements/"
+      ],
+      "children": [
+        {
+          "label": "بناء الأعمال",
+          "href": "/engagements/business-build/",
+          "text": "من الفكرة إلى نشاط تجاري قائم"
+        },
+        {
+          "label": "مشروع مشترك",
+          "href": "/engagements/joint-venture/",
+          "text": "نشاط تجاري جديد مع شريك استراتيجي"
+        },
+        {
+          "label": "منتج رقمي",
+          "href": "/engagements/digital-product/",
+          "text": "التقنية التي يقوم عليها نموذج العمل"
+        },
+        {
+          "label": "التحول بالذكاء الاصطناعي",
+          "href": "/engagements/ai-transformation/",
+          "text": "تحديد الذكاء الاصطناعي وتطبيقه وتوسيع نطاقه"
+        },
+        {
+          "label": "هيكلة الأعمال",
+          "href": "/engagements/business-structure/",
+          "text": "البنية المالية والمؤسسية والقانونية"
+        },
+        {
+          "label": "إطلاق متكامل للأعمال",
+          "href": "/engagements/full-launch/",
+          "text": "من الاستراتيجية إلى التوسع، مع شريك واحد"
+        }
+      ],
+      "mega": {
+        "image": "boardroom",
+        "kicker": "نماذج التعاون",
+        "title": "طرق عملنا معًا.",
+        "text": "نماذج تعاون منظَّمة — دون قوائم أسعار.",
+        "cta": {
+          "label": "جميع نماذج التعاون",
+          "href": "/engagements/"
+        }
+      }
+    },
+    {
+      "label": "الأسواق",
+      "href": "/markets/",
+      "match": [
+        "/markets/",
+        "/opportunities/"
+      ],
+      "children": [
+        {
+          "label": "المملكة العربية السعودية",
+          "href": "/markets/#saudi-arabia",
+          "text": "رأس المال والتحول والفرص"
+        },
+        {
+          "label": "دول الخليج",
+          "href": "/markets/#gcc",
+          "text": "منصة للنمو"
+        },
+        {
+          "label": "أوزبكستان",
+          "href": "/markets/#uzbekistan",
+          "text": "رأس المال والتقنية والشراكات"
+        },
+        {
+          "label": "آسيا الوسطى وأوروبا",
+          "href": "/markets/#other-markets",
+          "text": "أسواق مترابطة"
+        },
+        {
+          "label": "الفرص",
+          "href": "/opportunities/",
+          "text": "فرص استثمار وشراكة مختارة"
+        }
+      ],
+      "mega": {
+        "image": "riyadh",
+        "kicker": "الأسواق",
+        "title": "معرفة محلية. منظور دولي.",
+        "text": "المملكة العربية السعودية ودول مجلس التعاون الخليجي وأوزبكستان وآسيا الوسطى وأوروبا.",
+        "cta": {
+          "label": "استكشف الأسواق",
+          "href": "/markets/"
+        }
+      }
+    },
+    {
+      "label": "رؤى",
+      "href": "/insights/"
+    }
+  ],
+  "navSecondary": [
+    {
+      "label": "من نحن",
+      "href": "/about/"
+    },
+    {
+      "label": "تواصل معنا",
+      "href": "/contact/"
+    }
+  ],
+  "footer": [
+    {
+      "title": "الشركة",
+      "links": [
+        {
+          "label": "من نحن",
+          "href": "/about/"
+        },
+        {
+          "label": "منهجيتنا",
+          "href": "/about/#approach"
+        },
+        {
+          "label": "شبكتنا",
+          "href": "/about/#network"
+        },
+        {
+          "label": "نماذج التعاون",
+          "href": "/engagements/"
+        },
+        {
+          "label": "رؤى",
+          "href": "/insights/"
+        }
+      ]
+    },
+    {
+      "title": "الخدمات",
+      "links": [
+        {
+          "label": "الاستثمار",
+          "href": "/invest/"
+        },
+        {
+          "label": "الاستشارات",
+          "href": "/advisory/"
+        },
+        {
+          "label": "المشاريع المشتركة",
+          "href": "/joint-ventures/"
+        },
+        {
+          "label": "التحول الرقمي",
+          "href": "/digital/"
+        },
+        {
+          "label": "الذكاء الاصطناعي",
+          "href": "/ai/"
+        },
+        {
+          "label": "تطوير المنتجات",
+          "href": "/products/"
+        }
+      ]
+    },
+    {
+      "title": "الأسواق",
+      "links": [
+        {
+          "label": "المملكة العربية السعودية",
+          "href": "/markets/#saudi-arabia"
+        },
+        {
+          "label": "دول الخليج",
+          "href": "/markets/#gcc"
+        },
+        {
+          "label": "أوزبكستان",
+          "href": "/markets/#uzbekistan"
+        },
+        {
+          "label": "آسيا الوسطى",
+          "href": "/markets/#other-markets"
+        },
+        {
+          "label": "أوروبا",
+          "href": "/markets/#other-markets"
+        }
+      ]
+    },
+    {
+      "title": "تواصل معنا",
+      "links": [
+        {
+          "label": "ابدأ محادثة",
+          "href": "/contact/"
+        },
+        {
+          "label": "الفرص",
+          "href": "/opportunities/"
+        },
+        {
+          "label": "الخصوصية",
+          "href": "/privacy/"
+        }
+      ]
+    }
+  ],
+  "contacts": {
+    "email": null,
+    "note": "نتعامل مع جميع الاستفسارات بسرية تامة."
+  },
+  "disclaimer": "المعلومات الواردة في هذا الموقع مقدَّمة لأغراض إعلامية عامة فقط، ولا تُشكّل عرضًا أو التماسًا أو توصية لشراء أي ورقة مالية أو بيعها أو للقيام بأي استثمار. ولا تُمارَس الأنشطة الخاضعة للتنظيم إلا حيثما يتوفر الترخيص اللازم أو من خلال شركاء مرخَّصين. ويجري تنسيق الأعمال القانونية والضريبية والتنظيمية مع مستشارين قانونيين مؤهلين.",
+  "copyright": "© Silk Road Capital",
+  "languages": [
+    {
+      "code": "en",
+      "name": "الإنجليزية",
+      "native": "English",
+      "available": true
+    },
+    {
+      "code": "ar",
+      "name": "العربية",
+      "native": "العربية",
+      "dir": "rtl",
+      "available": false
+    },
+    {
+      "code": "ru",
+      "name": "الروسية",
+      "native": "Русский",
+      "available": false
+    },
+    {
+      "code": "uz",
+      "name": "الأوزبكية",
+      "native": "Oʻzbekcha",
+      "available": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# build output
+dist/
+.dist-build-*
+
+# local captures and source photos (derivatives live in assets/img)
+screenshots/
+*.zip
+Adham.png
+
+# system / tooling
+node_modules/
+.DS_Store
+.env
+.env.*

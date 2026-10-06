@@ -1,0 +1,113 @@
+/*
+ * Design tokens — extracted from the Vita Travel reference
+ * (vita-travel.webflow.shared.css + app.min.css). See docs/DESIGN_SYSTEM.md.
+ */
+/* Registered as colours so theme changes can be transitioned (sand ↔ dark on scroll). */
+@property --color-bg { syntax: "<color>"; inherits: true; initial-value: #e8dfd4; }
+@property --color-bg-raised { syntax: "<color>"; inherits: true; initial-value: #dfd4c6; }
+@property --white-100 { syntax: "<color>"; inherits: true; initial-value: #0d2e37; }
+@property --white-60 { syntax: "<color>"; inherits: true; initial-value: #0d2e37b3; }
+@property --white-50 { syntax: "<color>"; inherits: true; initial-value: #0d2e3799; }
+@property --white-40 { syntax: "<color>"; inherits: true; initial-value: #0d2e3780; }
+@property --white-20 { syntax: "<color>"; inherits: true; initial-value: #0d2e3740; }
+@property --white-10 { syntax: "<color>"; inherits: true; initial-value: #0d2e3724; }
+@property --btn-primary-fg { syntax: "<color>"; inherits: true; initial-value: #f3ede4; }
+@property --header-tint { syntax: "<color>"; inherits: true; initial-value: #e8dfd499; }
+
+:root {
+  /* Colour — the "ink" tokens keep Vita's --white-* names; their values flip per theme.
+     Default theme = sand. `.theme-dark` restores the original Vita dark palette. */
+  --color-bg: #e8dfd4;            /* sand page background (Hikmat's own beige) */
+  --color-bg-raised: #dfd4c6;
+  --white-100: #0d2e37;
+  --white-60: #0d2e37b3;
+  --white-50: #0d2e3799;
+  --white-40: #0d2e3780;
+  --white-20: #0d2e3740;
+  --white-10: #0d2e3724;
+  --btn-primary-fg: #f3ede4;      /* text on the primary (ink-filled) button */
+  --header-tint: #e8dfd499;
+  --picker-invert: 0;
+  --brand-accent: #fb9826;        /* hover */
+  --button-clicked: #fa8805;      /* focus / active */
+  --brand-green: #0d2e37;         /* secondary button fill, text on white buttons */
+  --icon-grey-40: #3d585f;
+  --color-error: #fd4f4f;
+  --color-error-40: #fd4f4f66;
+
+  /* Typography */
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Spacing scale (rem — the root font-size is fluid, see base.css) */
+  --space-4: .25rem;
+  --space-8: .5rem;
+  --space-12: .75rem;
+  --space-16: 1rem;
+  --space-20: 1.25rem;
+  --space-24: 1.5rem;
+  --space-32: 2rem;
+  --space-40: 2.5rem;
+  --space-48: 3rem;
+  --space-56: 3.5rem;
+  --space-64: 4rem;
+  --space-80: 5rem;
+
+  /* Layout */
+  --container-gutter: 2.5rem;
+  --header-height: 4.5rem;
+
+  /* Radius */
+  --radius-pill: 5rem;
+  --radius-none: 0;
+
+  /* Motion */
+  --ease-standard: ease;
+  --duration-fast: .2s;
+  --duration-medium: .4s;
+
+  /* Effects */
+  --blur-header: blur(12px);
+  --blur-glass: blur(10px);
+  --photo-shade: linear-gradient(194.25deg, #0000 31.27%, #00000080 84.84%);
+}
+
+@media screen and (max-width: 479px) {
+  :root {
+    --container-gutter: 1.25rem;
+  }
+}
+
+/* Dark theme (original Vita palette). Applied to <body>/<header> by JS while a
+   [data-theme="dark"] section is in view, and statically to photo-backed blocks. */
+.theme-dark {
+  --color-bg: #091b20;
+  --color-bg-raised: #0a1e24;
+  --white-100: #ffffff;
+  --white-60: #ffffff99;
+  --white-50: #ffffff80;
+  --white-40: #ffffff66;
+  --white-20: #ffffff33;
+  --white-10: #ffffff1a;
+  --btn-primary-fg: #0d2e37;
+  --header-tint: #091b2040;
+  --picker-invert: 1;
+  color: var(--white-100);
+}
+
+/* Explicit sand theme — lets the header stay light while <body> is dark (and vice versa). */
+.theme-light {
+  --color-bg: #e8dfd4;
+  --color-bg-raised: #dfd4c6;
+  --white-100: #0d2e37;
+  --white-60: #0d2e37b3;
+  --white-50: #0d2e3799;
+  --white-40: #0d2e3780;
+  --white-20: #0d2e3740;
+  --white-10: #0d2e3724;
+  --btn-primary-fg: #f3ede4;
+  --header-tint: #e8dfd499;
+  --picker-invert: 0;
+  color: var(--white-100);
+}
+
+@property --sweep { syntax: "<angle>"; inherits: false; initial-value: 0deg; }

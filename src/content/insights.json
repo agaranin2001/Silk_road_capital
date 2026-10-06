@@ -1,0 +1,100 @@
+{
+  "intro": {
+    "label": "Insights",
+    "title": "Perspectives.",
+    "lead": "Short, practical views on investment, market entry, partnerships and technology across Saudi Arabia, the GCC and Central Asia."
+  },
+  "categories": ["Investment", "Saudi Arabia", "GCC", "Uzbekistan", "AI", "Digital Transformation", "Joint Ventures", "Market Entry", "Technology"],
+  "items": [
+    {
+      "slug": "market-entry-saudi-arabia-starts-with-the-partner",
+      "category": "Market Entry",
+      "tags": ["Saudi Arabia", "Market Entry", "Joint Ventures"],
+      "title": "Market entry into Saudi Arabia starts with the partner, not the licence",
+      "date": "2026-09-22",
+      "summary": "International companies often begin with entity set-up. The ones that succeed begin with relationships, positioning and a clear local value proposition.",
+      "body": [
+        "Most international companies approach Saudi Arabia as a sequence of administrative steps: choose a structure, obtain the licences, open an office, hire a country manager. Each step is necessary. None of them, on its own, produces customers.",
+        "The companies that build momentum quickly tend to reverse the order. They start by understanding who already serves their target customers, which local groups have the relationships and credibility they lack, and what they can offer those groups in return.",
+        "A good local partner brings more than introductions. It brings an understanding of how decisions are made, which procurement routes matter, how to localise the product and how to price it. In many sectors, the choice of partner shapes the entry model itself — distribution agreement, joint venture or wholly owned subsidiary.",
+        "That is why we treat partner identification as part of strategy, not as an afterthought. Long-listing, screening and testing partners early often changes the business case, the investment required and the timeline.",
+        "The legal structure still matters, and should be designed with qualified counsel. But it should follow the commercial logic of the entry, not define it."
+      ]
+    },
+    {
+      "slug": "uzbekistan-on-the-gcc-investor-map",
+      "category": "Uzbekistan",
+      "tags": ["Uzbekistan", "Investment", "GCC"],
+      "title": "Why Uzbekistan belongs on a GCC investor’s map",
+      "date": "2026-09-08",
+      "summary": "Reform, digitisation and a young population make Uzbekistan one of the more interesting growth markets for Gulf capital — if approached with local knowledge.",
+      "body": [
+        "For many GCC investors, Central Asia sits just outside the usual frame of reference. Uzbekistan deserves a closer look.",
+        "Over recent years the country has opened up to foreign investment, simplified business rules and invested in digitising both government and private enterprise. A young, growing population is driving demand for modern services — from e-commerce and fintech to education and healthcare.",
+        "Cultural ties, direct air connections and a shared interest in trade make the GCC a natural partner. Gulf capital can bring scale and patience; local businesses bring operating knowledge and access to a market that is still under-served.",
+        "The practical challenges are real: information is less transparent, governance standards vary and good opportunities rarely appear in a formal process. That is where on-the-ground relationships and careful due diligence make the difference.",
+        "For investors willing to do the work, Uzbekistan offers something increasingly rare: growth opportunities that have not yet been priced by a crowded market."
+      ]
+    },
+    {
+      "slug": "ai-that-pays-for-itself",
+      "category": "AI",
+      "tags": ["AI", "Digital Transformation"],
+      "title": "AI that pays for itself: start with the process, not the model",
+      "date": "2026-08-25",
+      "summary": "The most valuable AI projects rarely start with technology. They start with a slow, expensive or error-prone process that someone is accountable for.",
+      "body": [
+        "Many AI initiatives begin with a technology demonstration and then search for a problem. The result is usually an impressive pilot that never reaches daily operations.",
+        "A better starting point is the work itself. Where do teams spend hours on repetitive tasks? Which reports take days to assemble? Which decisions are delayed because information is scattered across systems? These are the places where AI can pay for itself.",
+        "For each candidate use case we ask four questions: what is it worth if it works, how feasible is it with the data available, what is the risk if it goes wrong, and who owns the outcome. Ranking use cases this way usually narrows a long list to a handful that matter.",
+        "Pilots should be short and measured against a clear target — time saved, cost removed, response time improved. If a pilot does not meet the target, it should stop.",
+        "Finally, AI needs governance from the start: who can access what data, how outputs are checked and where people stay in control. Done properly, AI becomes a quiet part of how the business runs — not a separate project."
+      ]
+    },
+    {
+      "slug": "joint-ventures-fail-at-the-term-sheet",
+      "category": "Joint Ventures",
+      "tags": ["Joint Ventures", "Investment"],
+      "title": "Joint ventures fail at the term sheet, not at launch",
+      "date": "2026-08-11",
+      "summary": "Most JV problems are visible before the venture exists — in unclear contributions, misaligned economics and governance that cannot make decisions.",
+      "body": [
+        "Joint ventures are an effective way to combine capital, technology and market access. They are also notoriously fragile — and the causes are usually visible early.",
+        "The first is unclear contribution. Each partner should be able to state precisely what it brings — capital, technology, licences, customers, people — and how that contribution is valued.",
+        "The second is misaligned economics. If one partner earns mainly through fees to the venture and the other through its profits, their incentives will diverge. Economics should reward the same outcome for both.",
+        "The third is governance. Deadlock clauses, reserved matters and management appointments need to be practical, not just protective. A venture that cannot make decisions quickly will lose to competitors that can.",
+        "We work through these questions with both partners before documents are drafted, then coordinate the legal work with qualified counsel. Time spent here is the cheapest insurance a venture can buy."
+      ]
+    },
+    {
+      "slug": "digitalising-a-family-business",
+      "category": "Digital Transformation",
+      "tags": ["Digital Transformation", "GCC"],
+      "title": "Digitalising a family business without breaking what works",
+      "date": "2026-07-28",
+      "summary": "Established family groups have strong relationships and loyal teams. Digitalisation should strengthen those advantages, not replace them.",
+      "body": [
+        "Family businesses across the GCC and Central Asia are often built on trust, relationships and deep market knowledge. Their systems, however, can lag behind: spreadsheets, disconnected tools and information held by a few key people.",
+        "The temptation is to launch a large, all-at-once transformation programme. That rarely works. It disrupts operations, overwhelms teams and delays any visible benefit.",
+        "A more effective approach is to start with the processes that cause the most friction — usually finance, reporting, sales and customer service — and fix them in short, visible releases.",
+        "Connecting existing systems and creating one reliable source of data often delivers more value than replacing everything. It also prepares the business for automation and AI later.",
+        "Throughout, the people who run the business need to own the change. Technology should make their judgement more informed, not take it away."
+      ]
+    },
+    {
+      "slug": "commercial-due-diligence-cross-border",
+      "category": "Investment",
+      "tags": ["Investment", "GCC", "Market Entry"],
+      "title": "Commercial due diligence for cross-border deals: questions to answer first",
+      "date": "2026-07-14",
+      "summary": "Before financial models and legal reviews, a cross-border investment needs clear answers about the market, the customer and the people.",
+      "body": [
+        "Cross-border investments add layers of uncertainty: unfamiliar markets, different business practices and information that is harder to verify. Commercial due diligence is how investors reduce that uncertainty before committing capital.",
+        "We start with a short list of questions. Is the market as large and as accessible as the business claims? Why do customers choose this company, and would they keep doing so? Who are the real competitors, including informal ones?",
+        "Next come questions about people and partners. Can the management team execute the plan? Which relationships does the business depend on, and how secure are they?",
+        "Only then do we turn to the numbers: whether the revenue plan is consistent with what we have learned about the market and customers, and what has to be true for the investment case to work.",
+        "Answering these questions early saves time and money. It also gives investors a much stronger position when it comes to structure and terms."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "comment": "Photography from Unsplash (free Unsplash License — commercial use allowed, attribution appreciated). Served from the Unsplash CDN with size parameters; see README → Images.",
+  "items": {
+    "hero": {
+      "id": "photo-1694018359679-49465b4c0d61",
+      "alt": "The Kingdom Centre in Riyadh against a warm evening sky",
+      "by": "Ibrahim Abdullah",
+      "page": "https://unsplash.com/photos/_UxsPARhtOg"
+    },
+    "riyadh": {
+      "id": "photo-1778846266193-74c83f7f5117",
+      "alt": "Riyadh skyline with modern towers",
+      "by": "Oualid Lakhrouti",
+      "page": "https://unsplash.com/photos/NCD37SPA2wk"
+    },
+    "riyadhStreet": {
+      "id": "photo-1784637729389-f24e1d2a8b22",
+      "alt": "Riyadh cityscape with the Kingdom Centre and modern buildings",
+      "by": "Tati Odintsova",
+      "page": "https://unsplash.com/photos/kZ5nwgLVjqQ"
+    },
+    "riyadhNight": {
+      "id": "photo-1663900108404-a05e8bf82cda",
+      "alt": "Riyadh at night",
+      "by": "سيف الظاهر",
+      "page": "https://unsplash.com/photos/vAkHAP27QMk"
+    },
+    "registan": {
+      "id": "photo-1733586092622-1b3201e802a5",
+      "alt": "The Registan in Samarkand, Uzbekistan",
+      "by": "Hans-Jürgen Weinhardt",
+      "page": "https://unsplash.com/photos/JRpE5XBwlg0"
+    },
+    "tashkent": {
+      "id": "photo-1654861857666-1e8c438cbe4a",
+      "alt": "Historic complex in Tashkent, Uzbekistan",
+      "by": "Dmitriy Efimov",
+      "page": "https://unsplash.com/photos/IyeWrvpt7sQ"
+    },
+    "dubai": {
+      "id": "photo-1651467606797-e1c660cf3fda",
+      "alt": "Downtown Dubai skyline",
+      "by": "Ahmed Aldaie",
+      "page": "https://unsplash.com/photos/aKj9uDanF18"
+    },
+    "doha": {
+      "id": "photo-1685113872064-de4180a0ea93",
+      "alt": "Doha skyline",
+      "by": "Kenny",
+      "page": "https://unsplash.com/photos/rsMfEFFrgqc"
+    },
+    "jeddah": {
+      "id": "photo-1586715065342-98d1f6016fd1",
+      "alt": "Jeddah waterfront",
+      "by": "mohammed alorabi",
+      "page": "https://unsplash.com/photos/_ABfNIGGsZk"
+    },
+    "frankfurt": {
+      "id": "photo-1576930343276-902c521c9d2f",
+      "alt": "Frankfurt financial district",
+      "by": "Charlotte Venema",
+      "page": "https://unsplash.com/photos/2OxSJVGE5zM"
+    },
+    "boardroom": {
+      "id": "photo-1517502884422-41eaead166d4",
+      "alt": "A quiet boardroom with a city view",
+      "by": "Dane Deaner",
+      "page": "https://unsplash.com/photos/_-KLkj7on_c"
+    },
+    "boardroomBright": {
+      "id": "photo-1431540015161-0bf868a2d407",
+      "alt": "Conference room with floor-to-ceiling windows",
+      "by": "Benjamin Child",
+      "page": "https://unsplash.com/photos/GWe0dlVD9e0"
+    },
+    "meetingRoom": {
+      "id": "photo-1582653291997-079a1c04e5a1",
+      "alt": "Modern meeting room",
+      "by": "Danielle Cerullo",
+      "page": "https://unsplash.com/photos/bIZJRVBLfOM"
+    },
+    "glass": {
+      "id": "photo-1692797960717-1738a7a872c8",
+      "alt": "Glass towers seen from below",
+      "by": "Zouhir Zouhir",
+      "page": "https://unsplash.com/photos/GP6-P0QAEzY"
+    },
+    "datacenter": {
+      "id": "photo-1506399309177-3b43e99fead2",
+      "alt": "Server racks in a data centre",
+      "by": "imgix",
+      "page": "https://unsplash.com/photos/pgdaAwf6IJg"
+    },
+    "servers": {
+      "id": "photo-1680992046617-e2e35451bcdb",
+      "alt": "Server lights in a data centre",
+      "by": "Tyler",
+      "page": "https://unsplash.com/photos/zMrGQu21qcU"
+    },
+    "industrial": {
+      "id": "photo-1689752784205-05109681c803",
+      "alt": "Modern industrial hall",
+      "by": "Tom Bronab",
+      "page": "https://unsplash.com/photos/h18Dj4zb7WU"
+    },
+    "stadium": {
+      "id": "photo-1489944440615-453fc2b6a9a9",
+      "alt": "Football stadium from above",
+      "by": "Mario Klassen",
+      "page": "https://unsplash.com/photos/70YxSTWa2Zw"
+    },
+    "hotel": {
+      "id": "photo-1759038085950-1234ca8f5fed",
+      "alt": "Hotel reception with modern wooden furniture",
+      "by": "Neon Wang",
+      "page": "https://unsplash.com/photos/kfnWOD1Tbp8"
+    },
+    "desertRoad": {
+      "id": "photo-1633876652758-814defbf4793",
+      "alt": "A road through the desert from above",
+      "by": "Alex Diaz",
+      "page": "https://unsplash.com/photos/rbDvm1HBJqg"
+    },
+    "stockholm": {
+      "id": "photo-1715589632802-66aa0194c1c8",
+      "alt": "Stockholm City Hall across the water at dusk",
+      "by": "time lapse",
+      "page": "https://unsplash.com/photos/A2bjd0RfA54"
+    },
+    "almaty": {
+      "id": "photo-1659651117607-d2b397cf100f",
+      "alt": "Almaty with the mountains behind",
+      "by": "Ilyas Dautov",
+      "page": "https://unsplash.com/photos/ljw3mBWuwTA"
+    },
+    "dohaNight": {
+      "id": "photo-1724614766527-6f5a86ef4c5c",
+      "alt": "Doha skyline at night across the bay",
+      "by": "Jimmy Hu",
+      "page": "https://unsplash.com/photos/LIuY3-Mwc_k"
+    },
+    "abuDhabi": {
+      "id": "photo-1668060742975-9a462159b0bd",
+      "alt": "Abu Dhabi skyline across the water",
+      "by": "Karthik B K",
+      "page": "https://unsplash.com/photos/J1dkREbfefU"
+    },
+    "kuwait": {
+      "id": "photo-1567074994308-df304d5611db",
+      "alt": "The Kuwait Towers by the sea",
+      "by": "Masrur Rahman",
+      "page": "https://unsplash.com/photos/RvBN5Maxg5c"
+    },
+    "bahrain": {
+      "id": "photo-1748066768504-99532da7d1e9",
+      "alt": "Bahrain World Trade Center at sunrise",
+      "by": "Ondrej Bocek",
+      "page": "https://unsplash.com/photos/wOlMEpBzwHs"
+    },
+    "muscat": {
+      "id": "photo-1606813332135-228593b6e201",
+      "alt": "Muscat corniche from above",
+      "by": "Anfal Shamsudeen",
+      "page": "https://unsplash.com/photos/n8MmkmHcR3Y"
+    },
+    "oslo": {
+      "id": "photo-1518517611416-da57df49b8d3",
+      "alt": "Oslo Opera House on the waterfront",
+      "by": "Vidar Nordli-Mathisen",
+      "page": "https://unsplash.com/photos/q-fr4QsIyic"
+    },
+    "copenhagen": {
+      "id": "photo-1550682837-891ae070f347",
+      "alt": "Nyhavn harbour in Copenhagen",
+      "by": "Zachary Shakked",
+      "page": "https://unsplash.com/photos/RQIqJf0K7Bs"
+    },
+    "helsinki": {
+      "id": "photo-1540799051881-f52f8d808bf3",
+      "alt": "Helsinki Cathedral at dusk",
+      "by": "Tapio Haaja",
+      "page": "https://unsplash.com/photos/s5Pcw6zSbvE"
+    },
+    "berlin": {
+      "id": "photo-1566404791232-af9fe0ae8f8b",
+      "alt": "Berlin with the TV tower",
+      "by": "Adam Vradenburg",
+      "page": "https://unsplash.com/photos/g8DI2ZZFt8I"
+    },
+    "needInvest": {
+      "id": "photo-1768055104929-cf2317674a80",
+      "alt": "Investor analysing market charts on a tablet",
+      "by": "Jakub Żerdzicki",
+      "page": "https://unsplash.com/photos/trader-analyzing-stock-market-charts-on-tablet-and-monitor-tFecc1boKYc"
+    },
+    "needMarket": {
+      "id": "photo-1786953771832-a292ab9b6af5",
+      "alt": "The Al Faisaliah Tower in Riyadh",
+      "by": "Abdullah AlQasabi",
+      "page": "https://unsplash.com/photos/al-faisaliah-tower-in-riyadh-emJq8lZp3q4"
+    },
+    "needPartner": {
+      "id": "photo-1759310610325-2c7cb621e5e3",
+      "alt": "Two business partners shaking hands in an office",
+      "by": "Amari Shutters",
+      "page": "https://unsplash.com/photos/two-businessmen-shaking-hands-across-a-desk-9h8Nhj8fy_E"
+    },
+    "needJv": {
+      "id": "photo-1743017524261-f026c51acf7d",
+      "alt": "Partners signing an agreement at a desk",
+      "by": "150 Billi",
+      "page": "https://unsplash.com/photos/two-people-are-signing-a-document-at-a-desk-EtiHiyDkld0"
+    },
+    "needDigital": {
+      "id": "photo-1652533625932-25d5104161a1",
+      "alt": "A business dashboard on a laptop screen",
+      "by": "Amjith S",
+      "page": "https://unsplash.com/photos/a-close-up-of-a-laptop-AzNc9g-gJxA"
+    },
+    "needAi": {
+      "id": "photo-1684503830891-27e71ff697e3",
+      "alt": "Golden dotted wave on black, evoking a neural network",
+      "by": "Visax",
+      "page": "https://unsplash.com/photos/golden-dotted-wave-on-black-RMukvw_Gc0k"
+    },
+    "needProduct": {
+      "id": "photo-1551721434-8b94ddff0e6d",
+      "alt": "A mobile app on a smartphone",
+      "by": "Daniel Korpai",
+      "page": "https://unsplash.com/photos/person-holding-black-smartphone-aUmq85-2V7I"
+    },
+    "invDigital": {
+      "id": "photo-1551650975-87deedd944c3",
+      "alt": "A smartphone showing a data dashboard app",
+      "by": "Balázs Kétyi",
+      "page": "https://unsplash.com/photos/smartphone-displaying-environmental-data-dashboard-sScmok4Iq1o"
+    },
+    "invRealEstate": {
+      "id": "photo-1726087165132-d64b2401728a",
+      "alt": "A large building under construction with cranes in Saudi Arabia",
+      "by": "Nojood Al Aqeel",
+      "page": "https://unsplash.com/photos/a-large-building-under-construction-with-a-crane-7TG1fm1RdYU"
+    },
+    "invSports": {
+      "id": "photo-1729843352938-0e10fbf96585",
+      "alt": "A football pitch seen from above",
+      "by": "Charles Kitenge",
+      "page": "https://unsplash.com/photos/an-aerial-view-of-a-soccer-field-in-a-stadium-Bzkr4FrzHFo"
+    },
+    "invIndustrial": {
+      "id": "photo-1647427060118-4911c9821b82",
+      "alt": "Orange robotic arms on a factory production line",
+      "by": "Simon Kadula",
+      "page": "https://unsplash.com/photos/a-factory-filled-with-lots-of-orange-machines-8gr6bObQLOI"
+    }
+  }
+}

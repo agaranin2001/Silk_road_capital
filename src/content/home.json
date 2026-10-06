@@ -1,0 +1,927 @@
+{
+  "seo": {
+    "title": "",
+    "description": "Silk Road Capital is a strategic business-building partner for investors, family offices and companies across Saudi Arabia, the GCC, Uzbekistan and Central Asia: investment advisory, strategy, joint ventures, market entry, digital transformation and AI."
+  },
+  "hero": {
+    "label": "Private investment & business-building partner",
+    "title": [
+      "Connecting Markets.",
+      "Creating Opportunities.",
+      "Building Growth."
+    ],
+    "text": [
+      "We connect businesses, investors, technologies and strategic partners across Central Asia, the GCC, the CIS and the Nordics.",
+      "From market entry and strategic partnerships to joint ventures, investment, digital transformation and AI — we help organisations move across borders and turn opportunities into real business."
+    ],
+    "primary": {
+      "label": "Explore Our Services",
+      "href": "#capabilities"
+    },
+    "secondary": {
+      "label": "Discuss Your Opportunity",
+      "href": "/contact/"
+    },
+    "image": "hero",
+    "imageAlt": "The Kingdom Centre in Riyadh against a warm evening sky",
+    "eyebrow": "Investment · Strategy · Technology · Execution",
+    "cases": [
+      {
+        "service": "Investment Advisory",
+        "icon": "chart",
+        "href": "/invest/",
+        "image": "hero",
+        "imageAlt": "The Kingdom Centre in Riyadh against a warm evening sky",
+        "chips": [
+          "Opportunity sourced — Riyadh",
+          "Commercial due diligence completed",
+          "Investment thesis approved",
+          "Co-investors aligned"
+        ],
+        "steps": [
+          {
+            "name": "Sourcing",
+            "state": "done"
+          },
+          {
+            "name": "Due diligence",
+            "state": "done"
+          },
+          {
+            "name": "Structuring",
+            "state": "active"
+          },
+          {
+            "name": "Closing",
+            "state": "next"
+          }
+        ]
+      },
+      {
+        "service": "Strategic Advisory",
+        "icon": "compass",
+        "href": "/advisory/",
+        "image": "boardroom",
+        "imageAlt": "A quiet boardroom with a city view",
+        "chips": [
+          "Market sized — Saudi Arabia",
+          "Entry model recommended",
+          "Local partners shortlisted",
+          "Plan approved by the board"
+        ],
+        "steps": [
+          {
+            "name": "Market intelligence",
+            "state": "done"
+          },
+          {
+            "name": "Entry strategy",
+            "state": "done"
+          },
+          {
+            "name": "Partner search",
+            "state": "active"
+          },
+          {
+            "name": "Launch plan",
+            "state": "next"
+          }
+        ]
+      },
+      {
+        "service": "Joint Ventures",
+        "icon": "link",
+        "href": "/joint-ventures/",
+        "image": "dubai",
+        "imageAlt": "Downtown Dubai skyline",
+        "chips": [
+          "Partner matched — Dubai",
+          "Strategic fit validated",
+          "Ownership and governance agreed",
+          "Venture launch planned"
+        ],
+        "steps": [
+          {
+            "name": "Find",
+            "state": "done"
+          },
+          {
+            "name": "Validate",
+            "state": "done"
+          },
+          {
+            "name": "Structure",
+            "state": "active"
+          },
+          {
+            "name": "Launch",
+            "state": "next"
+          }
+        ]
+      },
+      {
+        "service": "Digital Transformation",
+        "icon": "layers",
+        "href": "/digital/",
+        "image": "industrial",
+        "imageAlt": "Modern industrial hall",
+        "chips": [
+          "Operations mapped end to end",
+          "CRM and ERP connected",
+          "Manual reporting removed",
+          "Management dashboard live"
+        ],
+        "steps": [
+          {
+            "name": "Process analysis",
+            "state": "done"
+          },
+          {
+            "name": "Systems design",
+            "state": "done"
+          },
+          {
+            "name": "Integration",
+            "state": "active"
+          },
+          {
+            "name": "Scale",
+            "state": "next"
+          }
+        ]
+      },
+      {
+        "service": "AI Business Transformation",
+        "icon": "cpu",
+        "href": "/ai/",
+        "image": "servers",
+        "imageAlt": "Server lights in a data centre",
+        "chips": [
+          "AI audit completed",
+          "High-value use cases prioritised",
+          "Support agent piloted",
+          "AI in production — savings measured"
+        ],
+        "steps": [
+          {
+            "name": "Discover",
+            "state": "done"
+          },
+          {
+            "name": "Assess",
+            "state": "done"
+          },
+          {
+            "name": "Pilot",
+            "state": "active"
+          },
+          {
+            "name": "Scale",
+            "state": "next"
+          }
+        ]
+      },
+      {
+        "service": "Digital Products & Platforms",
+        "icon": "box",
+        "href": "/products/",
+        "image": "glass",
+        "imageAlt": "Glass towers seen from below",
+        "chips": [
+          "Business model validated",
+          "UX prototype tested",
+          "MVP released",
+          "First customers onboarded"
+        ],
+        "steps": [
+          {
+            "name": "Concept",
+            "state": "done"
+          },
+          {
+            "name": "Design",
+            "state": "done"
+          },
+          {
+            "name": "Build",
+            "state": "active"
+          },
+          {
+            "name": "Launch",
+            "state": "next"
+          }
+        ]
+      }
+    ],
+    "tag": "Illustrative"
+  },
+  "intro": {
+    "label": "Who we are",
+    "title": "We operate where capital, strategy and technology meet.",
+    "text": "We work with investors, entrepreneurs and organisations looking for more than advice. We help identify opportunities, evaluate businesses, structure partnerships, enter markets and turn strategic ideas into operating businesses.",
+    "positioning": [
+      "We don’t just advise businesses. We help create them.",
+      "We don’t just implement technology. We connect it to business outcomes.",
+      "We don’t just identify opportunities. We turn them into investments, partnerships and operating businesses."
+    ]
+  },
+  "capabilities": {
+    "label": "Capabilities",
+    "title": "One partner.\nMultiple ways forward.",
+    "text": "Six capabilities that work on their own or together — from the first investment question to a working business."
+  },
+  "needs": {
+    "label": "Start here",
+    "title": "What are you trying to achieve?",
+    "items": [
+      {
+        "key": "invest",
+        "label": "I want to invest",
+        "text": "Find and evaluate investment opportunities.", "image": "needInvest",
+        "pathway": [
+          "Investment Advisory",
+          "Due Diligence",
+          "Market Intelligence",
+          "Financial Analysis",
+          "Legal Coordination",
+          "Co-investment"
+        ],
+        "engagements": [
+          "investment-advisory",
+          "business-structure"
+        ],
+        "cta": {
+          "label": "Discuss an opportunity",
+          "interest": "investment"
+        }
+      },
+      {
+        "key": "market",
+        "label": "I want to enter a new market",
+        "text": "Understand the market and find local partners.", "image": "needMarket",
+        "pathway": [
+          "Market Entry",
+          "Partner Search",
+          "JV Strategy",
+          "Legal Structure",
+          "Financial Model",
+          "Sales",
+          "Digitalisation"
+        ],
+        "engagements": [
+          "market-entry",
+          "joint-venture"
+        ],
+        "cta": {
+          "label": "Plan your market entry",
+          "interest": "market-entry"
+        }
+      },
+      {
+        "key": "partner",
+        "label": "I want to find a strategic partner",
+        "text": "Identify potential partners and structure cooperation.", "image": "needPartner",
+        "pathway": [
+          "Partner Identification",
+          "Strategic Fit",
+          "Commercial Terms",
+          "Partnership Structure",
+          "Launch Plan"
+        ],
+        "engagements": [
+          "joint-venture",
+          "market-entry"
+        ],
+        "cta": {
+          "label": "Explore a partnership",
+          "interest": "joint-venture"
+        }
+      },
+      {
+        "key": "jv",
+        "label": "I want to create a joint venture",
+        "text": "Build a new business with a local or international partner.", "image": "needJv",
+        "pathway": [
+          "Partner Matching",
+          "JV Strategy",
+          "JV Economics",
+          "Governance",
+          "Operating Model",
+          "Product & Technology",
+          "Launch"
+        ],
+        "engagements": [
+          "joint-venture",
+          "business-structure"
+        ],
+        "cta": {
+          "label": "Build a joint venture",
+          "interest": "joint-venture"
+        }
+      },
+      {
+        "key": "digital",
+        "label": "I want to digitalise my business",
+        "text": "Modernise systems and operations.", "image": "needDigital",
+        "pathway": [
+          "Process Analysis",
+          "Digitalisation Strategy",
+          "CRM / ERP",
+          "Integrations",
+          "Automation",
+          "Data",
+          "Management Intelligence"
+        ],
+        "engagements": [
+          "digital-product",
+          "ai-transformation"
+        ],
+        "cta": {
+          "label": "Discuss your transformation",
+          "interest": "digital"
+        }
+      },
+      {
+        "key": "ai",
+        "label": "I want to implement AI",
+        "text": "Identify and implement high-value AI use cases.", "image": "needAi",
+        "pathway": [
+          "AI Audit",
+          "Use-case Prioritisation",
+          "Pilot",
+          "Implementation",
+          "AI Agents",
+          "Governance",
+          "Scale"
+        ],
+        "engagements": [
+          "ai-transformation"
+        ],
+        "cta": {
+          "label": "Identify AI opportunities",
+          "interest": "ai"
+        }
+      },
+      {
+        "key": "product",
+        "label": "I want to build a new product",
+        "text": "Turn an idea into a working digital product.", "image": "needProduct",
+        "pathway": [
+          "Business Model",
+          "Product Strategy",
+          "UX / UI",
+          "MVP",
+          "AI Features",
+          "Launch",
+          "Growth"
+        ],
+        "engagements": [
+          "digital-product",
+          "business-build"
+        ],
+        "cta": {
+          "label": "Build the product",
+          "interest": "product"
+        }
+      }
+    ],
+    "eyebrow": "Start here",
+    "text": "Choose a goal. We’ll show the pathway and the engagement that usually fits."
+  },
+  "journey": {
+    "label": "One partner",
+    "title": "One partner across\nthe entire journey.",
+    "text": "Instead of coordinating multiple disconnected advisers, technology providers, agencies and development teams, clients work with one strategic partner coordinating the full journey.",
+    "note": "We coordinate specialist partners across legal, tax, financial, technology and market-specific disciplines.",
+    "stages": [
+      "Idea",
+      "Market",
+      "Capital",
+      "Structure",
+      "Product",
+      "AI",
+      "Marketing",
+      "Sales",
+      "Operations",
+      "Scale"
+    ]
+  },
+  "packages": {
+    "label": "Engagements",
+    "title": "Ways we can work together.",
+    "text": "Structured engagement models — not price lists. Each is shaped around the opportunity, the market and the level of involvement you need."
+  },
+  "mandates": {
+    "label": "Selected experience",
+    "title": "Substance over logos.",
+    "text": "Much of our work cannot be publicly disclosed, so we describe it by mandate type rather than by client logo.",
+    "items": [
+      "Supporting an international investor evaluating a GCC technology opportunity.",
+      "Structuring a cross-border joint venture between European and Middle Eastern partners.",
+      "Developing a digital platform for a regional organisation.",
+      "Helping a business evaluate market entry into Saudi Arabia.",
+      "Designing an AI transformation roadmap for an operating company.",
+      "Developing a digital product concept and MVP for a strategic partnership."
+    ]
+  },
+  "method": {
+    "label": "How we work",
+    "title": "From opportunity to execution.",
+    "steps": [
+      {
+        "name": "Discover",
+        "text": "Understand the business, capital, market and objective.",
+        "detail": "Conversations with owners, investors and teams; a clear definition of what success looks like."
+      },
+      {
+        "name": "Assess",
+        "text": "Analyse opportunities, risks, economics and feasibility.",
+        "detail": "Market evidence, financial logic and an honest view of what has to be true."
+      },
+      {
+        "name": "Structure",
+        "text": "Define the strategy, partnership or investment structure.",
+        "detail": "Ownership, governance and economics — with qualified legal and tax partners."
+      },
+      {
+        "name": "Build",
+        "text": "Develop the required technology, product or operating model.",
+        "detail": "Platforms, systems, AI and the operating model that makes them work."
+      },
+      {
+        "name": "Execute",
+        "text": "Support implementation, launch and scaling.",
+        "detail": "Go-to-market, early operations, performance management and expansion."
+      }
+    ]
+  },
+  "ai": {
+    "label": "AI transformation",
+    "title": "Intelligence without\nunnecessary overhead.",
+    "text": "We make AI tangible: specific workflows, measurable outcomes and people kept in control.",
+    "ladder": [
+      {
+        "name": "Manual",
+        "text": "People move information between systems."
+      },
+      {
+        "name": "Automated",
+        "text": "Repetitive steps run without intervention."
+      },
+      {
+        "name": "Intelligent",
+        "text": "AI reads, classifies, drafts and recommends."
+      },
+      {
+        "name": "Optimised",
+        "text": "Processes improve continuously from their own data."
+      }
+    ],
+    "useCases": [
+      {
+        "name": "Sales",
+        "text": "Qualify inbound leads and draft tailored follow-ups overnight."
+      },
+      {
+        "name": "Finance",
+        "text": "Reconcile transactions and flag anomalies before month-end."
+      },
+      {
+        "name": "Operations",
+        "text": "Spot delays across orders and suggest the next action."
+      },
+      {
+        "name": "Customer Support",
+        "text": "Answer routine questions in Arabic and English, and escalate the rest."
+      },
+      {
+        "name": "Research",
+        "text": "Summarise markets, companies and documents into one-page briefs."
+      },
+      {
+        "name": "Reporting",
+        "text": "Assemble weekly management reports from live data."
+      },
+      {
+        "name": "Marketing",
+        "text": "Produce and test campaign variants, and report what works."
+      },
+      {
+        "name": "HR",
+        "text": "Screen applications and answer policy questions consistently."
+      },
+      {
+        "name": "Procurement",
+        "text": "Compare supplier offers and track contract terms."
+      },
+      {
+        "name": "Management",
+        "text": "A daily briefing on the numbers and the exceptions that need attention."
+      }
+    ],
+    "dashboard": {
+      "title": "Operations intelligence",
+      "subtitle": "Weekly brief · Group operations",
+      "tag": "Illustrative interface",
+      "kpis": [
+        {
+          "label": "Manual hours removed",
+          "value": "126",
+          "delta": "+18%"
+        },
+        {
+          "label": "Reports automated",
+          "value": "14",
+          "delta": "+3"
+        },
+        {
+          "label": "Median response time",
+          "value": "4 min",
+          "delta": "−62%"
+        }
+      ],
+      "bars": [
+        42,
+        55,
+        48,
+        63,
+        70,
+        66,
+        82
+      ],
+      "agents": [
+        {
+          "name": "Sales agent",
+          "task": "Leads qualified and routed",
+          "status": "Running"
+        },
+        {
+          "name": "Support agent",
+          "task": "Routine questions resolved",
+          "status": "Running"
+        },
+        {
+          "name": "Finance agent",
+          "task": "Month-end reconciliation",
+          "status": "Review"
+        },
+        {
+          "name": "Reporting agent",
+          "task": "Board pack drafted",
+          "status": "Ready"
+        }
+      ]
+    },
+    "cta": {
+      "label": "Explore AI transformation",
+      "href": "/ai/"
+    },
+    "eyebrow": "AI transformation",
+    "split": {
+      "title": "Intelligence without\nunnecessary overhead",
+      "text": "AI as an operating tool: specific workflows, measurable outcomes and people kept in control.",
+      "link": {
+        "label": "Explore AI transformation",
+        "href": "/ai/"
+      }
+    }
+  },
+  "audience": {
+    "label": "Who we work with",
+    "title": "For people with capital, businesses and ambitions to build.",
+    "items": [
+      {
+        "title": "Family Offices",
+        "text": "Investment opportunities and strategic projects."
+      },
+      {
+        "title": "Private Investors",
+        "text": "Deal sourcing and investment analysis."
+      },
+      {
+        "title": "Entrepreneurs",
+        "text": "Growth, capital and strategic partnerships."
+      },
+      {
+        "title": "Corporate Groups",
+        "text": "Transformation and market expansion."
+      },
+      {
+        "title": "Investment Companies",
+        "text": "Due diligence, market intelligence and execution."
+      },
+      {
+        "title": "Strategic Partners",
+        "text": "Joint ventures and new business creation."
+      },
+      {
+        "title": "Government & Institutions",
+        "text": "Digital transformation and strategic initiatives."
+      },
+      {
+        "title": "International Companies",
+        "text": "Market entry into the GCC and Central Asia."
+      }
+    ]
+  },
+  "network": {
+    "label": "Network",
+    "title": "Built on relationships.",
+    "text": "Our work depends on trusted relationships across capital, operations and technology — built carefully, used with consent and never traded.",
+    "nodes": [
+      "Investors",
+      "Operators",
+      "Founders",
+      "Technology partners",
+      "Family offices",
+      "Corporates",
+      "Government",
+      "Local partners"
+    ]
+  },
+  "discretion": {
+    "label": "Discretion",
+    "title": "Discretion is part of the service.",
+    "text": "We work with a limited number of clients and opportunities at any one time. Some engagements cannot be publicly disclosed. Where appropriate, experience is presented by mandate type rather than by client logo."
+  },
+  "insights": {
+    "label": "Insights",
+    "title": "Perspectives."
+  },
+  "final": {
+    "title": "Have an opportunity\nworth exploring?",
+    "text": "Whether you are evaluating an investment, entering a new market, looking for a strategic partner or transforming an existing business, start with a conversation.",
+    "primary": {
+      "label": "Start a conversation",
+      "href": "/contact/"
+    },
+    "secondary": {
+      "label": "Explore opportunities",
+      "href": "/opportunities/"
+    },
+    "image": "boardroomBright"
+  },
+  "marquee": [
+    {
+      "name": "Saudi Arabia",
+      "flag": "sa",
+      "href": "/markets/#saudi-arabia"
+    },
+    {
+      "name": "United Arab Emirates",
+      "flag": "ae",
+      "href": "/markets/#gcc"
+    },
+    {
+      "name": "Qatar",
+      "flag": "qa",
+      "href": "/markets/#gcc"
+    },
+    {
+      "name": "Kuwait",
+      "flag": "kw",
+      "href": "/markets/#gcc"
+    },
+    {
+      "name": "Bahrain",
+      "flag": "bh",
+      "href": "/markets/#gcc"
+    },
+    {
+      "name": "Oman",
+      "flag": "om",
+      "href": "/markets/#gcc"
+    },
+    {
+      "name": "Uzbekistan",
+      "flag": "uz",
+      "href": "/markets/#uzbekistan"
+    },
+    {
+      "name": "Kazakhstan",
+      "flag": "kz",
+      "href": "/markets/#other-markets"
+    },
+    {
+      "name": "Sweden",
+      "flag": "se",
+      "href": "/markets/#other-markets"
+    },
+    {
+      "name": "Norway",
+      "flag": "no",
+      "href": "/markets/#other-markets"
+    },
+    {
+      "name": "Denmark",
+      "flag": "dk",
+      "href": "/markets/#other-markets"
+    },
+    {
+      "name": "Finland",
+      "flag": "fi",
+      "href": "/markets/#other-markets"
+    },
+    {
+      "name": "Europe",
+      "flag": "european_union",
+      "href": "/markets/#other-markets"
+    }
+  ],
+  "links": [
+    {
+      "label": "Investment advisory",
+      "href": "/invest/",
+      "icon": "chart"
+    },
+    {
+      "label": "Strategic advisory",
+      "href": "/advisory/",
+      "icon": "compass"
+    },
+    {
+      "label": "Joint ventures",
+      "href": "/joint-ventures/",
+      "icon": "link"
+    },
+    {
+      "label": "Market entry",
+      "href": "/engagements/market-entry/",
+      "icon": "flag"
+    },
+    {
+      "label": "Digital transformation",
+      "href": "/digital/",
+      "icon": "layers"
+    },
+    {
+      "label": "AI transformation",
+      "href": "/ai/",
+      "icon": "cpu"
+    },
+    {
+      "label": "Digital products",
+      "href": "/products/",
+      "icon": "box"
+    },
+    {
+      "label": "Growth engine",
+      "href": "/engagements/growth-engine/",
+      "icon": "trending"
+    },
+    {
+      "label": "Business structure",
+      "href": "/engagements/business-structure/",
+      "icon": "building"
+    },
+    {
+      "label": "Opportunities",
+      "href": "/opportunities/",
+      "icon": "briefcase"
+    }
+  ],
+  "pairs": [
+    [
+      {
+        "eyebrow": "Investment advisory",
+        "title": "Find and evaluate opportunities\nworth your capital",
+        "link": {
+          "label": "Explore investment advisory",
+          "href": "/invest/"
+        },
+        "visual": "deals"
+      },
+      {
+        "eyebrow": "Strategic advisory",
+        "title": "Clear decisions\nin complex markets",
+        "link": {
+          "label": "Explore strategic advisory",
+          "href": "/advisory/"
+        },
+        "visual": "market"
+      }
+    ],
+    [
+      {
+        "eyebrow": "Digital transformation",
+        "title": "Modern systems,\nlighter operations",
+        "link": {
+          "label": "Explore digital transformation",
+          "href": "/digital/"
+        },
+        "visual": "systems"
+      },
+      {
+        "eyebrow": "Products & platforms",
+        "title": "From opportunity\nto working product",
+        "link": {
+          "label": "Explore products & platforms",
+          "href": "/products/"
+        },
+        "visual": "product"
+      }
+    ]
+  ],
+  "wide": {
+    "eyebrow": "Joint ventures",
+    "title": "Find the right partner.\nBuild something together.",
+    "fan": [
+      "Capital",
+      "Technology",
+      "Local network",
+      "Distribution",
+      "Operator"
+    ],
+    "lines": [
+      "Identify and match partners whose strengths complement yours",
+      "Structure ownership, governance and economics — with qualified counsel",
+      "Build the product and operating model, then launch"
+    ],
+    "link": {
+      "label": "Explore joint ventures",
+      "href": "/joint-ventures/"
+    }
+  },
+  "stories": {
+    "eyebrow": "Investment areas",
+    "title": "Opportunities worth\nexploring.",
+    "items": [
+      {"key": "digital", "title": "Digital Products", "text": "SaaS platforms, marketplaces and applied-AI products — scaling proven technology from Central Asia into the GCC, and building regional ventures with local partners.", "meta": "Saudi Arabia · UAE · Uzbekistan · Growth equity · Joint ventures", "image": "invDigital", "href": "/opportunities/"},
+      {"key": "real-estate", "title": "Real Estate Projects", "text": "Residential, hospitality and mixed-use developments with experienced operators on the ground, clear structures and co-investment alongside local partners.", "meta": "Saudi Arabia · UAE · Uzbekistan · Co-investment · Development JVs", "image": "invRealEstate", "href": "/opportunities/"},
+      {"key": "sports", "title": "Sports Investments", "text": "Clubs, academies, venues and sports technology in markets investing at scale in sport, events and fan experience.", "meta": "Saudi Arabia · Qatar · UAE · Strategic investment · Partnerships", "image": "invSports", "href": "/opportunities/"},
+      {"key": "industrial", "title": "Industrial Projects", "text": "Manufacturing, logistics and industrial digitalisation — localising production in the Kingdom and modernising capacity across Central Asia.", "meta": "Saudi Arabia · Uzbekistan · Kazakhstan · Project investment · JVs", "image": "invIndustrial", "href": "/opportunities/"}
+    ]
+  },
+  "glow": {
+    "title": "Discretion is part\nof the service.",
+    "text": "We work with a limited number of clients and opportunities at any one time. Some engagements cannot be publicly disclosed, so experience is presented by mandate type rather than by client logo.",
+    "card": {
+      "title": "Access to live opportunities",
+      "text": "Qualified investors and strategic partners receive teasers and data rooms under NDA.",
+      "link": {
+        "label": "Request access",
+        "href": "/contact/?interest=investment&topic=Access%20to%20opportunities"
+      }
+    }
+  },
+  "support": {
+    "places": [
+      "riyadh",
+      "dubai",
+      "doha",
+      "registan",
+      "jeddah",
+      "frankfurt"
+    ],
+    "title": "From first conversation\nto real business.",
+    "text": "Five clear steps, with one strategic partner coordinating the whole journey — from idea and capital to product, sales and scale.",
+    "steps": [
+      {
+        "art": "outline",
+        "tone": "orange",
+        "name": "Share the outline",
+        "text": "A few lines on the opportunity, the market and what you need. NDA available from the start."
+      },
+      {
+        "art": "call",
+        "tone": "sand",
+        "name": "Introductory call",
+        "text": "We review it and talk it through with a senior member of the team."
+      },
+      {
+        "art": "scope",
+        "tone": "teal",
+        "name": "Scope & model",
+        "text": "We propose the scope, the team and the commercial model that fits."
+      },
+      {
+        "art": "kickoff",
+        "tone": "apricot",
+        "name": "Kick-off",
+        "text": "Discovery workshops and a clear plan with owners and milestones."
+      },
+      {
+        "art": "scale",
+        "tone": "night",
+        "name": "Deliver & scale",
+        "text": "We execute with you, report on progress and stay through launch and growth."
+      }
+    ],
+    "cta": {
+      "label": "Start a conversation",
+      "href": "/contact/"
+    }
+  },
+  "cta": {
+    "title": "Have an opportunity\nworth exploring?",
+    "primary": {
+      "label": "Start a conversation",
+      "href": "/contact/"
+    },
+    "secondary": {
+      "label": "Explore opportunities",
+      "href": "/opportunities/"
+    }
+  },
+  "tilesTitle": "Markets"
+}
