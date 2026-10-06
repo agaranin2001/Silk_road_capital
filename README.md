@@ -65,6 +65,14 @@ script (`/uz/`) are built from the same templates. Every page has a language swi
 - **Browser strings** (menu labels, form validation, the engagement selector) come from `window.SRC_I18N`, which the
   layout writes into each page.
 
+## Deploying (Node host, e.g. Hostinger)
+
+- Build command `npm run build`, Node 20+, output directory empty.
+- Entry file `server.cjs`: a CommonJS wrapper for hosts that start apps with `require()`;
+  it loads the ES-module server in `scripts/dev.mjs` (serves `dist/` and `/api/contact`).
+- The server listens on `PORT` (port number or socket path) and does not watch files in production.
+- Set `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` to deliver contact-form enquiries.
+
 ## Before launch — needs your input
 
 - **Translations** were machine-assisted. Have native speakers review the Arabic, Russian and Uzbek copy before launch,
