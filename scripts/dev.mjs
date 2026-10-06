@@ -1,9 +1,11 @@
 #!/usr/bin/env node
-// Local server: serves dist/, rebuilds on changes to src/ or assets/, and
-// hosts the /api/contact endpoint.  `npm run dev` (watch) / `npm start`.
+// Server: serves dist/ and hosts the /api/contact endpoint.
+//   npm run dev  → builds, then rebuilds on changes to src/ or assets/ (--watch)
+//   npm start    → production: builds only if dist/ is missing, no file watching
+// Hosting: listens on process.env.PORT, which may be a port number or a socket path.
 import { createServer } from "node:http";
 import { readFile, stat } from "node:fs/promises";
-import { watch } from "node:fs";
+import { watch, existsSync } from "node:fs";
 import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
@@ -11,8 +13,8 @@ import { handleContact } from "../server/contact.mjs";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const dist = join(root, "dist");
-const PORT = Number(process.env.PORT) || 4330;
-const WATCH = !process.argv.includes("--no-watch");
+const PORT = process.env.PORT || 4330;
+const WATCH = process.argv.includes("--watch");
 
 const TYPES = {
   ".html": "text/html; charset=utf-8",
@@ -47,7 +49,7 @@ const build = () => {
   if (r.status !== 0) console.error("Build failed — serving the previous dist/.");
 };
 
-build();
+if (WATCH || !existsSync(join(dist, "index.html"))) build();
 
 const server = createServer(async (req, res) => {
   if (req.url.startsWith("/api/contact")) return handleContact(req, res);
@@ -66,7 +68,7 @@ const server = createServer(async (req, res) => {
   res.end(await readFile(file));
 });
 
-server.listen(PORT, () => console.log(`Silk Road Capital → http://localhost:${PORT}`));
+server.listen(PORT, () => console.log(`Silk Road Capital → ${/^\d+$/.test(String(PORT)) ? `http://localhost:${PORT}` : PORT}`));
 
 if (WATCH) {
   let timer;

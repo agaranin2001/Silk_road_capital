@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "dev": "node scripts/dev.mjs",
-    "start": "node scripts/dev.mjs --no-watch",
+    "dev": "node scripts/dev.mjs --watch",
+    "start": "node scripts/dev.mjs",
     "check": "node scripts/check.mjs",
     "map": "python3 scripts/generate-map.py"
   },
