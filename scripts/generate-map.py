@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One-off generator for assets/img/map.svg (market access section background).
+"""One-off generator for public/assets/img/map.svg (market access section background).
 
 Same approach as the Silk Road Travel map (../scripts/generate-map.py): Natural Earth
 1:110m country shapes (public domain, world-atlas npm package) in an equirectangular
@@ -12,7 +12,7 @@ import json, os, urllib.request
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 SRC = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"
-OUT = os.path.join(ROOT, "assets", "img", "map.svg")
+OUT = os.path.join(ROOT, "public", "assets", "img", "map.svg")
 CFG = json.load(open(os.path.join(ROOT, "src", "content", "markets.json")))["map"]
 LON0, LON1, LAT0, LAT1, W, H = (CFG[k] for k in ("lon0", "lon1", "lat0", "lat1", "width", "height"))
 

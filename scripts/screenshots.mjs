@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Full-page screenshots of every page (sitemap + 404) → screenshots/<page-name>.jpg
-// Requires a local Google Chrome and the dev server (`npm run dev`).
+// Requires a local Google Chrome and the built site running (`npm run build && npm start`).
 //
 //   node scripts/screenshots.mjs                 desktop 1440px
 //   WIDTH=390 node scripts/screenshots.mjs       another width
