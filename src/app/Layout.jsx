@@ -29,8 +29,8 @@ const isCurrent = (href, path) => {
 
 const Logo = ({ className }) => (
   <span className={className}>
-    <img className="logo-mark" src="/assets/img/silk-road-mark-96.webp" srcSet="/assets/img/silk-road-mark-96.webp 1x, /assets/img/silk-road-mark-192.webp 2x" width="101" height="96" alt="" decoding="async" />
-    <span className="logo-word">Silk Road <span className="logo-capital">Capital</span></span>
+    <img className="logo-mark" src="/assets/img/ibn-sina-mark-96.webp" srcSet="/assets/img/ibn-sina-mark-96.webp 1x, /assets/img/ibn-sina-mark-192.webp 2x" width="102" height="96" alt="" decoding="async" />
+    <span className="logo-word">Ibn Sina <span className="logo-capital">Ventures</span></span>
   </span>
 );
 
@@ -330,7 +330,7 @@ export function Footer() {
             </div>
           ))}
           <div className="m-footer__col m-footer__col--brand">
-            <FitLabel as="p" className="m-eyebrow">Silk Road Capital</FitLabel>
+            <FitLabel as="p" className="m-eyebrow">Ibn Sina Ventures</FitLabel>
             <p className="m-footer__statement">{site.statement}</p>
           </div>
         </div>

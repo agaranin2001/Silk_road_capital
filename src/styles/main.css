@@ -1,5 +1,5 @@
 /*
- * Silk Road Capital — base, chrome and page blocks.
+ * Ibn Sina Ventures — base, chrome and page blocks.
  *
  * Layout, spacing, radii, type scale and component patterns follow the mollie.com
  * component set (1320px content at 1440, 60px gutters, 16px radius cards, pill
@@ -135,11 +135,9 @@ strong, b { font-weight: 600; }
 }
 .preloader__mark {
   display: block;
-  background: #0d2e37;
   width: calc(var(--u) * 7);
   height: calc(var(--u) * 7);
-  -webkit-mask: url("/assets/img/silk-road-mark-192.webp") center / contain no-repeat;
-  mask: url("/assets/img/silk-road-mark-192.webp") center / contain no-repeat;
+  background: url("/assets/img/ibn-sina-mark-192.webp") center / contain no-repeat;
 }
 .preloader__title {
   font-size: calc(var(--u) * 2.5);
@@ -586,13 +584,11 @@ a.fullmenu__label:hover { color: var(--accent); }
 .m-fan { position: relative; width: 100%; height: 400px; margin: 40px 0 24px; }
 .m-fan__card { position: absolute; left: 50%; bottom: 40px; display: flex; flex-direction: column; justify-content: space-between; width: 190px; height: 290px; margin-left: -95px; padding: 18px; border-radius: 14px; text-align: start; transform-origin: 50% 120%; transform: translateX(calc(var(--i) * 118px)) rotate(calc(var(--i) * 9deg)); box-shadow: 0 24px 50px -24px #091b2080; transition: transform .7s var(--ease); }
 .m-wide:hover .m-fan__card { transform: translateX(calc(var(--i) * 140px)) rotate(calc(var(--i) * 11deg)) translateY(-8px); }
-.m-fan__mark { width: 22px; height: 22px; }
-.m-fan__mark svg { width: 100%; height: 100%; }
+.m-fan__logo { display: block; width: 52px; height: auto; filter: drop-shadow(0 2px 6px #091b2033); }
 .m-fan__label { font-size: 22px; letter-spacing: -.03em; writing-mode: vertical-rl; transform: rotate(180deg); align-self: flex-start; }
 .m-fan__brand { font-size: 10px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; opacity: .7; }
 .m-fan__card--0 { background: #b89a7a; color: #fbf8f3; }
 .m-fan__card--1 { background: var(--dark); color: var(--page); }
-.m-fan__card--1 .m-fan__mark { color: var(--accent); }
 .m-fan__card--2 { background: var(--paper); color: var(--ink); }
 .m-fan__card--3 { background: var(--accent); color: var(--dark); }
 .m-fan__card--4 { background: linear-gradient(135deg, #fbf8f3 0%, #e8dfd4 35%, #fbc78a 70%, #0d2e37 140%); color: var(--ink); }
@@ -1011,6 +1007,7 @@ a.fullmenu__label:hover { color: var(--accent); }
   .m-fan { height: 300px; }
   .m-fan__card { width: 130px; height: 200px; margin-left: -65px; padding: 12px; transform: translateX(calc(var(--i) * 52px)) rotate(calc(var(--i) * 10deg)); }
   .m-wide:hover .m-fan__card { transform: translateX(calc(var(--i) * 60px)) rotate(calc(var(--i) * 11deg)); }
+  .m-fan__logo { width: 36px; }
   .m-fan__label { font-size: 16px; }
   .m-split__panel { padding: 32px 16px; }
   .m-need-stage { grid-template-columns: minmax(0, 1fr); }

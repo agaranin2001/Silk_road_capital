@@ -2,7 +2,7 @@
   "name": "silk-road-capital",
   "version": "1.0.0",
   "private": true,
-  "description": "Silk Road Capital website \u2014 investment, strategy, joint ventures, digital & AI. React (Vite) app, prerendered to static HTML in four languages.",
+  "description": "Ibn Sina Ventures website \u2014 investment, strategy, joint ventures, digital & AI. React (Vite) app, prerendered to static HTML in four languages.",
   "type": "module",
   "scripts": {
     "dev": "vite",

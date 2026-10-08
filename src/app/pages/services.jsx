@@ -70,7 +70,7 @@ export default function pages(c) {
     title: s.seo.title,
     description: s.seo.description,
     ogImage: s.image,
-    jsonLd: { "@context": "https://schema.org", "@type": "Service", name: s.name, serviceType: s.name, description: s.seo.description, provider: { "@type": "Organization", name: "Silk Road Capital" }, areaServed: ["Saudi Arabia", "GCC", "Uzbekistan", "Central Asia", "Europe"] },
+    jsonLd: { "@context": "https://schema.org", "@type": "Service", name: s.name, serviceType: s.name, description: s.seo.description, provider: { "@type": "Organization", name: "Ibn Sina Ventures" }, areaServed: ["Saudi Arabia", "GCC", "Uzbekistan", "Central Asia", "Europe"] },
     element: <ServicePage s={s} />,
   }));
 }

@@ -775,7 +775,7 @@ export function Orbit({ center, nodes, className = "" }) {
         <ellipse className="orbit__ring orbit__ring--inner" cx="50" cy="50" rx="22" ry="21" />
         {pts.map((p) => <line key={p.i} className="orbit__spoke" style={{ "--d": `${(p.i * 0.4).toFixed(1)}s` }} x1="50" y1="50" x2={p.x.toFixed(2)} y2={p.y.toFixed(2)} />)}
       </svg>
-      <span className="orbit__center"><img src="/assets/img/silk-road-mark-96.webp" alt="" width="101" height="96" /><span className="button-sm">{center}</span></span>
+      <span className="orbit__center"><img src="/assets/img/ibn-sina-mark-96.webp" alt="" width="102" height="96" /><span className="button-sm">{center}</span></span>
       {pts.map((p) => <span key={p.i} className="orbit__node button-sm" style={{ left: `${p.x.toFixed(2)}%`, top: `${p.y.toFixed(2)}%`, "--d": `${(p.i * 0.4).toFixed(1)}s` }}>{p.n}</span>)}
     </div>
   );
@@ -789,7 +789,7 @@ export const Network = ({ n, theme = "dark", id = "network" }) => (
         <Heading level="h2" className="h2" id={`${id}-title`} anim="chars"><Lines text={n.title} /></Heading>
         <p className="body-lg color-white-60" data-anim="fade-up">{n.text}</p>
       </div>
-      <Orbit center={n.center ?? "Silk Road Capital"} nodes={n.nodes ?? n.categories} />
+      <Orbit center={n.center ?? "Ibn Sina Ventures"} nodes={n.nodes ?? n.categories} />
     </div>
   </section>
 );

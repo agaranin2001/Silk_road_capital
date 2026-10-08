@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Start a Confidential Conversation",
-    "description": "Discuss an investment, market entry, joint venture, digital transformation or AI opportunity with Silk Road Capital. Every enquiry is treated confidentially."
+    "description": "Discuss an investment, market entry, joint venture, digital transformation or AI opportunity with Ibn Sina Ventures. Every enquiry is treated confidentially."
   },
   "label": "Contact",
   "title": "Start a conversation.",
@@ -27,7 +27,7 @@
     "structure": "advisory"
   },
   "countries": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait", "Bahrain", "Oman", "Uzbekistan", "Kazakhstan", "Other Central Asia", "United Kingdom", "Germany", "Switzerland", "Other Europe", "Other"],
-  "privacy": "Your enquiry is read only by the Silk Road Capital team and is never shared without your consent. We use your details solely to respond. See our privacy notice.",
+  "privacy": "Your enquiry is read only by the Ibn Sina Ventures team and is never shared without your consent. We use your details solely to respond. See our privacy notice.",
   "submit": "Start a confidential conversation",
   "success": {
     "title": "Thank you.",

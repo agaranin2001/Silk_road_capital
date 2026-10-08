@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Maxfiy muloqotni boshlang",
-    "description": "Silk Road Capital bilan investitsiya, bozorga kirish, qoʻshma korxona, raqamli transformatsiya yoki sunʼiy intellekt imkoniyatini muhokama qiling. Har bir murojaat maxfiy tarzda koʻrib chiqiladi."
+    "description": "Ibn Sina Ventures bilan investitsiya, bozorga kirish, qoʻshma korxona, raqamli transformatsiya yoki sunʼiy intellekt imkoniyatini muhokama qiling. Har bir murojaat maxfiy tarzda koʻrib chiqiladi."
   },
   "label": "Aloqa",
   "title": "Muloqotni boshlang.",
@@ -27,7 +27,7 @@
     "structure": "advisory"
   },
   "countries": ["Saudiya Arabistoni", "Birlashgan Arab Amirliklari", "Qatar", "Quvayt", "Bahrayn", "Ummon", "Oʻzbekiston", "Qozogʻiston", "Markaziy Osiyoning boshqa davlatlari", "Buyuk Britaniya", "Germaniya", "Shveytsariya", "Yevropaning boshqa davlatlari", "Boshqa"],
-  "privacy": "Murojaatingizni faqat Silk Road Capital jamoasi oʻqiydi va u sizning roziligingizsiz hech qachon uchinchi shaxslarga berilmaydi. Maʼlumotlaringizdan faqat javob berish uchun foydalanamiz. Maxfiylik siyosatimiz bilan tanishing.",
+  "privacy": "Murojaatingizni faqat Ibn Sina Ventures jamoasi oʻqiydi va u sizning roziligingizsiz hech qachon uchinchi shaxslarga berilmaydi. Maʼlumotlaringizdan faqat javob berish uchun foydalanamiz. Maxfiylik siyosatimiz bilan tanishing.",
   "submit": "Maxfiy muloqotni boshlash",
   "success": {
     "title": "Rahmat.",

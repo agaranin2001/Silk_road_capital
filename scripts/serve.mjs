@@ -68,4 +68,4 @@ const server = createServer(async (req, res) => {
   res.end(await readFile(file));
 });
 
-server.listen(PORT, () => console.log(`Silk Road Capital → ${/^\d+$/.test(String(PORT)) ? `http://localhost:${PORT}` : PORT}`));
+server.listen(PORT, () => console.log(`Ibn Sina Ventures → ${/^\d+$/.test(String(PORT)) ? `http://localhost:${PORT}` : PORT}`));

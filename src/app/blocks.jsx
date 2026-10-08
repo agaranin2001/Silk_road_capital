@@ -246,7 +246,7 @@ export const MWide = ({ w, id = "wide", ...flat }) => {
         <div className="m-fan" aria-hidden="true">
           {fan.map((f, i) => (
             <span key={i} className={`m-fan__card m-fan__card--${i}`} style={{ "--i": i - (fan.length - 1) / 2, "--n": i }}>
-              <span className="m-fan__mark"><Icon name="star8" /></span><span className="m-fan__label">{f}</span><span className="m-fan__brand">Silk Road Capital</span>
+              <img className="m-fan__logo" src="/assets/img/ibn-sina-mark-96.webp" srcSet="/assets/img/ibn-sina-mark-96.webp 1x, /assets/img/ibn-sina-mark-192.webp 2x" width="102" height="96" alt="" decoding="async" /><span className="m-fan__label">{f}</span><span className="m-fan__brand">Ibn Sina Ventures</span>
             </span>
           ))}
         </div>

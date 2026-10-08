@@ -1,10 +1,10 @@
 {
-  "name": "Silk Road Capital",
+  "name": "Ibn Sina Ventures",
   "origin": "https://silkroad.capital",
   "lang": "en",
   "locale": "en_GB",
-  "defaultTitle": "Silk Road Capital — Saudiya Arabistoni, Fors koʻrfazi davlatlari va Markaziy Osiyoda investitsiyalar, strategiya va biznes qurish",
-  "defaultDescription": "Silk Road Capital investorlar, oilaviy ofislar va kompaniyalarga Saudiya Arabistoni, Fors koʻrfazi arab davlatlari, Oʻzbekiston va Yevropada imkoniyatlarni topish, bozorlarga kirish, qoʻshma korxonalar qurish hamda texnologiyalar va sunʼiy intellekt yordamida biznesni transformatsiya qilishda koʻmaklashadi.",
+  "defaultTitle": "Ibn Sina Ventures — Saudiya Arabistoni, Fors koʻrfazi davlatlari va Markaziy Osiyoda investitsiyalar, strategiya va biznes qurish",
+  "defaultDescription": "Ibn Sina Ventures investorlar, oilaviy ofislar va kompaniyalarga Saudiya Arabistoni, Fors koʻrfazi arab davlatlari, Oʻzbekiston va Yevropada imkoniyatlarni topish, bozorlarga kirish, qoʻshma korxonalar qurish hamda texnologiyalar va sunʼiy intellekt yordamida biznesni transformatsiya qilishda koʻmaklashadi.",
   "ogImage": "/assets/img/opt/banner-dubai-1600.webp",
   "statement": "Investitsiyalar. Strategiya. Texnologiyalar. Ijro.",
   "promise": "Biz munosib insonlarga munosib imkoniyatlarni topishda va ularni haqiqiy biznesga aylantirishda yordam beramiz.",
@@ -314,7 +314,7 @@
     "note": "Murojaatlar maxfiy tarzda koʻrib chiqiladi."
   },
   "disclaimer": "Ushbu veb-saytdagi maʼlumotlar faqat umumiy tanishish uchun taqdim etilgan. Ular biror qimmatli qogʻozni sotib olish yoki sotish yoxud investitsiya kiritish boʻyicha taklif, daʼvat yoki tavsiya hisoblanmaydi. Tartibga solinadigan faoliyat faqat tegishli litsenziya mavjud boʻlganda yoki litsenziyaga ega hamkorlar orqali amalga oshiriladi. Yuridik, soliq va regulyativ ishlar malakali huquqshunoslar bilan muvofiqlashtiriladi.",
-  "copyright": "© Silk Road Capital",
+  "copyright": "© Ibn Sina Ventures",
   "languages": [
     {
       "code": "en",

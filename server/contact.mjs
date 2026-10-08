@@ -60,7 +60,7 @@ export async function handleContact(req, res) {
   const clean = (v) => String(v ?? "").trim();
   const interests = Array.isArray(data.interests) ? data.interests.map(clean).filter(Boolean).join(", ") : clean(data.interests);
   const text = [
-    "New enquiry — Silk Road Capital",
+    "New enquiry — Ibn Sina Ventures",
     `Name: ${clean(data.name)}`,
     data.company ? `Company: ${clean(data.company)}` : null,
     `Email: ${clean(data.email)}`,

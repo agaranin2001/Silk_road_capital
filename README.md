@@ -1,6 +1,6 @@
-# Silk Road Capital — website
+# Ibn Sina Ventures — website
 
-A separate static website for Silk Road Capital (investment, strategy, joint ventures, digital & AI),
+A separate static website for Ibn Sina Ventures (investment, strategy, joint ventures, digital & AI),
 built in the same design language as the Silk Road Travel site in the parent folder.
 
 - **Stack:** React 19 + React Router 7, built with Vite 6. Every page of every language is **prerendered to static

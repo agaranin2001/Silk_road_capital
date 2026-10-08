@@ -67,7 +67,7 @@ function ArticlePage({ a }) {
           title={a.title}
           lead={a.summary}
           crumbs={[{ label: t("crumb.home"), href: "/" }, { label: t("crumb.insights"), href: "/insights/" }, { label: a.category }]}
-          aside={<p className="body-sm color-white-50"><time dateTime={a.date}>{formatDate(a.date, locale.intl)}</time> · Silk Road Capital</p>}
+          aside={<p className="body-sm color-white-50"><time dateTime={a.date}>{formatDate(a.date, locale.intl)}</time> · Ibn Sina Ventures</p>}
         />
         <div className="section section--flush-top theme-light" data-theme="light">
           <div className="container">
@@ -99,7 +99,7 @@ export default function pages(c) {
       path: `/insights/${a.slug}/`,
       title: a.title,
       description: a.summary,
-      jsonLd: { "@context": "https://schema.org", "@type": "Article", inLanguage: locale.code, headline: a.title, datePublished: a.date, description: a.summary, author: { "@type": "Organization", name: "Silk Road Capital" }, publisher: { "@type": "Organization", name: "Silk Road Capital" } },
+      jsonLd: { "@context": "https://schema.org", "@type": "Article", inLanguage: locale.code, headline: a.title, datePublished: a.date, description: a.summary, author: { "@type": "Organization", name: "Ibn Sina Ventures" }, publisher: { "@type": "Organization", name: "Ibn Sina Ventures" } },
       element: <ArticlePage a={a} />,
     })),
   ];
