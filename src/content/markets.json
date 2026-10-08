@@ -26,98 +26,23 @@
     ]
   },
   "points": [
-    {
-      "name": "Riyadh",
-      "region": "Saudi Arabia",
-      "lon": 46.72,
-      "lat": 24.71,
-      "hub": true
-    },
-    {
-      "name": "Jeddah",
-      "region": "Saudi Arabia",
-      "lon": 39.19,
-      "lat": 21.49
-    },
-    {
-      "name": "Dubai",
-      "region": "UAE",
-      "lon": 55.27,
-      "lat": 25.2,
-      "hub": true
-    },
-    {
-      "name": "Doha",
-      "region": "Qatar",
-      "lon": 51.53,
-      "lat": 25.29
-    },
-    {
-      "name": "Kuwait City",
-      "region": "Kuwait",
-      "lon": 47.98,
-      "lat": 29.37
-    },
-    {
-      "name": "Manama",
-      "region": "Bahrain",
-      "lon": 50.59,
-      "lat": 26.23,
-      "minor": true
-    },
-    {
-      "name": "Muscat",
-      "region": "Oman",
-      "lon": 58.41,
-      "lat": 23.59
-    },
-    {
-      "name": "Tashkent",
-      "region": "Uzbekistan",
-      "lon": 69.24,
-      "lat": 41.3,
-      "hub": true
-    },
-    {
-      "name": "Samarkand",
-      "region": "Uzbekistan",
-      "lon": 66.96,
-      "lat": 39.65,
-      "minor": true
-    },
-    {
-      "name": "Almaty",
-      "region": "Kazakhstan",
-      "lon": 76.89,
-      "lat": 43.24
-    },
-    {
-      "name": "Astana",
-      "region": "Kazakhstan",
-      "lon": 71.43,
-      "lat": 51.13,
-      "minor": true
-    },
-    {
-      "name": "London",
-      "region": "Europe",
-      "lon": -0.13,
-      "lat": 51.51
-    },
-    {
-      "name": "Frankfurt",
-      "region": "Europe",
-      "lon": 8.68,
-      "lat": 50.11,
-      "hub": true
-    },
-    {
-      "name": "Zurich",
-      "region": "Europe",
-      "lon": 8.54,
-      "lat": 47.37,
-      "minor": true
-    }
+    {"name": "Riyadh", "country": "sa", "label": "left", "region": "Saudi Arabia", "lon": 46.72, "lat": 24.71, "hub": true},
+    {"name": "Jeddah", "country": "sa", "region": "Saudi Arabia", "lon": 39.19, "lat": 21.49},
+    {"name": "Dubai", "country": "ae", "region": "UAE", "lon": 55.27, "lat": 25.2, "hub": true},
+    {"name": "Doha", "country": "qa", "label": "bottom", "region": "Qatar", "lon": 51.53, "lat": 25.29},
+    {"name": "Kuwait City", "country": "kw", "region": "Kuwait", "lon": 47.98, "lat": 29.37},
+    {"name": "Manama", "country": "bh", "label": "left", "region": "Bahrain", "lon": 50.59, "lat": 26.23, "minor": true},
+    {"name": "Muscat", "country": "om", "region": "Oman", "lon": 58.41, "lat": 23.59},
+    {"name": "Tashkent", "country": "uz", "region": "Uzbekistan", "lon": 69.24, "lat": 41.3, "hub": true},
+    {"name": "Samarkand", "country": "uz", "label": "left", "region": "Uzbekistan", "lon": 66.96, "lat": 39.65, "minor": true},
+    {"name": "Almaty", "country": "kz", "region": "Kazakhstan", "lon": 76.89, "lat": 43.24},
+    {"name": "Astana", "country": "kz", "region": "Kazakhstan", "lon": 71.43, "lat": 51.13, "minor": true},
+    {"name": "Bishkek", "country": "kg", "label": "left", "region": "Kyrgyzstan", "lon": 74.59, "lat": 42.87, "minor": true},
+    {"name": "Dushanbe", "country": "tj", "region": "Tajikistan", "lon": 68.79, "lat": 38.56, "minor": true},
+    {"name": "Ashgabat", "country": "tm", "region": "Turkmenistan", "lon": 58.38, "lat": 37.95, "minor": true},
+    {"name": "London", "country": "gb", "region": "Europe", "lon": -0.13, "lat": 51.51},
+    {"name": "Frankfurt", "country": "de", "region": "Europe", "lon": 8.68, "lat": 50.11, "hub": true},
+    {"name": "Zurich", "country": "ch", "region": "Europe", "lon": 8.54, "lat": 47.37, "minor": true}
   ],
   "routes": [
     [

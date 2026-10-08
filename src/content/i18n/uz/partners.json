@@ -1,0 +1,122 @@
+{
+  "nordic": {
+    "badge": "Asosiy texnologik hamkor",
+    "eyebrow": "Nordic AI bilan birgalikda",
+    "title": "Joriy etishga tayyor yechimlar,\naniq ish paketlari.",
+    "text": "Raqamli va SI loyihalarini asosiy texnologik hamkorimiz Nordic AI bilan birgalikda amalga oshiramiz: oʻzgarishsiz joriy etish yoki moslashtirish mumkin boʻlgan sinovdan oʻtgan platformalar va birinchi prototipdan ishlab chiqarishgacha boʻlgan qatʼiy hajmli bosqichlar.",
+    "packagesLabel": "Ish paketlari",
+    "solutionsLabel": "Joriy etishga tayyor yechimlar",
+    "bestFor": "Kimlar uchun",
+    "viewAll": {
+      "label": "Barcha yechimlar nordicai.pro saytida"
+    },
+    "open": "nordicai.pro saytida ochish",
+    "packages": [
+      {
+        "tab": "Tekshirish",
+        "title": "Konsept sprinti",
+        "duration": "5–10 kun",
+        "tagline": "Gʻoyani ishlaydigan prototipga aylantiring.",
+        "bestFor": "Yangi gʻoyalar va innovatsion tashabbuslar.",
+        "features": [
+          "Tadqiqot seminari",
+          "Foydalanuvchi oqimlari va vayrfreymlar",
+          "Interaktiv prototip",
+          "Amalga oshirish imkoniyatini baholash",
+          "Keyingi qadamlar yoʻl xaritasi"
+        ],
+        "cta": {
+          "label": "Konsept sprintini boshlash"
+        }
+      },
+      {
+        "tab": "Yaratish",
+        "title": "MVP akseleratori",
+        "duration": "3–8 hafta",
+        "tagline": "Odamlar haqiqatan foydalana oladigan mahsulot yarating.",
+        "bestFor": "Mahsulotni ishga tushirish va bozorda sinash.",
+        "features": [
+          "Mahsulot spetsifikatsiyasi",
+          "UI/UX dizayn",
+          "Frontend va backend",
+          "Asosiy integratsiyalar",
+          "Sinov va joylashtirish",
+          "Mahsulotni topshirish"
+        ],
+        "cta": {
+          "label": "MVP akseleratorini boshlash"
+        }
+      },
+      {
+        "tab": "Kengaytirish",
+        "title": "Mahsulotni ishga tushirish va kengaytirish",
+        "duration": "8–16+ hafta",
+        "tagline": "Mahsulotingizni MVPdan ishlab chiqarishgacha olib boring.",
+        "bestFor": "Strategik raqamli mahsulotlar va korporativ tashabbuslar.",
+        "features": [
+          "Ishlab chiqarish arxitekturasi",
+          "Kengaytirilgan integratsiyalar",
+          "Xavfsizlik va unumdorlik",
+          "SI imkoniyatlari",
+          "Infratuzilma va monitoring",
+          "Uzluksiz rivojlanish yoʻl xaritasi"
+        ],
+        "cta": {
+          "label": "Mahsulotni ishga tushirish va kengaytirishni boshlash"
+        }
+      }
+    ],
+    "solutions": [
+      {
+        "title": "Marketingni boshqarish platformasi",
+        "category": "MarketingTech",
+        "description": "Marketing kampaniyalari, hamkorliklar, tijorat munosabatlari, raqamli aktivlar va samaradorlik tahlilini bitta markazlashgan muhitda boshqarish uchun integratsiyalashgan platforma."
+      },
+      {
+        "title": "Elektron tijorat platformasi",
+        "category": "Elektron tijorat",
+        "description": "Mahsulot kataloglari, onlayn vitrinalar, mijoz yoʻllari va tranzaksiyalarni bir nechta savdo kanallarida boshqarish uchun moslashuvchan raqamli tijorat yechimi."
+      },
+      {
+        "title": "Media va striming platformasi",
+        "category": "MediaTech",
+        "description": "Jonli efirlar, video kontent, tadbirlar va tahririy materiallarni raqamli kanallarda nashr etish, boshqarish va tarqatish uchun yagona raqamli muhit."
+      },
+      {
+        "title": "Samaradorlikni boshqarish platformasi",
+        "category": "Biznesni boshqarish",
+        "description": "Shaxsiy va jamoaviy samaradorlikni boshqarish, faoliyatni rejalashtirish, taraqqiyotni kuzatish va natijalarni markazlashgan panellar orqali tahlil qilish uchun integratsiyalashgan yechim."
+      },
+      {
+        "title": "Operatsiyalar va bron qilish platformasi",
+        "category": "Biznes operatsiyalari",
+        "description": "Bronlar, resurslar, narxlar, mijozlar bilan aloqalar va operatsion jarayonlarni yagona boshqaruv tizimi orqali boshqarish uchun sozlanadigan platforma."
+      },
+      {
+        "title": "Veb-sayt va ish jarayonlarini avtomatlashtirish platformasi",
+        "category": "Raqamli infratuzilma / SI",
+        "description": "Veb-saytni boshqarish, kontent nashr etish va SI asosidagi ish jarayonlarini avtomatlashtirishni birlashtirgan moslashuvchan raqamli platforma."
+      },
+      {
+        "title": "3D konfigurator dvigateli",
+        "category": "ConstructionTech / 3D",
+        "description": "Brauzerda quriladigan inshootlarni loyihalash va narxlash uchun modulli 3D konfiguratsiya dvigateli: tasdiqlangan modullardan toʻliq spetsifikatsiya yigʻiladi."
+      },
+      {
+        "title": "Tadbirlar va xizmatlar marketpleysi",
+        "category": "Marketpleys",
+        "description": "Tadbirlar, darslar va xizmatlarni topish va bron qilish uchun marketpleys: provayderlar roʻyxati, boʻsh vaqtlarni qidirish va turli auditoriyalar uchun koʻrish."
+      },
+      {
+        "title": "SI asosidagi bek-ofis platformasi",
+        "category": "Biznesni avtomatlashtirish / SI",
+        "description": "Ish hujjatlarini qabul qiladigan, mazmunini ajratib tuzadigan va har bir ishni kamroq qoʻl mehnati bilan ish jarayoni boʻylab olib boradigan SI asosidagi bek-ofis tizimi."
+      },
+      {
+        "title": "Inspeksiyalarni boshqarish platformasi",
+        "category": "PropTech / Dala operatsiyalari",
+        "description": "Binolar va aktivlar uchun dala inspeksiyasi dasturi: nuqsonlarni foto va ovozli eslatmalar bilan qayd eting, SI yordamida izchil hisobotlar tuzing."
+      }
+    ]
+  }
+}

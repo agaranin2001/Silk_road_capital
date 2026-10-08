@@ -429,27 +429,27 @@
     "title": "From opportunity to execution.",
     "steps": [
       {
-        "name": "Discover",
+        "icon": "compass", "name": "Discover",
         "text": "Understand the business, capital, market and objective.",
         "detail": "Conversations with owners, investors and teams; a clear definition of what success looks like."
       },
       {
-        "name": "Assess",
+        "icon": "chart", "name": "Assess",
         "text": "Analyse opportunities, risks, economics and feasibility.",
         "detail": "Market evidence, financial logic and an honest view of what has to be true."
       },
       {
-        "name": "Structure",
+        "icon": "building", "name": "Structure",
         "text": "Define the strategy, partnership or investment structure.",
         "detail": "Ownership, governance and economics — with qualified legal and tax partners."
       },
       {
-        "name": "Build",
+        "icon": "box", "name": "Build",
         "text": "Develop the required technology, product or operating model.",
         "detail": "Platforms, systems, AI and the operating model that makes them work."
       },
       {
-        "name": "Execute",
+        "icon": "flag", "name": "Execute",
         "text": "Support implementation, launch and scaling.",
         "detail": "Go-to-market, early operations, performance management and expansion."
       }
@@ -846,10 +846,10 @@
     "eyebrow": "Investment areas",
     "title": "Opportunities worth\nexploring.",
     "items": [
-      {"key": "digital", "title": "Digital Products", "text": "SaaS platforms, marketplaces and applied-AI products — scaling proven technology from Central Asia into the GCC, and building regional ventures with local partners.", "meta": "Saudi Arabia · UAE · Uzbekistan · Growth equity · Joint ventures", "image": "invDigital", "href": "/opportunities/"},
-      {"key": "real-estate", "title": "Real Estate Projects", "text": "Residential, hospitality and mixed-use developments with experienced operators on the ground, clear structures and co-investment alongside local partners.", "meta": "Saudi Arabia · UAE · Uzbekistan · Co-investment · Development JVs", "image": "invRealEstate", "href": "/opportunities/"},
-      {"key": "sports", "title": "Sports Investments", "text": "Clubs, academies, venues and sports technology in markets investing at scale in sport, events and fan experience.", "meta": "Saudi Arabia · Qatar · UAE · Strategic investment · Partnerships", "image": "invSports", "href": "/opportunities/"},
-      {"key": "industrial", "title": "Industrial Projects", "text": "Manufacturing, logistics and industrial digitalisation — localising production in the Kingdom and modernising capacity across Central Asia.", "meta": "Saudi Arabia · Uzbekistan · Kazakhstan · Project investment · JVs", "image": "invIndustrial", "href": "/opportunities/"}
+      {"key": "digital", "title": "Digital Products", "text": "SaaS platforms, marketplaces and applied-AI products — scaling proven technology from Central Asia into the GCC, and building regional ventures with local partners.", "meta": "Saudi Arabia · UAE · Uzbekistan · Growth equity · Joint ventures", "image": "monetiseur.jpg", "href": "/opportunities/?category=digital"},
+      {"key": "real-estate", "title": "Real Estate Projects", "text": "Residential, hospitality and mixed-use developments with experienced operators on the ground, clear structures and co-investment alongside local partners.", "meta": "Saudi Arabia · UAE · Uzbekistan · Co-investment · Development JVs", "image": "invRealEstate", "href": "/opportunities/?category=real-estate"},
+      {"key": "sports", "title": "Sports Investments", "text": "Clubs, academies, venues and sports technology in markets investing at scale in sport, events and fan experience.", "meta": "Saudi Arabia · Qatar · UAE · Strategic investment · Partnerships", "image": "invSports", "href": "/opportunities/?category=sports"},
+      {"key": "industrial", "title": "Industrial Projects", "text": "Manufacturing, logistics and industrial digitalisation — localising production in the Kingdom and modernising capacity across Central Asia.", "meta": "Saudi Arabia · Uzbekistan · Kazakhstan · Project investment · JVs", "image": "invIndustrial", "href": "/opportunities/?category=industrial"}
     ]
   },
   "glow": {

@@ -6,14 +6,11 @@ import { Icon } from "./icons.jsx";
 import { FitLabel, Img, L } from "./ui.jsx";
 import { MMarquee } from "./blocks.jsx";
 
-// Smooth scrolling (Lenis) lives in behaviours.js, which is client-only and loaded lazily;
-// the header pauses it while the menu or language dialog is open.
-let behaviours = null;
-const withLenis = (fn) => {
-  const lenis = behaviours && behaviours.getLenis();
-  if (lenis) fn(lenis);
-};
-export const setBehaviours = (mod) => { behaviours = mod; };
+// While the menu or language dialog is open the page is locked with body.is-locked (overflow:
+// hidden on the viewport). Smooth scrolling (Lenis) is not paused for this: lenis.stop() clips
+// <html>, which turns <body> into its own scroller and pushes the sticky header off-screen.
+// Lenis ignores wheel events inside [data-lenis-prevent] (menu, dialog, sheets).
+const lockPage = (on) => document.body.classList.toggle("is-locked", on);
 
 /** English path of the current page ("/ru/markets/" → "/markets/"). */
 export const useEnglishPath = () => {
@@ -82,8 +79,8 @@ function NavItem({ item, path, index }) {
           <div className="mega__links">
             <p className="mega__heading">{item.label}</p>
             <ul className="mega__list" role="list">
-              {item.children.map((c) => (
-                <li key={c.href}>
+              {item.children.map((c, i) => (
+                <li key={`${i}-${c.href}`}>
                   <L className="mega__link" href={c.href} aria-current={isCurrent(c.href, path) ? "page" : undefined}>
                     <span className="mega__link-body"><span className="mega__link-label">{c.label}</span><span className="mega__link-text">{c.text}</span></span>
                     <Icon name="arrowUpRight" className="mega__link-icon" />
@@ -111,6 +108,7 @@ function LangDialog({ dialogRef, current, path, onClosed }) {
       id="lang-dialog"
       aria-labelledby="lang-dialog-title"
       data-lang-dialog=""
+      data-lenis-prevent=""
       ref={dialogRef}
       onClose={onClosed}
       onClick={(e) => { if (e.target === e.currentTarget) e.currentTarget.close(); }}
@@ -169,10 +167,14 @@ export function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  // start loading the menu's market photos on the first touch/hover of the burger, so they are there when it opens
+  const warmMenuPhotos = useCallback(() => {
+    menuRef.current?.querySelectorAll('img[loading="lazy"]').forEach((img) => { img.loading = "eager"; });
+  }, []);
+
   const setMenu = useCallback((open) => {
     setMenuOpen(open);
-    document.body.classList.toggle("is-locked", open);
-    withLenis((l) => (open ? l.stop() : l.start()));
+    lockPage(open);
     if (open) requestAnimationFrame(() => { const first = menuRef.current?.querySelector("a, button"); if (first) first.focus({ preventScroll: true }); });
   }, []);
 
@@ -190,11 +192,11 @@ export function Header() {
     if (!d || typeof d.showModal !== "function") return;
     openerRef.current = e.currentTarget;
     d.showModal();
-    withLenis((l) => l.stop());
+    lockPage(true);
     const cur = d.querySelector(".lang-option.is-current");
     if (cur) cur.focus();
   };
-  const onLangClosed = () => { withLenis((l) => l.start()); openerRef.current?.focus(); };
+  const onLangClosed = () => { lockPage(false); openerRef.current?.focus(); };
 
   const LangButton = ({ className }) => (
     <button type="button" className={className} data-lang-open="" aria-haspopup="dialog" aria-controls="lang-dialog" aria-label={t("lang.button", { name: currentLang.name })} onClick={openLang}>
@@ -214,7 +216,7 @@ export function Header() {
         <div className="header__in">
           <L className="header__l" href="/" aria-label={t("aria.home")}><Logo className="header-logo" /></L>
           <nav className="header__r" aria-label={t("aria.mainNav")}>
-            <ul className="header-nav" role="list">{site.nav.map((item, i) => <NavItem key={item.href} item={item} path={path} index={i} />)}</ul>
+            <ul className="header-nav" role="list">{site.nav.map((item, i) => <NavItem key={`${i}-${item.href}`} item={item} path={path} index={i} />)}</ul>
             <LangButton className="header__lang" />
             <L className="header__accent" href={site.cta.href}><span className="button-sm">{site.cta.label}</span><Icon name="arrowUpRight" className="header__accent-icon" /></L>
           </nav>
@@ -229,6 +231,8 @@ export function Header() {
               aria-controls="mobile-menu"
               data-burger=""
               onClick={() => setMenu(!menuOpen)}
+              onPointerDown={warmMenuPhotos}
+              onPointerEnter={warmMenuPhotos}
             >
               <span className="btn-burger__in"><span className="btn-burger__line btn-burger__line--1" /><span className="btn-burger__line btn-burger__line--2" /></span>
             </button>
@@ -244,19 +248,25 @@ export function Header() {
           onClick={(e) => { if (e.target.closest("a")) setMenu(false); }}
         >
           <div className="fullmenu__in">
+            {/* phones: the section categories replace the services columns and the link groups */}
+            <nav className="fullmenu__cats" aria-label={t("aria.siteSections")}>
+              {site.nav.map((item, i) => (
+                <L key={`${i}-${item.href}`} className="fullmenu__cat" href={item.href} aria-current={isCurrent(item.href, path) ? "page" : undefined}><span className="fullmenu__plus">+</span>{item.label}</L>
+              ))}
+            </nav>
             <div className="fullmenu__main">
-              <section className="fullmenu__section" aria-labelledby="fm-services">
+              <section className="fullmenu__section fullmenu__section--services" aria-labelledby="fm-services">
                 <div className="fullmenu__head">
                   <p className="fullmenu__title" id="fm-services">{t("menu.services")}</p><span className="fullmenu__rule" />
                   <L className="fullmenu__all button-sm" href="/engagements/">{t("menu.allEngagements")}<Icon name="arrowUpRight" className="fullmenu__arrow" /></L>
                 </div>
                 <div className="fullmenu__cols">
                   {site.nav.filter((n) => n.children && n.href !== "/markets/").map((n) => (
-                    <div className="fullmenu__col" key={n.href}>
+                    <div className="fullmenu__col" key={`${n.label}-${n.href}`}>
                       <L className="fullmenu__label" href={n.href}>{n.label}</L>
                       <ul role="list">
-                        {n.children.map((c) => (
-                          <li key={c.href}><L className="fullmenu__link" href={c.href} aria-current={isCurrent(c.href, path) ? "page" : undefined}>{c.label}</L></li>
+                        {n.children.map((c, i) => (
+                          <li key={`${i}-${c.href}`}><L className="fullmenu__link" href={c.href} aria-current={isCurrent(c.href, path) ? "page" : undefined}>{c.label}</L></li>
                         ))}
                       </ul>
                     </div>
@@ -269,8 +279,8 @@ export function Header() {
                   <L className="fullmenu__all button-sm" href="/markets/">{t("menu.allMarkets")}<Icon name="arrowUpRight" className="fullmenu__arrow" /></L>
                 </div>
                 <div className="fullmenu__cards">
-                  {markets.tiles.map((tile) => (
-                    <L className="fullmenu__card" href={tile.href} key={tile.href}>
+                  {markets.tiles.map((tile, i) => (
+                    <L className="fullmenu__card" href={tile.href} key={`${i}-${tile.href}`}>
                       <span className="fullmenu__photo"><Img file={tile.image} alt="" sizes="(max-width: 1199px) 200px, 22vw" /></span>
                       <span className="fullmenu__caption">{tile.name}</span>
                     </L>
@@ -283,8 +293,8 @@ export function Header() {
                 <div className="fullmenu__group" key={g.title}>
                   <p className="fullmenu__label">{g.title}</p>
                   <ul role="list">
-                    {g.links.map((l) => (
-                      <li key={l.href}><L className="fullmenu__link fullmenu__link--sm" href={l.href} aria-current={isCurrent(l.href, path) ? "page" : undefined}>{l.label}</L></li>
+                    {g.links.map((l, i) => (
+                      <li key={`${i}-${l.href}`}><L className="fullmenu__link fullmenu__link--sm" href={l.href} aria-current={isCurrent(l.href, path) ? "page" : undefined}>{l.label}</L></li>
                     ))}
                   </ul>
                 </div>
@@ -316,7 +326,7 @@ export function Footer() {
           {site.footer.map((col) => (
             <div className="m-footer__col" key={col.title}>
               <FitLabel as="p" className="m-eyebrow">{col.title}</FitLabel>
-              <ul role="list">{col.links.map((l) => <li key={l.href}><L href={l.href}>{l.label}</L></li>)}</ul>
+              <ul role="list">{col.links.map((l, i) => <li key={`${i}-${l.href}`}><L href={l.href}>{l.label}</L></li>)}</ul>
             </div>
           ))}
           <div className="m-footer__col m-footer__col--brand">

@@ -47,7 +47,12 @@
         "structure": "Primary investment into the operating company or a dedicated expansion vehicle, structured with qualified legal and tax counsel.",
         "next": "Qualified investors receive a teaser under NDA, followed by management access and a data room."
       },
-      "image": "datacenter"
+      "image": "datacenter",
+      "category": "industrial",
+      "geo": [
+        "Riyadh",
+        "Jeddah"
+      ]
     },
     {
       "slug": "hospitality-technology-uae",
@@ -68,7 +73,11 @@
         "structure": "A GCC joint-venture company with a technology licence, shared governance and agreed contribution of capital and distribution.",
         "next": "Introductory discussion, partner fit assessment and a jointly developed business plan."
       },
-      "image": "hotel"
+      "image": "hotel",
+      "category": "real-estate",
+      "geo": [
+        "Dubai"
+      ]
     },
     {
       "slug": "ai-platform-uzbekistan",
@@ -89,7 +98,12 @@
         "structure": "Equity investment, potentially through a holding structure, coordinated with qualified counsel.",
         "next": "Teaser and management presentation under NDA, followed by commercial and technical due diligence."
       },
-      "image": "servers"
+      "image": "servers",
+      "category": "digital",
+      "geo": [
+        "Tashkent",
+        "Samarkand"
+      ]
     },
     {
       "slug": "sports-technology-saudi-arabia",
@@ -110,7 +124,12 @@
         "structure": "Partnership agreement or JV company with defined contributions, governance and economics.",
         "next": "Partner discussion, concept review and joint launch plan."
       },
-      "image": "stadium"
+      "image": "stadium",
+      "category": "sports",
+      "geo": [
+        "Riyadh",
+        "Jeddah"
+      ]
     },
     {
       "slug": "industrial-digitalisation-uzbekistan",
@@ -131,7 +150,470 @@
         "structure": "A JV company with technology licensing, implementation services and shared economics.",
         "next": "Site assessment, partner matching and a joint business plan."
       },
-      "image": "industrial"
+      "image": "industrial",
+      "category": "industrial",
+      "geo": [
+        "Tashkent",
+        "Samarkand"
+      ]
+    },
+    {
+      "country": "GCC & Central Asia",
+      "stage": "Live product",
+      "type": "Licensing / Joint venture",
+      "size": "On request",
+      "status": "Available",
+      "category": "digital",
+      "partner": "nordic",
+      "slug": "marketing-management-platform",
+      "product": "marketing-management-platform",
+      "sector": "Marketing Management Platform",
+      "image": "nordic/monetiseur-marketing.jpg",
+      "summary": "A live platform for running marketing campaigns, partnerships and brand deals — ready to license and launch with a regional partner.",
+      "sections": {
+        "overview": "An integrated platform for managing marketing campaigns, partnerships, commercial relationships, digital assets and performance analytics in one environment. Built and operated by Nordic AI, it is already in use in sports marketing (Monetiseur).",
+        "market": "Brands, agencies and sports organisations across the GCC are moving sponsorship and campaign spend to measurable, digital partnerships, but most still run them on spreadsheets and disconnected tools.",
+        "business": "A configurable SaaS product: campaign dashboard, partner and deal management, deliverables tracking, digital asset library and built-in analytics, with payouts and approvals in one workflow.",
+        "thesis": "Proven software that removes years of product development: a regional partner brings the market and customer access, the platform brings a working product from day one.",
+        "opportunity": "Regional licensing or a joint venture to launch the platform for brands, agencies, clubs and federations in Saudi Arabia, the UAE and Central Asia.",
+        "rationale": "Fits investors and operators building a marketing-technology or sports-commerce business who want a faster, lower-risk route to market than building from scratch.",
+        "structure": "Licence with localisation and white-label options, or a joint venture with Nordic AI as technology partner — structured with qualified legal counsel.",
+        "next": "Request a product walkthrough and commercial terms; we arrange a session with the Nordic AI team."
+      },
+      "geo": [
+        "Riyadh",
+        "Jeddah",
+        "Kuwait City",
+        "Manama",
+        "Doha",
+        "Dubai",
+        "Muscat",
+        "Ashgabat",
+        "Samarkand",
+        "Tashkent",
+        "Dushanbe",
+        "Bishkek",
+        "Almaty",
+        "Astana"
+      ],
+      "gallery": [
+        {
+          "image": "nordic/marketing/dashboard.jpg",
+          "caption": "Dashboard"
+        },
+        {
+          "image": "nordic/marketing/campaigns.jpg",
+          "caption": "Campaign management"
+        },
+        {
+          "image": "nordic/marketing/deals.jpg",
+          "caption": "Deal management"
+        },
+        {
+          "image": "nordic/marketing/analytics.jpg",
+          "caption": "Analytics"
+        }
+      ],
+      "model": {
+        "base": 0.45,
+        "streams": [
+          {
+            "key": "subscription",
+            "share": 45
+          },
+          {
+            "key": "commission",
+            "share": 30
+          },
+          {
+            "key": "implementation",
+            "share": 15
+          },
+          {
+            "key": "services",
+            "share": 10
+          }
+        ]
+      }
+    },
+    {
+      "country": "GCC & Central Asia",
+      "stage": "Live product",
+      "type": "Licensing / Joint venture",
+      "size": "On request",
+      "status": "Available",
+      "category": "digital",
+      "partner": "nordic",
+      "slug": "dojo-3d-configurator",
+      "product": "3d-configurator-engine",
+      "sector": "Dojo 3D Configurator",
+      "image": "nordic/dojo-configurator.jpg",
+      "summary": "A browser-based 3D configurator that designs and prices buildable structures — ready for construction and modular-building partners.",
+      "sections": {
+        "overview": "Dojo is a modular 3D configuration engine: customers design a structure in the browser, the engine assembles validated modules into a complete specification and prices it instantly. Built by Nordic AI.",
+        "market": "Construction, modular housing and prefab manufacturers in the GCC and Central Asia are scaling fast, and buyers increasingly expect to configure and price online before talking to sales.",
+        "business": "Configurator engine with a module library, rules for what can be built, live pricing and a generated specification that sales and production teams can work from.",
+        "thesis": "Configuration and instant pricing shorten sales cycles and reduce errors between sale and production — a direct lever on margin for any modular product business.",
+        "opportunity": "Licensing for a manufacturer or developer, or a regional joint venture offering the configurator to construction and modular-building companies.",
+        "rationale": "Attractive for construction groups, prefab manufacturers and proptech investors looking for a differentiated, digital sales channel.",
+        "structure": "Product licence with configuration for the partner's own modules and pricing, or a joint venture with Nordic AI as technology partner.",
+        "next": "Request a live demo with your own product range; we coordinate the scoping session with Nordic AI."
+      },
+      "geo": [
+        "Riyadh",
+        "Jeddah",
+        "Kuwait City",
+        "Manama",
+        "Doha",
+        "Dubai",
+        "Muscat",
+        "Ashgabat",
+        "Samarkand",
+        "Tashkent",
+        "Dushanbe",
+        "Bishkek",
+        "Almaty",
+        "Astana"
+      ],
+      "gallery": [
+        {
+          "image": "nordic/configurator/1.jpg",
+          "caption": "Live 3D model"
+        },
+        {
+          "image": "nordic/configurator/2.jpg",
+          "caption": "Module editing"
+        },
+        {
+          "image": "nordic/configurator/3.jpg",
+          "caption": "Pricing and quantities"
+        }
+      ],
+      "model": {
+        "base": 0.35,
+        "streams": [
+          {
+            "key": "licence",
+            "share": 40
+          },
+          {
+            "key": "design",
+            "share": 30
+          },
+          {
+            "key": "implementation",
+            "share": 20
+          },
+          {
+            "key": "services",
+            "share": 10
+          }
+        ]
+      }
+    },
+    {
+      "country": "GCC & Central Asia",
+      "stage": "Live product",
+      "type": "Licensing / Joint venture",
+      "size": "On request",
+      "status": "Available",
+      "category": "digital",
+      "partner": "nordic",
+      "slug": "e-commerce-platform",
+      "product": "e-commerce-platform",
+      "sector": "E-commerce Platform",
+      "image": "nordic/kgk-marketplace.jpg",
+      "summary": "A flexible commerce platform for catalogues, storefronts and transactions across channels — ready to launch for regional retailers and brands.",
+      "sections": {
+        "overview": "A digital commerce solution for managing product catalogues, online storefronts, customer journeys and transactions across multiple sales channels, built and running in production by Nordic AI.",
+        "market": "E-commerce in Saudi Arabia, the UAE and Uzbekistan continues to grow quickly, with retailers and distributors looking for platforms they can adapt to local payment, language and logistics needs.",
+        "business": "Catalogue and inventory management, multi-brand storefronts, checkout and payments, order management and customer accounts, with integrations to ERP and logistics.",
+        "thesis": "A proven platform lets a regional operator compete on customer experience and speed to market instead of spending years building core commerce infrastructure.",
+        "opportunity": "Licensing for retailers, distributors and marketplaces, or a joint venture to operate the platform for multiple merchants in the region.",
+        "rationale": "Suits retail groups, distributors and investors building a regional commerce or marketplace business.",
+        "structure": "Licence with localisation (Arabic, local payments), white-label deployment, or a joint venture with Nordic AI as technology partner.",
+        "next": "Request a walkthrough of the storefront and back office, and an outline of commercial terms."
+      },
+      "geo": [
+        "Riyadh",
+        "Jeddah",
+        "Kuwait City",
+        "Manama",
+        "Doha",
+        "Dubai",
+        "Muscat",
+        "Ashgabat",
+        "Samarkand",
+        "Tashkent",
+        "Dushanbe",
+        "Bishkek",
+        "Almaty",
+        "Astana"
+      ],
+      "gallery": [
+        {
+          "image": "nordic/ecommerce/1.jpg",
+          "caption": "Browse the catalogue"
+        },
+        {
+          "image": "nordic/ecommerce/2.jpg",
+          "caption": "Product detail"
+        },
+        {
+          "image": "nordic/ecommerce/3.jpg",
+          "caption": "Seamless checkout"
+        }
+      ],
+      "model": {
+        "base": 0.6,
+        "streams": [
+          {
+            "key": "subscription",
+            "share": 40
+          },
+          {
+            "key": "transaction",
+            "share": 35
+          },
+          {
+            "key": "implementation",
+            "share": 15
+          },
+          {
+            "key": "services",
+            "share": 10
+          }
+        ]
+      }
+    },
+    {
+      "country": "GCC & Central Asia",
+      "stage": "Live product",
+      "type": "Licensing / Joint venture",
+      "size": "On request",
+      "status": "Available",
+      "category": "digital",
+      "partner": "nordic",
+      "slug": "performance-management-platform",
+      "product": "performance-management-platform",
+      "sector": "Performance Management Platform",
+      "image": "nordic/monetiseur-talent.jpg",
+      "summary": "A platform for planning, tracking and analysing individual and team performance — ready for enterprises, academies and sports organisations.",
+      "sections": {
+        "overview": "An integrated solution for managing individual and team performance: planning activities, tracking progress and analysing results through dashboards and reports. Built by Nordic AI and used for athlete management.",
+        "market": "Enterprises, education providers and sports organisations across the GCC are investing heavily in people and talent development, and need structured tools to plan and prove progress.",
+        "business": "Planning for individuals and teams, goal and progress tracking, communication, and analytics dashboards that turn activity into measurable results.",
+        "thesis": "Performance data is becoming a management standard; a ready platform lets a regional partner serve this demand without building and validating a product first.",
+        "opportunity": "Licensing for organisations, or a joint venture to offer the platform to sports academies, federations, training providers and corporate teams in the region.",
+        "rationale": "Relevant for sports investors, education groups and HR-technology operators looking for a proven product.",
+        "structure": "Product licence with configuration for the partner's programmes, or a joint venture with Nordic AI as technology partner.",
+        "next": "Request a product demonstration and discuss the target segment and commercial model."
+      },
+      "geo": [
+        "Riyadh",
+        "Jeddah",
+        "Kuwait City",
+        "Manama",
+        "Doha",
+        "Dubai",
+        "Muscat",
+        "Ashgabat",
+        "Samarkand",
+        "Tashkent",
+        "Dushanbe",
+        "Bishkek",
+        "Almaty",
+        "Astana"
+      ],
+      "gallery": [
+        {
+          "image": "nordic/performance/1.jpg",
+          "caption": "Performance overview"
+        },
+        {
+          "image": "nordic/performance/2.jpg",
+          "caption": "Activity planning"
+        },
+        {
+          "image": "nordic/performance/3.jpg",
+          "caption": "Progress tracking"
+        }
+      ],
+      "model": {
+        "base": 0.3,
+        "streams": [
+          {
+            "key": "subscription",
+            "share": 55
+          },
+          {
+            "key": "implementation",
+            "share": 20
+          },
+          {
+            "key": "services",
+            "share": 15
+          },
+          {
+            "key": "licence",
+            "share": 10
+          }
+        ]
+      }
+    },
+    {
+      "country": "GCC & Central Asia",
+      "stage": "Live product",
+      "type": "Licensing / Joint venture",
+      "size": "On request",
+      "status": "Available",
+      "category": "digital",
+      "partner": "nordic",
+      "slug": "ai-back-office-platform",
+      "product": "ai-back-office-platform",
+      "sector": "AI Back-Office Platform",
+      "image": "nordic/casepilot.jpg",
+      "summary": "An AI-driven back office that reads case documents, structures them and moves each case through its workflow — ready for service businesses.",
+      "sections": {
+        "overview": "An AI back-office system that takes in case documents, extracts and structures their contents, and moves each case through its workflow with less manual handling. Built and in production by Nordic AI.",
+        "market": "Legal, financial, insurance and public-service organisations in the region process large volumes of documents by hand, and AI adoption is a stated priority across the GCC.",
+        "business": "Document intake, AI extraction and classification, case workflows, task assignment and reporting — with people kept in control of decisions.",
+        "thesis": "Document-heavy processes are where AI delivers measurable savings fastest; a working product removes the pilot risk that stops most AI programmes.",
+        "opportunity": "Licensing for an organisation's own back office, or a joint venture offering AI back-office services to firms across the region.",
+        "rationale": "Fits investors and operators in legal, financial and business services, and groups building an AI services business.",
+        "structure": "Licence with configuration for the partner's document types and workflows, or a joint venture with Nordic AI as technology partner.",
+        "next": "Request a demonstration with sample documents from your own process."
+      },
+      "geo": [
+        "Riyadh",
+        "Jeddah",
+        "Kuwait City",
+        "Manama",
+        "Doha",
+        "Dubai",
+        "Muscat",
+        "Ashgabat",
+        "Samarkand",
+        "Tashkent",
+        "Dushanbe",
+        "Bishkek",
+        "Almaty",
+        "Astana"
+      ],
+      "gallery": [
+        {
+          "image": "nordic/backoffice/1.jpg",
+          "caption": "Document intake"
+        },
+        {
+          "image": "nordic/backoffice/2.jpg",
+          "caption": "Structured extraction"
+        },
+        {
+          "image": "nordic/backoffice/3.jpg",
+          "caption": "Case workflow"
+        }
+      ],
+      "model": {
+        "base": 0.5,
+        "streams": [
+          {
+            "key": "subscription",
+            "share": 35
+          },
+          {
+            "key": "usage",
+            "share": 35
+          },
+          {
+            "key": "implementation",
+            "share": 20
+          },
+          {
+            "key": "services",
+            "share": 10
+          }
+        ]
+      }
+    },
+    {
+      "country": "GCC & Central Asia",
+      "stage": "Live product",
+      "type": "Licensing / Joint venture",
+      "size": "On request",
+      "status": "Available",
+      "category": "digital",
+      "partner": "nordic",
+      "slug": "hotel-management-platform",
+      "product": "operations-booking-platform",
+      "sector": "Hotel Management Platform",
+      "image": "nordic/hessnery.jpg",
+      "summary": "A hotel and booking management platform for rooms, rates, guests and operations — ready for hospitality groups and new properties.",
+      "sections": {
+        "overview": "A configurable platform for managing bookings, rooms and resources, pricing, guest interactions and day-to-day operations through one management system. Built by Nordic AI for hospitality and booking businesses.",
+        "market": "Hospitality capacity in Saudi Arabia, the UAE and Uzbekistan is expanding rapidly, driven by tourism, pilgrimage and events — and new properties need modern systems from opening day.",
+        "business": "Booking engine, room and rate management, guest profiles and communication, housekeeping and operational workflows, with reporting across one or many properties.",
+        "thesis": "Every new hotel and serviced-apartment project needs a management system; a proven, configurable platform can be rolled out across a portfolio faster and at lower cost than legacy software.",
+        "opportunity": "Licensing for hotel groups and operators, or a joint venture to supply the platform to new hospitality projects across the region.",
+        "rationale": "Relevant for hospitality groups, real-estate developers with hotel components, and investors building a hospitality-technology business.",
+        "structure": "Licence with configuration for the partner's properties and channels, or a joint venture with Nordic AI as technology partner.",
+        "next": "Request a walkthrough of the booking and operations modules for your property type."
+      },
+      "geo": [
+        "Riyadh",
+        "Jeddah",
+        "Kuwait City",
+        "Manama",
+        "Doha",
+        "Dubai",
+        "Muscat",
+        "Ashgabat",
+        "Samarkand",
+        "Tashkent",
+        "Dushanbe",
+        "Bishkek",
+        "Almaty",
+        "Astana"
+      ],
+      "gallery": [
+        {
+          "image": "nordic/booking/1.webp",
+          "caption": "Plan occupancy"
+        },
+        {
+          "image": "nordic/booking/2.webp",
+          "caption": "Set pricing"
+        },
+        {
+          "image": "nordic/booking/3.webp",
+          "caption": "Talk to guests"
+        },
+        {
+          "image": "nordic/booking/4.webp",
+          "caption": "Track performance"
+        }
+      ],
+      "model": {
+        "base": 0.55,
+        "streams": [
+          {
+            "key": "perRoom",
+            "share": 50
+          },
+          {
+            "key": "implementation",
+            "share": 20
+          },
+          {
+            "key": "transaction",
+            "share": 15
+          },
+          {
+            "key": "services",
+            "share": 15
+          }
+        ]
+      }
     }
   ],
   "sectionTitles": [
@@ -167,5 +649,94 @@
       "key": "next",
       "title": "Next steps"
     }
-  ]
+  ],
+  "categories": [
+    {
+      "key": "digital",
+      "label": "Digital Products"
+    },
+    {
+      "key": "real-estate",
+      "label": "Real Estate"
+    },
+    {
+      "key": "sports",
+      "label": "Sports"
+    },
+    {
+      "key": "industrial",
+      "label": "Industrial"
+    }
+  ],
+  "model": {
+    "comment": "Illustrative investment calculator for partner products. Year-1 revenue (USD m) in Saudi Arabia at the reference investment is opportunity.model.base; revenue = base × market factor × growth[year] × scenario.revenue × (investment / refInvestment)^scaleExp; operating profit = revenue × scenario.margins[year].",
+    "growth": [
+      1,
+      1.8,
+      2.9
+    ],
+    "refInvestment": 250000,
+    "scaleExp": 0.6,
+    "investment": {
+      "min": 50000,
+      "max": 2000000,
+      "step": 50000,
+      "default": 250000
+    },
+    "scenarios": [
+      {
+        "key": "conservative",
+        "revenue": 0.7,
+        "margins": [
+          -0.25,
+          0.05,
+          0.18
+        ]
+      },
+      {
+        "key": "base",
+        "revenue": 1,
+        "margins": [
+          -0.15,
+          0.15,
+          0.28
+        ]
+      },
+      {
+        "key": "optimistic",
+        "revenue": 1.35,
+        "margins": [
+          -0.05,
+          0.24,
+          0.36
+        ]
+      }
+    ],
+    "countries": [
+      {
+        "key": "sa",
+        "factor": 1
+      },
+      {
+        "key": "ae",
+        "factor": 0.75
+      },
+      {
+        "key": "qa",
+        "factor": 0.35
+      },
+      {
+        "key": "kw",
+        "factor": 0.3
+      },
+      {
+        "key": "om",
+        "factor": 0.22
+      },
+      {
+        "key": "bh",
+        "factor": 0.15
+      }
+    ]
+  }
 }

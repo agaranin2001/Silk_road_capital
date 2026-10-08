@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { Route, Routes, useLocation } from "react-router";
 import { ContentProvider, useContent } from "../i18n/context.jsx";
-import { Footer, Header, SkipLink, setBehaviours } from "./Layout.jsx";
+import { Footer, Header, SkipLink } from "./Layout.jsx";
 import home from "./pages/home.jsx";
 import services from "./pages/services.jsx";
 import engagements from "./pages/engagements.jsx";
@@ -26,7 +26,7 @@ export const fullTitle = (site, title) => (title ? `${title} | ${site.name}` : s
 // Behaviours (GSAP, Lenis, carousels…) are client-only: loaded once, after the first render.
 let behavioursPromise = null;
 const loadBehaviours = () => {
-  behavioursPromise ??= import("./behaviours.js").then((mod) => { setBehaviours(mod); mod.initSmoothScroll(); return mod; });
+  behavioursPromise ??= import("./behaviours.js").then((mod) => { mod.initSmoothScroll(); return mod; });
   return behavioursPromise;
 };
 // The first page waits for the preloader curtain (≈2.5s, see main.css) before its intro.

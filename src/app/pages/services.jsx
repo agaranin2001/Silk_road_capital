@@ -3,13 +3,13 @@ import { useContent } from "../../i18n/context.jsx";
 import { BtnPrimary, BtnOutline, contactHref, MicroLabel } from "../ui.jsx";
 import {
   PageHero, Pillars, Steps, BeforeAfter, JvModels, Statement, Audience, AiShowcase, ProductCatalogue,
-  RelatedEngagements, CtaSection, CapabilityGrid,
+  RelatedEngagements, CtaSection, CapabilityGrid, NordicSection,
 } from "../sections.jsx";
 
 // Block renderers: services.json describes each page as an ordered list of blocks.
 // Themes alternate so long pages keep a sand ↔ dark rhythm.
 const BLOCKS = {
-  pillars: (b, theme) => <Pillars b={b} theme={theme} />,
+  pillars: (b) => <Pillars b={b} />,
   steps: (b, theme) => <Steps {...b} theme={theme} />,
   beforeAfter: (b, theme) => <BeforeAfter b={b} theme={theme} />,
   models: (b, theme) => <JvModels b={b} theme={theme} />,
@@ -17,8 +17,9 @@ const BLOCKS = {
   audience: (b, theme) => <Audience a={b} theme={theme} />,
   aiShowcase: (_b, theme, home) => <AiShowcase ai={{ ...home.ai, cta: null }} theme={theme} />,
   catalogue: (_b, theme) => <ProductCatalogue theme={theme} />,
+  nordic: (b) => <NordicSection focus={b.focus} />,
 };
-const THEMES = { aiShowcase: "dark", models: "dark" };
+const THEMES = { aiShowcase: "dark", models: "dark", pillars: "light", nordic: "light" }; // fixed themes do not flip the rhythm
 
 function ServicePage({ s }) {
   const { services, home, contact, t } = useContent();
@@ -41,6 +42,7 @@ function ServicePage({ s }) {
           <BtnOutline key="eng" label={t("btn.engagements")} href="/engagements/" />,
         ]}
         image={s.image}
+        partner={s.blocks.some((b) => b.type === "nordic")}
       />
       <section className="section section--tight theme-light" data-theme="light" aria-labelledby="includes-title">
         <div className="container includes">

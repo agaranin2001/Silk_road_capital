@@ -18,10 +18,10 @@ const esc = (value) => String(value).replace(/[&<>"']/g, (c) => ESCAPES[c]);
 /* ------------------------------------------------------------------ page hero */
 
 /** Inner-page hero — the Mollie hero layout (eyebrow + display title | lead + actions, rounded photo). */
-export function PageHero({ label, title, lead, actions = [], image, imageAlt, crumbs = [], aside, notice }) {
+export function PageHero({ label, title, lead, actions = [], image, imageAlt, crumbs = [], aside, notice, partner, stacked = false }) {
   const { t } = useContent();
   return (
-    <section className="m-hero m-hero--page" aria-labelledby="page-title">
+    <section className={`m-hero m-hero--page${stacked ? " m-hero--stacked" : ""}`} aria-labelledby="page-title">
       <div className="m-wrap">
         {crumbs.length ? (
           <nav className="m-crumbs" aria-label={t("aria.breadcrumbs")}>
@@ -32,6 +32,7 @@ export function PageHero({ label, title, lead, actions = [], image, imageAlt, cr
           <div className="m-hero__title-wrap">
             <FitLabel as="p" className="m-eyebrow">{label}</FitLabel>
             <h1 className="m-display m-display--page" id="page-title" data-anim="intro-title"><Lines text={title} /></h1>
+            {partner ? <PartnerBadge /> : null}
           </div>
           <div className="m-hero__aside" data-anim="intro-text">
             {lead ? <p className="m-hero__text">{lead}</p> : null}
@@ -46,6 +47,84 @@ export function PageHero({ label, title, lead, actions = [], image, imageAlt, cr
           <Img file={image} alt={imageAlt} className="m-hero__img" eager sizes="(max-width: 809px) 100vw, 1400px" />
         </div>
       ) : null}
+    </section>
+  );
+}
+
+/* ---------------------------------------------------------- Nordic AI (main technology partner)
+ * Digital and AI pages credit Nordic AI (nordicai.pro) in the hero and show its delivery packages
+ * and ready-to-deploy solutions (content: partners.json). External links open in a new tab. */
+
+const NORDIC_LOGO = { light: "/assets/img/nordic/nordic-ai-dark.svg", dark: "/assets/img/nordic/nordic-ai-light.svg" };
+
+export function PartnerBadge() {
+  const { partners } = useContent();
+  const n = partners.nordic;
+  return (
+    <div className="partner">
+      <span className="partner__label">{n.badge}</span>
+      <a className="partner-badge" href={n.url} target="_blank" rel="noopener noreferrer">
+        <img className="partner-badge__logo" src={NORDIC_LOGO.light} alt={n.name} width="104" height="28" />
+      </a>
+    </div>
+  );
+}
+
+/** Packages + ready-to-deploy solutions. `focus` ("ai" | "digital") puts the matching solutions first. */
+export function NordicSection({ focus = "digital", theme = "light" }) {
+  const { partners } = useContent();
+  const n = partners.nordic;
+  const isAi = (x) => x.group === "AI & Automation";
+  const solutions = [...n.solutions].sort((a, b) => (focus === "ai" ? isAi(b) - isAi(a) : isAi(a) - isAi(b)));
+  const ext = { target: "_blank", rel: "noopener noreferrer" };
+  return (
+    <section className={`section theme-${theme} nordic`} data-theme={theme} id="nordic-ai" aria-labelledby="nordic-title">
+      <div className="container">
+        <SplitHead
+          label={n.eyebrow}
+          title={n.title}
+          text={n.text}
+          id="nordic-title"
+          action={<a className="nordic__logo" href={n.url} {...ext}><img src={NORDIC_LOGO[theme]} alt={n.name} width="148" height="40" /></a>}
+        />
+        <MiniLabel label={n.packagesLabel} className="nordic__sublabel" />
+        <ol className="nordic__packages" role="list">
+          {n.packages.map((p) => (
+            <li className="nordic-pkg" key={p.index} data-anim="fade-up">
+              <div className="nordic-pkg__top">
+                <span className="micro color-white-40">{`${p.index} · ${p.tab}`}</span>
+                <span className="nordic-pkg__duration body-sm"><Icon name="clock" />{p.duration}</span>
+              </div>
+              <h3 className="h4">{p.title}</h3>
+              <p className="body-md color-white-60">{p.tagline}</p>
+              <ul className="nordic-pkg__features" role="list">
+                {p.features.map((f, i) => <li className="body-sm" key={i}><Icon name="check" />{f}</li>)}
+              </ul>
+              <p className="body-sm nordic-pkg__best"><span className="color-white-50">{n.bestFor}</span>{p.bestFor}</p>
+              <a className="btn-primary nordic-pkg__btn" href={p.cta.href} {...ext}><span className="button-sm">{p.cta.label}</span><span className="btn-icon"><Icon name="arrowUpRight" /></span></a>
+            </li>
+          ))}
+        </ol>
+        <MiniLabel label={n.solutionsLabel} className="nordic__sublabel" />
+      </div>
+      <div className="nordic__rail" data-lenis-prevent-horizontal="">
+        <ul className="nordic__solutions" role="list">
+          {solutions.map((x) => (
+            <li className="nordic-sol" key={x.slug}>
+              <a href={`${n.url}/solutions/${x.slug}`} {...ext}>
+                <span className="nordic-sol__img"><Img file={x.image} alt="" sizes="(max-width: 809px) 80vw, 380px" /></span>
+                <span className="micro color-white-40">{x.category}</span>
+                <h3 className="h4 nordic-sol__title">{x.title}</h3>
+                <span className="body-sm color-white-60">{x.description}</span>
+                <span className="arrow-link button-sm nordic-sol__open"><span>{n.open}</span><Icon name="arrowUpRight" className="arrow-link__icon" /></span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="container nordic__foot">
+        <a className="btn-outline nordic__all" href={n.viewAll.href} {...ext}><span className="button-sm">{n.viewAll.label}</span><span className="btn-icon"><Icon name="arrowUpRight" /></span></a>
+      </div>
     </section>
   );
 }
@@ -302,12 +381,39 @@ export function RelatedEngagements({ slugs, title, theme = "light" }) {
 // `m` = markets.map (projection bounds and canvas size).
 const project = (m, lon, lat) => [((lon - m.lon0) / (m.lon1 - m.lon0)) * m.width, ((m.lat1 - lat) / (m.lat1 - m.lat0)) * m.height];
 
-export function MarketMap() {
-  const { markets, marketsBase } = useContent();
+// label side of a country name in the countries-only map, where it differs from its city's
+const COUNTRY_LABEL_SIDE = { tm: "bottom" };
+// margins (map units) kept around the zoomed points so their labels fit
+const ZOOM_PAD = { x: 120, y: 55 };
+const ZOOM_MIN = { w: 560, h: 360 };
+
+/**
+ * Regional map. `focus` (English city names) highlights those cities, dims the rest and draws
+ * routes between them (between the hubs only when many cities are in focus); `active` (English
+ * names) pulses those cities (used by the country chips under the map). With `countries`, each
+ * focused country is shown once, by name, at its hub (or first) city; `zoom` crops the map to the
+ * shown points (plus room for their labels) so they spread across the whole card.
+ */
+export function MarketMap({ focus, active, countries = false, zoom = false } = {}) {
+  const { markets, marketsBase, t } = useContent();
   const m = markets.map;
+  const base = marketsBase.points;
+  // countries mode: one representative city per focused country
+  const reps = {};
+  if (focus && countries) {
+    for (const p of base) {
+      if (!focus.includes(p.name) || !p.country) continue;
+      if (!reps[p.country] || (p.hub && !base.find((x) => x.name === reps[p.country]).hub)) reps[p.country] = p.name;
+    }
+  }
+  const repCities = Object.values(reps);
   // routes name English cities; points keep their order across translations, so resolve by index
   const byName = Object.fromEntries(marketsBase.points.map((p, i) => [p.name, markets.points[i]]));
-  const routes = markets.routes.map(([a, b], i) => {
+  const isHub = (name) => marketsBase.points.find((p) => p.name === name)?.hub;
+  const shown = focus && countries ? repCities : focus;
+  const routeCities = shown && shown.length > 4 ? shown.filter(isHub) : shown;
+  const routeList = focus ? routeCities.slice(1).map((c, i) => [routeCities[i], c]) : markets.routes;
+  const routes = routeList.map(([a, b], i) => {
     const [x1, y1] = project(m, byName[a].lon, byName[a].lat);
     const [x2, y2] = project(m, byName[b].lon, byName[b].lat);
     const mx = (x1 + x2) / 2, my = (y1 + y2) / 2;
@@ -320,20 +426,44 @@ export function MarketMap() {
       <path key={i} className="map__route" style={{ "--d": `${(i * 0.35).toFixed(2)}s` }} d={`M${x1.toFixed(1)} ${y1.toFixed(1)} Q${(mx + nx * bend).toFixed(1)} ${(my + ny * bend).toFixed(1)} ${x2.toFixed(1)} ${y2.toFixed(1)}`} />
     );
   });
-  return (
-    <div className="map" data-map="">
-      <div className="map__canvas" style={{ aspectRatio: `${m.width} / ${m.height}` }}>
+  // zoomed crop, in map units: bounding box of the shown points + label margins
+  let view = null;
+  if (zoom && shown && shown.length) {
+    const xy = shown.map((c) => project(m, byName[c].lon, byName[c].lat));
+    // span of the points plus margins, at least ZOOM_MIN, centred on the points, kept inside the map
+    const span = (vals, pad, min, size) => {
+      const lo = Math.min(...vals), hi = Math.max(...vals);
+      const len = Math.min(size, Math.max(min, hi - lo + 2 * pad));
+      const start = Math.min(size - len, Math.max(0, (lo + hi) / 2 - len / 2));
+      return [start, len];
+    };
+    const [x0, w] = span(xy.map((q) => q[0]), ZOOM_PAD.x, ZOOM_MIN.w, m.width);
+    const [y0, h] = span(xy.map((q) => q[1]), ZOOM_PAD.y, ZOOM_MIN.h, m.height);
+    view = { x0, y0, w, h };
+  }
+  const canvas = (
+      <div className="map__canvas" style={view ? { position: "absolute", width: `${((m.width / view.w) * 100).toFixed(2)}%`, maxWidth: "none", left: `${((-view.x0 / view.w) * 100).toFixed(2)}%`, top: `${((-view.y0 / view.h) * 100).toFixed(2)}%`, aspectRatio: `${m.width} / ${m.height}` } : { aspectRatio: `${m.width} / ${m.height}` }}>
         <img className="map__land" src="/assets/img/map.svg" alt="" width={m.width} height={m.height} loading="lazy" decoding="async" />
         <svg className="map__routes" viewBox={`0 0 ${m.width} ${m.height}`} aria-hidden="true" focusable="false">{routes}</svg>
         {markets.points.map((p, i) => {
           const [x, y] = project(m, p.lon, p.lat);
+          const { name: en, country } = base[i];
+          if (countries && focus && focus.includes(en) && !repCities.includes(en)) return null;
+          const asCountry = countries && repCities.includes(en);
+          const side = (asCountry && COUNTRY_LABEL_SIDE[country]) || base[i].label;
+          const state = focus ? (focus.includes(en) ? " map__point--focus" : " map__point--dim") : "";
+          const isActive = active && (asCountry ? active.some((c) => base.find((x) => x.name === c)?.country === country) : active.includes(en));
           return (
-            <span key={i} className={`map__point ${p.hub ? "map__point--hub" : ""} ${p.minor ? "map__point--minor" : ""}`} style={{ left: `${((x / m.width) * 100).toFixed(2)}%`, top: `${((y / m.height) * 100).toFixed(2)}%` }}>
-              <span className="map__dot"></span><span className="map__label title-xs">{p.name}</span>
+            <span key={i} className={`map__point ${p.hub ? "map__point--hub" : ""} ${p.minor && !asCountry ? "map__point--minor" : ""}${side ? ` map__point--label-${side}` : ""}${state}${isActive ? " is-active" : ""}`} style={{ left: `${((x / m.width) * 100).toFixed(2)}%`, top: `${((y / m.height) * 100).toFixed(2)}%` }}>
+              <span className="map__dot"></span><span className="map__label title-xs">{asCountry ? t(`country.${country}`) : p.name}</span>
             </span>
           );
         })}
       </div>
+  );
+  return (
+    <div className={`map${view ? " map--zoom" : ""}`} data-map="">
+      {view ? <div className="map__viewport" style={{ aspectRatio: `${view.w.toFixed(0)} / ${view.h.toFixed(0)}` }}>{canvas}</div> : canvas}
     </div>
   );
 }
@@ -415,11 +545,12 @@ export function UzbekistanBlock({ level = "h2", id = "uzbekistan" }) {
 /* ---------------------------------------------------------------- opportunities */
 
 export function OpportunityCard({ o, level = "h3" }) {
-  const { t, opportunities } = useContent();
+  const { t, opportunities, partners } = useContent();
   return (
     <article className="opp-card" data-anim="fade-up">
+      {o.image ? <L className="opp-card__img" href={`/opportunities/${o.slug}/`} tabIndex={-1} aria-hidden="true"><Img file={o.image} alt="" sizes="(max-width: 809px) 90vw, 440px" /></L> : null}
       <div className="opp-card__top">
-        <span className="tag">{t("illustrative")}</span>
+        <span className={o.partner ? "tag tag--partner" : "tag"}>{o.partner ? partners[o.partner].name : t("illustrative")}</span>
         <span className="opp-card__status body-sm"><span className="status-dot"></span>{o.status}</span>
       </div>
       <p className="micro color-white-50">{o.country}</p>
@@ -462,7 +593,7 @@ export const Steps = ({ label, title, items, theme = "light", interactive = fals
           <li key={i} className={`timeline__step ${interactive && i === 0 ? "is-active" : ""}`} data-anim="fade-up" tabIndex={interactive ? 0 : undefined}>
             <span className="timeline__marker"><span className="timeline__dot"></span></span>
             <span className="micro color-white-40">{pad2(i + 1)}</span>
-            <h3 className="h4 timeline__name">{s.name}</h3>
+            <h3 className="h4 timeline__name">{s.icon ? <Icon name={s.icon} className="timeline__icon" /> : null}{s.name}</h3>
             <p className="body-sm color-white-60">{s.text}</p>
             {s.detail ? <p className="body-sm timeline__detail">{s.detail}</p> : null}
           </li>
@@ -507,28 +638,33 @@ export function AiShowcase({ ai, theme = "dark", level = "h2" }) {
                 </li>
               ))}
             </ol>
+            <Tabs
+              id="usecase"
+              label={t("usecases.label")}
+              className="usecases"
+              listClass="usecases__list"
+              tabClass="chip chip--button body-sm"
+              panelClass="usecases__panel"
+              items={ai.useCases}
+              renderTab={(u) => u.name}
+              renderPanel={(u) => <><p className="micro color-white-50">{u.name}</p><p className="h4">{u.text}</p></>}
+            />
+            {ai.cta ? <div className="actions"><BtnPrimary label={ai.cta.label} href={ai.cta.href} /></div> : null}
           </div>
+          {/* Right column: the dashboard stays in view (sticky) while the left column scrolls. */}
           <figure className="dash" data-anim="fade-up" aria-label={`${d.title} — ${d.tag}`}>
             <div className="dash__bar"><span></span><span></span><span></span><p className="title-xs color-white-50">{d.tag}</p></div>
             <div className="dash__head"><p className="body-lg">{d.title}</p><p className="body-sm color-white-50">{d.subtitle}</p></div>
-            <div className="dash__kpis">{d.kpis.map((k, i) => <div key={i} className="dash__kpi"><p className="body-sm color-white-50">{k.label}</p><p className="h3">{k.value}</p><p className="body-sm dash__delta">{k.delta}</p></div>)}</div>
-            <div className="dash__chart" aria-hidden="true">{d.bars.map((b, i) => <span key={i} className={`dash__col ${i === d.bars.length - 1 ? "is-accent" : ""}`} style={{ "--h": `${Math.round((b / max) * 100)}%` }}></span>)}</div>
-            <ul className="dash__agents" role="list">{d.agents.map((a, i) => <li key={i}><span className="dash__agent-name body-sm">{a.name}</span><span className="body-sm color-white-60">{a.task}</span><span className={`dash__status dash__status--${slugify(a.status)} title-xs`}>{a.status}</span></li>)}</ul>
+            <div className="dash__kpis">{d.kpis.map((k, i) => {
+              // "126", "4 min" → counts up from 0 to the number, keeping the unit (behaviours.js countUp)
+              const m = String(k.value).match(/^(\d+(?:\.\d+)?)(.*)$/);
+              return <div key={i} className="dash__kpi"><p className="body-sm color-white-50">{k.label}</p><p className="h3" data-count={m ? m[1] : undefined} data-suffix={m && m[2] ? m[2] : undefined}>{k.value}</p><p className="body-sm dash__delta">{k.delta}</p></div>;
+            })}</div>
+            <div className="dash__chart" aria-hidden="true">{d.bars.map((b, i) => <span key={i} className={`dash__col ${i === d.bars.length - 1 ? "is-accent" : ""}`} style={{ "--h": `${Math.round((b / max) * 100)}%`, "--i": i }}></span>)}</div>
+            <ul className="dash__agents" role="list">{d.agents.map((a, i) => <li key={i} style={{ "--i": i }}><span className="dash__agent-name body-sm">{a.name}</span><span className="body-sm color-white-60">{a.task}</span><span className={`dash__status dash__status--${slugify(a.status)} title-xs`}>{a.status}</span></li>)}</ul>
             <figcaption className="sr-only">{t("dash.caption")}</figcaption>
           </figure>
         </div>
-        <Tabs
-          id="usecase"
-          label={t("usecases.label")}
-          className="usecases"
-          listClass="usecases__list"
-          tabClass="chip chip--button body-sm"
-          panelClass="usecases__panel"
-          items={ai.useCases}
-          renderTab={(u) => u.name}
-          renderPanel={(u) => <><p className="micro color-white-50">{u.name}</p><p className="h4">{u.text}</p></>}
-        />
-        {ai.cta ? <div className="actions"><BtnPrimary label={ai.cta.label} href={ai.cta.href} /></div> : null}
       </div>
     </section>
   );
@@ -580,6 +716,25 @@ export const CellGrid = ({ items, cols = 4, level = "h3", numbered = false }) =>
   </div>
 );
 
+/**
+ * Numbered cards as a full-bleed, auto-scrolling strip with faded edges. A second, hidden copy of
+ * the cards makes the loop seamless; it starts moving once the strip scrolls into view
+ * (behaviours.js adds .is-running), hover pauses it; with reduced motion it is scrolled by hand.
+ */
+export const CellMarquee = ({ items }) => (
+  <div className="cell-marquee" style={{ "--dur": `${Math.max(30, items.length * 9)}s` }} data-lenis-prevent-horizontal="">
+    <div className="cell-marquee__track">
+      {[0, 1].map((copy) => items.map((it, i) => (
+        <div key={`${copy}-${i}`} className="cell" aria-hidden={copy ? "true" : undefined}>
+          <span className="micro color-white-40">{pad2(i + 1)}</span>
+          <h3 className="h4 cell__title">{it.title ?? it.name}</h3>
+          <p className="body-md color-white-60">{it.text}</p>
+        </div>
+      )))}
+    </div>
+  </div>
+);
+
 export function Audience({ a, theme = "light" }) {
   const { t } = useContent();
   return (
@@ -592,14 +747,15 @@ export function Audience({ a, theme = "light" }) {
   );
 }
 
-export function Pillars({ b, theme = "light" }) {
+// Always on the page background (no dark panel): the card strip runs the full width of the window.
+export function Pillars({ b }) {
   const id = `p-${slugify(b.title).slice(0, 20)}`;
   return (
-    <section className={`section theme-${theme}`} data-theme={theme} aria-labelledby={id}>
+    <section className="section theme-light" data-theme="light" aria-labelledby={id}>
       <div className="container">
         <SectionHead label={b.label} title={b.title} id={id} />
-        <CellGrid items={b.items} cols={4} numbered />
       </div>
+      <CellMarquee items={b.items} />
     </section>
   );
 }

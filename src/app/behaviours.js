@@ -116,7 +116,7 @@ export function initPage(root, { introLead = 0 } = {}) {
 
   /* ---------------------------------------------------------- scroll-triggered states */
   $$("[data-journey]", root).forEach((el) => onVisible(el, () => el.classList.add("is-visible")));
-  $$(".dash", root).forEach((el) => onVisible(el, () => el.classList.add("is-visible")));
+  $$(".dash", root).forEach((el) => onVisible(el, () => { el.classList.add("is-visible"); countUp(el); }));
   $$("[data-map]", root).forEach((el) => {
     onVisible(el, () => el.classList.add("is-visible"), { threshold: 0.15 });
     // On narrow screens the map scrolls sideways: start centred on the Gulf.
@@ -164,6 +164,9 @@ export function initPage(root, { introLead = 0 } = {}) {
       cleanups.push(() => io.disconnect());
     }
   });
+
+  /* ---------------------------------------------------------- auto-scrolling card strips: start when reached */
+  $$(".cell-marquee", root).forEach((el) => onVisible(el, () => el.classList.add("is-running"), { threshold: 0.3 }));
 
   /* ---------------------------------------------------------- UI mock-ups: reveal on scroll */
   $$(".m-vis, .m-fan, .m-split__panel, .m-pipe", root).forEach((el) => {
@@ -229,9 +232,9 @@ export function initPage(root, { introLead = 0 } = {}) {
     const prev = $("[data-carousel-prev]", box), next = $("[data-carousel-next]", box);
     if (prev) on(prev, "click", () => go(-1));
     if (next) on(next, "click", () => go(1));
-    // start on the second real card so neighbours show on both sides, like the reference
-    jump(centerOn(originals[1] || originals[0]));
-    on(window, "resize", () => jump(centerOn($(".m-story.is-current:not(.is-clone)", track) || originals[1] || originals[0])));
+    // start on the first real card; the clones on either side show its neighbours
+    jump(centerOn(originals[0]));
+    on(window, "resize", () => jump(centerOn($(".m-story.is-current:not(.is-clone)", track) || originals[0])));
     mark();
   });
 

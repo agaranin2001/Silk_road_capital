@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useContent } from "../../i18n/context.jsx";
 import { Icon } from "../icons.jsx";
-import { L, MiniLabel, pad2 } from "../ui.jsx";
+import { L, MiniLabel, Select, pad2 } from "../ui.jsx";
 
 // Engagement keys that map onto one of the form's interest options (same map as contact.aliases).
 const ALIASES = { "business-build": "advisory", growth: "digital", structure: "advisory" };
@@ -83,8 +83,6 @@ function ContactForm() {
     }
   };
 
-  const toggleInterest = (value, checked) =>
-    setInterests((prev) => (checked ? (prev.includes(value) ? prev : [...prev, value]) : prev.filter((v) => v !== value)));
 
   // The last sentence of the privacy line becomes the link to the privacy notice.
   const [, privacyLead, privacyLink] = c.privacy.match(/^(.*?\s?)([^.!?؟。]+[.!?؟。]?)$/s) ?? [null, "", c.privacy];
@@ -98,21 +96,14 @@ function ContactForm() {
           <Field name="email" label={t("form.email")} type="email" required autocomplete="email" error={errors.email} />
           <div className={`inp-group${errors.country ? " is-error" : ""}`} data-field="">
             <label className="inp-group__label body-sm" htmlFor="f-country">{t("form.country")}<span className="color-white-40">{t("form.optional")}</span></label>
-            <div className="select"><select className="inp" id="f-country" name="country" autoComplete="country-name" aria-invalid={errors.country ? "true" : undefined}>
-              <option value="">{t("form.select")}</option>
-              {c.countries.map((x) => <option key={x}>{x}</option>)}
-            </select><Icon name="caret" className="select__caret" /></div>
+            <Select id="f-country" name="country" label={t("form.country")} placeholder={t("form.select")} options={c.countries} invalid={Boolean(errors.country)} />
             <p className="inp-group__error body-sm" data-error="">{errors.country || ""}</p>
           </div>
         </div>
-        <fieldset className="contact-form__interests">
-          <legend className="inp-group__label body-sm">{t("form.interested")}</legend>
-          <div className="chips">
-            {c.interests.map((x) => (
-              <label className="opt" key={x.value}><input type="checkbox" name="interests" value={x.value} data-label={x.label} checked={interests.includes(x.value)} onChange={(e) => toggleInterest(x.value, e.target.checked)} /><span className="opt__pill body-sm">{x.label}</span></label>
-            ))}
-          </div>
-        </fieldset>
+        <div className="inp-group inp-group--wide contact-form__interests" data-field="">
+          <label className="inp-group__label body-sm" htmlFor="f-interests">{t("form.interested")}</label>
+          <Select id="f-interests" name="interests" label={t("form.interested")} multiple placeholder={t("form.select")} options={c.interests} value={interests} onChange={setInterests} />
+        </div>
         <div className={`inp-group inp-group--wide${errors.message ? " is-error" : ""}`} data-field="">
           <label className="inp-group__label body-sm" htmlFor="f-message">{t("form.message")}<span className="color-white-40"> *</span></label>
           <textarea className="inp inp--area" id="f-message" name="message" rows="6" required placeholder={t("form.placeholder")} value={message} onChange={(e) => setMessage(e.target.value)} aria-invalid={errors.message ? "true" : undefined} />

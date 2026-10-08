@@ -2,7 +2,7 @@ import { useContent } from "../../i18n/context.jsx";
 import { Icon } from "../icons.jsx";
 import { BtnPrimary, BtnOutline, contactHref, SplitHead, pad2 } from "../ui.jsx";
 import {
-  PageHero, Levels, PackageGrid, PackageSelector, Flagship, Solutions, CommercialModels, CtaSection, Steps, Groups, RelatedEngagements,
+  PageHero, Levels, PackageGrid, PackageSelector, Flagship, Solutions, CommercialModels, CtaSection, Steps, Groups, RelatedEngagements, NordicSection,
 } from "../sections.jsx";
 
 function EngagementsHub() {
@@ -48,6 +48,7 @@ function EngagementPage({ p }) {
         crumbs={[{ label: t("crumb.home"), href: "/" }, { label: t("crumb.engagements"), href: "/engagements/" }, { label: p.name }]}
         actions={[<BtnPrimary key="cta" label={p.cta.label} href={ctaHref} />]}
         aside={<p className="body-sm page-hero__client"><span className="micro color-white-50">{t("idealClient")}</span>{p.idealClient}</p>}
+        partner={Boolean(p.nordic)}
       />
       {p.markets ? (
         <section className="section section--tight theme-light" data-theme="light" aria-labelledby="mk-title">
@@ -91,6 +92,7 @@ function EngagementPage({ p }) {
           </details>
         </div>
       </section>
+      {p.nordic ? <NordicSection focus={p.nordic} /> : null}
       <RelatedEngagements slugs={p.related} title={t("eng.combined")} />
       <CtaSection f={{ ...home.final, title: t("eng.ctaTitle"), text: t("eng.ctaText"), primary: { label: p.cta.label, href: ctaHref }, secondary: { label: t("menu.allEngagements"), href: "/engagements/" } }} />
     </>

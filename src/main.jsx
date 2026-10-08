@@ -20,7 +20,8 @@ loadContent(locale.code).then((content) => {
     </StrictMode>
   );
   const root = document.getElementById("root");
-  if (root.hasChildNodes()) {
+  // Prerendered page → hydrate; dev server (only the <!--app--> placeholder) → render.
+  if (root.firstElementChild) {
     hydrateRoot(root, app);
   } else {
     // Dev server (no prerendered HTML): set the language attributes ourselves.

@@ -1,0 +1,161 @@
+{
+  "nordic": {
+    "name": "Nordic AI",
+    "url": "https://nordicai.pro",
+    "badge": "Main technology partner",
+    "eyebrow": "Delivered with Nordic AI",
+    "title": "Ready-to-deploy solutions,\nclear delivery packages.",
+    "text": "Digital and AI work is delivered together with Nordic AI, our main technology partner: proven platforms you can deploy as-is or customise, and fixed-scope phases from first prototype to production.",
+    "packagesLabel": "Delivery packages",
+    "solutionsLabel": "Ready-to-deploy solutions",
+    "bestFor": "Best for",
+    "viewAll": {
+      "label": "All solutions on nordicai.pro",
+      "href": "https://nordicai.pro/solutions"
+    },
+    "open": "Open on nordicai.pro",
+    "packages": [
+      {
+        "index": "01",
+        "tab": "Validate",
+        "title": "Concept Sprint",
+        "duration": "5–10 Days",
+        "tagline": "Turn an idea into a working prototype.",
+        "bestFor": "New ideas and innovation initiatives.",
+        "features": [
+          "Discovery workshop",
+          "User flows and wireframes",
+          "Interactive prototype",
+          "Feasibility assessment",
+          "Next-step roadmap"
+        ],
+        "cta": {
+          "label": "Start a Concept Sprint",
+          "href": "https://nordicai.pro/demo"
+        }
+      },
+      {
+        "index": "02",
+        "tab": "Build",
+        "title": "MVP Accelerator",
+        "duration": "3–8 Weeks",
+        "tagline": "Build a product people can actually use.",
+        "bestFor": "Product launches and market validation.",
+        "features": [
+          "Product specification",
+          "UI/UX design",
+          "Frontend and backend",
+          "Core integrations",
+          "QA and deployment",
+          "Product handover"
+        ],
+        "cta": {
+          "label": "Start an MVP Accelerator",
+          "href": "https://nordicai.pro/demo"
+        }
+      },
+      {
+        "index": "03",
+        "tab": "Scale",
+        "title": "Product Launch & Scale",
+        "duration": "8–16+ Weeks",
+        "tagline": "Take your product from MVP to production.",
+        "bestFor": "Strategic digital products and enterprise initiatives.",
+        "features": [
+          "Production architecture",
+          "Advanced integrations",
+          "Security and performance",
+          "AI capabilities",
+          "Infrastructure and monitoring",
+          "Continuous development roadmap"
+        ],
+        "cta": {
+          "label": "Start Product Launch & Scale",
+          "href": "https://nordicai.pro/demo"
+        }
+      }
+    ],
+    "solutions": [
+      {
+        "slug": "marketing-management-platform",
+        "group": "Marketing & Media",
+        "title": "Marketing Management Platform",
+        "category": "MarketingTech",
+        "description": "An integrated platform for managing marketing campaigns, partnerships, commercial relationships, digital assets, and performance analytics in one centralised environment.",
+        "image": "nordic/monetiseur-marketing.jpg"
+      },
+      {
+        "slug": "e-commerce-platform",
+        "group": "Commerce",
+        "title": "E-commerce Platform",
+        "category": "E-commerce",
+        "description": "A flexible digital commerce solution for managing product catalogues, online storefronts, customer journeys, and transactions across multiple sales channels.",
+        "image": "nordic/kgk-marketplace.jpg"
+      },
+      {
+        "slug": "media-streaming-platform",
+        "group": "Marketing & Media",
+        "title": "Media & Streaming Platform",
+        "category": "MediaTech",
+        "description": "A unified digital environment for publishing, managing, and distributing live streams, video content, events, and editorial materials across digital channels.",
+        "image": "nordic/eal-media-hub.jpg"
+      },
+      {
+        "slug": "performance-management-platform",
+        "group": "Operations",
+        "title": "Performance Management Platform",
+        "category": "Business Management",
+        "description": "An integrated solution for managing individual and team performance, planning activities, tracking progress, and analysing results through centralised dashboards and reporting tools.",
+        "image": "nordic/monetiseur-talent.jpg"
+      },
+      {
+        "slug": "operations-booking-platform",
+        "group": "Operations",
+        "title": "Operations & Booking Platform",
+        "category": "Business Operations",
+        "description": "A configurable platform for managing bookings, resources, pricing, customer interactions, and operational workflows through a unified management system.",
+        "image": "nordic/hessnery.jpg"
+      },
+      {
+        "slug": "website-workflow-automation",
+        "group": "AI & Automation",
+        "title": "Website & Workflow Automation Platform",
+        "category": "Digital Infrastructure / AI",
+        "description": "A flexible digital platform combining website management, content publishing, and AI-powered workflow automation to simplify business operations and reduce repetitive manual tasks.",
+        "image": "nordic/uhinenud.jpg"
+      },
+      {
+        "slug": "3d-configurator-engine",
+        "group": "Design & Build",
+        "title": "3D Configurator Engine",
+        "category": "ConstructionTech / 3D",
+        "description": "A modular 3D configuration engine for designing and pricing buildable structures in the browser, assembling validated modules into a complete specification.",
+        "image": "nordic/dojo-configurator.jpg"
+      },
+      {
+        "slug": "events-service-marketplace",
+        "group": "Commerce",
+        "title": "Events & Service Marketplace",
+        "category": "Marketplace",
+        "description": "A marketplace for discovering and booking events, classes and services, with provider listings, availability search, and multi-audience browsing in one place.",
+        "image": "nordic/training-marketplace.jpg"
+      },
+      {
+        "slug": "ai-back-office-platform",
+        "group": "AI & Automation",
+        "title": "AI Back-Office Platform",
+        "category": "Business Automation / AI",
+        "description": "An AI-driven back-office system that intakes case documents, extracts and structures their contents, and moves each case through its workflow with less manual handling.",
+        "image": "nordic/casepilot.jpg"
+      },
+      {
+        "slug": "inspection-management-platform",
+        "group": "Operations",
+        "title": "Inspection Management Platform",
+        "category": "PropTech / Field Operations",
+        "description": "Field inspection software for buildings and assets — capture defects with photos and voice notes, generate consistent reports with AI assistance, and track every issue to resolution.",
+        "image": "nordic/inspectit.jpg"
+      }
+    ]
+  }
+}

@@ -63,15 +63,15 @@
       "lead": "We help turn an idea into a commercially viable business — from market validation and business model design to product development, market entry, monetisation and launch.",
       "idealClient": "Entrepreneurs, family offices and corporates launching a new business.",
       "steps": [
-        { "name": "Concept", "text": "Understand the business idea." },
-        { "name": "Market", "text": "Identify and validate the target market." },
-        { "name": "Business model", "text": "Define how the business creates and captures value." },
-        { "name": "Product", "text": "Design and build the required product or platform." },
-        { "name": "Monetisation", "text": "Develop revenue streams and pricing logic." },
-        { "name": "Go-to-market", "text": "Build the marketing and sales strategy." },
-        { "name": "Structure", "text": "Establish the financial and legal framework." },
-        { "name": "Launch", "text": "Support the launch and initial operations." },
-        { "name": "Scale", "text": "Optimise and expand." }
+        { "icon": "doc", "name": "Concept", "text": "Understand the business idea." },
+        { "icon": "globe", "name": "Market", "text": "Identify and validate the target market." },
+        { "icon": "briefcase", "name": "Business model", "text": "Define how the business creates and captures value." },
+        { "icon": "box", "name": "Product", "text": "Design and build the required product or platform." },
+        { "icon": "chart", "name": "Monetisation", "text": "Develop revenue streams and pricing logic." },
+        { "icon": "link", "name": "Go-to-market", "text": "Build the marketing and sales strategy." },
+        { "icon": "building", "name": "Structure", "text": "Establish the financial and legal framework." },
+        { "icon": "flag", "name": "Launch", "text": "Support the launch and initial operations." },
+        { "icon": "trending", "name": "Scale", "text": "Optimise and expand." }
       ],
       "deliverables": ["Market assessment", "Business model", "Revenue model", "Financial model", "Product concept", "UX/UI", "MVP", "Technology architecture", "AI opportunities", "Marketing strategy", "Sales strategy", "CRM", "Go-to-market plan", "Partner strategy", "Launch roadmap"],
       "cta": { "label": "Discuss your concept", "interest": "business-build" },
@@ -86,13 +86,13 @@
       "lead": "We help investors, companies and strategic partners transform complementary capabilities into new businesses.",
       "idealClient": "Investors, international companies and local groups with complementary strengths.",
       "steps": [
-        { "name": "Find", "text": "Identify potential partners." },
-        { "name": "Validate", "text": "Evaluate strategic and commercial fit." },
-        { "name": "Structure", "text": "Define ownership, governance and economics." },
-        { "name": "Design", "text": "Create the business model and operating model." },
-        { "name": "Build", "text": "Develop the required product and technology." },
-        { "name": "Launch", "text": "Bring the venture to market." },
-        { "name": "Scale", "text": "Support growth and expansion." }
+        { "icon": "compass", "name": "Find", "text": "Identify potential partners." },
+        { "icon": "checkCircle", "name": "Validate", "text": "Evaluate strategic and commercial fit." },
+        { "icon": "building", "name": "Structure", "text": "Define ownership, governance and economics." },
+        { "icon": "layers", "name": "Design", "text": "Create the business model and operating model." },
+        { "icon": "box", "name": "Build", "text": "Develop the required product and technology." },
+        { "icon": "flag", "name": "Launch", "text": "Bring the venture to market." },
+        { "icon": "trending", "name": "Scale", "text": "Support growth and expansion." }
       ],
       "models": ["Technology + Capital", "International Company + Local Partner", "Investor + Operator", "Product + Distribution", "European Technology + GCC Market", "GCC Capital + Central Asian Opportunity", "Local Network + International Product"],
       "deliverables": ["Partner long-list and screening", "Strategic fit assessment", "JV strategy", "Ownership and governance options", "JV economics model", "Business and operating model", "Product and technology plan", "Launch plan"],
@@ -100,7 +100,7 @@
       "related": ["business-structure", "market-entry", "digital-product"]
     },
     {
-      "slug": "digital-product",
+      "slug": "digital-product", "nordic": "digital",
       "name": "Digital Product",
       "mode": "Build",
       "short": "Design and build the technology required to execute the business model.",
@@ -119,7 +119,7 @@
       "related": ["business-build", "ai-transformation", "growth-engine"]
     },
     {
-      "slug": "ai-transformation",
+      "slug": "ai-transformation", "nordic": "ai",
       "name": "AI Transformation",
       "mode": "Transform",
       "short": "Identify, implement and scale AI opportunities.",
@@ -141,7 +141,7 @@
       "related": ["digital-product", "growth-engine", "business-build"]
     },
     {
-      "slug": "growth-engine",
+      "slug": "growth-engine", "nordic": "digital",
       "name": "Growth Engine",
       "mode": "Launch",
       "short": "Build marketing, sales, CRM and commercial infrastructure.",

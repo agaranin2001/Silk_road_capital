@@ -76,27 +76,27 @@
         "title": "A disciplined process. A small number of decisions that matter.",
         "items": [
           {
-            "name": "Source",
+            "icon": "compass", "name": "Source",
             "text": "Opportunities from our network and yours, screened against your mandate."
           },
           {
-            "name": "Screen",
+            "icon": "doc", "name": "Screen",
             "text": "A first view on fit, attractiveness and obvious deal-breakers."
           },
           {
-            "name": "Evaluate",
+            "icon": "chart", "name": "Evaluate",
             "text": "Commercial, financial and operational due diligence."
           },
           {
-            "name": "Structure",
+            "icon": "building", "name": "Structure",
             "text": "Investment structure, terms and partners, with qualified counsel."
           },
           {
-            "name": "Execute",
+            "icon": "flag", "name": "Execute",
             "text": "Negotiation support, closing coordination and onboarding."
           },
           {
-            "name": "Support",
+            "icon": "shield", "name": "Support",
             "text": "Post-investment value creation, reporting and follow-on decisions."
           }
         ]
@@ -211,23 +211,23 @@
         "title": "From opportunity to execution.",
         "items": [
           {
-            "name": "Discover",
+            "icon": "compass", "name": "Discover",
             "text": "Understand the business, capital, market and objective."
           },
           {
-            "name": "Assess",
+            "icon": "chart", "name": "Assess",
             "text": "Analyse opportunities, risks, economics and feasibility."
           },
           {
-            "name": "Structure",
+            "icon": "building", "name": "Structure",
             "text": "Define the strategy, partnership or investment structure."
           },
           {
-            "name": "Build",
+            "icon": "box", "name": "Build",
             "text": "Develop the required technology, product or operating model."
           },
           {
-            "name": "Execute",
+            "icon": "flag", "name": "Execute",
             "text": "Support implementation, launch and scaling."
           }
         ]
@@ -281,31 +281,31 @@
         "title": "Build the right venture with the right partner.",
         "items": [
           {
-            "name": "Find",
+            "icon": "compass", "name": "Find",
             "text": "Identify potential partners."
           },
           {
-            "name": "Validate",
+            "icon": "checkCircle", "name": "Validate",
             "text": "Evaluate strategic and commercial fit."
           },
           {
-            "name": "Structure",
+            "icon": "building", "name": "Structure",
             "text": "Define ownership, governance and economics."
           },
           {
-            "name": "Design",
+            "icon": "layers", "name": "Design",
             "text": "Create the business model and operating model."
           },
           {
-            "name": "Build",
+            "icon": "box", "name": "Build",
             "text": "Develop the required product and technology."
           },
           {
-            "name": "Launch",
+            "icon": "flag", "name": "Launch",
             "text": "Bring the venture to market."
           },
           {
-            "name": "Scale",
+            "icon": "trending", "name": "Scale",
             "text": "Support growth and expansion."
           }
         ]
@@ -491,23 +491,24 @@
         "title": "Identify. Transform. Implement. Scale.",
         "items": [
           {
-            "name": "Identify",
+            "icon": "compass", "name": "Identify",
             "text": "Find the processes where technology changes cost, speed or quality."
           },
           {
-            "name": "Transform",
+            "icon": "layers", "name": "Transform",
             "text": "Redesign the process first, then choose the technology."
           },
           {
-            "name": "Implement",
+            "icon": "cpu", "name": "Implement",
             "text": "Deliver in short, measurable releases, with AI-assisted development."
           },
           {
-            "name": "Scale",
+            "icon": "trending", "name": "Scale",
             "text": "Extend what works across teams, entities and markets."
           }
         ]
-      }
+      },
+      {"type": "nordic", "focus": "digital"}
     ],
     "related": [
       "ai-transformation",
@@ -594,23 +595,23 @@
         "title": "Discover. Assess. Pilot. Implement. Scale.",
         "items": [
           {
-            "name": "Discover",
+            "icon": "compass", "name": "Discover",
             "text": "Workshops and process reviews to collect candidate use cases."
           },
           {
-            "name": "Assess",
+            "icon": "chart", "name": "Assess",
             "text": "Rank by value, feasibility, data readiness and risk."
           },
           {
-            "name": "Pilot",
+            "icon": "checkCircle", "name": "Pilot",
             "text": "A time-boxed test on real work with a measurable target."
           },
           {
-            "name": "Implement",
+            "icon": "cpu", "name": "Implement",
             "text": "Integrate into systems, train teams, set up monitoring."
           },
           {
-            "name": "Scale",
+            "icon": "trending", "name": "Scale",
             "text": "Roll out across functions and entities; retire what does not perform."
           }
         ]
@@ -641,7 +642,8 @@
       {
         "type": "statement",
         "text": "Where AI is not the right answer, we say so. Most value comes from a handful of well-chosen use cases, implemented properly."
-      }
+      },
+      {"type": "nordic", "focus": "ai"}
     ],
     "related": [
       "ai-transformation",
@@ -683,7 +685,7 @@
     },
     "blocks": [
       {
-        "type": "catalogue"
+        "type": "nordic", "focus": "digital"
       },
       {
         "type": "steps",
@@ -691,23 +693,23 @@
         "title": "Business logic first. Code second.",
         "items": [
           {
-            "name": "Concept",
+            "icon": "doc", "name": "Concept",
             "text": "Business model, value proposition, audience and positioning."
           },
           {
-            "name": "Strategy",
+            "icon": "compass", "name": "Strategy",
             "text": "Product architecture, features, user journeys and MVP scope."
           },
           {
-            "name": "Design",
+            "icon": "layers", "name": "Design",
             "text": "UX, UI, design system and a clickable prototype."
           },
           {
-            "name": "Develop",
+            "icon": "cpu", "name": "Develop",
             "text": "Web, mobile, SaaS and AI-powered products, built with AI-assisted delivery."
           },
           {
-            "name": "Launch",
+            "icon": "flag", "name": "Launch",
             "text": "Testing, deployment, analytics, operations and iteration."
           }
         ]

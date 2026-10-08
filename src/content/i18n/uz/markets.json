@@ -99,6 +99,18 @@
       "minor": true
     },
     {
+      "name": "Bishkek",
+      "region": "Qirgʻiziston"
+    },
+    {
+      "name": "Dushanbe",
+      "region": "Tojikiston"
+    },
+    {
+      "name": "Ashxobod",
+      "region": "Turkmaniston"
+    },
+    {
       "name": "London",
       "region": "Yevropa",
       "lon": -0.13,

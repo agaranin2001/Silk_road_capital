@@ -13,7 +13,7 @@ export const LOCALES = [
   { code: "uz", prefix: "/uz", dir: "ltr", intl: "uz-Latn-UZ", og: "uz_UZ" },
 ];
 
-export const FILES = ["site", "home", "services", "engagements", "markets", "opportunities", "insights", "products", "about", "contact", "images", "ui"];
+export const FILES = ["site", "home", "services", "engagements", "markets", "opportunities", "insights", "products", "about", "contact", "images", "ui", "partners"];
 
 const base = import.meta.glob("../content/*.json", { eager: true, import: "default" });
 const translations = import.meta.glob("../content/i18n/*/*.json", { import: "default" });

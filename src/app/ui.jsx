@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { Link } from "react-router";
 import { useContent } from "../i18n/context.jsx";
 import { Icon } from "./icons.jsx";
@@ -114,6 +115,178 @@ export function FitLabel({ as: Tag = "p", className = "", children, ...rest }) {
         </span>
       </span>
     </Tag>
+  );
+}
+
+/* ------------------------------------------------------------------ select */
+
+const SHEET_QUERY = "(max-width: 809px)";
+
+/**
+ * Custom dropdown in the site's style (replaces native <select>). Select-only combobox pattern:
+ * arrows/Home/End move, Enter/Space choose, Esc closes, letters jump.
+ * Desktop: a popover under the field. Phones (≤809px): a bottom sheet — backdrop, grab handle,
+ * the field label as title, close button, and "Done" for multiple choice (like the language dialog).
+ * The value is submitted through hidden inputs, so forms read it like a native select
+ * (`multiple`: one input per chosen value, read with FormData.getAll; the list stays open).
+ * Uncontrolled (defaultValue) or controlled (value + onChange).
+ * <Select id="f-country" name="country" label="Country" placeholder="Select" options={["A", "B"]} invalid />
+ */
+export function Select({ id, name, label, options, placeholder = "", defaultValue, value: valueProp, onChange, invalid, multiple = false }) {
+  const { t } = useContent();
+  const items = options.map((o) => (typeof o === "string" ? { value: o, label: o } : o));
+  const [inner, setInner] = useState(defaultValue ?? (multiple ? [] : ""));
+  const value = valueProp !== undefined ? valueProp : inner;
+  const isChosen = (v) => (multiple ? value.includes(v) : value === v);
+  const [open, setOpen] = useState(false);
+  const [sheet, setSheet] = useState(false);
+  const [active, setActive] = useState(-1);
+  const [up, setUp] = useState(false);
+  const rootRef = useRef(null);
+  const btnRef = useRef(null);
+  const listRef = useRef(null);
+  const sheetRef = useRef(null);
+  const typed = useRef({ text: "", at: 0 });
+  const listId = `${id}-list`;
+  const selectedIndex = items.findIndex((o) => isChosen(o.value));
+  const current = multiple ? items.filter((o) => isChosen(o.value)).map((o) => o.label).join(", ") : items[selectedIndex]?.label;
+
+  const show = () => {
+    const asSheet = window.matchMedia(SHEET_QUERY).matches;
+    const r = rootRef.current?.getBoundingClientRect();
+    // Popover: open upwards when there is not enough room below the field.
+    if (r && !asSheet) setUp(window.innerHeight - r.bottom < 300 && r.top > window.innerHeight - r.bottom);
+    setSheet(asSheet);
+    setActive(selectedIndex >= 0 ? selectedIndex : 0);
+    setOpen(true);
+  };
+  const close = (refocus = true) => {
+    setOpen(false);
+    if (refocus && sheet) btnRef.current?.focus({ preventScroll: true });
+  };
+  const choose = (i) => {
+    const o = items[i];
+    if (!o) return;
+    const next = multiple ? (value.includes(o.value) ? value.filter((v) => v !== o.value) : [...value, o.value]) : o.value;
+    if (valueProp === undefined) setInner(next);
+    if (!multiple) close();
+    if (onChange) onChange(next);
+  };
+
+  // Close on outside press (the sheet is portalled, so it counts as inside).
+  useEffect(() => {
+    if (!open) return undefined;
+    const onDown = (e) => { if (!rootRef.current?.contains(e.target) && !sheetRef.current?.contains(e.target)) setOpen(false); };
+    document.addEventListener("pointerdown", onDown);
+    return () => document.removeEventListener("pointerdown", onDown);
+  }, [open]);
+  // Sheet: lock page scrolling and move focus into the list while it is open.
+  useEffect(() => {
+    if (!open || !sheet) return undefined;
+    document.body.classList.add("is-locked");
+    listRef.current?.focus({ preventScroll: true });
+    return () => document.body.classList.remove("is-locked");
+  }, [open, sheet]);
+  // Keep the active option in view.
+  useEffect(() => {
+    if (open && active >= 0) listRef.current?.children[active]?.scrollIntoView({ block: "nearest" });
+  }, [open, active]);
+
+  const onKeyDown = (e) => {
+    const last = items.length - 1;
+    const move = (i) => { e.preventDefault(); if (!open) show(); setActive(Math.max(0, Math.min(last, i))); };
+    switch (e.key) {
+      case "ArrowDown": return open ? move(active + 1) : (e.preventDefault(), show());
+      case "ArrowUp": return open ? move(active - 1) : (e.preventDefault(), show());
+      case "Home": return open ? move(0) : undefined;
+      case "End": return open ? move(last) : undefined;
+      case "Enter":
+      case " ":
+        e.preventDefault();
+        return open ? choose(active) : show();
+      case "Escape": if (open) { e.preventDefault(); close(); } return undefined;
+      case "Tab": if (open) { if (sheet) e.preventDefault(); else setOpen(false); } return undefined;
+      default: {
+        if (e.key.length !== 1 || e.metaKey || e.ctrlKey || e.altKey) return undefined;
+        // Type-ahead: jump to the first option starting with the typed letters.
+        const now = Date.now();
+        typed.current = { text: (now - typed.current.at < 700 ? typed.current.text : "") + e.key.toLowerCase(), at: now };
+        const i = items.findIndex((o) => o.label.toLowerCase().startsWith(typed.current.text));
+        if (i >= 0) { if (open || multiple) { if (!open) show(); setActive(i); } else choose(i); }
+        return undefined;
+      }
+    }
+  };
+
+  const activeId = open && active >= 0 ? `${id}-opt-${active}` : undefined;
+  const list = (
+    <ul
+      className="select__list"
+      id={listId}
+      role="listbox"
+      aria-multiselectable={multiple ? "true" : undefined}
+      aria-labelledby={sheet ? `${id}-sheet-title` : undefined}
+      aria-activedescendant={sheet ? activeId : undefined}
+      tabIndex={sheet ? 0 : undefined}
+      onKeyDown={sheet ? onKeyDown : undefined}
+      ref={listRef}
+      hidden={!open}
+      data-lenis-prevent=""
+    >
+      {items.map((o, i) => (
+        <li
+          key={o.value}
+          id={`${id}-opt-${i}`}
+          role="option"
+          aria-selected={isChosen(o.value) ? "true" : "false"}
+          className={`select__option${i === active ? " is-active" : ""}`}
+          onPointerEnter={() => setActive(i)}
+          onPointerDown={(e) => e.preventDefault()}
+          onClick={() => choose(i)}
+        >
+          <span>{o.label}</span>
+          {isChosen(o.value) ? <Icon name="check" className="select__check" /> : null}
+        </li>
+      ))}
+    </ul>
+  );
+
+  return (
+    <div className={`select${open ? " is-open" : ""}${up ? " select--up" : ""}`} ref={rootRef}>
+      {multiple ? value.map((v) => <input key={v} type="hidden" name={name} value={v} />) : <input type="hidden" name={name} value={value} />}
+      <button
+        type="button"
+        id={id}
+        ref={btnRef}
+        className="inp select__btn"
+        role="combobox"
+        aria-haspopup="listbox"
+        aria-expanded={open ? "true" : "false"}
+        aria-controls={listId}
+        aria-activedescendant={sheet ? undefined : activeId}
+        aria-invalid={invalid ? "true" : undefined}
+        onClick={() => (open ? close() : show())}
+        onKeyDown={onKeyDown}
+      >
+        <span className={current ? "select__value" : "select__value select__placeholder"}>{current || placeholder}</span>
+      </button>
+      <Icon name="caret" className="select__caret" />
+      {open && sheet
+        ? createPortal(
+          <div className="select-sheet" data-lenis-prevent="" onClick={(e) => { if (e.target === e.currentTarget) close(); }}>
+            <div className="select-sheet__panel" role="dialog" aria-modal="true" aria-labelledby={`${id}-sheet-title`} ref={sheetRef}>
+              <div className="select-sheet__head">
+                <p className="select-sheet__title" id={`${id}-sheet-title`}>{label || placeholder}</p>
+                <button type="button" className="select-sheet__close" aria-label={t("aria.close")} onClick={() => close()}><Icon name="close" /></button>
+              </div>
+              {list}
+              {multiple ? <button type="button" className="btn-primary select-sheet__done" onClick={() => close()}><span className="button-sm">{t("select.done")}</span><span className="btn-icon"><Icon name="check" /></span></button> : null}
+            </div>
+          </div>,
+          document.body,
+        )
+        : list}
+    </div>
   );
 }
 

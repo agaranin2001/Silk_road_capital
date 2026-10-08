@@ -132,6 +132,192 @@
         "next": "Obyektni baholash, hamkorni tanlash va birgalikdagi biznes-reja."
       },
       "image": "industrial"
+    },
+    {
+      "sector": "Marketingni boshqarish platformasi",
+      "country": "Fors koʻrfazi davlatlari va Markaziy Osiyo",
+      "stage": "Ishlayotgan mahsulot",
+      "type": "Litsenziyalash / qoʻshma korxona",
+      "size": "Soʻrov boʻyicha",
+      "status": "Mavjud",
+      "summary": "Marketing kampaniyalari, hamkorliklar va brend bitimlarini boshqarish uchun ishlayotgan platforma — litsenziyalash va mintaqaviy hamkor bilan ishga tushirishga tayyor.",
+      "sections": {
+        "overview": "Marketing kampaniyalari, hamkorliklar, tijorat munosabatlari, raqamli aktivlar va samaradorlik tahlilini yagona muhitda boshqarish uchun integratsiyalashgan platforma. Nordic AI tomonidan ishlab chiqilgan va yuritiladi; sport marketingida (Monetiseur) allaqachon qoʻllanilmoqda.",
+        "market": "Fors koʻrfazi davlatlaridagi brendlar, agentliklar va sport tashkilotlari homiylik va kampaniya xarajatlarini oʻlchanadigan raqamli hamkorliklarga yoʻnaltirmoqda, biroq ularning aksariyati hanuz bu ishni elektron jadvallar va bir-biriga bogʻlanmagan vositalarda yuritmoqda.",
+        "business": "Sozlanadigan SaaS mahsuloti: kampaniyalar paneli, hamkorlar va bitimlarni boshqarish, majburiyatlar ijrosini kuzatish, raqamli aktivlar kutubxonasi va oʻrnatilgan tahlil vositalari, toʻlovlar va tasdiqlashlar esa yagona ish jarayonida.",
+        "thesis": "Sinovdan oʻtgan dasturiy taʼminot mahsulot ishlab chiqishning bir necha yilini tejaydi: mintaqaviy hamkor bozor va mijozlarga kirish imkoniyatini, platforma esa birinchi kundanoq ishlaydigan mahsulotni taqdim etadi.",
+        "opportunity": "Saudiya Arabistoni, BAA va Markaziy Osiyodagi brendlar, agentliklar, klublar va federatsiyalar uchun platformani ishga tushirish maqsadida mintaqaviy litsenziya yoki qoʻshma korxona.",
+        "rationale": "Marketing texnologiyalari yoki sport tijorati sohasida biznes quruvchi, bozorga noldan qurishga qaraganda tezroq va kamroq xavf bilan chiqishni istagan investorlar va operatorlar uchun mos.",
+        "structure": "Mahalliylashtirish va white-label imkoniyatlari bilan litsenziya yoki Nordic AI texnologik hamkor sifatida ishtirok etadigan qoʻshma korxona — tuzilma malakali yuridik maslahatchilar bilan ishlab chiqiladi.",
+        "next": "Mahsulot namoyishi va tijorat shartlarini soʻrang — biz Nordic AI jamoasi bilan uchrashuv tashkil qilamiz."
+      },
+      "gallery": [
+        {
+          "caption": "Boshqaruv paneli"
+        },
+        {
+          "caption": "Kampaniyalarni boshqarish"
+        },
+        {
+          "caption": "Bitimlarni boshqarish"
+        },
+        {
+          "caption": "Tahlil"
+        }
+      ]
+    },
+    {
+      "sector": "Dojo 3D konfiguratori",
+      "country": "Fors koʻrfazi davlatlari va Markaziy Osiyo",
+      "stage": "Ishlayotgan mahsulot",
+      "type": "Litsenziyalash / qoʻshma korxona",
+      "size": "Soʻrov boʻyicha",
+      "status": "Mavjud",
+      "summary": "Quriladigan inshootlarni loyihalaydigan va narxini hisoblaydigan, brauzerda ishlovchi 3D konfigurator — qurilish va modulli binolar sohasidagi hamkorlar uchun tayyor.",
+      "sections": {
+        "overview": "Dojo — modulli 3D konfiguratsiya dvigateli: mijozlar brauzerda inshootni loyihalaydi, dvigatel esa tekshirilgan modullarni toʻliq spetsifikatsiyaga yigʻadi va uning narxini darhol hisoblaydi. Nordic AI tomonidan ishlab chiqilgan.",
+        "market": "Fors koʻrfazi davlatlari va Markaziy Osiyodagi qurilish kompaniyalari, modulli uy-joy va yigʻma inshootlar ishlab chiqaruvchilari jadal kengaymoqda, xaridorlar esa sotuv boʻlimi bilan gaplashishdan oldin mahsulotni onlayn sozlash va narxini bilishni tobora koʻproq kutmoqda.",
+        "business": "Modullar kutubxonasi, nimani qurish mumkinligini belgilovchi qoidalar, real vaqtda narx hisoblash hamda sotuv va ishlab chiqarish jamoalari foydalana oladigan avtomatik shakllantiriladigan spetsifikatsiyaga ega konfigurator dvigateli.",
+        "thesis": "Konfiguratsiya va darhol narx hisoblash sotuv siklini qisqartiradi hamda sotuv va ishlab chiqarish oʻrtasidagi xatolarni kamaytiradi — bu har qanday modulli mahsulot biznesining marjasiga bevosita taʼsir qiladi.",
+        "opportunity": "Ishlab chiqaruvchi yoki developer uchun litsenziya yoki konfiguratorni qurilish va modulli binolar kompaniyalariga taklif etuvchi mintaqaviy qoʻshma korxona.",
+        "rationale": "Raqobatchilardan ajralib turadigan raqamli sotuv kanalini izlayotgan qurilish guruhlari, yigʻma inshootlar ishlab chiqaruvchilari va proptech investorlari uchun jozibador.",
+        "structure": "Hamkorning oʻz modullari va narxlariga moslab sozlanadigan mahsulot litsenziyasi yoki Nordic AI texnologik hamkor sifatida ishtirok etadigan qoʻshma korxona.",
+        "next": "Oʻz mahsulotlaringiz assortimenti asosida jonli namoyishni soʻrang — biz Nordic AI bilan loyiha doirasini belgilash sessiyasini muvofiqlashtiramiz."
+      },
+      "gallery": [
+        {
+          "caption": "Jonli 3D model"
+        },
+        {
+          "caption": "Modullarni tahrirlash"
+        },
+        {
+          "caption": "Narxlar va miqdorlar"
+        }
+      ]
+    },
+    {
+      "sector": "Elektron tijorat platformasi",
+      "country": "Fors koʻrfazi davlatlari va Markaziy Osiyo",
+      "stage": "Ishlayotgan mahsulot",
+      "type": "Litsenziyalash / qoʻshma korxona",
+      "size": "Soʻrov boʻyicha",
+      "status": "Mavjud",
+      "summary": "Kataloglar, onlayn vitrinalar va turli kanallardagi tranzaksiyalar uchun moslashuvchan savdo platformasi — mintaqadagi chakana savdo kompaniyalari va brendlar uchun ishga tushirishga tayyor.",
+      "sections": {
+        "overview": "Bir nechta savdo kanallarida mahsulot kataloglari, onlayn vitrinalar, mijozlar yoʻli va tranzaksiyalarni boshqarish uchun raqamli savdo yechimi. Nordic AI tomonidan ishlab chiqilgan va amalda ishlamoqda.",
+        "market": "Saudiya Arabistoni, BAA va Oʻzbekistonda elektron tijorat jadal oʻsishda davom etmoqda, chakana savdo kompaniyalari va distribyutorlar esa mahalliy toʻlov, til va logistika talablariga moslashtirish mumkin boʻlgan platformalarni izlamoqda.",
+        "business": "Katalog va tovar zaxiralarini boshqarish, koʻp brendli vitrinalar, buyurtmani rasmiylashtirish va toʻlovlar, buyurtmalarni boshqarish va mijozlar hisoblari, ERP va logistika tizimlari bilan integratsiya.",
+        "thesis": "Sinovdan oʻtgan platforma mintaqaviy operatorga asosiy savdo infratuzilmasini yaratishga yillar sarflash oʻrniga mijoz tajribasi va bozorga chiqish tezligi orqali raqobatlashish imkonini beradi.",
+        "opportunity": "Chakana savdo kompaniyalari, distribyutorlar va marketpleyslar uchun litsenziya yoki platformani mintaqadagi bir nechta sotuvchilar uchun yuritadigan qoʻshma korxona.",
+        "rationale": "Mintaqaviy elektron tijorat yoki marketpleys biznesini quruvchi chakana savdo guruhlari, distribyutorlar va investorlar uchun mos.",
+        "structure": "Mahalliylashtirish (arab tili, mahalliy toʻlov tizimlari) bilan litsenziya, white-label koʻrinishida joriy etish yoki Nordic AI texnologik hamkor sifatida ishtirok etadigan qoʻshma korxona.",
+        "next": "Onlayn vitrina va boshqaruv paneli namoyishini hamda tijorat shartlarining qisqacha bayonini soʻrang."
+      },
+      "gallery": [
+        {
+          "caption": "Katalogni koʻrish"
+        },
+        {
+          "caption": "Mahsulot sahifasi"
+        },
+        {
+          "caption": "Qulay toʻlov"
+        }
+      ]
+    },
+    {
+      "sector": "Samaradorlikni boshqarish platformasi",
+      "country": "Fors koʻrfazi davlatlari va Markaziy Osiyo",
+      "stage": "Ishlayotgan mahsulot",
+      "type": "Litsenziyalash / qoʻshma korxona",
+      "size": "Soʻrov boʻyicha",
+      "status": "Mavjud",
+      "summary": "Shaxsiy va jamoaviy samaradorlikni rejalashtirish, kuzatish va tahlil qilish platformasi — korxonalar, akademiyalar va sport tashkilotlari uchun tayyor.",
+      "sections": {
+        "overview": "Shaxsiy va jamoaviy samaradorlikni boshqarish uchun integratsiyalashgan yechim: faoliyatni rejalashtirish, rivojlanishni kuzatish va natijalarni boshqaruv panellari hamda hisobotlar orqali tahlil qilish. Nordic AI tomonidan ishlab chiqilgan va sportchilarni boshqarishda qoʻllaniladi.",
+        "market": "Fors koʻrfazi davlatlaridagi korxonalar, taʼlim muassasalari va sport tashkilotlari xodimlar va isteʼdodlarni rivojlantirishga katta mablagʻ sarflamoqda hamda rivojlanishni rejalashtirish va isbotlash uchun tizimli vositalarga muhtoj.",
+        "business": "Shaxslar va jamoalar uchun rejalashtirish, maqsadlar va rivojlanishni kuzatish, muloqot hamda faoliyatni oʻlchanadigan natijalarga aylantiruvchi tahliliy boshqaruv panellari.",
+        "thesis": "Samaradorlik maʼlumotlari boshqaruv standartiga aylanmoqda; tayyor platforma mintaqaviy hamkorga avval mahsulotni yaratib, sinovdan oʻtkazmasdan turib bu talabni qondirish imkonini beradi.",
+        "opportunity": "Tashkilotlar uchun litsenziya yoki platformani mintaqadagi sport akademiyalari, federatsiyalar, oʻquv markazlari va korporativ jamoalarga taklif etuvchi qoʻshma korxona.",
+        "rationale": "Sinovdan oʻtgan mahsulot izlayotgan sport investorlari, taʼlim guruhlari va HR texnologiyalari operatorlari uchun dolzarb.",
+        "structure": "Hamkor dasturlariga moslab sozlanadigan mahsulot litsenziyasi yoki Nordic AI texnologik hamkor sifatida ishtirok etadigan qoʻshma korxona.",
+        "next": "Mahsulot namoyishini soʻrang hamda maqsadli segment va tijorat modelini muhokama qiling."
+      },
+      "gallery": [
+        {
+          "caption": "Samaradorlik sharhi"
+        },
+        {
+          "caption": "Faoliyatni rejalashtirish"
+        },
+        {
+          "caption": "Taraqqiyotni kuzatish"
+        }
+      ]
+    },
+    {
+      "sector": "SI asosidagi bek-ofis platformasi",
+      "country": "Fors koʻrfazi davlatlari va Markaziy Osiyo",
+      "stage": "Ishlayotgan mahsulot",
+      "type": "Litsenziyalash / qoʻshma korxona",
+      "size": "Soʻrov boʻyicha",
+      "status": "Mavjud",
+      "summary": "Ish hujjatlarini oʻqiydigan, tartibga soladigan va har bir ishni oʻz ish jarayoni boʻyicha olib boradigan sunʼiy intellekt asosidagi bek-ofis — xizmat koʻrsatish kompaniyalari uchun tayyor.",
+      "sections": {
+        "overview": "Ish hujjatlarini qabul qiladigan, ularning mazmunini ajratib olib tartibga soladigan va har bir ishni kamroq qoʻl mehnati bilan ish jarayoni boʻyicha olib boradigan SI asosidagi bek-ofis tizimi. Nordic AI tomonidan ishlab chiqilgan va amalda ishlamoqda.",
+        "market": "Mintaqadagi yuridik, moliyaviy, sugʻurta tashkilotlari va davlat xizmatlari katta hajmdagi hujjatlarni qoʻlda qayta ishlaydi, sunʼiy intellektni joriy etish esa Fors koʻrfazi davlatlarida eʼlon qilingan ustuvor yoʻnalishdir.",
+        "business": "Hujjatlarni qabul qilish, SI yordamida maʼlumotlarni ajratib olish va tasniflash, ishlar boʻyicha ish jarayonlari, vazifalarni taqsimlash va hisobotlar — qarorlar esa odamlar nazoratida qoladi.",
+        "thesis": "Aynan hujjatlar koʻp boʻlgan jarayonlarda SI oʻlchanadigan tejamkorlikni eng tez beradi; ishlaydigan mahsulot aksariyat SI dasturlarini toʻxtatib qoʻyadigan pilot bosqichi xavfini bartaraf etadi.",
+        "opportunity": "Tashkilotning oʻz bek-ofisi uchun litsenziya yoki mintaqa boʻylab kompaniyalarga SI asosidagi bek-ofis xizmatlarini taklif etuvchi qoʻshma korxona.",
+        "rationale": "Yuridik, moliyaviy va biznes xizmatlari sohasidagi investorlar va operatorlar hamda SI xizmatlari biznesini quruvchi guruhlar uchun mos.",
+        "structure": "Hamkorning hujjat turlari va ish jarayonlariga moslab sozlanadigan litsenziya yoki Nordic AI texnologik hamkor sifatida ishtirok etadigan qoʻshma korxona.",
+        "next": "Oʻz jarayoningizdagi namunaviy hujjatlar asosida namoyishni soʻrang."
+      },
+      "gallery": [
+        {
+          "caption": "Hujjatlarni qabul qilish"
+        },
+        {
+          "caption": "Maʼlumotlarni tuzilgan holda ajratish"
+        },
+        {
+          "caption": "Ish jarayoni"
+        }
+      ]
+    },
+    {
+      "sector": "Mehmonxonalarni boshqarish platformasi",
+      "country": "Fors koʻrfazi davlatlari va Markaziy Osiyo",
+      "stage": "Ishlayotgan mahsulot",
+      "type": "Litsenziyalash / qoʻshma korxona",
+      "size": "Soʻrov boʻyicha",
+      "status": "Mavjud",
+      "summary": "Xonalar, tariflar, mehmonlar va operatsion faoliyatni qamrab oluvchi mehmonxona va bron qilishni boshqarish platformasi — mehmondoʻstlik guruhlari va yangi obyektlar uchun tayyor.",
+      "sections": {
+        "overview": "Bron qilish, xonalar va resurslar, narxlash, mehmonlar bilan muloqot va kundalik operatsion faoliyatni yagona boshqaruv tizimi orqali boshqarish uchun sozlanadigan platforma. Nordic AI tomonidan mehmondoʻstlik va bron qilish bizneslari uchun ishlab chiqilgan.",
+        "market": "Saudiya Arabistoni, BAA va Oʻzbekistonda turizm, ziyorat va tadbirlar hisobiga mehmondoʻstlik sigʻimi jadal kengaymoqda — yangi obyektlarga esa ochilish kunidanoq zamonaviy tizimlar kerak.",
+        "business": "Bron qilish moduli, xonalar va tariflarni boshqarish, mehmonlar profillari va ular bilan muloqot, xonalarni tozalash xizmati va operatsion ish jarayonlari, bitta yoki bir nechta obyekt boʻyicha hisobotlar.",
+        "thesis": "Har bir yangi mehmonxona va xizmat koʻrsatiladigan apartamentlar loyihasiga boshqaruv tizimi kerak; sinovdan oʻtgan, sozlanadigan platformani butun obyektlar portfeli boʻylab eskirgan dasturiy taʼminotga qaraganda tezroq va arzonroq joriy etish mumkin.",
+        "opportunity": "Mehmonxona guruhlari va operatorlar uchun litsenziya yoki platformani mintaqa boʻylab yangi mehmondoʻstlik loyihalariga yetkazib beruvchi qoʻshma korxona.",
+        "rationale": "Mehmondoʻstlik guruhlari, loyihalarida mehmonxona qismi boʻlgan koʻchmas mulk developerlari hamda mehmondoʻstlik texnologiyalari biznesini quruvchi investorlar uchun dolzarb.",
+        "structure": "Hamkorning obyektlari va savdo kanallariga moslab sozlanadigan litsenziya yoki Nordic AI texnologik hamkor sifatida ishtirok etadigan qoʻshma korxona.",
+        "next": "Obyektingiz turiga mos bron qilish va operatsion boshqaruv modullari namoyishini soʻrang."
+      },
+      "gallery": [
+        {
+          "caption": "Bandlikni rejalashtirish"
+        },
+        {
+          "caption": "Narxlarni belgilash"
+        },
+        {
+          "caption": "Mehmonlar bilan muloqot"
+        },
+        {
+          "caption": "Natijalarni kuzatish"
+        }
+      ]
     }
   ],
   "sectionTitles": [
@@ -166,6 +352,20 @@
     {
       "key": "next",
       "title": "Keyingi qadamlar"
+    }
+  ],
+  "categories": [
+    {
+      "label": "Raqamli mahsulotlar"
+    },
+    {
+      "label": "Koʻchmas mulk"
+    },
+    {
+      "label": "Sport"
+    },
+    {
+      "label": "Sanoat"
     }
   ]
 }
